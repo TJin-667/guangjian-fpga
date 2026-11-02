@@ -32,10 +32,11 @@ Windows、Python 3.11；依赖版本已锁定，不复制开发者原虚拟环�
 ```powershell
 py -3.11 -m venv .venv
 & ./.venv/Scripts/python.exe -m pip install -r requirements-offline.txt
+$env:OPENBLAS_CORETYPE = 'Prescott'
 & ./.venv/Scripts/python.exe -B scripts/replay_example.py --out _work/capsule_replay_01
 ```
 
-成功状态为 `PASS_RELOCATABLE_FROZEN_REPLAY`。它复算已有 004 八帧与冻结结果，不连接硬件。当前主机 API 的回放、GUI 检查及工程重建见对应复现说明，各有独立的验证范围。
+成功状态为 `PASS_RELOCATABLE_FROZEN_REPLAY`。复检浮点记录采用原参考的 OpenBLAS `Prescott` 内核；需在启动 Python 前设置上面的环境变量，不能仅锁包版本。它复算已有 004 八帧与冻结结果，不连接硬件。当前主机 API 的回放、GUI 检查及工程重建见对应复现说明，各有独立的验证范围。
 
 ## 系统如何工作
 

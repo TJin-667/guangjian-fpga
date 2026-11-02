@@ -9,10 +9,15 @@
 ```powershell
 py -3.11 -m venv .venv
 & ./.venv/Scripts/python.exe -m pip install -r requirements-offline.txt
+$env:OPENBLAS_CORETYPE = 'Prescott'
 & ./.venv/Scripts/python.exe -B scripts/replay_example.py --out _work/capsule_replay_01
 ```
 
 输出目录必须尚未存在。成功状态为 `PASS_RELOCATABLE_FROZEN_REPLAY`；结果中十项融合字段、选中灰度、最终十类掩膜差异均为 0，完整复检证据和评分一致。禁止网络、设备与子进程，读取范围限制在胶囊、Python 环境和新输出目录。
+
+严格复现还固定 OpenBLAS 的 `Prescott` CPU 内核，在导入 NumPy 前设置 `OPENBLAS_CORETYPE`。首次 GitHub 干净环境中，自动选择内核使复检特征和坐标出现浮点末位差异，尽管全部十数组及评分一致；本机更换内核也重现了该差异。固定参考内核保留原逐项相等条件、冻结源码与样例，不改容差或参考结果。此环境变量的含义见 [OpenBLAS 官方说明](https://www.openmathlib.org/OpenBLAS/docs/runtime_variables/)。该严格配置验证范围为 Windows x64 和所列 wheel，其他平台不能仅凭包版本推定逐位一致。
+
+若原入口失败，可改用 `scripts/diagnose_replay.py`，保持相同参数。它运行原入口并输出首批严格差异，仍以失败退出，不覆盖参考证据。
 
 ## 完整当前主机 API 与迁移检查
 
