@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "python": "3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]",
+  "versions": {
+    "numpy": "1.26.4",
+    "cv2": "4.10.0",
+    "Pillow": "12.3.0"
+  },
+  "compiled_bit_source": "142e549f79fb61a48bf278509b43034c2b161941",
+  "candidate_bit_sha256": "f9aa14f03d15e687a905104f1a9a30b615b456bc6b6488df3e841ed7285a29fe",
+  "vendor_manifest_sha256": "62a79df564f34eb8bd60564acc9370402cf923602333874b205254646571869b",
+  "dependencies_manifest_sha256": "611799a1f9ea2a2be20d224f5112a6ca16faf0f63e8c7a6e887b2272595d34ca",
+  "controller_config_sha256": "b6fce205aead11c3d84f96a9ed7f4f2b9449cca4c27f776dbee791dc4424a313",
+  "operator_sources": {
+    "app_core.py": "448fa6c6388093be794cf47f4932e77b688da92f74aa852ba8609b2cf5992857",
+    "auto_exposure_app.py": "a9a27ad69c7323d7a0b71388f3ed960c22695df00941d25c99a26d1e5854b57e",
+    "replay_saved_frames.py": "28d29eba23847d50b1e60edce9b52578c54c00b0f4dc1c7d3279e2536103cd42",
+    "verify_operator.py": "58931a114c77ce7d50b7fd3990754dba4a1bf9e6316aeebdc9b9d55c3f3b6c09"
+  },
+  "tj47_passed": true,
+  "operator16_passed": true,
+  "real_live_control_executed": false,
+  "real_board_verified": false,
+  "external_io_qualified": false,
+  "controller_rules_modified": false,
+  "revision": "r3_xdl_mask_contract",
+  "operator30_passed": true,
+  "operator30_report_sha256": "be0757054af2df105375fa7af4a2990ee4052c2ce342571045e9a584f5091f9d",
+  "tj47_scope": "Prior application-integration run preserved; unchanged vendor, not rerun for r2 wrapper changes",
+  "operator32_passed": true,
+  "operator32_report_sha256": "469c710da6427d772db152e754e8843caa56512167752f29c42241e8b5f1d4ea",
+  "controller_mask_profile": "xdl-board-mask-15x15-erode-saved-border4-v1",
+  "mask_contract_changed_from_r2": true,
+  "authoritative_xdl_exported_mask_byte_equality_verified": false
+}

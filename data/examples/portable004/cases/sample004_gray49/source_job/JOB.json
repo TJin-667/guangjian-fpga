@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "source": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\fusion",
+  "kind": "0108",
+  "backend": "offload0108_archive",
+  "new_captures": 0,
+  "automatic_pass": false,
+  "parameter_freeze_id": "f09eb5885e1d",
+  "validation_mode": "reuse",
+  "result": "RESULT.json",
+  "group_id": "sample004_g1793337600415116700",
+  "worker_process_wall_seconds": 12.697031499999866
+}

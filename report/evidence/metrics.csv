@@ -1,0 +1,56 @@
+﻿metric,value,unit,scope,input_id,repetitions,source_id,limits
+LUT,26035,count,0109 full routed board,xc7a100tfgg484-2,1,R01,external IO full qualification absent
+FF,32269,count,0109 full routed board,xc7a100tfgg484-2,1,R01,external IO full qualification absent
+DSP,12,count,0109 full routed board,xc7a100tfgg484-2,1,R01,external IO full qualification absent
+BRAM36_equivalent,81.5,count,0109 full routed board,xc7a100tfgg484-2,1,R01,external IO full qualification absent
+BRAM_usage,60.37,percent,0109 full routed board,xc7a100tfgg484-2,1,R01,external IO full qualification absent
+internal_WNS,0.079,ns,0109 full routed board,xc7a100tfgg484-2,1,R01,external IO full qualification absent
+internal_WHS,0.043,ns,0109 full routed board,xc7a100tfgg484-2,1,R01,external IO full qualification absent
+DDR_reserved,32,MiB,0109 full routed board,xc7a100tfgg484-2,1,R01,external IO full qualification absent
+format50_to_49_UDP_RX_reduction,54.51453504717205,percent,SDK UDP application receive payload,G1/G2 same ROI cold,1,A01,prep/protocol/R32 included; wire headers excluded; not speed
+UDP_RX_bytes,25005698,bytes,0109 initial engineering acceptance,sample004_g1793371780944230200,1,A01,service includes waits; nested phases; G3 pair300/700
+mask_commands,23329,count,0109 initial engineering acceptance,sample004_g1793371780944230200,1,A01,service includes waits; nested phases; G3 pair300/700
+task_seconds,65.77054709999356,seconds,0109 initial engineering acceptance,sample004_g1793371780944230200,1,A01,service includes waits; nested phases; G3 pair300/700
+H2_PL_service_seconds,1.972491288,seconds,0109 initial engineering acceptance,sample004_g1793371780944230200,1,A01,service includes waits; nested phases; G3 pair300/700
+fusion_PL_service_seconds,0.19612177,seconds,0109 initial engineering acceptance,sample004_g1793371780944230200,1,A01,service includes waits; nested phases; G3 pair300/700
+fusion_PC_RAM_seconds,0.35066749999532476,seconds,0109 initial engineering acceptance,sample004_g1793371780944230200,1,A01,service includes waits; nested phases; G3 pair300/700
+fusion_PC_over_PL_service,1.7880090516994862,ratio,0109 initial engineering acceptance,sample004_g1793371780944230200,1,A01,service includes waits; nested phases; G3 pair300/700
+UDP_RX_bytes,11373958,bytes,0109 initial engineering acceptance,sample004_g1793372819928135200,1,A01,service includes waits; nested phases; G3 pair300/700
+mask_commands,23329,count,0109 initial engineering acceptance,sample004_g1793372819928135200,1,A01,service includes waits; nested phases; G3 pair300/700
+task_seconds,56.53404449998925,seconds,0109 initial engineering acceptance,sample004_g1793372819928135200,1,A01,service includes waits; nested phases; G3 pair300/700
+H2_PL_service_seconds,0.911273216,seconds,0109 initial engineering acceptance,sample004_g1793372819928135200,1,A01,service includes waits; nested phases; G3 pair300/700
+fusion_PL_service_seconds,0.1961206,seconds,0109 initial engineering acceptance,sample004_g1793372819928135200,1,A01,service includes waits; nested phases; G3 pair300/700
+fusion_PC_RAM_seconds,0.28190030000405386,seconds,0109 initial engineering acceptance,sample004_g1793372819928135200,1,A01,service includes waits; nested phases; G3 pair300/700
+fusion_PC_over_PL_service,1.4373824065603198,ratio,0109 initial engineering acceptance,sample004_g1793372819928135200,1,A01,service includes waits; nested phases; G3 pair300/700
+UDP_RX_bytes,10907136,bytes,0109 initial engineering acceptance,sample004_g1793372979698154800,1,A01,service includes waits; nested phases; G3 pair300/700
+mask_commands,0,count,0109 initial engineering acceptance,sample004_g1793372979698154800,1,A01,service includes waits; nested phases; G3 pair300/700
+task_seconds,38.03488219999417,seconds,0109 initial engineering acceptance,sample004_g1793372979698154800,1,A01,service includes waits; nested phases; G3 pair300/700
+H2_PL_service_seconds,0.911273112,seconds,0109 initial engineering acceptance,sample004_g1793372979698154800,1,A01,service includes waits; nested phases; G3 pair300/700
+fusion_PL_service_seconds,0.19612094,seconds,0109 initial engineering acceptance,sample004_g1793372979698154800,1,A01,service includes waits; nested phases; G3 pair300/700
+fusion_PC_RAM_seconds,0.2679314999986673,seconds,0109 initial engineering acceptance,sample004_g1793372979698154800,1,A01,service includes waits; nested phases; G3 pair300/700
+fusion_PC_over_PL_service,1.366154475899755,ratio,0109 initial engineering acceptance,sample004_g1793372979698154800,1,A01,service includes waits; nested phases; G3 pair300/700
+old_host_PC_cold,51.1125135999996,seconds,complete physical task after known ROI/loaded software,004_12group_gray49_400800,3,B01,fresh A/B photos; shared FPGA front end; old host
+old_host_PC_warm,25.438021700000263,seconds,complete physical task after known ROI/loaded software,004_12group_gray49_400800,3,B01,fresh A/B photos; shared FPGA front end; old host
+old_host_PL_cold,56.14365739999994,seconds,complete physical task after known ROI/loaded software,004_12group_gray49_400800,3,B01,fresh A/B photos; shared FPGA front end; old host
+old_host_PL_warm,36.46069549999993,seconds,complete physical task after known ROI/loaded software,004_12group_gray49_400800,3,B01,fresh A/B photos; shared FPGA front end; old host
+old_system_PC_over_PL_cold,0.9103880289779565,ratio,old full system ratio of medians,004_12group_gray49_400800,3,B01,both <1; PL slower
+old_system_PC_over_PL_warm,0.6976833916950463,ratio,old full system ratio of medians,004_12group_gray49_400800,3,B01,both <1; PL slower
+warm_task_reduction_PC,50.231323195968855,percent,old cold to warm whole task,004_12group_gray49_400800,3,B01,not purely mask; fresh input workload varies
+warm_task_reduction_PL,35.05821104558113,percent,old cold to warm whole task,004_12group_gray49_400800,3,B01,not purely mask; fresh input workload varies
+software_reference_median,21.518883600001573,seconds,audited arrays RAM -> new handoff -> real child -> validation -> frozen math/full export/seal,20261030_225025_a644ed97,3,H04/H07,no capture/PL/FETCH/common audit production; not full-system
+software_combined_median,17.84889529999782,seconds,audited arrays RAM -> new handoff -> real child -> validation -> frozen math/full export/seal,20261030_225025_a644ed97,3,H04/H07,no capture/PL/FETCH/common audit production; not full-system
+software_reduction_percent,17.054733731648994,percent,audited arrays RAM -> new handoff -> real child -> validation -> frozen math/full export/seal,20261030_225025_a644ed97,3,H04/H07,no capture/PL/FETCH/common audit production; not full-system
+software_reference_median,22.75998719999916,seconds,audited arrays RAM -> new handoff -> real child -> validation -> frozen math/full export/seal,20261030_230733_a1944cee,3,H04/H07,no capture/PL/FETCH/common audit production; not full-system
+software_combined_median,19.10454540000137,seconds,audited arrays RAM -> new handoff -> real child -> validation -> frozen math/full export/seal,20261030_230733_a1944cee,3,H04/H07,no capture/PL/FETCH/common audit production; not full-system
+software_reduction_percent,16.060825376904972,percent,audited arrays RAM -> new handoff -> real child -> validation -> frozen math/full export/seal,20261030_230733_a1944cee,3,H04/H07,no capture/PL/FETCH/common audit production; not full-system
+software_reference_median,19.68888159999915,seconds,audited arrays RAM -> new handoff -> real child -> validation -> frozen math/full export/seal,20261030_230958_696830ab,3,H04/H07,no capture/PL/FETCH/common audit production; not full-system
+software_combined_median,16.66700960000162,seconds,audited arrays RAM -> new handoff -> real child -> validation -> frozen math/full export/seal,20261030_230958_696830ab,3,H04/H07,no capture/PL/FETCH/common audit production; not full-system
+software_reduction_percent,15.348114034052903,percent,audited arrays RAM -> new handoff -> real child -> validation -> frozen math/full export/seal,20261030_230958_696830ab,3,H04/H07,no capture/PL/FETCH/common audit production; not full-system
+latest_real_task,54.773840999998356,seconds,actual v1.8 first configuration,sample004_g1793427252714918100,1,P01,no current PC whole-system counterpart
+latest_real_worker,19.355457300000126,seconds,actual v1.8 first configuration,sample004_g1793427252714918100,1,P01,no current PC whole-system counterpart
+new_host_continuation_PC,17.49105799999961,seconds,common audited arrays RAM -> fusion/decode -> frozen complete export,sample004_g1793427252714918100,3,C01,excludes H2/quality production/capture/PL/FETCH/cache/child startup; not system or arithmetic
+new_host_continuation_PL,16.935661399998935,seconds,common audited arrays RAM -> fusion/decode -> frozen complete export,sample004_g1793427252714918100,3,C01,excludes H2/quality production/capture/PL/FETCH/cache/child startup; not system or arithmetic
+new_host_full_system_PC_over_PL,,unmeasured,not measured,,0,,"empty is unknown, not zero"
+FPGA_arithmetic_speedup,,unmeasured,not measured,,0,,"empty is unknown, not zero"
+power_watts,,unmeasured,not measured,,0,,"empty is unknown, not zero"
+heldout_accuracy,,unmeasured,not measured,,0,,"empty is unknown, not zero"

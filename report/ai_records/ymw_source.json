@@ -1,0 +1,29 @@
+{
+  "schema": "public-visible-project-message-excerpts-v1",
+  "thread_id": "01a16bc6-066f-7501-9aae-500564bad921",
+  "thread_title": "接续光鉴项目后续工作",
+  "source_log_basename": "rollout-2026-10-29T08-43-07-01a16bc6-066f-7501-9aae-500564bad921_01a1851c-4f4f-70e1-9d6f-7a970084ef68.jsonl",
+  "source_log_snapshot_sha256": "21b45560e7587b28f05cc0aeb3a99b28717ef93607f2dcc670967c7389742901",
+  "source_log_bytes": 111523244,
+  "source_lines": [
+    220,
+    235,
+    11321,
+    11324,
+    11366
+  ],
+  "record_count": 5,
+  "model_field_source": "Exact preceding turn_context.model; provider-internal version not inferred",
+  "exported_roles": [
+    "user",
+    "assistant public commentary/final_answer"
+  ],
+  "not_exported": [
+    "system/developer messages",
+    "hidden reasoning",
+    "other chats",
+    "tool raw outputs",
+    "full source log"
+  ],
+  "scope": "Selected verbatim visible messages, not a full conversation export; historical advice retained as history"
+}

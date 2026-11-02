@@ -1,0 +1,24 @@
+{
+  "schema": "frozen-large-gap-all-exposures-v1",
+  "groups": 23,
+  "frames": 184,
+  "physical_boards": 3,
+  "specimens": ["sample003", "sample004", "sample005"],
+  "dataset_inventory": "E:/GuangjianData/reviews/joint_threshold_tuning_20261029/run_01/DATASETS.json",
+  "formal_masks": "E:/GuangjianData/reviews/joint_threshold_tuning_20261029/sleeve_01",
+  "formal_config_id": "4c0be2d44fdd",
+  "core_directory": "confidence_large_gap004_20261029",
+  "core_rules_changed": false,
+  "workers": 2,
+  "cached_float32_gray": true,
+  "require_all10_formal_outputs_equal_saved": true,
+  "require_cached004_evidence_equal_previous_run": true,
+  "manual_annotations_used": false,
+  "limits": [
+    "Exposure groups and repositioned captures are not independent physical boards",
+    "Different poses cannot be compared using the same coordinate annotation",
+    "Orange windows are review suggestions, not confirmed defects or physical scratch counts",
+    "No warnings does not mean automatic PASS",
+    "No new captures, FPGA work or changes to production detector/acquisition"
+  ]
+}

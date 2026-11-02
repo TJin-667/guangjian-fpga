@@ -1,0 +1,24 @@
+{
+  "status": "DIAGNOSED",
+  "failed_summary_sha256": "23511c5508631921be248d3118455b51a4e42b20ebe131f46749279983a09fcb",
+  "actual_error": {
+    "type": "AcquisitionError",
+    "message": "BEGIN status 3; no automatic mutation retry",
+    "code": "EXECUTOR_ERROR"
+  },
+  "formal_records": 0,
+  "actual_capture_requests": 0,
+  "off_acknowledged": true,
+  "previous_positioning_preserved": true,
+  "roi": [
+    576,
+    160,
+    864,
+    864
+  ],
+  "mask_sha256": "464390f6b7ac870c6f73363a0df475db2f5496c70de82796cffcccdee47a32b7",
+  "same_input_roi_preparation_software_model_verified": true,
+  "actual_core_roi_latch_RTL_verified": true,
+  "updated_board_workflow_tested": false,
+  "bit_changed": false
+}

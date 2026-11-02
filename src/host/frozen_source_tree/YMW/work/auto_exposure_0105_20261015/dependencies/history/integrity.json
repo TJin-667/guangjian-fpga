@@ -1,0 +1,106 @@
+{
+  "original_files_verified": 198,
+  "png_rgb565_pairs_pixel_equal": 60,
+  "camera_readback_checks": [
+    {
+      "group_id": "E0100_G1",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0200_G1",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0300_G1",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0400_G1",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0500_G1",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0600_G1",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0700_G1",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0800_G1",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0900_G1",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E1000_G1",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0500_G2",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0500_G3",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0500_G4",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0500_G5",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    },
+    {
+      "group_id": "E0500_G6",
+      "complete_frames": 10,
+      "saved_frames": 4,
+      "readback_pass": true
+    }
+  ],
+  "source_algorithm_sha256": {
+    "__init__.py": "7cd2e26b25c7748c87aeeac27749a0032762dec277e31d7b335baec9df3d609f",
+    "cli.py": "0247fe273122685b9cdaad77043aee63f3b421ef836b1481ed48774b73ef9e2b",
+    "core.py": "47585c9a081351f8a44dbca40b803907a9975291dfb615e713d4c969e9cf92d0",
+    "image_io.py": "74d2bda791ac2d9a45a45341c5cf1f221fd1b3336f2fdb98d79a02b1fff834e5",
+    "metadata.py": "b3b271b256c6648bc50f2bf823634fbbbe57e5c0ca5b91caf70a3d3bf4005c1f",
+    "real_baseline.py": "3d796a28d155b7a9d74562e24ff77c712bd17fb23377bf4d5def558311919c1a",
+    "reports.py": "191f856e7f5dad24e76e17aa54aba052fbe802b04731eefd4e8195d846b2f19e"
+  },
+  "all_input_and_algorithm_files_unchanged": true
+}

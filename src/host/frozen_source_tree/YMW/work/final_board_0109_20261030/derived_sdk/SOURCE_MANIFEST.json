@@ -1,0 +1,12 @@
+{
+  "schema": "0109-isolated-sdk-v1",
+  "parent": "8771bdf8dafdbeb3799a5526d17e92ae93b74226",
+  "derived_sha256": {
+    "acquisition_executor_0109_base.py": "140dba81a28bc7201e0638334c423bed5bd0555ccde68c4e9e21ee5712d17388",
+    "fixed_eight_0109.py": "a722247150e542cf82349aaf90750c7d1b304e2c8928041eded3e73185bfb055",
+    "host_transport_0109.py": "ad6f16931057a375447440f97b1c445d229628e7d5f373f64e8e04d545678e6f",
+    "sdk_transport_0109.py": "81b587b3c90a46084a1c176132c02e591c66af04dd36602aac4cd6e3d010b9aa",
+    "software_transport_peer_0109.py": "c055f49fcd38af8857a528e368b25951c469a037c2a80a99be4f0655d09f0118"
+  },
+  "changes": "Strict firmware0109 and isolated module names; numerical references and lifecycle rules retained"
+}

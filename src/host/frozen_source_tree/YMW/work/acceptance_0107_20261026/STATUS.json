@@ -1,0 +1,32 @@
+{
+  "firmware": "0x0107 acceptance only",
+  "candidate_source_commit": "baacb069b48436a739b5011f891bdd1883251be1",
+  "bit_generated": true,
+  "resources": {
+    "LUT": 18818.0,
+    "FF": 22739.0,
+    "BRAM_36K_equivalent": 81.5,
+    "DSP": 4.0
+  },
+  "wns_ns": 0.126,
+  "whs_ns": 0.008,
+  "rtl_unit_cases": 61,
+  "board_model_cases": 18,
+  "layout_cases": 868,
+  "software_tests": 46,
+  "complete_entry_software_verified": true,
+  "same_frozen_hardware_verified": false,
+  "complete_entry_hardware_verified": false,
+  "hardware_button_reset_verified": false,
+  "hardware_tested": false,
+  "external_IO_qualified": false,
+  "release_ready": false,
+  "native_IO_CDC_DRC_inventory_reviewed": true,
+  "CDC_entries": 1099,
+  "CDC_changed": 0,
+  "DRC_entries": 336,
+  "current09_switched": false,
+  "installed_files_unchanged": 638,
+  "physical_commands_this_turn": 0,
+  "local_package": "C:\\BX72_0107_ACCEPTANCE\\20261026_window01"
+}

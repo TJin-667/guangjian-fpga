@@ -1,0 +1,10 @@
+{
+  "version": "r5.6",
+  "files_sha256": {
+    "CONSOLE_START_HERE.md": "cbd034b13b65f8c8d29a04cfb63d6cb331ffb25bbade837fcf570f6f63bc3dd2",
+    "NEXT_OPERATOR_STEPS_ZH.md": "cbd034b13b65f8c8d29a04cfb63d6cb331ffb25bbade837fcf570f6f63bc3dd2",
+    "RUN_P0_CONSOLE.cmd": "28c5bea5b8a79bbcb4fe212851bb5f621035d94de61496ef6bdcd52567e57c16",
+    "RUN_P0_CONSOLE.ps1": "612ce93e244dc456869229aa531497b89a33c05033c51fd9fb8c26e8d64c3c56",
+    "USER_GUIDE_ZH.md": "cbd034b13b65f8c8d29a04cfb63d6cb331ffb25bbade837fcf570f6f63bc3dd2"
+  }
+}

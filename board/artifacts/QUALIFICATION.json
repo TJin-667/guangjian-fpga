@@ -1,0 +1,16 @@
+{
+  "schema": "guangjian-0109-engineering-candidate-v1",
+  "engineering_capture_ready": true,
+  "release_ready": false,
+  "candidate_source_commit": "0711fa1793845c225c8968300864c777d7e1659f",
+  "bundle_sha256": "3d443122df80ab341a6fb71ce9147b228a45f4a23d82a295a4c88b674591e7d2",
+  "checkpoint_sha256": "5da244c291db2984f8f1edde0b0f196c5979fdb8836ea772f497ef156c82f9a1",
+  "bit_path": "E:\\GuangjianData\\final_board_0109_20261030\\engineering_bit_01\\bit\\bx72_0109_fusion_EXPERIMENTAL_NOT_RELEASED.bit",
+  "bit_sha256": "84530057679198ec1b7bd700c0bb9a97d803d605ac82db24b58f01161d4ac30e",
+  "bit_build_receipt_path": "E:\\GuangjianData\\final_board_0109_20261030\\engineering_bit_01\\BIT_BUILD_RECEIPT.json",
+  "bit_build_receipt_sha256": "f61b796ebfcf8f9a6e2ab9e42792e927889fa1d3d0289ca6f1dbaa93eb9d3b8c",
+  "route_verification_path": "E:\\GuangjianData\\final_board_0109_20261030\\engineering_bit_01\\ROUTE_VERIFICATION.json",
+  "route_verification_sha256": "7b53df1a52c982d7d716db35d92dd992bf8ce69b318d2e7ab25eed71eb718806",
+  "downloaded_bit_sha_readback_verified": false,
+  "physical_hardware_tested": false
+}

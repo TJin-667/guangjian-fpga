@@ -1,0 +1,84 @@
+{
+  "status": "PROVISIONAL_REFERENCE_PENDING_YMW",
+  "purpose": "Evaluation-only pixel measurement proposal for YMW coordinate review; not defect truth",
+  "coordinate_frame": "full_saved_1920x1080",
+  "image_shape": [1080, 1920],
+  "analysis_rect": [650, 230, 1385, 970],
+  "tolerance": {"nominal_px": 3, "sensitivity_px": [2, 4]},
+  "source": {
+    "observation_id": "sample004_CH1_E400_G16",
+    "exposure_lines": 400,
+    "gain16": 16,
+    "channel": 1,
+    "led": 128,
+    "direction": "上",
+    "frame_id": 389,
+    "session_id": "GUI_preview_20261023_225806_0fb508",
+    "source_commit": "da145b7454473f0c960df0207a2c74cdeb443372",
+    "archive_name": "BX72_SINGLE_sample004_A_v1_CH1_20261023_225821_269094_9638cb.zip",
+    "archive_sha256": "41ed7ce86552fa0fbfc749074da928913c38ec76ded48dcb30dc4175a9f56e76",
+    "png_member": "BX72_SINGLE_sample004_A_v1_CH1_20261023_225821_269094_9638cb/CH1_single.png",
+    "png_sha256": "560be5330378087a22110c53907cdf659e9fd5604e10b1782603e55b787a3a98"
+  },
+  "paths": [
+    {
+      "id": "upper_continuous",
+      "label": "upper continuous scratch",
+      "uncertainty": "Manually sampled on the raw E400/G1 preview; thin reflection and soft endpoints limit centerline precision to about the stated tolerance.",
+      "stations": [
+        {"x": 720, "y": null, "state": "unknown", "reason": "Left endpoint cannot be separated reliably from weak surface texture."},
+        {"x": 760, "y": 344, "state": "observable"},
+        {"x": 800, "y": 344, "state": "observable"},
+        {"x": 840, "y": 343, "state": "observable"},
+        {"x": 880, "y": 341, "state": "observable"},
+        {"x": 920, "y": 342, "state": "observable"},
+        {"x": 960, "y": 347, "state": "observable"},
+        {"x": 1000, "y": 353, "state": "observable"},
+        {"x": 1040, "y": 357, "state": "observable"},
+        {"x": 1080, "y": 360, "state": "observable"},
+        {"x": 1120, "y": 363, "state": "observable"},
+        {"x": 1160, "y": 364, "state": "observable"},
+        {"x": 1200, "y": 359, "state": "observable"},
+        {"x": 1240, "y": null, "state": "unknown", "reason": "Right endpoint fades into broad illumination; extension is not established by raw pixels."}
+      ],
+      "segments": [
+        {"start": 0, "end": 1, "state": "unknown", "reason": "Unresolved left endpoint."},
+        {"start": 1, "end": 13, "state": "observable"},
+        {"start": 13, "end": 14, "state": "unknown", "reason": "Unresolved right endpoint."}
+      ]
+    },
+    {
+      "id": "lower_fading",
+      "label": "lower fading scratch",
+      "uncertainty": "Very low contrast after the central section; only short positions visibly supported in the raw preview are proposed.",
+      "stations": [
+        {"x": 720, "y": null, "state": "unknown", "reason": "Left approach merges with dark field and cannot be localized."},
+        {"x": 760, "y": 859, "state": "observable"},
+        {"x": 800, "y": 863, "state": "observable"},
+        {"x": 840, "y": 865, "state": "observable"},
+        {"x": 880, "y": 866, "state": "observable"},
+        {"x": 920, "y": 866, "state": "observable"},
+        {"x": 960, "y": 867, "state": "observable"},
+        {"x": 1000, "y": null, "state": "unknown", "reason": "Line loses contrast; a centerline cannot be separated from background."},
+        {"x": 1040, "y": null, "state": "unknown", "reason": "Fading continuation is ambiguous in raw pixels."},
+        {"x": 1080, "y": null, "state": "unknown", "reason": "Fading continuation is ambiguous in raw pixels."},
+        {"x": 1120, "y": null, "state": "unknown", "reason": "Fading continuation is ambiguous in raw pixels."},
+        {"x": 1160, "y": null, "state": "unknown", "reason": "Fading continuation is ambiguous in raw pixels."},
+        {"x": 1200, "y": null, "state": "unknown", "reason": "Right endpoint is not established in raw pixels."}
+      ],
+      "segments": [
+        {"start": 0, "end": 1, "state": "unknown", "reason": "Unresolved left approach."},
+        {"start": 1, "end": 7, "state": "observable"},
+        {"start": 7, "end": 13, "state": "unknown", "reason": "Fading continuation and endpoint unresolved."}
+      ]
+    }
+  ],
+  "background_controls": [
+    {"id": "upper_above_left", "path_id": "upper_continuous", "x": 800, "y": 314, "radius_px": 3, "reason": "Nearby same-panel background above visible upper line."},
+    {"id": "upper_below_middle", "path_id": "upper_continuous", "x": 980, "y": 384, "radius_px": 3, "reason": "Nearby background below visible upper line."},
+    {"id": "upper_above_right", "path_id": "upper_continuous", "x": 1160, "y": 326, "radius_px": 3, "reason": "Nearby background above visible upper line."},
+    {"id": "lower_above_left", "path_id": "lower_fading", "x": 800, "y": 829, "radius_px": 3, "reason": "Nearby dark background above visible lower line."},
+    {"id": "lower_below_middle", "path_id": "lower_fading", "x": 920, "y": 903, "radius_px": 3, "reason": "Nearby dark background below visible lower line."},
+    {"id": "lower_above_unknown", "path_id": "lower_fading", "x": 1120, "y": 824, "radius_px": 3, "reason": "Background near unresolved lower continuation; no path location is inferred."}
+  ]
+}

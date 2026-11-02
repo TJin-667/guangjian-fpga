@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/GuangjianData/OpenSourceRelease_20261102/internal/simulation_01/h2/rgb565_gray.v" into library work
+INFO: [VRFC 10-311] analyzing module rgb565_gray
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/GuangjianData/OpenSourceRelease_20261102/internal/simulation_01/h2/h2_background9.v" into library work
+INFO: [VRFC 10-311] analyzing module h2_background9
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/GuangjianData/OpenSourceRelease_20261102/internal/simulation_01/h2/h2_scratch_writer.v" into library work
+INFO: [VRFC 10-311] analyzing module h2_scratch_writer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/GuangjianData/OpenSourceRelease_20261102/internal/simulation_01/h2/tb_h2_scratch.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_h2_scratch
+WARNING: [VRFC 10-2659] decimal constant 10000000000 is too large, should be smaller than 2147483648; using 1410065408 instead [E:/GuangjianData/OpenSourceRelease_20261102/internal/simulation_01/h2/tb_h2_scratch.sv:109]

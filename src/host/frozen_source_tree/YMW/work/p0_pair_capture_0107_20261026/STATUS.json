@@ -1,0 +1,26 @@
+{
+  "status": "READY_FOR_YMW_P0",
+  "software_tests": 7,
+  "software_tests_passed": true,
+  "XDL_reader_blob_match": true,
+  "paired_model_gate_implemented_by_XDL": false,
+  "new_entry_real_capture_completed": false,
+  "planned_formal_groups": 2,
+  "planned_formal_images": 16,
+  "per_group_positioning_CAP": 1,
+  "per_group_formal_CAP": 8,
+  "firmware": "existing0107",
+  "pixel_format": 1,
+  "source_RGB_retained": true,
+  "bit_generated": false,
+  "old_files_unchanged": {
+    "acceptance_0107_20261026": 229,
+    "acceptance_0107_resume_20261026": 30,
+    "gray_transport_0105_20261025": 1018,
+    "acceptance_0107_hardware_review_20261026": 43,
+    "installed_LAB": 638
+  },
+  "release_ready": false,
+  "production09_switched": false,
+  "assistant_hardware_commands": 0
+}

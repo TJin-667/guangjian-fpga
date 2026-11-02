@@ -1,0 +1,17 @@
+{
+  "rule_version":"fourlight-fusion-1",
+  "reference_version":"fourlight-new-pose-proposal-1",
+  "low_strict":648,
+  "high_strict":1620,
+  "filter_window":9,
+  "tile_size":32,
+  "rgb_penalty":4,
+  "dark_penalty":4,
+  "quality_rule":"floor(256*N/(N+4*RGBmax+4*Yle10)); ranking only, original thresholds unchanged",
+  "quality_parameters_are_provisional":true,
+  "tolerance_radius_px":3,
+  "tolerance_sensitivity_px":[2,3,4],
+  "no_parameter_sweep":true,
+  "bridge_enabled":false,
+  "exposure_gain_search":false
+}

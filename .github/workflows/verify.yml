@@ -1,0 +1,24 @@
+name: Public source verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11.4'
+          cache: pip
+          cache-dependency-path: requirements-offline.txt
+      - name: Install locked runtime
+        run: python -m pip install -r requirements-offline.txt
+      - name: Verify public snapshot
+        run: python -B scripts/verify_public_release.py --for-publication
+      - name: Replay frozen numerical case without hardware
+        run: python -B scripts/replay_example.py --out _work/ci_replay

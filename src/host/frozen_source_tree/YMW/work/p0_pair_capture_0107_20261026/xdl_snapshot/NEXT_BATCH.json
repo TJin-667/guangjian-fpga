@@ -1,0 +1,109 @@
+{
+  "schema": "guangjian-xdl-next-capture-request-v1",
+  "date": "2026-10-26",
+  "status": "XDL_REQUEST_READY_YMW_HARDWARE_FEASIBILITY_CONFIRMATION_PENDING",
+  "batch_id": "P0_conditional_exposure_gate_20261026",
+  "purpose": [
+    "确认同姿态低/高曝光八帧配对采集、身份、参数读回、ROI/mask与标签工作流可用",
+    "观察低/高曝光是否提供局部互补的真实划痕证据；不训练正式模型、不判最优曝光"
+  ],
+  "frozen_capture_settings": {
+    "low_exposure_lines": 400,
+    "high_exposure_lines": 800,
+    "gain16": 16,
+    "gain_description": "1x",
+    "LED": 128,
+    "preferred_firmware": "existing_0105_RGB",
+    "setting_status": "development_candidate_pair_not_optimal",
+    "hardware_feasibility_confirmation_required": true,
+    "if_setting_is_illegal": "暂停并回报硬件合法档位及读回约束；不得静默替换曝光档"
+  },
+  "paired_group_contract": {
+    "frames_per_group": 8,
+    "frames": "CH1..CH4 x low/high",
+    "all_frames_must_share": [
+      "physical_specimen_id", "board_face", "specimen_variant", "physical_pose_id",
+      "capture_session", "capture_round", "repeat_id", "ROI", "valid_mask_id",
+      "gain16", "LED"
+    ],
+    "each_frame_must_have_unique_identity": true,
+    "record": [
+      "原始图及SHA256", "session_id/request_id/config_epoch/dvp_sequence/publish_sequence/roi_generation/camera_generation/light_generation/bank/frame_id",
+      "方向、曝光、增益、灯参数写入及读回值", "settle/discard帧数及完整时间成本",
+      "CRC/发布状态", "ROI/valid-mask ID及版本", "源RGB、冻结规则生成的gray8与SAT1及哈希"
+    ],
+    "do_not": [
+      "用旧600行单曝光图或004单张CH1 sweep填补配对位置",
+      "跨实体板、面、姿态、会话、采集轮次拼成一组",
+      "把重命名/复制文件视为新实拍",
+      "以人工划痕标注输入曝光门控或infer"
+    ]
+  },
+  "groups": [
+    {
+      "physical_specimen_id": "sample005",
+      "face": "A",
+      "variant": "由YMW按实物记录填写，不猜测",
+      "pose": "当前有效固定姿态；如需改变需登记新pose_id并拍全组",
+      "complete_groups": 1,
+      "priority": 1,
+      "reason": "YMW建议首批优先005；先验证配对采集和已知划痕可观察范围"
+    },
+    {
+      "physical_specimen_id": "sample004",
+      "face": "A",
+      "variant": "由YMW按实物记录填写",
+      "pose": "固定并记录能观察上方浅线和底部渐弱线的姿态；不移动相机/板/镜头/灯",
+      "complete_groups": 1,
+      "priority": 2,
+      "reason": "已有单方向预览提示两处曝光响应不同；旧预览不能替代新八帧组"
+    },
+    {
+      "physical_specimen_id": "sample003",
+      "face": "A",
+      "variant": "实物当前v1或YMW确认的版本",
+      "pose": "记录实际固定姿态",
+      "complete_groups": 1,
+      "priority": 3,
+      "optional": true,
+      "reason": "仅在前两组完成且预算允许、且需要再看一类形态时追加；同一物理板的v0/v1不算两个独立样件"
+    }
+  ],
+  "limits": {
+    "mandatory_groups": 2,
+    "maximum_groups": 3,
+    "maximum_formal_images": 24,
+    "formal_frame_count_excludes": ["初始化", "参数设置", "等待/settle", "丢弃帧", "重试", "失败帧", "确认帧"],
+    "count_all_attempts_and_time": true
+  },
+  "annotation_request": {
+    "schema": "XDL/exposure_fusion_v1/annotation_schema.json v2",
+    "coordinates": "full saved image 1920x1080, then XDL performs frozen ROI conversion",
+    "include": ["confirmed scratch centerlines and scratch_id", "whole_line/segment/weak_tail", "confirmed background", "unknown/ignore", "uncertain endpoints", "annotator/reviewer/basis", "physical specimen, face/version, pose, group, round, repeat, source hashes"],
+    "order": "先看八张原图独立核对实物路径，再查看候选叠加查漏；YMW确认物理归属和争议段，TJ协助标注，XDL做坐标/valid质检",
+    "sample002": "仍仅为近似无缺陷开发样件，不作为严格正常真值"
+  },
+  "acceptance_for_p0": [
+    "每组8张真实且身份唯一的方向×曝光原图；曝光/增益/灯参数有实测读回",
+    "每组身份、CRC、源图SHA、ROI/mask和gray/SAT派生来源可核对",
+    "至少2组人工复核中心线/背景/unknown标注完成且不依赖模型候选定真值",
+    "同一组可运行现有low-only/high-only/equal/global基线和条件门控原型输入准备",
+    "明确真实弱线是否由曝光互补带来；记录失败组和实际成本"
+  ],
+  "p0_does_not_prove": [
+    "条件门控已训练或优于基线",
+    "400/800行是最佳曝光",
+    "检测准确率、概率校准、少拍收益、跨板泛化",
+    "FPGA实现或实板自动闭环"
+  ],
+  "after_p0": {
+    "before_fit": "XDL与YMW/TJ复核P0标签；冻结背景响应上限、容差/站点间距、弱尾保护量及阈值选择流程",
+    "next_data": "先按板级GroupKFold扩展到足够的独立开发板；006未到前按真实五板报告，不能声称六板4/2折",
+    "held_out": "sample007..sample010整板冻结，不用于选曝光、特征、权重、阈值或可靠性条件"
+  },
+  "owners": {
+    "XDL": "模型规格、请求参数、流程/标签schema、分析训练评估",
+    "YMW": "确认硬件曝光/身份接口并执行所有实拍，确认物理真值与争议项",
+    "TJ": "协助YMW整理/标注中心线、weak-tail、背景、unknown及对照图"
+  }
+}

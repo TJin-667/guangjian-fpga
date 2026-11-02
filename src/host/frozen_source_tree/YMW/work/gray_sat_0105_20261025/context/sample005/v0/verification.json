@@ -1,0 +1,325 @@
+{
+  "status": "PASS",
+  "scope": "Human-operated request-bound exposure adjustment/confirmation -> four-new-direction capture -> PC fusion",
+  "assistant_contacted_physical_board": false,
+  "archive_sha256": "47b1ad9398e5a96a873fa263d149252a877a46befb34bf3e27d94a9da73336e1",
+  "archive_bytes": 24653164,
+  "archive_members": 68,
+  "embedded_auto_zip_sha256": "89ca3512c6e15e3a8f7829fa7213a7ce0a8c3cd06824d336fab44a5140f65ca4",
+  "native_pixels": 602162,
+  "source_polygon_pixels": 624100,
+  "roi": [
+    588,
+    197,
+    824,
+    825
+  ],
+  "initialization": [
+    {
+      "stage": "02",
+      "identity": {
+        "session": 17988280269323615141,
+        "request_id": 1,
+        "config_epoch": 10,
+        "dvp_sequence": 3017,
+        "publish_sequence": 47,
+        "roi_generation": 0,
+        "camera_generation": 3,
+        "light_generation": 7,
+        "frame_id": 47
+      },
+      "checks": {
+        "png_raw_exact": true,
+        "crc64_exact": true,
+        "H1_exact": true,
+        "H2_direct81_exact": true,
+        "camera_readback_exact": true
+      }
+    },
+    {
+      "stage": "03",
+      "identity": {
+        "session": 10728528055184451552,
+        "request_id": 1,
+        "config_epoch": 13,
+        "dvp_sequence": 4045,
+        "publish_sequence": 48,
+        "roi_generation": 1,
+        "camera_generation": 4,
+        "light_generation": 9,
+        "frame_id": 48
+      },
+      "checks": {
+        "png_raw_exact": true,
+        "crc64_exact": true,
+        "H1_exact": true,
+        "H2_direct81_exact": true,
+        "camera_readback_exact": true
+      }
+    }
+  ],
+  "auto_frames": [
+    {
+      "attempt": 1,
+      "identity": {
+        "session": 944703290119623630,
+        "request_id": 1,
+        "config_epoch": 16,
+        "dvp_sequence": 4880,
+        "publish_sequence": 49,
+        "roi_generation": 1,
+        "camera_generation": 5,
+        "light_generation": 11,
+        "frame_id": 49
+      },
+      "parameters": {
+        "exposure_lines": 600,
+        "gain16": 16,
+        "light_mask": 1,
+        "brightness": 128,
+        "settle_frames": 1,
+        "discard_frames": 3
+      },
+      "checks": {
+        "png_raw_exact": true,
+        "crc64_exact": true,
+        "H1_exact": true,
+        "H2_direct81_exact": true,
+        "camera_readback_exact": true
+      },
+      "raw_sha256": "11c49d1030927fc67a8bd68bfa3fcb334b21375be77d1f06f365c57a83fe29fb"
+    },
+    {
+      "attempt": 2,
+      "identity": {
+        "session": 944703290119623630,
+        "request_id": 2,
+        "config_epoch": 18,
+        "dvp_sequence": 4935,
+        "publish_sequence": 50,
+        "roi_generation": 1,
+        "camera_generation": 6,
+        "light_generation": 12,
+        "frame_id": 50
+      },
+      "parameters": {
+        "exposure_lines": 600,
+        "gain16": 16,
+        "light_mask": 1,
+        "brightness": 128,
+        "settle_frames": 1,
+        "discard_frames": 3
+      },
+      "checks": {
+        "png_raw_exact": true,
+        "crc64_exact": true,
+        "H1_exact": true,
+        "H2_direct81_exact": true,
+        "camera_readback_exact": true
+      },
+      "raw_sha256": "973a71a61285648c388b0f44d0d967dd34b6853cf900a1e1804af5c24e157195"
+    }
+  ],
+  "fourlight_frames": [
+    {
+      "channel": 1,
+      "direction": "top",
+      "identity": {
+        "session": 5002588505138855451,
+        "request_id": 1,
+        "config_epoch": 21,
+        "dvp_sequence": 5274,
+        "publish_sequence": 51,
+        "roi_generation": 1,
+        "camera_generation": 7,
+        "light_generation": 14,
+        "frame_id": 51
+      },
+      "parameters": {
+        "exposure_lines": 600,
+        "gain16": 16,
+        "light_mask": 1,
+        "brightness": 128,
+        "settle_frames": 1,
+        "discard_frames": 3
+      },
+      "checks": {
+        "png_raw_exact": true,
+        "crc64_exact": true,
+        "H1_exact": true,
+        "H2_direct81_exact": true,
+        "camera_readback_exact": true
+      },
+      "raw_sha256": "e2ef25990fb2fce76f0899e1536fc6c29d38f0e048698620df959959b4ba19a0"
+    },
+    {
+      "channel": 2,
+      "direction": "right",
+      "identity": {
+        "session": 5002588505138855451,
+        "request_id": 2,
+        "config_epoch": 23,
+        "dvp_sequence": 5297,
+        "publish_sequence": 52,
+        "roi_generation": 1,
+        "camera_generation": 8,
+        "light_generation": 15,
+        "frame_id": 52
+      },
+      "parameters": {
+        "exposure_lines": 600,
+        "gain16": 16,
+        "light_mask": 2,
+        "brightness": 128,
+        "settle_frames": 1,
+        "discard_frames": 3
+      },
+      "checks": {
+        "png_raw_exact": true,
+        "crc64_exact": true,
+        "H1_exact": true,
+        "H2_direct81_exact": true,
+        "camera_readback_exact": true
+      },
+      "raw_sha256": "a2957aae91e76b4c96533193de7d16007fb62c0917903a285b5493c212f1f0c2"
+    },
+    {
+      "channel": 3,
+      "direction": "bottom",
+      "identity": {
+        "session": 5002588505138855451,
+        "request_id": 3,
+        "config_epoch": 25,
+        "dvp_sequence": 5319,
+        "publish_sequence": 53,
+        "roi_generation": 1,
+        "camera_generation": 9,
+        "light_generation": 16,
+        "frame_id": 53
+      },
+      "parameters": {
+        "exposure_lines": 600,
+        "gain16": 16,
+        "light_mask": 4,
+        "brightness": 128,
+        "settle_frames": 1,
+        "discard_frames": 3
+      },
+      "checks": {
+        "png_raw_exact": true,
+        "crc64_exact": true,
+        "H1_exact": true,
+        "H2_direct81_exact": true,
+        "camera_readback_exact": true
+      },
+      "raw_sha256": "2459d8dc1c4dd7959a9bce042f7184c8d9bb4f03f420817f87ce3d2940a0c328"
+    },
+    {
+      "channel": 4,
+      "direction": "left",
+      "identity": {
+        "session": 5002588505138855451,
+        "request_id": 4,
+        "config_epoch": 27,
+        "dvp_sequence": 5342,
+        "publish_sequence": 54,
+        "roi_generation": 1,
+        "camera_generation": 10,
+        "light_generation": 17,
+        "frame_id": 54
+      },
+      "parameters": {
+        "exposure_lines": 600,
+        "gain16": 16,
+        "light_mask": 8,
+        "brightness": 128,
+        "settle_frames": 1,
+        "discard_frames": 3
+      },
+      "checks": {
+        "png_raw_exact": true,
+        "crc64_exact": true,
+        "H1_exact": true,
+        "H2_direct81_exact": true,
+        "camera_readback_exact": true
+      },
+      "raw_sha256": "29778e5b570e8310450217c67575a24568537c2a4ee0e63df86a2b4d46f4f4dc"
+    }
+  ],
+  "frozen_TJ_audit_replayed": {
+    "status": "PASS",
+    "attempts": 2,
+    "independent_observations": 2,
+    "rule_transitions": 3,
+    "software_only": true
+  },
+  "independent_fusion": {
+    "B1": {
+      "arrays_exact": 18,
+      "candidate_pixels": 537,
+      "unknown_board_pixels": 0
+    },
+    "M1": {
+      "arrays_exact": 18,
+      "candidate_pixels": 530,
+      "unknown_board_pixels": 0
+    }
+  },
+  "delivered_engine_arrays_exact": 36,
+  "derived_files_byte_exact": [
+    "frame_metrics.csv",
+    "candidate_regions.csv",
+    "tiles.json",
+    "B1_overlay.png",
+    "M1_overlay.png",
+    "B1_mask.png",
+    "M1_mask.png",
+    "M1_quality.png"
+  ],
+  "transport_issue_counts": {
+    "missing_image_packets": 0,
+    "duplicate_image_packets": 0,
+    "stale_image_packets": 0,
+    "command_retries": 0,
+    "failed_calls": 0
+  },
+  "total_current_run_image_packets": 5916,
+  "lights_off_ack_auto": true,
+  "lights_off_ack_four": true,
+  "physical_off_verified": false,
+  "automatic_exposure_sequence": [
+    600,
+    600
+  ],
+  "locked_exposure_lines": 600,
+  "cross_exposure_change_verified": false,
+  "cross_exposure_scope": "Distinct complete identities, original raw/statistic checks and request-bound register readbacks; physical settling not calibrated",
+  "current_run_saved_images": 6,
+  "formal_fourlight_images": 4,
+  "prior_initialization_images": 2,
+  "known_current_run_transaction_frames": 30,
+  "known_auto_transaction_frames": 10,
+  "known_formal_transaction_frames": 20,
+  "timing": {
+    "auto_control_host_ms": 20358.999999938533,
+    "auto_through_zip_ms": 25813.0,
+    "fourlight_acquisition_host_ms": 20422.00000002049,
+    "analysis_host_ms": 6609.000000054948,
+    "whole09_through_zip_ms": 58328.0,
+    "prior_02_03_sdk_ms": 65312.999999999985,
+    "mask_upload_host_ms": [
+      14328.0,
+      14328.0
+    ],
+    "full_physical_cycle_measured": false
+  },
+  "accuracy_measured": false,
+  "best_exposure_proven": false,
+  "complete_FPGA_detector": false,
+  "source_archive_hashes": {
+    "single_full_20261024_165147_ad6416.zip": "2741be8d908f20e6eb72ee3252f969d4c658f0ad7c3f98ab1c92d5a1b606a748",
+    "single_roi_20261024_165326_33e74b.zip": "49d0fb95a700d0a01a40b402b02f560bfa34cf127b7f2c237d1c16e17e1885fa"
+  },
+  "production_program_modified": false,
+  "original_receipts_resigned": false
+}

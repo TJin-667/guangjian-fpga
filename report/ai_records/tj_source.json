@@ -1,0 +1,18 @@
+{
+  "schema": "tj-selected-visible-messages-v1",
+  "source_log_basename": "rollout-2026-11-02T20-28-30-01a19c3b-8ca1-7af1-bb4b-91f1dda29468.jsonl",
+  "source_snapshot_bytes": 7657236,
+  "source_snapshot_sha256": "152011c1fbe27af47066fb1dd5566c0426432c2eb6acee938af7509327497671",
+  "record_count": 8,
+  "model_field_source": "exact preceding turn_context.model",
+  "selection": "Project request, visible planning/correction, execution scope, and user permission excerpts only",
+  "scope": "TJ submission documentation preparation; not historical RTL/algorithm development or full-team logs",
+  "excluded": [
+    "system/developer messages",
+    "hidden reasoning",
+    "tool outputs",
+    "other chats",
+    "full source log",
+    "user file-upload headers and personal absolute paths"
+  ]
+}

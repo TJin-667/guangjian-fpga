@@ -1,0 +1,22 @@
+{
+  "status": "SOURCE_READY_FOR_QUALIFIED_0109_BIT_EMISSION",
+  "firmware": 265,
+  "protocol_revision": 9,
+  "frozen_algorithm": "f09eb5885e1d",
+  "default_exposure_lines": [400, 800],
+  "manual_exposure_lines": [1, 1116],
+  "LUT": 26035,
+  "FF": 32269,
+  "DSP": 12,
+  "BRAM36_equivalent": 81.5,
+  "BRAM_percent": 60.37,
+  "wns_ns": 0.079,
+  "whs_ns": 0.043,
+  "full_external_IO_qualified": false,
+  "physical_hardware_tested": false,
+  "board_programmed": false,
+  "default_entry_changed": false,
+  "release_ready": false,
+  "bit_receipt_location": "E:/GuangjianData/final_board_0109_20261030/engineering_bit_01",
+  "note": "This source snapshot precedes bit emission. Independent publication receipts record whether emission and deployment preparation actually succeeded."
+}

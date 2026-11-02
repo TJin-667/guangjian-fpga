@@ -1,0 +1,86 @@
+{
+  "modules": [
+    {
+      "top": "fusion_axi_frame",
+      "build": "E:\\GuangjianData\\fpga_0108_20261028\\synthesis_08",
+      "resources": {
+        "LUT": 1404,
+        "FF": 770,
+        "BRAM36": 0.0,
+        "DSP": 0
+      },
+      "full_OOC_setup_ns": 0.144,
+      "full_OOC_hold_ns": -0.87,
+      "full_OOC_budget_met": false,
+      "internal_setup_ns": 0.144,
+      "internal_hold_ns": 0.074,
+      "internal_timing_met": true,
+      "reports_sha256": {
+        "drc_routed.rpt": "1816eb5b06e1cc320e8baa799c0cdc7d9915aa9f7834ebd33c63d8fe130d7034",
+        "internal_hold.rpt": "a0cc6a354c219de339a56e9e9b41495dacc0affd3cc299cda2d656673b2af170",
+        "internal_setup.rpt": "7b42f03b9de156f97fee44a48a21a40f19c13b194aac90b76d16df68b8cec8db",
+        "timing_routed.rpt": "d18de4a3fc5fd346999db3a0f3a581ace7e7f2009cbeb7be0687185ab2eb0705",
+        "utilization_routed.rpt": "7ded112be655b00d4f2c07151cc56f88b26fe812af4ec5d6e323c8ae2227fcef",
+        "utilization_synth.rpt": "af4752ad66ed4d12100b29ec55f29d7df1f47653d86f7e120dbae8d1177281a8"
+      },
+      "standalone_only": true,
+      "board_timing_qualified": false
+    },
+    {
+      "top": "h2_scratch_writer",
+      "build": "E:\\GuangjianData\\fpga_0108_20261028\\synthesis_06",
+      "resources": {
+        "LUT": 829,
+        "FF": 335,
+        "BRAM36": 0.0,
+        "DSP": 2
+      },
+      "full_OOC_setup_ns": 0.364,
+      "full_OOC_hold_ns": -1.036,
+      "full_OOC_budget_met": false,
+      "internal_setup_ns": 0.695,
+      "internal_hold_ns": 0.064,
+      "internal_timing_met": true,
+      "reports_sha256": {
+        "drc_routed.rpt": "b389f43f50d6fcd47f37a9561240b09d074d9a4887ec058f30d20dca99d3f0b4",
+        "internal_hold.rpt": "d15709fd8d93076b97c60359bc0a5233306df95032082ccf0a553edcb568c9cb",
+        "internal_setup.rpt": "76f80f4e542758ffe2ec7cf405054c3ec80f02ca2d18547d66feae37a90137d0",
+        "timing_routed.rpt": "efd424e7112b6e752aa5304b64ff10afa7d35bee0c187b94c38fe2f53b23309f",
+        "utilization_routed.rpt": "127db7597ef0a599d3404a6baa1318bffbb08327630d2b57bf4000cbb19a15b8",
+        "utilization_synth.rpt": "30e442b1bb3e7a7888fce1d233bebfaf2364c86db116eff4d56b4e5984b47a92"
+      },
+      "standalone_only": true,
+      "board_timing_qualified": false
+    },
+    {
+      "top": "fusion_group_guard",
+      "build": "E:\\GuangjianData\\fpga_0108_20261028\\synthesis_09",
+      "resources": {
+        "LUT": 317,
+        "FF": 628,
+        "BRAM36": 0.0,
+        "DSP": 1
+      },
+      "full_OOC_setup_ns": 0.272,
+      "full_OOC_hold_ns": -0.889,
+      "full_OOC_budget_met": false,
+      "internal_setup_ns": 0.462,
+      "internal_hold_ns": 0.159,
+      "internal_timing_met": true,
+      "reports_sha256": {
+        "drc_routed.rpt": "040190a02a8042f9ab3cf21270ce43e8c8b677d8fabc8a09fc119f008b411d05",
+        "internal_hold.rpt": "10267b8493ba3377086dfacc93d435f34b751ce34959a7fa430042190d52ca76",
+        "internal_setup.rpt": "07d74fe53bf518099a33d0a7d00f6749400b6da1c5cec6ecc2fe2d79e2cea4d0",
+        "timing_routed.rpt": "863da729e8441de7e9e46fdd7b566ca16cbd06eeed14bf8153c97cc8f3e26bf4",
+        "utilization_routed.rpt": "64b339bdfc0770798f9ce563ab49a7414229c1a6214276a55a5955f0231062c1",
+        "utilization_synth.rpt": "8011d9f50666af9e1c3e0e4caada8afd01ad0cfadaf3b0d5906185503b78d0bd"
+      },
+      "standalone_only": true,
+      "board_timing_qualified": false
+    }
+  ],
+  "clock_period_ns": 8,
+  "full_board_timing_passed": false,
+  "interface_budgets_are_placeholder": true,
+  "representative_OOC_clock_source": "BUFGCTRL_X0Y0, not an actual top-level placement claim"
+}

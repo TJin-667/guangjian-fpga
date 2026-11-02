@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "version": "v1.1",
+  "method": "native_window_sky",
+  "checked": [
+    "one_window_capture_and_engineering_tabs",
+    "sample_and_variant_fields",
+    "one_frame_positioning_button",
+    "plan_field_and_eight_frame_action",
+    "own_QA_window_closed_exit0"
+  ],
+  "hardware_controls_clicked": false,
+  "hardware_contacted": false
+}

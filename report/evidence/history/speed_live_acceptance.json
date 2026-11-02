@@ -1,0 +1,43 @@
+{
+  "status": "PASS_REAL_SPEED_HOST_CAPTURE_HANDOFF_FROZEN_EXPORT",
+  "source": "E:\\GuangjianData\\UnifiedInspectionSpeed0109\\20261031_141447_8a87c194",
+  "capture_root": "E:\\GuangjianData\\continuous0109_plans\\20261031_141412_840fc7df\\run",
+  "group_id": "sample004_g1793427252714918100",
+  "candidate_binding_sha256": "dd773260f7e0431ebb28abdb409e6008e8d74c50eab91cb32e6f6e53b4c84716",
+  "frozen_id": "f09eb5885e1d",
+  "roi": [
+    544,
+    128,
+    864,
+    864
+  ],
+  "format": 49,
+  "pair": [
+    400,
+    800
+  ],
+  "real_formal_frames": 8,
+  "real_preparation_frames": 1,
+  "distinct_capture_identities": 9,
+  "actual_device_profile_pages": 24,
+  "live_combined_handoff": true,
+  "native_differences": {
+    "gray": 0,
+    "sat1": 0,
+    "board": 0,
+    "words": 0
+  },
+  "all_eight_derivative_differences": {
+    "residual_n": 0,
+    "valid": 0
+  },
+  "task_wall_seconds": 54.773840999998356,
+  "worker_process_wall_seconds": 19.355457300000126,
+  "mask_trace_seconds": [
+    14.625
+  ],
+  "command_retries": 0,
+  "new_CAP": 0,
+  "hardware_contacted_by_reviewer": false,
+  "system_PC_over_PL_speedup": null
+}

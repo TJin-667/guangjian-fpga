@@ -1,0 +1,49 @@
+{
+  "schema": "guangjian-engineering-parameter-freeze-v1",
+  "freeze_id": "f09eb5885e1d",
+  "status": "ENGINEERING_PARAMETERS_FROZEN",
+  "semantic": {
+    "camera": {
+      "low_lines": 400,
+      "high_lines": 800,
+      "gain16": 16,
+      "LED": 128
+    },
+    "detector_id": "387cfeac0426",
+    "detector_config": {
+      "min_area": 9,
+      "span": 8,
+      "line": 0.6,
+      "width": 5,
+      "raw_fraction": 0.85,
+      "raw_mean": 3.0,
+      "weak": 5.2,
+      "strong": 12.0,
+      "policy": "fixed6_20_isolated_supplements",
+      "gate": "balanced",
+      "reach": 32,
+      "half_width": 1,
+      "side_radius": 0,
+      "proposal_strong": 12.0
+    },
+    "review_raw_fraction": 0.55,
+    "review_endpoint_line_fraction": 0.28,
+    "review_base_plan_sha256": "8a4b6c32aec0189fc0c41a623699cf9b05c3f33f4983c66df720de508be93ffa",
+    "review_core_plan_sha256": "65242b5d46d7cc18793c9d55e355962c52246dc97b33777cb38bd2d6c3c89645",
+    "score_rule": "5*floor(100*min(terms)/5)",
+    "review_source_binding_sha256": "194e7d102cc3f2a0b68ef6fca0a436a270bdbf92c6493b42dcc18ae9c4d338f9"
+  },
+  "selection_reason": "Smallest tested endpoint relaxation restores the latest real weak-gap prompt.25-group regression retains every prior admitted pair, changes only3 groups, adds2 net windows, leaves every formal mask unchanged.",
+  "comparison_groups": 25,
+  "physical_boards": 3,
+  "known_limits": [
+    "Development regression on three physical boards, not calibrated global optimum",
+    "Only existing-fragment gaps are reviewed; no complete guarantee for seedless or unobserved whole lines",
+    "A/sample004_A_v1_20261028_005543_afc86f/300-800 remains a55% no-hint case recovered only by50%; preserved in earlier archive",
+    "Yellow detection still does not fill the latest weak gap; orange requests human review",
+    "Human review, independent held-out specimens, hardware release qualification and GUI integration remain separate"
+  ],
+  "production_console_switched": false,
+  "FPGA_changed": false,
+  "future_changes": "Do not silently retune this version; create a new version if changes are explicitly requested."
+}

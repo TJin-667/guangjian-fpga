@@ -1,0 +1,25 @@
+{
+  "complete_outputs": "E:\\GuangjianData\\reviews\\host_speed_step3_0109_20261031",
+  "folders": {
+    "selftest_02": {
+      "manifest": "E:\\GuangjianData\\reviews\\host_speed_step3_0109_20261031\\selftest_02\\OUTPUT_MANIFEST.json",
+      "sha256": "8c96f2b89b7962d64d48eaaa21ec108652c34b12735d1138322656072609bd8d",
+      "members": 648
+    },
+    "real_compare_01": {
+      "manifest": "E:\\GuangjianData\\reviews\\host_speed_step3_0109_20261031\\real_compare_01\\OUTPUT_MANIFEST.json",
+      "sha256": "e7d0f3778a8febcd8435ea12f6b721aa34f8d81a4baf30cca0cba7b64b4e2b05",
+      "members": 545
+    },
+    "export_audit_01": {
+      "manifest": "E:\\GuangjianData\\reviews\\host_speed_step3_0109_20261031\\export_audit_01\\OUTPUT_MANIFEST.json",
+      "sha256": "a274ea5c1b9d0e74223072ff7dee3237102f1a3cb0b9c4cce9fdc7e294b366ac",
+      "members": 1
+    }
+  },
+  "installation": "E:\\GuangjianData\\software\\SpeedSystem0109_20261031\\INSTALLATION.json",
+  "backup": "E:\\GuangjianData\\software\\backups\\Before_speed0109_combined_20261031_134736_e95d59",
+  "bit_sha256": "84530057679198ec1b7bd700c0bb9a97d803d605ac82db24b58f01161d4ac30e",
+  "program_binding_sha256": "dd773260f7e0431ebb28abdb409e6008e8d74c50eab91cb32e6f6e53b4c84716",
+  "large_arrays_and_images_on_E_only": true
+}

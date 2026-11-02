@@ -1,0 +1,76 @@
+# BX72 1080p DDR3 + paced UDP candidate. DDR3 pins/timing come from MIG XCI.
+set_property CFGBVS VCCO [current_design]
+set_property CONFIG_VOLTAGE 3.3 [current_design]
+set_property BITSTREAM.CONFIG.UNUSEDPIN Pullnone [current_design]
+
+set_property PACKAGE_PIN V17 [get_ports reset_n]
+set_property IOSTANDARD LVCMOS33 [get_ports reset_n]
+
+set_property PACKAGE_PIN Y19 [get_ports {led[0]}]
+set_property PACKAGE_PIN AA18 [get_ports {led[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {led[*]}]
+
+set_property PACKAGE_PIN V18 [get_ports rgmii_tx_clk]
+set_property PACKAGE_PIN P17 [get_ports rgmii_txen]
+set_property PACKAGE_PIN R17 [get_ports {rgmii_txd[0]}]
+set_property PACKAGE_PIN N17 [get_ports {rgmii_txd[1]}]
+set_property PACKAGE_PIN P16 [get_ports {rgmii_txd[2]}]
+set_property PACKAGE_PIN P15 [get_ports {rgmii_txd[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports rgmii_tx_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports rgmii_txen]
+set_property IOSTANDARD LVCMOS33 [get_ports {rgmii_txd[*]}]
+
+set_property PACKAGE_PIN V19 [get_ports rgmii_rx_clk_i]
+set_property PACKAGE_PIN R14 [get_ports rgmii_rxdv]
+set_property PACKAGE_PIN T18 [get_ports {rgmii_rxd[0]}]
+set_property PACKAGE_PIN R18 [get_ports {rgmii_rxd[1]}]
+set_property PACKAGE_PIN R16 [get_ports {rgmii_rxd[2]}]
+set_property PACKAGE_PIN P14 [get_ports {rgmii_rxd[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports rgmii_rx_clk_i]
+set_property IOSTANDARD LVCMOS33 [get_ports rgmii_rxdv]
+set_property IOSTANDARD LVCMOS33 [get_ports {rgmii_rxd[*]}]
+
+set_property PACKAGE_PIN U17 [get_ports eth_mdc]
+set_property PACKAGE_PIN U18 [get_ports eth_mdio]
+set_property PACKAGE_PIN N15 [get_ports eth_rstn]
+set_property IOSTANDARD LVCMOS33 [get_ports eth_mdc]
+set_property IOSTANDARD LVCMOS33 [get_ports eth_mdio]
+set_property IOSTANDARD LVCMOS33 [get_ports eth_rstn]
+
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets rgmii_rx_clk_i]
+create_clock -period 8.000 -name rgmii_rx_clk -waveform {0.000 4.000} [get_ports rgmii_rx_clk_i]
+
+# OV5640 connector and 50 MHz input, taken from the stable camera design.
+set_property PACKAGE_PIN Y18 [get_ports clk_50m]
+set_property IOSTANDARD LVCMOS33 [get_ports clk_50m]
+create_clock -period 20.000 -name clk_50m [get_ports clk_50m]
+set_property PACKAGE_PIN C19 [get_ports cam_xclk]
+set_property PACKAGE_PIN T21 [get_ports cam_sda]
+set_property PACKAGE_PIN U21 [get_ports cam_scl]
+set_property PACKAGE_PIN C18 [get_ports cam_pclk]
+set_property PACKAGE_PIN G22 [get_ports cam_vsync]
+set_property PACKAGE_PIN G21 [get_ports cam_href]
+set_property PACKAGE_PIN B21 [get_ports {cam_data[0]}]
+set_property PACKAGE_PIN A21 [get_ports {cam_data[1]}]
+set_property PACKAGE_PIN C22 [get_ports {cam_data[2]}]
+set_property PACKAGE_PIN B22 [get_ports {cam_data[3]}]
+set_property PACKAGE_PIN E21 [get_ports {cam_data[4]}]
+set_property PACKAGE_PIN D21 [get_ports {cam_data[5]}]
+set_property PACKAGE_PIN E22 [get_ports {cam_data[6]}]
+set_property PACKAGE_PIN D22 [get_ports {cam_data[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {cam_xclk cam_sda cam_scl cam_pclk cam_vsync cam_href cam_data[*]}]
+set_property PULLUP true [get_ports {cam_sda cam_scl}]
+create_clock -period 10.000 -name cam_pclk [get_ports cam_pclk]
+set_input_delay -clock cam_pclk -max 2.000 [get_ports {cam_data[*] cam_href cam_vsync}]
+set_input_delay -clock cam_pclk -min 0.000 [get_ports {cam_data[*] cam_href cam_vsync}]
+set_clock_groups -asynchronous \
+    -group [get_clocks -include_generated_clocks rgmii_rx_clk] \
+    -group [get_clocks -include_generated_clocks {clk_50m u_sys_pll/inst/clk_in1}] \
+    -group [get_clocks cam_pclk]
+
+# Light controller UART on the already verified P2 Bank16 pins.
+set_property PACKAGE_PIN D20 [get_ports light_uart_tx]
+set_property PACKAGE_PIN C20 [get_ports light_uart_rx]
+set_property IOSTANDARD LVCMOS33 [get_ports {light_uart_tx light_uart_rx}]
+set_false_path -from [get_ports light_uart_rx]
+set_false_path -to [get_ports light_uart_tx]

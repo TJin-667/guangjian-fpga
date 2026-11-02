@@ -1,0 +1,71 @@
+{
+  "status": "REOPEN_AUDIT_PASS_NOT_BOARD_QUALIFICATION",
+  "modules": [
+    {
+      "top": "fusion_axi_frame",
+      "checkpoint": "E:\\GuangjianData\\fpga_0108_20261028\\synthesis_08\\build\\fusion_axi_frame\\routed.dcp",
+      "checkpoint_sha256": "1dc6c5b73c745caa213281184a90cd68fca54621589e29c3319638d83d85aff9",
+      "tool_returncode": 0,
+      "timing": {
+        "setup_ns": "0.144",
+        "hold_ns": "-0.870",
+        "internal_setup_ns": "0.144",
+        "internal_hold_ns": "0.074",
+        "blackboxes": "0",
+        "board_timing_qualified": "false"
+      },
+      "reports_sha256": {
+        "drc.rpt": "39a91665a03e2d2d5f275dbacc35e434e0227270c0fabbe9b80314a0bba11f2d",
+        "internal_hold.rpt": "f5317c24981cc2297233427b3c5873022442899e168f7437e155ce5df83a0183",
+        "internal_setup.rpt": "d5f9d30544102c8153d86b9e3cf3a0b6d1d0948a69fb4d3b7f23334c40e92a72",
+        "timing.rpt": "0308ce18ab4a22c136d7b6f2078dc83e31ef0afbf6cd086c36e74caca355ea51",
+        "utilization.rpt": "3ff666a99d537bb4f0d4496453f3c638beb53752910b04f732b73f88e3c3323c"
+      }
+    },
+    {
+      "top": "h2_scratch_writer",
+      "checkpoint": "E:\\GuangjianData\\fpga_0108_20261028\\synthesis_06\\build\\h2_scratch_writer\\routed.dcp",
+      "checkpoint_sha256": "53bacccb24356771cb1ebb14162f62f0f9268f7cffd25ebc8db152e5a46b8296",
+      "tool_returncode": 0,
+      "timing": {
+        "setup_ns": "0.364",
+        "hold_ns": "-1.036",
+        "internal_setup_ns": "0.695",
+        "internal_hold_ns": "0.064",
+        "blackboxes": "0",
+        "board_timing_qualified": "false"
+      },
+      "reports_sha256": {
+        "drc.rpt": "8e39f08ba921c420b86729ffb4a95a2072c45bcd1a992d3a2a21800152102fa1",
+        "internal_hold.rpt": "d8f7ab9fd3c469d1426faec8d73b7e095d0ef11364a15c3288e7fba0ad23fad7",
+        "internal_setup.rpt": "f7d7ead5a8a46618f173ab9a2f8ea74e645be2c458a6e27bafc6b01e88e25f93",
+        "timing.rpt": "fad14fc0b015ff789c29f5be72214f6cf1dbbaa7dd3f5d7f3ab396ae169b52d6",
+        "utilization.rpt": "6f58022542c789c418e27dd2f6ef2bc8eccd33657067974a9552a21044fb8fa1"
+      }
+    },
+    {
+      "top": "fusion_group_guard",
+      "checkpoint": "E:\\GuangjianData\\fpga_0108_20261028\\synthesis_09\\build\\fusion_group_guard\\routed.dcp",
+      "checkpoint_sha256": "2ca9a1d6d4a44c66c707e44a6a3443d1e54f17cb8da595ba5648dbcb78bf5426",
+      "tool_returncode": 0,
+      "timing": {
+        "setup_ns": "0.272",
+        "hold_ns": "-0.889",
+        "internal_setup_ns": "0.462",
+        "internal_hold_ns": "0.159",
+        "blackboxes": "0",
+        "board_timing_qualified": "false"
+      },
+      "reports_sha256": {
+        "drc.rpt": "e3bb328fa0c91feaccdbcb425ddfb14a05e1bcc124d7fc3baf19c531e2296406",
+        "internal_hold.rpt": "c9d60ebcd140290738e8053c9e665a6b7073945961e571cacad78fa576fb99e3",
+        "internal_setup.rpt": "f3c3569d7df9599df341e223a83bf257170c5ae5173ee4725fb67b308ceec9e1",
+        "timing.rpt": "6cd10206fdf655ec861a8200d52082836484625a7a871ae28948492f9fb5aa20",
+        "utilization.rpt": "afc75af8d614fa7ac9302bf9afe1ae9df82f14c6763cf58f0d9b1eb588356a82"
+      }
+    }
+  ],
+  "original_failed_tool_exits_not_erased": true,
+  "new_bit_generated": false,
+  "board_commands": 0
+}

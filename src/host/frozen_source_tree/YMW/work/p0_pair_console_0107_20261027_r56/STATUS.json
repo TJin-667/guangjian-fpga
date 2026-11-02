@@ -1,0 +1,15 @@
+{
+  "status": "R56_CONFIGURABLE_CAPTURE_AND_RESPONSIVE_PREVIEW_INSTALLED",
+  "focus_target_fps": 2,
+  "focus_max_frames": 1000,
+  "viewport_render": true,
+  "render_coalesce_ms": 25,
+  "same_frame_ROI_rescore": true,
+  "tests": 27,
+  "hardware_contacted": false,
+  "physical_preview_checked": false,
+  "formal_strict_SDK_unchanged": true,
+  "per_run_settings": true,
+  "old09_preserved": true,
+  "release_ready": false
+}

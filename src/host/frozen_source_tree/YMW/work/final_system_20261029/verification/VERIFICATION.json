@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "group_id": "sample003_A_v1_20261027_175425_a05009",
+      "path": "E:\\GuangjianData\\reviews\\final_system_20261029\\integration_01\\20261029_211529_4e6bd9e6",
+      "formal10_differences": {
+        "original": 0,
+        "guide6_20": 0,
+        "without_sleeve": 0,
+        "candidate": 0,
+        "side_addition": 0,
+        "side_envelope": 0,
+        "isolated6": 0,
+        "isolated_low": 0,
+        "terminal_extension": 0,
+        "ordinary": 0
+      },
+      "review_priority_exact_equal": true
+    },
+    {
+      "group_id": "sample004_A_v1_20261028_220937_87f02b",
+      "path": "E:\\GuangjianData\\reviews\\final_system_20261029\\integration_01\\20261029_211536_90a6a250",
+      "formal10_differences": {
+        "original": 0,
+        "guide6_20": 0,
+        "without_sleeve": 0,
+        "candidate": 0,
+        "side_addition": 0,
+        "side_envelope": 0,
+        "isolated6": 0,
+        "isolated_low": 0,
+        "terminal_extension": 0,
+        "ordinary": 0
+      },
+      "review_priority_exact_equal": true
+    },
+    {
+      "group_id": "sample005_A_v1_20261028_015004_fa1bef",
+      "path": "E:\\GuangjianData\\reviews\\final_system_20261029\\integration_01\\20261029_211553_bd6642e8",
+      "formal10_differences": {
+        "original": 0,
+        "guide6_20": 0,
+        "without_sleeve": 0,
+        "candidate": 0,
+        "side_addition": 0,
+        "side_envelope": 0,
+        "isolated6": 0,
+        "isolated_low": 0,
+        "terminal_extension": 0,
+        "ordinary": 0
+      },
+      "review_priority_exact_equal": true
+    },
+    {
+      "group_id": "sample004_A_v1_20261028_220937_87f02b",
+      "path": "E:\\GuangjianData\\reviews\\final_system_20261029\\capture_archive_01\\20261029_211625_03ca9df6",
+      "formal10_differences": {
+        "original": 0,
+        "guide6_20": 0,
+        "without_sleeve": 0,
+        "candidate": 0,
+        "side_addition": 0,
+        "side_envelope": 0,
+        "isolated6": 0,
+        "isolated_low": 0,
+        "terminal_extension": 0,
+        "ordinary": 0
+      },
+      "review_priority_exact_equal": true
+    }
+  ],
+  "hardware_contacted": false,
+  "new_captures": 0,
+  "FPGA_changed": false,
+  "unit_tests": 16
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "method": "native_window_sky",
+  "checked": [
+    "final004_image_and3review_rows",
+    "image_zoom100_and_wheel_pan",
+    "engineering_tab_layout",
+    "capture_controls_fold_and_restore",
+    "owned_test_window_closed"
+  ],
+  "hardware_controls_clicked": false,
+  "hardware_contacted": false,
+  "app_exit_code": 0
+}

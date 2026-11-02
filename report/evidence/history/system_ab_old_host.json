@@ -1,0 +1,93 @@
+{
+  "status": "PHYSICAL_SYSTEM_A_B_INDEPENDENTLY_VERIFIED",
+  "physical_system_A_B_complete": true,
+  "groups": 12,
+  "formal_frames": 96,
+  "preparation_frames": 12,
+  "logical_CAP": 108,
+  "actual_device_profile_pages": 144,
+  "same_input_formal_arrays_review_and_scores_equal": true,
+  "source_result_directory": "E:\\GuangjianData\\SystemBenchmark0109\\20261031_090644_5defee3a",
+  "source_adapter_commit": "322bc7067236a9c133712ccc07f6897163e02187",
+  "frozen_algorithm": "f09eb5885e1d",
+  "system_PC_over_PL_ratio_of_medians": {
+    "cold": 0.9103880289779565,
+    "warm": 0.6976833916950463
+  },
+  "warm_session_time_reduction_percent": {
+    "PC": 50.231323195968855,
+    "PL": 35.05821104558113
+  },
+  "cells": [
+    {
+      "branch": "PC",
+      "condition": "cold",
+      "repetitions": 3,
+      "samples_seconds": [
+        53.556242999999995,
+        48.030618700000105,
+        51.1125135999996
+      ],
+      "median_seconds": 51.1125135999996,
+      "minimum_seconds": 48.030618700000105,
+      "maximum_seconds": 53.556242999999995,
+      "median_RX_UDP_bytes": 8151196
+    },
+    {
+      "branch": "PC",
+      "condition": "warm",
+      "repetitions": 3,
+      "samples_seconds": [
+        28.547582000000148,
+        25.438021700000263,
+        25.300965299999916
+      ],
+      "median_seconds": 25.438021700000263,
+      "minimum_seconds": 25.300965299999916,
+      "maximum_seconds": 28.547582000000148,
+      "median_RX_UDP_bytes": 7684374
+    },
+    {
+      "branch": "PL",
+      "condition": "cold",
+      "repetitions": 3,
+      "samples_seconds": [
+        54.315070600000126,
+        56.26292349999994,
+        56.14365739999994
+      ],
+      "median_seconds": 56.14365739999994,
+      "minimum_seconds": 54.315070600000126,
+      "maximum_seconds": 56.26292349999994,
+      "median_RX_UDP_bytes": 11373958
+    },
+    {
+      "branch": "PL",
+      "condition": "warm",
+      "repetitions": 3,
+      "samples_seconds": [
+        35.157344300000204,
+        36.46069549999993,
+        39.18662529999983
+      ],
+      "median_seconds": 36.46069549999993,
+      "minimum_seconds": 35.157344300000204,
+      "maximum_seconds": 39.18662529999983,
+      "median_RX_UDP_bytes": 10907136
+    }
+  ],
+  "system_acceleration_demonstrated": false,
+  "cold_PL_minus_PC_seconds": 5.031143800000336,
+  "warm_PL_minus_PC_seconds": 11.022673799999666,
+  "mask_upload_trace_cold_median_seconds": {
+    "PC": 19.609,
+    "PL": 19.531
+  },
+  "new_CAP_by_reviewer": 0,
+  "hardware_contacted_by_reviewer": false,
+  "algorithm_or_bit_changed": false,
+  "external_IO_full_qualification": false,
+  "bit_SHA_hardware_readback_verified": false,
+  "independent_quality_specimens": 1,
+  "source_output_manifest_sha256": "59befe1fb2508deb2e835b61ac463f6bd8645a6c58235d7a4d6da48f5ee93be8"
+}

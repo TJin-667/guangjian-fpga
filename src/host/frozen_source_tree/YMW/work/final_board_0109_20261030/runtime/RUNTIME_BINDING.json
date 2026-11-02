@@ -1,0 +1,27 @@
+{
+  "schema": "guangjian-0109-runtime-binding-v1",
+  "inherited_stable_binding_sha256": "e88236c2c05bbb405c2170ec21cb5e9a25e138d8d412e93f4e5fd699dd85dd1d",
+  "files_sha256": {
+    "app.py": "e4f336a388ef6478b404329d97898e4903d1336df48ddfc7bf9548e1983714d2",
+    "archive0109.py": "7bc3100f2f1ea58c4df81c2df3095b1e1061dd233222376070f02c7109ddcecb",
+    "continuous_app.py": "39a034a4b17b8bb09add29d1bee971d4cd14f2f3166dd710be402bc9f6737ab5",
+    "continuous_capture.py": "8a3b9ec52e21f11976496781a9f0127e4b5e3f92faea681f235aa62d35416b21",
+    "contracts.py": "83d425846b63a4d3a77b51d78eaec6224662134b620cc2b66807687eb61745b8",
+    "device_performance.py": "70fcddf62e1862c42e0aa3a2c6aa1087bc76f743818a8d781e14dccc3a8df0c4",
+    "engineering0109.py": "188027ec7353a131abd7b69966e0355679ee34738eadc37b4a919b5ef992703f",
+    "focus0109.py": "53996d07d79dd75b0de4ff4b323932ca578c51cba64460401cc1d94f0f4df6f3",
+    "frozen_algorithm.py": "01e362b2a3540e10257549b6faef338c3b895eaed945478a784fa8cd48c780e3",
+    "hybrid.py": "47152b55a87d565483f0cae74d27fc157282ceb6ae30fda1ea6e01c095a78bf8",
+    "integrity.py": "27a3487c3b15d006b493b24a4c1344283d639517ad973eea4a54139ff656213b",
+    "location0109.py": "c499c364ed054a6b5ee228df33c2dd7943ca71fbbbe0c93b032898074c810036",
+    "performance.py": "db3b0bece07a20a63379f1b6a745dbed42e5c771610878e2acbaf331d9338de5",
+    "pipeline.py": "55d0dda2bccaa6952b3a53512489ab60387e85e63a1d1ba40eb1ebdcd4f6b87c",
+    "residual_access.py": "c7e20729a4ca2ebbe8a5f1bdd5eaf75df8be5cf34143c38bf6dff7aa8f6d7457",
+    "roi_prepare0109.py": "3ae404aeda07796f597bddf3ec1e0ea294d175aa0d689891ad5e2ebfedb3c218",
+    "session_batch.py": "3b37df6b19ec0ca03c79b77d0191927bbd0d780b023d70c918fdd4dacd3e6934",
+    "verified_evidence.py": "f5d8a9ccd5d2bd080506a5d14fc6c7ac651e8137c1bb2db99462a643f7ea2b73",
+    "worker.py": "c6c87b75ea6f037c02315034d03db418bda23fb288d7d77b7c586026f6a6a240",
+    "worker0109.py": "1f20405383ca024e62d5380adaaedbe8518e7a98c9b90e27f012ee3261092fbf"
+  },
+  "frozen_algorithm": "f09eb5885e1d"
+}

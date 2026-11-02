@@ -1,0 +1,9 @@
+item_id,item,model_or_spec,quantity,unit,confirmed_scope,pending_detail
+hw01,FPGA board,BX72-V1.1,1,board,Artix-7 xc7a100tfgg484-2,Supply rating and connector polarity from board documentation
+hw02,Camera,OV5640,1,module,DVP and SCCB,Exact module connector and lens specification
+hw03,Directional illumination,CH1 CH2 CH3 CH4,4,channel,Four confirmed light positions,LED count driver model load rating and supply
+hw04,Host PC,Windows PC,1,computer,External host for control audit and final algorithm,Exact hardware and frozen runtime requirements from integrator
+hw05,Ethernet connection,Board to PC,1,link,Left black cable in confirmed photograph,Adapter and network settings from integrator
+hw06,Board power,Board supply input,1,connection,Right white cable in confirmed photograph,Rated voltage current and polarity not established by this documentation
+hw07,Imaging enclosure,Confirmed workbench,1,setup,Camera lighting and workpiece layout,Mechanical dimensions and mounting details not fully specified
+hw08,External DDR,On-board memory,1,subsystem,32 MiB address reservation in current design,Physical device and IP configuration from actual engineering input

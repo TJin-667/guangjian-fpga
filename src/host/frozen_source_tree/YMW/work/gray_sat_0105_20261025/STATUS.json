@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-25",
+  "revision": "r2",
+  "stage": "ISOLATED_PRIMITIVE_AND_OFFLINE_CONTRACT_READY",
+  "coding_and_fixed_plan_tests": 9,
+  "RGB565_codes_in_software_and_RTL": 65536,
+  "checked_image_members": 24,
+  "unique_historical_inputs": 16,
+  "ooc_primitive": {
+    "LUT": 290,
+    "FF": 219,
+    "BRAM": 0,
+    "DSP": 0,
+    "clock_MHz": 125,
+    "internal_setup_slack_ns": 1.841,
+    "internal_hold_slack_ns": 0.202,
+    "summary_WNS_ns": 0.881,
+    "summary_WHS_ns": -0.219,
+    "all_timing_constraints_met": false,
+    "pending": "OOC port hold and actual integrated-board timing/constraints"
+  },
+  "new_board_bit_built": false,
+  "board_tested": false,
+  "new_fusion_validated": false,
+  "protected_files_unchanged": 35,
+  "team_messages_sent": false,
+  "TJ_is_current_execution_dependency": false,
+  "next": {
+    "XDL": "Confirm post-meeting route; update 004 references; fixed exposure, labels, fusion training and validation",
+    "YMW_assistant": "RTL sender/format/capability/CRC, full-board evidence, strict SDK/archive and fixed eight-frame entry",
+    "YMW_human": "Owner of former TJ task; all physical sampling, flashing and final现场验证"
+  },
+  "target_technical_freeze": "2026-10-30",
+  "target_video_and_materials": "2026-10-31"
+}

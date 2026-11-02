@@ -1,0 +1,44 @@
+{
+  "source_suite": "E:\\GuangjianData\\SystemBenchmark0109\\20261031_090644_5defee3a",
+  "source_suite_manifest_sha256": "59befe1fb2508deb2e835b61ac463f6bd8645a6c58235d7a4d6da48f5ee93be8",
+  "result_folders": {
+    "profile_01": {
+      "path": "E:\\GuangjianData\\reviews\\host_speed_step1_0109_20261031\\profile_01\\OUTPUT_MANIFEST.json",
+      "sha256": "55cd182c3aefbb3510c3b163cacfd500584f572ecd677622c58b5bb631a473eb",
+      "members": 5
+    },
+    "selftest_01": {
+      "path": "E:\\GuangjianData\\reviews\\host_speed_step1_0109_20261031\\selftest_01\\OUTPUT_MANIFEST.json",
+      "sha256": "05e710b5b78f528c566131d8086b51ba2e6a29103782a58e908de85569e3b4fb",
+      "members": 1
+    },
+    "pilot_01": {
+      "path": "E:\\GuangjianData\\reviews\\host_speed_step1_0109_20261031\\pilot_01\\OUTPUT_MANIFEST.json",
+      "sha256": "f281adeb8161ee7e0225f6c276df2a20cd7c6816c5d9b53ae7618b5a0849e662",
+      "members": 5
+    },
+    "full_export_01": {
+      "path": "E:\\GuangjianData\\reviews\\host_speed_step1_0109_20261031\\full_export_01\\OUTPUT_MANIFEST.json",
+      "sha256": "a21c608cc841da226e73c91568569d81e809f35d7253fc13c06fb59b988d0f71",
+      "members": 281
+    },
+    "export_audit_01": {
+      "path": "E:\\GuangjianData\\reviews\\host_speed_step1_0109_20261031\\export_audit_01\\OUTPUT_MANIFEST.json",
+      "sha256": "1ecff55985b10653a46cd0a99f3a9764cf700110f311cd27e9e8c4d6aac22eb3",
+      "members": 1
+    }
+  },
+  "published_receipts": {
+    "selftest_01/SELFTEST.json": "SELFTEST.json",
+    "pilot_01/RESULT.json": "PILOT_RESULT.json",
+    "pilot_01/EXECUTED_SOURCES.json": "PILOT_EXECUTED_SOURCES.json",
+    "full_export_01/RESULT.json": "FULL_EXPORT_RESULT.json",
+    "full_export_01/EXECUTED_SOURCES.json": "FULL_EXECUTED_SOURCES.json",
+    "export_audit_01/AUDIT.json": "EXPORT_AUDIT.json",
+    "profile_01/PROFILE.json": "PROFILE.json",
+    "profile_01/hybrid_original.txt": "profile_hybrid_original.txt",
+    "profile_01/dense_diagnostic.txt": "profile_dense_diagnostic.txt"
+  },
+  "raw_images_and_large_outputs_on_E_only": true,
+  "bit_sha256": "84530057679198ec1b7bd700c0bb9a97d803d605ac82db24b58f01161d4ac30e"
+}

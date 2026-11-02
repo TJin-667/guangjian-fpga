@@ -1,0 +1,13 @@
+bundle	sources	destinations	path_count	requirement_ns	slack_ns	startpoint	endpoint
+u_capture/requests	312	312	1	10.000	8.403	u_capture/requests/held_data_reg[310]/C	u_capture/requests/dst_data_reg[310]/D
+u_capture/cancellations	192	192	1	10.000	8.321	u_capture/cancellations/held_data_reg[189]/C	u_capture/cancellations/dst_data_reg[189]/D
+u_capture/published	396	396	1	8.000	5.880	u_capture/published/held_data_reg[280]/C	u_capture/published/dst_data_reg[280]/D
+u_manual/requests	27	27	1	20.000	18.494	u_manual/requests/held_data_reg[5]/C	u_manual/requests/dst_data_reg[5]/D
+u_manual/responses	131	131	1	8.000	6.829	u_manual/responses/held_data_reg[49]/C	u_manual/responses/dst_data_reg[49]/D
+u_off_commands	512	512	1	10.000	8.214	u_off_commands/held_data_reg[397]/C	u_off_commands/captured_data_reg[397]/D
+u_off_replies	256	256	1	8.000	5.943	u_off_replies/held_data_reg[145]/C	u_off_replies/captured_data_reg[145]/D
+u_off_result_data	192	192	1	8.000	6.219	u_off_result_data/held_data_reg[151]/C	u_off_result_data/captured_data_reg[151]/D
+u_off_h2_bridge/u_cfg	96	96	1	10.000	8.589	u_off_h2_bridge/u_cfg/held_data_reg[7]/C	u_off_h2_bridge/u_cfg/captured_data_reg[7]/D
+u_off_h2_bridge/u_records	96	96	1	10.000	7.658	u_off_h2_bridge/u_records/held_data_reg[58]/C	u_off_h2_bridge/u_records/captured_data_reg[58]/D
+u_off_h2_bridge/u_finish	96	96	1	10.000	8.395	u_off_h2_bridge/u_finish/held_data_reg[88]/C	u_off_h2_bridge/u_finish/captured_data_reg[88]/D
+u_off_h2_bridge/u_result	128	128	1	8.000	6.334	u_off_h2_bridge/u_result/held_data_reg[49]/C	u_off_h2_bridge/u_result/captured_data_reg[49]/D

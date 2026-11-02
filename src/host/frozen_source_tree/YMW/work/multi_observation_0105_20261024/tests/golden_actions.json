@@ -1,0 +1,69 @@
+{
+  "scope": "Hand-written transport action goldens with injected policy decisions, not validated XDL image scores or online algorithm goldens",
+  "scenarios": [
+    {
+      "name": "normal_complete_coverage",
+      "actions": [[1,400,"base"],[2,500,"base"],[3,600,"base"],[4,800,"base"]],
+      "stop": ["STOP","injected acceptable quality without candidates"],
+      "faults": [],
+      "expected_requests": [[1,400],[2,500],[3,600],[4,800]],
+      "expected_status": "STOP", "expected_accepted": 4, "expected_reserved_frames": 20
+    },
+    {
+      "name": "weak_segment_local_supplements",
+      "actions": [[1,400,"base"],[2,500,"base"],[3,600,"base"],[4,800,"base"],[1,800,"supplement"],[4,400,"supplement"]],
+      "stop": ["STOP","injected complement requests complete"],
+      "faults": [],
+      "expected_requests": [[1,400],[2,500],[3,600],[4,800],[1,800],[4,400]],
+      "expected_status": "STOP", "expected_accepted": 6, "expected_reserved_frames": 30
+    },
+    {
+      "name": "two_additional_fresh_confirmations",
+      "actions": [[1,600,"base"],[1,600,"confirm"],[1,600,"confirm"],[2,500,"base"],[3,600,"base"],[4,700,"base"]],
+      "stop": ["STOP","injected stable confirmation decisions; no real calibration claim"],
+      "faults": [],
+      "expected_requests": [[1,600],[1,600],[1,600],[2,500],[3,600],[4,700]],
+      "expected_status": "STOP", "expected_accepted": 6, "expected_reserved_frames": 30
+    },
+    {
+      "name": "highlight_dark_conflict_review",
+      "actions": [[1,600,"base"]],
+      "stop": ["REVIEW","injected spatial highlight-dark conflict"],
+      "faults": [],
+      "expected_requests": [[1,600]],
+      "expected_status": "REVIEW", "expected_accepted": 1, "expected_reserved_frames": 5
+    },
+    {
+      "name": "readback_retry_same_setting",
+      "actions": [[1,400,"base"],[2,500,"base"],[3,600,"base"],[4,800,"base"]],
+      "stop": ["STOP","injected acceptable quality"],
+      "faults": ["bad_readback"],
+      "expected_requests": [[1,400],[1,400],[2,500],[3,600],[4,800]],
+      "expected_status": "STOP", "expected_accepted": 4, "expected_reserved_frames": 25
+    },
+    {
+      "name": "missing_frame_retry_exhausted",
+      "actions": [[1,600,"base"]],
+      "stop": ["STOP","must not reach this decision"],
+      "faults": ["timeout","timeout"],
+      "expected_requests": [[1,600],[1,600]],
+      "expected_status": "CAPTURE_FAILED", "expected_accepted": 0, "expected_reserved_frames": 10
+    },
+    {
+      "name": "rejected_frame_reused_on_retry",
+      "actions": [[1,400,"base"]],
+      "stop": ["STOP","must not reach this decision"],
+      "faults": ["bad_readback","reuse_first"],
+      "expected_requests": [[1,400],[1,400]],
+      "expected_status": "CAPTURE_FAILED", "expected_accepted": 0, "expected_reserved_frames": 10
+    },
+    {
+      "name": "retry_limited_by_whole_run_budget",
+      "actions": [[1,600,"base"]],
+      "stop": ["STOP","must not reach this decision"],
+      "faults": ["bad_readback"], "max_attempts": 1,
+      "expected_requests": [[1,600]],
+      "expected_status": "REVIEW", "expected_accepted": 0, "expected_reserved_frames": 5
+    }
+  ]
+}

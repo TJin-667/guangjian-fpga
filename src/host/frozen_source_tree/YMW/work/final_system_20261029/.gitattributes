@@ -1,0 +1,3 @@
+* -text whitespace=cr-at-eol
+# Keep original external tool log bytes, including their emitted trailing spaces.
+verification/ROI_LATCH_*_tool.txt -whitespace

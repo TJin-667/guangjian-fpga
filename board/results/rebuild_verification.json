@@ -1,0 +1,15 @@
+{
+  "status": "FPGA_REBUILD_COMPLETED",
+  "source_files": 50,
+  "algorithm_or_RTL_changed": false,
+  "hardware_contacted": false,
+  "bit_programmed": false,
+  "vivado_version": "Vivado v2018.3 (64-bit)\nSW Build 2405991 on Thu Dec  6 23:38:27 MST 2018\nIP Build 2404404 on Fri Dec  7 01:43:56 MST 2018\nCopyright 1986-2018 Xilinx, Inc. All Rights Reserved.",
+  "bit_generation_requested": false,
+  "existing_bit_sha256": "84530057679198ec1b7bd700c0bb9a97d803d605ac82db24b58f01161d4ac30e",
+  "exit_code": 0,
+  "rebuilt_checkpoint_sha256": "4f4329c53f5552f0e873076ea2d89ec8297b27e4ffc5f8b988379350290ed433",
+  "rebuild_does_not_requalify_existing_bit": true,
+  "existing_bit_unchanged": true,
+  "source_receipt_sha256": "b94cbfdf1a4942aca418a08c16c74a7aadd9be76572870cc3d24866c7e4d8b8d"
+}

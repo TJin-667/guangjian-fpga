@@ -1,0 +1,62 @@
+{
+  "schema": "guangjian-host-performance-v1",
+  "clock": "perf_counter_ns",
+  "scope": "host_wall_clock_inclusive",
+  "elapsed_seconds": 2.254207,
+  "events": [
+    {
+      "name": "native_input_validation",
+      "seconds": 0.1117828,
+      "success": true,
+      "inclusive": true,
+      "requested_mode": "reuse"
+    },
+    {
+      "name": "hybrid_context_quality_and_R32_decode",
+      "seconds": 0.144394,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "frozen_algorithm_compute",
+      "seconds": 0.2376071,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "group_images_and_report",
+      "seconds": 0.0539154,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "finalize_reports_and_freeze_checks",
+      "seconds": 0.7700957,
+      "success": true,
+      "inclusive": true
+    }
+  ],
+  "rpc": {},
+  "capture_costs": [],
+  "summed_wire_cost": {
+    "udp_sent_packets": 0,
+    "udp_sent_bytes": 0,
+    "udp_received_packets": 0,
+    "udp_received_bytes": 0,
+    "command_retries": 0,
+    "capture_requests": 0,
+    "saved_images": 0
+  },
+  "FPGA_core_cycles": null,
+  "FPGA_core_speedup": null,
+  "nested_events_must_not_be_summed": true,
+  "status": "COMPLETE",
+  "validation_mode": "VERIFIED_HASH_REUSE",
+  "parameter_freeze_id": "f09eb5885e1d",
+  "physical_hardware_input": false,
+  "hardware_contacted_by_this_worker": false,
+  "source_capture_profile": null,
+  "source_capture_profile_sha256": null,
+  "source_group": "SOFTWARE109_NOT_TRAINING_g1",
+  "caveat": "This worker replays saved inputs; its wall time is not FPGA compute time or acquisition end-to-end time."
+}

@@ -1,0 +1,52 @@
+{
+  "status": "PASS_OFFLINE_BOARD_PENDING",
+  "version": "v1.5",
+  "parameter_freeze_id": "f09eb5885e1d",
+  "tests": 60,
+  "session_guard_tests": 4,
+  "distinct_real_native_groups": 2,
+  "distinct_physical_boards_in_replay": 3,
+  "full_pipeline_replays": 7,
+  "formal10_final_cold_differences": {
+    "original": 0,
+    "guide6_20": 0,
+    "without_sleeve": 0,
+    "candidate": 0,
+    "side_addition": 0,
+    "side_envelope": 0,
+    "isolated6": 0,
+    "isolated_low": 0,
+    "terminal_extension": 0,
+    "ordinary": 0
+  },
+  "formal10_final_reuse_differences": {
+    "original": 0,
+    "guide6_20": 0,
+    "without_sleeve": 0,
+    "candidate": 0,
+    "side_addition": 0,
+    "side_envelope": 0,
+    "isolated6": 0,
+    "isolated_low": 0,
+    "terminal_extension": 0,
+    "ordinary": 0
+  },
+  "full_frozen_evidence_and_scores_equal": true,
+  "default_pixel_format": 50,
+  "gray49_software_loopback_equal": true,
+  "gray49_real_board_verified": false,
+  "protected_bit_and_qualification_files_unchanged": [
+    "installed/candidate0108/BIT_BUILD_RECEIPT.json",
+    "installed/candidate0108/bx72_0108_fusion_EXPERIMENTAL_NOT_RELEASED.bit",
+    "installed/candidate0108/QUALIFICATION.json",
+    "installed/candidate0108/ROUTE_VERIFICATION.json"
+  ],
+  "frozen_algorithm_sources_verified": true,
+  "actual_board_commands": 0,
+  "new_physical_captures": 0,
+  "FPGA_core_cycles": null,
+  "FPGA_speedup": null,
+  "physical_end_to_end_measurement_complete": false,
+  "warm_release_input_validation_seconds": 0.4689728,
+  "evidence_note": "Initial and guard timing sources archived separately; final tests/release checks use current source. Changes after guard timing only add optional cache-storage failure fallback and source-linked timing fields."
+}

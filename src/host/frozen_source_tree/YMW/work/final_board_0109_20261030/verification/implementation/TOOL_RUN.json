@@ -1,0 +1,21 @@
+{
+  "returncode": 0,
+  "wall_seconds": 1881.1869999999908,
+  "source_unchanged": true,
+  "bit_generated": false,
+  "command": [
+    "F:/Xilinx/Vivado/2018.3/bin/vivado.bat",
+    "-mode",
+    "batch",
+    "-source",
+    "E:\\GuangjianData\\final_board_0109_20261030\\implementation_02\\source\\synth\\build_board.tcl",
+    "-log",
+    "E:\\GuangjianData\\final_board_0109_20261030\\implementation_02\\vivado.log",
+    "-journal",
+    "E:\\GuangjianData\\final_board_0109_20261030\\implementation_02\\vivado.jou",
+    "-tclargs",
+    "E:\\GuangjianData\\final_board_0109_20261030\\implementation_02\\ymw",
+    "E:\\GuangjianData\\final_board_0109_20261030\\implementation_02\\build",
+    "board"
+  ]
+}

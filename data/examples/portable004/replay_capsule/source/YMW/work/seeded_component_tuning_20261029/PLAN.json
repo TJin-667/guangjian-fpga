@@ -1,0 +1,37 @@
+{
+  "schema": "seeded-component-development-plan-v1",
+  "weak": 6,
+  "protected_strong": 20,
+  "development_groups": [
+    "sample003_A_v1_20261027_175425_a05009",
+    "sample004_A_v1_20261028_220937_87f02b",
+    "sample005_A_v1_20261028_015004_fa1bef"
+  ],
+  "development_hold_check_groups": [
+    "sample004_A_v1_20261026_182329_f92570",
+    "sample005_A_v1_20261026_164841_8ca186"
+  ],
+  "remaining_groups": "Other existing sample003/004/005 exposures: stress checks only, no exposure reselection.",
+  "grid": {
+    "strong": [12, 14, 16],
+    "geometry": [[6, 0.5], [8, 0.6], [10, 0.65]],
+    "raw_operating_points": [[0.65, 2.0], [0.75, 2.5], [0.85, 3.0]],
+    "chain": ["off", "tight", "previous"],
+    "max_median_width_proxy": [3, 5],
+    "min_area": [3, 6]
+  },
+  "profile_initial": {"length": 13, "flank": 3.0},
+  "profile_sensitivity_top": 3,
+  "profile_sensitivity": {"length": [9, 13, 17], "flank": [2.5, 3.0, 3.5]},
+  "selection_before_hold_checks": {
+    "hard_constraints": ["preserve original8/20 and protected6/20", "each added board component contains an actual strict strong seed", "subset of ordinary6/12", "no added pixels adjacent to protected components", "no painted gaps", "no independent unseeded chain"],
+    "known_004_path_min_positions": 116,
+    "known_path_floor_reason": "Retain at least 60% of the 66-to-148 incremental approximate-path support; ceil(66+0.60*82)=116. This is an engineering preference, not recall.",
+    "retain_line10_geometry_anchor_fraction_per_development_group": 0.6,
+    "anchor_definition": "Seed12, area>=3, span>=10, local line fraction>=0.6, width proxy<=5; unlabeled conservative line-like supplement, not ground truth.",
+    "risk_proxy": "Added component is compact_or_fragmentary if area<6 OR skeleton span<6 OR local line fraction<0.5. This is not a false-positive label.",
+    "ranking": ["minimum compact_or_fragmentary component count per board megapixel, equally averaged across physical boards", "minimum compact_or_fragmentary area per board megapixel", "minimum total added area per board megapixel", "simpler chain", "stable config ID"],
+    "fallback": "If no config qualifies, retain Pareto alternatives and report no selected config rather than silently relax constraints."
+  },
+  "limits": ["All data development; only three physical boards", "Same-board additional poses are not independent tests", "007-010 excluded", "No background truth: no precision, FPR, calibrated confidence or global optimality claim", "Known004 hand path may be used for developmental parameter selection; inference must never read it", "Original6/20 broadening relative to8/20 is protected and not reversed"]
+}

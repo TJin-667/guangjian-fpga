@@ -1,0 +1,65 @@
+rule	property	value
+REQP-1839	ARCHITECTURES	
+REQP-1839	CHECKER	Checking Logical netlist
+REQP-1839	CLASS	rule_check
+REQP-1839	DESCRIPTION	RAMB36 async control check
+REQP-1839	FEATURES	DRCHARC.RAMB36=E1
+REQP-1839	FIRST_RELEASE	2015.1
+REQP-1839	GROUP	REQP
+REQP-1839	HIERNAME	Netlist.Instance.Required Pin.RAMB36E1
+REQP-1839	IS_ENABLED	1
+REQP-1839	IS_READ_ONLY	0
+REQP-1839	IS_USER_DEFINED	0
+REQP-1839	MESSAGE	The <MESSAGE_STRING> <NETLIST_ELEMENT> has an input control pin <NETLIST_ELEMENT> (net: <NETLIST_ELEMENT>) which is driven by a register (<NETLIST_ELEMENT>) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+REQP-1839	MSG_ID	1839
+REQP-1839	NAME	REQP-1839
+REQP-1839	OWNER	sshafer
+REQP-1839	SEVERITY	Warning
+REQP-1840	ARCHITECTURES	
+REQP-1840	CHECKER	Checking Logical netlist
+REQP-1840	CLASS	rule_check
+REQP-1840	DESCRIPTION	RAMB18 async control check
+REQP-1840	FEATURES	DRCHARC.RAMB18=E1
+REQP-1840	FIRST_RELEASE	2015.1
+REQP-1840	GROUP	REQP
+REQP-1840	HIERNAME	Netlist.Instance.Required Pin.RAMB18E1
+REQP-1840	IS_ENABLED	1
+REQP-1840	IS_READ_ONLY	0
+REQP-1840	IS_USER_DEFINED	0
+REQP-1840	MESSAGE	The <MESSAGE_STRING> <NETLIST_ELEMENT> has an input control pin <NETLIST_ELEMENT> (net: <NETLIST_ELEMENT>) which is driven by a register (<NETLIST_ELEMENT>) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+REQP-1840	MSG_ID	1840
+REQP-1840	NAME	REQP-1840
+REQP-1840	OWNER	sshafer
+REQP-1840	SEVERITY	Warning
+PLCK-23	ARCHITECTURES	
+PLCK-23	CHECKER	Checking Placer rules
+PLCK-23	CLASS	rule_check
+PLCK-23	DESCRIPTION	Clock Placer Checks
+PLCK-23	FEATURES	
+PLCK-23	GROUP	PLCK
+PLCK-23	HIERNAME	Implementation.Placement.Clocks
+PLCK-23	IS_ENABLED	1
+PLCK-23	IS_READ_ONLY	0
+PLCK-23	IS_USER_DEFINED	0
+PLCK-23	MESSAGE	Sub-optimal placement for a clock-capable IO pin and MMCM pair. 
+Resolution: A dedicated routing path between the two can be used if: (a) The clock-capable IO (CCIO) is placed on a CCIO capable site (b) The MMCM is placed in the same clock region as the CCIO pin. If the IOB is driving multiple MMCMs, all MMCMs must be placed in the same clock region, one clock region above or one clock region below the IOB. Both the above conditions must be met at the same time, else it may lead to longer and less predictable clock insertion delays.
+ <MESSAGE_STRING>
+PLCK-23	MSG_ID	23
+PLCK-23	NAME	PLCK-23
+PLCK-23	OWNER	ajoshi
+PLCK-23	SEVERITY	Error
+REQP-1709	ARCHITECTURES	
+REQP-1709	CHECKER	Checking Logical netlist
+REQP-1709	CLASS	rule_check
+REQP-1709	DESCRIPTION	Clock output buffering
+REQP-1709	FEATURES	DRCHARC.PLLE2_ADV=
+REQP-1709	GROUP	REQP
+REQP-1709	HIERNAME	Netlist.Instance.Required Pin.PLLE2_ADV
+REQP-1709	IS_ENABLED	1
+REQP-1709	IS_READ_ONLY	0
+REQP-1709	IS_USER_DEFINED	0
+REQP-1709	MESSAGE	<MESSAGE_STRING> connectivity violation. The signal <NETLIST_ELEMENT> on the <NETLIST_ELEMENT> pin of <NETLIST_ELEMENT> does not drive the same kind of BUFFER load as the other CLKOUT pins. Routing from the different buffer types will not be phase aligned<MESSAGE_STRING>
+REQP-1709	MSG_ID	1709
+REQP-1709	NAME	REQP-1709
+REQP-1709	OWNER	sshafer
+REQP-1709	SEVERITY	Warning

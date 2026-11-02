@@ -1,0 +1,30 @@
+[
+  {
+    "seq": 11150,
+    "packet_hex": "4c47485401862b8e001601010831070005640780043842f0e1eba9ea36930001",
+    "decoded": {
+      "firmware": 264,
+      "format": 49,
+      "formats": [
+        1,
+        49,
+        50
+      ],
+      "payload_crc64_required": true
+    }
+  },
+  {
+    "seq": 11157,
+    "packet_hex": "4c47485401862b95001601010831070005640780043842f0e1eba9ea36930001",
+    "decoded": {
+      "firmware": 264,
+      "format": 49,
+      "formats": [
+        1,
+        49,
+        50
+      ],
+      "payload_crc64_required": true
+    }
+  }
+]

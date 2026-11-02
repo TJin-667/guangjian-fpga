@@ -1,0 +1,22 @@
+test_busy_external_owner_prevents_any_CAP_and_does_not_rebind (__main__.BatchTests.test_busy_external_owner_prevents_any_CAP_and_does_not_rebind) ... ok
+test_cancel_before_IO_does_not_create_a_connection (__main__.BatchTests.test_cancel_before_IO_does_not_create_a_connection) ... ok
+test_changed_format_forces_upload_and_preserves_dualview (__main__.BatchTests.test_changed_format_forces_upload_and_preserves_dualview) ... ok
+test_changed_mask_forces_new_session_and_upload (__main__.BatchTests.test_changed_mask_forces_new_session_and_upload) ... ok
+test_changed_roi_forces_new_session_and_upload (__main__.BatchTests.test_changed_roi_forces_new_session_and_upload) ... ok
+test_control_budget_exhaustion_rotates_only_between_groups (__main__.BatchTests.test_control_budget_exhaustion_rotates_only_between_groups) ... ok
+test_corrupt_second_result_preserves_first_and_never_releases_bad_bank (__main__.BatchTests.test_corrupt_second_result_preserves_first_and_never_releases_bad_bank) ... ok
+test_exclusive_owner_is_retained_between_groups_and_released_on_close (__main__.BatchTests.test_exclusive_owner_is_retained_between_groups_and_released_on_close) ... ok
+test_external_reset_is_not_silently_rebound_or_reused (__main__.BatchTests.test_external_reset_is_not_silently_rebound_or_reused) ... ok
+test_invalid_or_replayed_plan_refuses_before_CAP (__main__.BatchTests.test_invalid_or_replayed_plan_refuses_before_CAP) ... ok
+test_manual_pair_changes_preserve_session_and_freeze_each_group (__main__.BatchTests.test_manual_pair_changes_preserve_session_and_freeze_each_group) ... ok
+test_missing_OFF_ack_disables_reuse_even_after_good_result (__main__.BatchTests.test_missing_OFF_ack_disables_reuse_even_after_good_result) ... ok
+test_new_sample_and_stage_metadata_keep_geometry_but_do_not_copy_frames (__main__.BatchTests.test_new_sample_and_stage_metadata_keep_geometry_but_do_not_copy_frames) ... ok
+test_parallel_capture_refused_without_board_command (__main__.BatchTests.test_parallel_capture_refused_without_board_command) ... ok
+test_tampered_previous_archive_stops_warm_capture (__main__.BatchTests.test_tampered_previous_archive_stops_warm_capture) ... ok
+test_two_full_groups_same_session_second_mask_zero_and_f09_equal (__main__.BatchTests.test_two_full_groups_same_session_second_mask_zero_and_f09_equal) ... ok
+test_unsupported_exposure_rejected_before_any_CAP (__main__.BatchTests.test_unsupported_exposure_rejected_before_any_CAP) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 67.958s
+
+OK

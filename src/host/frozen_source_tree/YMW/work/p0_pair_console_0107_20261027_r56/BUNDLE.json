@@ -1,0 +1,25 @@
+{
+  "schema": "P0-console-source-binding-v1",
+  "files_sha256": {
+    "capture_backend.py": "3d9e4c6e167d396327d2daa6a64eb1ad1ccb27c0e2ed8d1ecd01d4ee7dafef72",
+    "console_workflow.py": "0acc8ddaf8d39113a807ad16a258cfea83c7d078aa6f48c08ca3540fe779df80",
+    "console_app.py": "08faf55803f28f4efafcd1a9eff405dffe62e081e70a11675b14ab7ed0c9785e",
+    "analysis_worker.py": "27f585abb9f40e9f3496d9934516a72e62c3641c797ab616647080a3626417c7",
+    "focus_tools.py": "8d63778a55cb63e9f2305440a49e580cbd43a09b6826647c99c232ad33055e01",
+    "focus_loop.py": "693e999a0ccc726bd06d3f3dc9adbeb91315daf1095fe517adce6d9e55c6e02d",
+    "auto_location.py": "a46a1698b26ac982c32125cd87e8b6bc22652e639b768ad9621e26f0227bdd12",
+    "plate_locator.py": "6a663d4216937f004f1281672c42553bba22809f02c1ca4344386d3bd5c66937",
+    "roi_geometry.py": "dcfd9eb56ab50021f19cd710aeb21ff58b28f1551092999c46dd7174bd0aeafa",
+    "xdl_crop_adapter.py": "e0e02b538a50474ce2de0b5da6430b43d454898674a3371af2714c39f8faeec3",
+    "xdl_crop_runner.py": "5e6f95502c4018a721ad03a83b3aac0937b487e1f41ea20d02f8357df796d53e",
+    "fast_focus.py": "6231daf8bd6795852cc39d935173d2f9da337cbf66ecf2ebcf0fc13eb08a4369",
+    "CRC_BUILD.json": "fc582a01a3e80740f897932339080ae523824ca20a7735d4073d8c6c72fed04b",
+    "preview_crc64.c": "da6598eb46bf2dd8f08e4c26b1b5d5e98c3e007135e058a2cf3685436a449c4d",
+    "preview_crc64.dll": "9ee01017dafcc99b0ea83ee3cc4d57b3a190a5f0dd16ee4535ccae5f4fd81031",
+    "eight_compare.py": "ba5a59caa789e11b2d1da1346c8c813e7f3e8b56798709e7e91a756dad1bb967",
+    "capture_settings.py": "2bd9b30403e129cfe191391040def505474eab48ef100279c84623cc2dc059de",
+    "configured_eight.py": "d5ae19299379111523dac8587420854edf18901005cf8404e044ae82e9ba6d9c",
+    "configured_bridge.py": "aec96396b1923693906d4242f23e1a45b594e70719c599305de745ae983b9421"
+  },
+  "parent_P0_sha256": "352da14691bb71cb9fa0b38aafe4c92405efafd2785a7f7e5e67bac088c9c0a7"
+}

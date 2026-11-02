@@ -1,0 +1,15 @@
+{
+  "client_date": "2026-10-24",
+  "physical_specimen_id": "sample005",
+  "user_statement": "这个是005工件的识别,基本没有问题,你可以复查一下.",
+  "scope": "qualitative human acceptance of these supplied outputs; not per-pixel truth, exact endpoints or complete detection accuracy",
+  "archives": [
+    {"path": "C:/BX72_0105_LAB/results/inspection_online_sample005_A_v0_20261024_165421_6dd55f.zip", "sha256": "47b1ad9398e5a96a873fa263d149252a877a46befb34bf3e27d94a9da73336e1"},
+    {"path": "C:/BX72_0105_LAB/results/inspection_online_sample005_A_v1_20261024_171608_33d8bd.zip", "sha256": "bb7a0991d8bcb8f147641086f4fda3e2995420d9799ba09d137bc74db91e4678"}
+  ],
+  "manufacturing_tool": null,
+  "passes_per_curve": null,
+  "exact_paths_and_endpoints_confirmed": false,
+  "all_extra_candidates_adjudicated": false,
+  "physical_plate_count_increase": 1
+}

@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "group_id": "sample003_A_v1_20261027_175425_a05009",
+      "all_eight_residual_pixels_equal": true,
+      "b1_differences": {
+        "residual_n": 0,
+        "source_frame": 0,
+        "unknown": 0,
+        "source_direction": 0,
+        "source_exposure": 0,
+        "polarity": 0,
+        "weak": 0,
+        "strong": 0,
+        "connected_mask": 0,
+        "mask": 0
+      },
+      "formal10_differences": {
+        "original": 0,
+        "guide6_20": 0,
+        "without_sleeve": 0,
+        "candidate": 0,
+        "side_addition": 0,
+        "side_envelope": 0,
+        "isolated6": 0,
+        "isolated_low": 0,
+        "terminal_extension": 0,
+        "ordinary": 0
+      },
+      "full_review_evidence_exact_equal": true,
+      "scores_exact_equal": true,
+      "review_tiles_computed": 64,
+      "peak_host_tile_cache_bytes": 524288
+    },
+    {
+      "group_id": "sample004_A_v1_20261028_220937_87f02b",
+      "all_eight_residual_pixels_equal": true,
+      "b1_differences": {
+        "residual_n": 0,
+        "source_frame": 0,
+        "unknown": 0,
+        "source_direction": 0,
+        "source_exposure": 0,
+        "polarity": 0,
+        "weak": 0,
+        "strong": 0,
+        "connected_mask": 0,
+        "mask": 0
+      },
+      "formal10_differences": {
+        "original": 0,
+        "guide6_20": 0,
+        "without_sleeve": 0,
+        "candidate": 0,
+        "side_addition": 0,
+        "side_envelope": 0,
+        "isolated6": 0,
+        "isolated_low": 0,
+        "terminal_extension": 0,
+        "ordinary": 0
+      },
+      "full_review_evidence_exact_equal": true,
+      "scores_exact_equal": true,
+      "review_tiles_computed": 256,
+      "peak_host_tile_cache_bytes": 2097152
+    },
+    {
+      "group_id": "sample005_A_v1_20261028_015004_fa1bef",
+      "all_eight_residual_pixels_equal": true,
+      "b1_differences": {
+        "residual_n": 0,
+        "source_frame": 0,
+        "unknown": 0,
+        "source_direction": 0,
+        "source_exposure": 0,
+        "polarity": 0,
+        "weak": 0,
+        "strong": 0,
+        "connected_mask": 0,
+        "mask": 0
+      },
+      "formal10_differences": {
+        "original": 0,
+        "guide6_20": 0,
+        "without_sleeve": 0,
+        "candidate": 0,
+        "side_addition": 0,
+        "side_envelope": 0,
+        "isolated6": 0,
+        "isolated_low": 0,
+        "terminal_extension": 0,
+        "ordinary": 0
+      },
+      "full_review_evidence_exact_equal": true,
+      "scores_exact_equal": true,
+      "review_tiles_computed": 200,
+      "peak_host_tile_cache_bytes": 1638400
+    }
+  ],
+  "R32_source": "software_packed_frozen_reference_NOT_hardware_readback",
+  "hardware_tested": false,
+  "performance_comparison_done": false
+}

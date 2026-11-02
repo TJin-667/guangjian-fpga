@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": 1,
+      "status": "PASS",
+      "fault": "",
+      "extension_fault": "",
+      "format": 49,
+      "low": 300,
+      "high": 700,
+      "frames": 8,
+      "capture_requests": 8,
+      "success": true,
+      "failure": null
+    },
+    {
+      "case": 2,
+      "status": "PASS",
+      "fault": "",
+      "extension_fault": "lose_first_arm_ack",
+      "format": 49,
+      "low": 350,
+      "high": 900,
+      "frames": 8,
+      "capture_requests": 8,
+      "success": true,
+      "failure": null
+    },
+    {
+      "case": 3,
+      "status": "PASS",
+      "fault": "",
+      "extension_fault": "wrong_stream_crc",
+      "format": 49,
+      "low": 400,
+      "high": 800,
+      "frames": 7,
+      "capture_requests": 8,
+      "success": false,
+      "failure": {
+        "type": "AcquisitionError",
+        "message": "0109 result payload CRC32",
+        "code": "EXECUTOR_ERROR"
+      }
+    },
+    {
+      "case": 4,
+      "status": "PASS",
+      "fault": "wrong_H2",
+      "extension_fault": "",
+      "format": 49,
+      "low": 400,
+      "high": 800,
+      "frames": 0,
+      "capture_requests": 1,
+      "success": false,
+      "failure": {
+        "type": "AcquisitionError",
+        "message": "H1/H2 content mismatch",
+        "code": "ASSOCIATION_FAILED"
+      }
+    },
+    {
+      "case": 5,
+      "status": "PASS",
+      "fault": "",
+      "extension_fault": "",
+      "format": 50,
+      "low": 400,
+      "high": 800,
+      "frames": 8,
+      "capture_requests": 8,
+      "success": true,
+      "failure": null
+    },
+    {
+      "case": 6,
+      "status": "PASS",
+      "fault": "",
+      "extension_fault": "wrong_profile_crc",
+      "format": 49,
+      "low": 400,
+      "high": 800,
+      "frames": 0,
+      "capture_requests": 1,
+      "success": false,
+      "failure": {
+        "type": "AcquisitionError",
+        "message": "0109 result payload CRC32",
+        "code": "EXECUTOR_ERROR"
+      }
+    },
+    {
+      "case": 7,
+      "status": "PASS",
+      "fault": "",
+      "extension_fault": "wrong_profile_clock",
+      "format": 49,
+      "low": 400,
+      "high": 800,
+      "frames": 0,
+      "capture_requests": 1,
+      "success": false,
+      "failure": {
+        "type": "AcquisitionError",
+        "message": "Profile schema/stage/frequency mismatch",
+        "code": "EXECUTOR_ERROR"
+      }
+    },
+    {
+      "case": 8,
+      "status": "PASS",
+      "fault": "",
+      "extension_fault": "wrong_config_echo",
+      "format": 49,
+      "low": 300,
+      "high": 700,
+      "frames": 0,
+      "capture_requests": 0,
+      "success": false,
+      "failure": {
+        "type": "AcquisitionError",
+        "message": "Board frozen exposure differs from requested pair",
+        "code": "EXECUTOR_ERROR"
+      }
+    },
+    {
+      "case": 9,
+      "status": "PASS",
+      "check": "No qualification or illegal exposure refuses before socket"
+    }
+  ],
+  "physical_hardware": false,
+  "timing_values_are_software_model": true,
+  "new_bit_generated": false
+}

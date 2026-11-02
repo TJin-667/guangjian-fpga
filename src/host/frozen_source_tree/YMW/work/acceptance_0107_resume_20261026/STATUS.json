@@ -1,0 +1,15 @@
+{
+  "entry_fixed": true,
+  "progress_visible": true,
+  "same_frozen_hardware_verified": true,
+  "gray_and_SAT_mismatches": 0,
+  "independent_H1_H2_and_CRC_verified": true,
+  "strict_gray_commits_existing": 5,
+  "complete_eight_hardware_verified": false,
+  "hardware_reset_verified": false,
+  "release_ready": false,
+  "production09_switched": false,
+  "bit_unchanged": true,
+  "next_maximum_CAP": 9,
+  "hardware_commands_by_assistant_this_turn": 0
+}

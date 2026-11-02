@@ -1,0 +1,62 @@
+test_0107_cannot_pass_as_0109 (__main__.LoopbackTests.test_0107_cannot_pass_as_0109) ... {"status": "FAILED", "result_directory": "E:\\GuangjianData\\final_board_0109_20261030\\reset_04\\cases\\old_firmware", "phase": "post_reset_read_before_BIND", "error": {"type": "ValueError", "message": "unsupported capability/version/sequence"}}
+ok
+test_busy_owner_prevents_any_seed_or_board_command (__main__.LoopbackTests.test_busy_owner_prevents_any_seed_or_board_command) ... {"status": "FAILED", "result_directory": "E:\\GuangjianData\\final_board_0109_20261030\\reset_04\\cases\\busy_owner", "phase": "seed", "error": {"type": "RuntimeError", "message": "Already owned"}}
+ok
+test_complete_shared_SDK_reset_and_recovery (__main__.LoopbackTests.test_complete_shared_SDK_reset_and_recovery) ... RECOVERY_FRAME 1 / 8
+RECOVERY_FRAME 2 / 8
+RECOVERY_FRAME 3 / 8
+RECOVERY_FRAME 4 / 8
+RECOVERY_FRAME 5 / 8
+RECOVERY_FRAME 6 / 8
+RECOVERY_FRAME 7 / 8
+RECOVERY_FRAME 8 / 8
+{"status": "KEY2_ARMED_RESET_AND_RECOVERY_PASSED", "result_directory": "E:\\GuangjianData\\final_board_0109_20261030\\reset_04\\cases\\success", "phase": "complete", "error": null}
+ok
+test_corrupt_recovery_result_keeps_failure_and_bank (__main__.LoopbackTests.test_corrupt_recovery_result_keeps_failure_and_bank) ... RECOVERY_FRAME 1 / 8
+RECOVERY_FRAME 2 / 8
+RECOVERY_FRAME 3 / 8
+RECOVERY_FRAME 4 / 8
+RECOVERY_FRAME 5 / 8
+RECOVERY_FRAME 6 / 8
+RECOVERY_FRAME 7 / 8
+{"status": "FAILED", "result_directory": "E:\\GuangjianData\\final_board_0109_20261030\\reset_04\\cases\\bad_fetch", "phase": "new_session_eight_frame_recovery", "error": {"type": "AcquisitionError", "message": "0109 result payload CRC32"}}
+ok
+test_no_actual_reset_stops_before_recovery_CAP (__main__.LoopbackTests.test_no_actual_reset_stops_before_recovery_CAP) ... {"status": "FAILED", "result_directory": "E:\\GuangjianData\\final_board_0109_20261030\\reset_04\\cases\\no_reset", "phase": "post_reset_read_before_BIND", "error": {"type": "ValueError", "message": "Frame count/format not reset"}}
+ok
+test_old_fusion_group_is_rejected_before_recovery (__main__.LoopbackTests.test_old_fusion_group_is_rejected_before_recovery) ... {"status": "FAILED", "result_directory": "E:\\GuangjianData\\final_board_0109_20261030\\reset_04\\cases\\stale_group", "phase": "post_reset_read_before_BIND", "error": {"type": "ValueError", "message": "Old0109 state survived reset"}}
+ok
+test_old_metadata_is_rejected_before_recovery (__main__.LoopbackTests.test_old_metadata_is_rejected_before_recovery) ... {"status": "FAILED", "result_directory": "E:\\GuangjianData\\final_board_0109_20261030\\reset_04\\cases\\stale_metadata", "phase": "post_reset_read_before_BIND", "error": {"type": "ValueError", "message": "Old session/request survived reset"}}
+ok
+test_operator_stop_does_not_query_or_capture_recovery (__main__.LoopbackTests.test_operator_stop_does_not_query_or_capture_recovery) ... {"status": "FAILED", "result_directory": "E:\\GuangjianData\\final_board_0109_20261030\\reset_04\\cases\\cancel", "phase": "operator_KEY2", "error": {"type": "ValueError", "message": "Operator stopped"}}
+ok
+test_source_change_while_waiting_stops_before_reset_query (__main__.LoopbackTests.test_source_change_while_waiting_stops_before_reset_query) ... {"status": "FAILED", "result_directory": "E:\\GuangjianData\\final_board_0109_20261030\\reset_04\\cases\\changed_source", "phase": "post_reset_source_check", "error": {"type": "ValueError", "message": "Executable evidence changed during window"}}
+ok
+test_uncertain_ARM_retries_same_identity_without_extra_CAP (__main__.LoopbackTests.test_uncertain_ARM_retries_same_identity_without_extra_CAP) ... RECOVERY_FRAME 1 / 8
+RECOVERY_FRAME 2 / 8
+RECOVERY_FRAME 3 / 8
+RECOVERY_FRAME 4 / 8
+RECOVERY_FRAME 5 / 8
+RECOVERY_FRAME 6 / 8
+RECOVERY_FRAME 7 / 8
+RECOVERY_FRAME 8 / 8
+{"status": "KEY2_ARMED_RESET_AND_RECOVERY_PASSED", "result_directory": "E:\\GuangjianData\\final_board_0109_20261030\\reset_04\\cases\\lost_arm_ack", "phase": "complete", "error": null}
+ok
+test_cancelled_confirmation_does_not_wait_or_continue (__main__.ResetCriteriaTests.test_cancelled_confirmation_does_not_wait_or_continue) ... 
+现在请按板卡KEY2复位键约1秒后松开。不要断电或重新下载bit。
+完成后输入 RESET 并回车；输入其他内容将停止，保留全部记录。
+ok
+test_clean_context_requires_all_five_queries (__main__.ResetCriteriaTests.test_clean_context_requires_all_five_queries) ... ok
+test_import_and_real_qualification_constructor_remain_offline (__main__.ResetCriteriaTests.test_import_and_real_qualification_constructor_remain_offline) ... ok
+test_no_stale_fusion_flag_or_group_can_be_hidden (__main__.ResetCriteriaTests.test_no_stale_fusion_flag_or_group_can_be_hidden) ... ok
+test_old_firmware_not_accepted (__main__.ResetCriteriaTests.test_old_firmware_not_accepted) ... ok
+test_old_session_mask_or_frame_is_not_accepted (__main__.ResetCriteriaTests.test_old_session_mask_or_frame_is_not_accepted) ... ok
+test_operator_confirmation_waits_for_initialization (__main__.ResetCriteriaTests.test_operator_confirmation_waits_for_initialization) ... 
+现在请按板卡KEY2复位键约1秒后松开。不要断电或重新下载bit。
+完成后输入 RESET 并回车；输入其他内容将停止，保留全部记录。
+等待5秒，让板卡完成复位初始化，然后读取原始状态……
+ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 21.505s
+
+OK

@@ -1,0 +1,8 @@
+{
+  "data_root": "_work/data",
+  "network": {
+    "board": "192.168.0.2",
+    "bind": "192.168.0.3",
+    "port": 5000
+  }
+}

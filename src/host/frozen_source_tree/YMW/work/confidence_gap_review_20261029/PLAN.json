@@ -1,0 +1,49 @@
+{
+  "schema": "gap-and-local-shape-review-v1",
+  "formal_config_id": "4c0be2d44fdd",
+  "gap": {
+    "min_component_area": 3,
+    "min_component_span": 3,
+    "max_component_width": 7,
+    "min_local_line_fraction": 0.30,
+    "trace_steps": 7,
+    "min_trace_span": 2,
+    "min_distance": 3,
+    "max_distance": 64,
+    "facing_angle_degrees": 45,
+    "min_missing_samples": 3,
+    "min_missing_fraction": 0.30,
+    "max_pairs": 10000,
+    "profile_flank": 2.5,
+    "raw_contrast": 1.0,
+    "raw_fraction": 0.60,
+    "min_valid_fraction": 0.95,
+    "detail_weak": 3.2,
+    "baseline_weak": 5.2,
+    "min_threshold_growth": 0.15,
+    "min_response_fraction": 0.50,
+    "min_joint_fraction": 0.40,
+    "max_raw_empty_fraction": 0.40,
+    "max_raw_empty_minimum": 4,
+    "thresholds": [6.0, 5.2, 4.8, 4.4, 4.0, 3.6, 3.2, 2.8, 2.4, 2.0]
+  },
+  "shape": {
+    "radius": 8,
+    "local_coherence": 0.60,
+    "min_local_neighbors": 3,
+    "min_stations": 5,
+    "min_span": 12,
+    "min_good_fraction": 0.60,
+    "max_median_width_proxy": 6
+  },
+  "limits": [
+    "Initial engineering rules; no learned or calibrated probability",
+    "Detected endpoints only propose gaps; no straight or curved probe is added to detection",
+    "Evaluate missing samples only; detected endpoints cannot provide evidence for an empty gap",
+    "Raw support, signed residual and threshold curve must come from the same frame and polarity",
+    "No clear gap evidence is not proof of a physical break",
+    "Local shape is a review-priority descriptor; ambiguous shape is not confirmed background",
+    "Development case004 is not an independent accuracy test",
+    "No FPGA work, new captures, hardware access or external messages"
+  ]
+}

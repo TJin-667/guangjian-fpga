@@ -1,0 +1,30 @@
+{
+  "source_commit": "a47aaf7fda815a61c88f6a398c9d34f41a5c8782",
+  "purpose": "Pinned XDL reader/features/models for isolated compatibility tests; no algorithm modification.",
+  "files": [
+    {
+      "path": "exposure_fusion_v1/__init__.py",
+      "git_blob_sha": "9ad42f5a80c47d3bc51f2e5e5c84b2d3a2a76100"
+    },
+    {
+      "path": "exposure_fusion_v1/models.py",
+      "git_blob_sha": "e095a79a53364e1a0ebc8ae63750ed4afc6fbaa8"
+    },
+    {
+      "path": "exposure_fusion_v1/provenance.py",
+      "git_blob_sha": "56b7bc291f7ad525e354cdd33ca86cfe67d73bc7"
+    },
+    {
+      "path": "exposure_fusion_v1/features.py",
+      "git_blob_sha": "23148f5a843b4652dccdf4a59c2ec2a26609b424"
+    },
+    {
+      "path": "exposure_fusion_v1/fusion.py",
+      "git_blob_sha": "1ce9880f6696841a0fafcca09b204680297edc8e"
+    },
+    {
+      "path": "exposure_fusion_v1/run.py",
+      "git_blob_sha": "74b43f419b9361f453ef8cd0a15ecad0d737773e"
+    }
+  ]
+}

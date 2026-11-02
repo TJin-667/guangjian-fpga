@@ -1,0 +1,350 @@
+{
+  "schema": "guangjian-portability-changes-v1",
+  "algorithm_freeze": "f09eb5885e1d",
+  "numerical_members_modified": false,
+  "bit_modified": false,
+  "files": [
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_system_20261029/app.py",
+      "source_path": "YMW/work/final_system_20261029/app.py",
+      "upstream_sha256": "ec4dcf3375c3f0f84421a12a519ed5325db8eb8fd5b034d9cfc8ba995862a2e8",
+      "upstream_git_blob": "cfcd78e421ab3460b0afe4730ba82e0480d1a648",
+      "sha256": "da29324e95e740f69dfd7178b3f93a4b206e90bc774740c6c6148ae22787f89e",
+      "original_file": "provenance/upstream_originals/YMW/work/final_system_20261029/app.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_system_20261029/archive0108.py",
+      "source_path": "YMW/work/final_system_20261029/archive0108.py",
+      "upstream_sha256": "b9e1dee1a9c8b66200bb2bd6758d4f7506870d2474f45bc5ab6b385b8eb8a0d3",
+      "upstream_git_blob": "c464ade6d6e8d7de6936ed4f340744bfaf0f7063",
+      "sha256": "1e15deab815f9c732d831fb740fab3489429b12168c4fb54c3334274f3b56556",
+      "original_file": "provenance/upstream_originals/YMW/work/final_system_20261029/archive0108.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_system_20261029/engineering0108.py",
+      "source_path": "YMW/work/final_system_20261029/engineering0108.py",
+      "upstream_sha256": "e50102fe91cf2a77eb82d4372d2ecebd5d0dd0b4cf39129b452d00ff4dc42501",
+      "upstream_git_blob": "c60293322f02ebad7f582af3addb721f144f665c",
+      "sha256": "9c92247c95143c81da41c594a325f752675e55709a6406ece7463be04011e727",
+      "original_file": "provenance/upstream_originals/YMW/work/final_system_20261029/engineering0108.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_system_20261029/location0108.py",
+      "source_path": "YMW/work/final_system_20261029/location0108.py",
+      "upstream_sha256": "45d122705bbde2700c768489d5383d67a5107373c7f96ff64b873cf8847a0176",
+      "upstream_git_blob": "96a941c7480669674de3ccb07bb632a519fef9b4",
+      "sha256": "e4291d4699a2096189c167cd48823a72489ec63003cc11579bbd975fa05195a3",
+      "original_file": "provenance/upstream_originals/YMW/work/final_system_20261029/location0108.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_system_20261029/test_archive0108.py",
+      "source_path": "YMW/work/final_system_20261029/test_archive0108.py",
+      "upstream_sha256": "41e4a6e302077299ead2de49d0a8f3ab61431aa31ecc6d88a99ef6d588375620",
+      "upstream_git_blob": "d5ef402c267ab19582e0488e279301fefa0c1428",
+      "sha256": "86fe29dd7523de297db25c8471d71f40c602ce97fbe7ac1a6e7ba7d8f9a8406f",
+      "original_file": "provenance/upstream_originals/YMW/work/final_system_20261029/test_archive0108.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_system_20261029/test_format_plan.py",
+      "source_path": "YMW/work/final_system_20261029/test_format_plan.py",
+      "upstream_sha256": "d6f7e96aa44cd9564dc81b4e5dc2f59380b7b8422edc4bdd772e10ff0176f0c4",
+      "upstream_git_blob": "f21f327afd2aea35ca10aa33f988856bf4859945",
+      "sha256": "ce7f69edb3d45a45b25c1d3586fc95d90b051823734cff7079d16ea53c5a4c6c",
+      "original_file": "provenance/upstream_originals/YMW/work/final_system_20261029/test_format_plan.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_system_20261029/test_location0108.py",
+      "source_path": "YMW/work/final_system_20261029/test_location0108.py",
+      "upstream_sha256": "14f501b3ca1f7cb4fc45f1f56efef38db0bd9e189fe76f2965c3b1ad54901a27",
+      "upstream_git_blob": "95c9a1940d9a92b68c6e7f22818414a495392fae",
+      "sha256": "f1f687c4d470861ddab8d702a49668a2a3d768ce8116c8888c85971f076a91c8",
+      "original_file": "provenance/upstream_originals/YMW/work/final_system_20261029/test_location0108.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_system_20261029/test_verified_evidence.py",
+      "source_path": "YMW/work/final_system_20261029/test_verified_evidence.py",
+      "upstream_sha256": "45ec7c508cd547cfb807e2f8acbed7656979f7b2eb69d89c686eedd616004a4a",
+      "upstream_git_blob": "55ea5fed0f17d9ba1d853c7f7e16f05351310b35",
+      "sha256": "5b1a050f089ed1d687235bdac6ae4ba39d98c80d419e7c2c272ea8d6d0781323",
+      "original_file": "provenance/upstream_originals/YMW/work/final_system_20261029/test_verified_evidence.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_system_20261029/verified_evidence.py",
+      "source_path": "YMW/work/final_system_20261029/verified_evidence.py",
+      "upstream_sha256": "c5a825dc01c379407b1ad84196496012913a6c2f2c5cf383cf533233e617aa65",
+      "upstream_git_blob": "15120cbffafc87245a30d327de5d84be8f64e42d",
+      "sha256": "29569313ad14e85a30db83d8769161d131bbfa79c135f5a4d3472826046ae65a",
+      "original_file": "provenance/upstream_originals/YMW/work/final_system_20261029/verified_evidence.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/host_speed_step1_0109_20261031/run_study.py",
+      "source_path": "YMW/work/host_speed_step1_0109_20261031/run_study.py",
+      "upstream_sha256": "e07dfe594d21b9fb20dccb518fd85d8056df3d4210628fb0677d29ff6dcd32a0",
+      "upstream_git_blob": "182e2b354289472b711f56f9fa9a7092c211bb59",
+      "sha256": "214746bd467eb0b2582a570c80144cdb710eb0084c260b0f51e70b362e1a4074",
+      "original_file": "provenance/upstream_originals/YMW/work/host_speed_step1_0109_20261031/run_study.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/host_speed_step2_0109_20261031/intermediates.py",
+      "source_path": "YMW/work/host_speed_step2_0109_20261031/intermediates.py",
+      "upstream_sha256": "c1253c9887ed0fab5eeb7b4e2a1d87ed3ccbfd727391b1a959b93f1a4799859c",
+      "upstream_git_blob": "543d2270114b047e0cd51eba783b16d5575c1eb3",
+      "sha256": "705204546d51674b89cba29790e47c6b5e9856391ec95f0bbfc7ad6f1b2b0d80",
+      "original_file": "provenance/upstream_originals/YMW/work/host_speed_step2_0109_20261031/intermediates.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/host_speed_step2_0109_20261031/run_study.py",
+      "source_path": "YMW/work/host_speed_step2_0109_20261031/run_study.py",
+      "upstream_sha256": "54cb9761d698c9b1fda9db57f2691f44217453e59eb8271c66b5798ee8191580",
+      "upstream_git_blob": "88ea1d11df03081a3658d1242fc1dfdf229d21f9",
+      "sha256": "ca2221e0d03e40f5106729b5bf21409415bb284ac152952a8324eee807838790",
+      "original_file": "provenance/upstream_originals/YMW/work/host_speed_step2_0109_20261031/run_study.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/host_speed_step3_0109_20261031/combined_evidence.py",
+      "source_path": "YMW/work/host_speed_step3_0109_20261031/combined_evidence.py",
+      "upstream_sha256": "7406db6c787c377e1f24058ccac894f4c74ce74b67f289e70f1704c1b2b1a1c7",
+      "upstream_git_blob": "00202409cbe2354738397993e4ed88aa40b5845b",
+      "sha256": "089edd3b3cd298a036cf0d92bc33749c623155ee263a07d6ac77d6637cd52e25",
+      "original_file": "provenance/upstream_originals/YMW/work/host_speed_step3_0109_20261031/combined_evidence.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/host_speed_step3_0109_20261031/hybrid_resume.py",
+      "source_path": "YMW/work/host_speed_step3_0109_20261031/hybrid_resume.py",
+      "upstream_sha256": "c1b9570225f4f9dfadddd1730273c5cf387fcba6238e20a898caa502014aebda",
+      "upstream_git_blob": "b2021b2fb810289cf374f60261ac518ab3732f1e",
+      "sha256": "91ae2b5154304e4b67d8f12ed3eb7a2018e0d24994487ab9a44a73f71896a86b",
+      "original_file": "provenance/upstream_originals/YMW/work/host_speed_step3_0109_20261031/hybrid_resume.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/host_speed_step3_0109_20261031/install_entry.py",
+      "source_path": "YMW/work/host_speed_step3_0109_20261031/install_entry.py",
+      "upstream_sha256": "052efa6fe6f543c9d6f7a48be589c9d75f8163ec3cb193064b26d75cbb4a6a36",
+      "upstream_git_blob": "ab318aa088635b0f5580600d5777d560776ccb1a",
+      "sha256": "7c8f241ac6127bad99224304a38f962fb8b2900ddceb6e9cc83c7393734ea1be",
+      "original_file": "provenance/upstream_originals/YMW/work/host_speed_step3_0109_20261031/install_entry.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/host_speed_step3_0109_20261031/replay_compare.py",
+      "source_path": "YMW/work/host_speed_step3_0109_20261031/replay_compare.py",
+      "upstream_sha256": "88cde4525151f62ab30799567bd6ef04b5a0c9a7c7a886e0e965928be78a0cd5",
+      "upstream_git_blob": "8864ff0107ba377fbb6160a6f804ce284eb40742",
+      "sha256": "8c8967c0c44c32d0cc8f05bfb404414f2bd0907b3083f40ad3305a544e8248ec",
+      "original_file": "provenance/upstream_originals/YMW/work/host_speed_step3_0109_20261031/replay_compare.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/host_speed_step3_0109_20261031/speed_app.py",
+      "source_path": "YMW/work/host_speed_step3_0109_20261031/speed_app.py",
+      "upstream_sha256": "3440c77a2fe788fb3c2fff968d156159b60091f02d55538fa8edfa21a30aee36",
+      "upstream_git_blob": "ff414a93f12db22beff345ca643cb35273953c21",
+      "sha256": "95846295779a2a4c4efff962af60a0e4a836bcde4e0f15b294bf85b1f5cc3586",
+      "original_file": "provenance/upstream_originals/YMW/work/host_speed_step3_0109_20261031/speed_app.py",
+      "reason": "Location/identity adapter; numerical algorithms unchanged"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/host_speed_step3_0109_20261031/speed_capture.py",
+      "source_path": "YMW/work/host_speed_step3_0109_20261031/speed_capture.py",
+      "upstream_sha256": "ea579167d3169a76e4ef248a27495ca3d9050a60080c96a822bb102f28ff05ed",
+      "upstream_git_blob": "2068a66267d3aa6abd1eb2d19b08870537ff2e02",
+      "sha256": "ddc5a7603b7c674d09bddf46e417ed126f74942b290b611436be7ca62ef5f93d",
+      "original_file": "provenance/upstream_originals/YMW/work/host_speed_step3_0109_20261031/speed_capture.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/host_speed_step3_0109_20261031/speed_ui_base.py",
+      "source_path": "YMW/work/host_speed_step3_0109_20261031/speed_ui_base.py",
+      "upstream_sha256": "6d314b48ec794dfafebb4e88d97ef972fe553fd73eb013633646080afb87fad2",
+      "upstream_git_blob": "d07b8aba3d958302054d6a9ff5841cf577f43748",
+      "sha256": "a87184b9c1c30de6aee36fba77fb3253f3728567a5706b4c13c530b9e9fa1153",
+      "original_file": "provenance/upstream_originals/YMW/work/host_speed_step3_0109_20261031/speed_ui_base.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/p0_pair_console_0107_20261027_r56/console_workflow.py",
+      "source_path": "YMW/work/p0_pair_console_0107_20261027_r56/console_workflow.py",
+      "upstream_sha256": "0acc8ddaf8d39113a807ad16a258cfea83c7d078aa6f48c08ca3540fe779df80",
+      "upstream_git_blob": "149e2d4183b907ce9af8d6f964633986d8390a1e",
+      "sha256": "9207e31ab3f68a67f9027a8b1d57a720daa835f53147e739c92371f38a5a3e86",
+      "original_file": "provenance/upstream_originals/YMW/work/p0_pair_console_0107_20261027_r56/console_workflow.py",
+      "reason": "Preserve console source gate for explicitly identified portability derivatives"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/p0_pair_console_0107_20261027_r56/install_config_update.py",
+      "source_path": "YMW/work/p0_pair_console_0107_20261027_r56/install_config_update.py",
+      "upstream_sha256": "da2dfecdc2027f0794e718f581bdf38af0b6c4ff05fe521070dbd2d1aef0f7d3",
+      "upstream_git_blob": "9b17ede4d089d9f82afc5753602c9606bf587ec6",
+      "sha256": "f98e5c963c472d8c31727661505d8f4dbe44cfcb800b3be670fb6c4f32d07dbe",
+      "original_file": "provenance/upstream_originals/YMW/work/p0_pair_console_0107_20261027_r56/install_config_update.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/p0_pair_console_0107_20261027_r56/test_configurable_capture.py",
+      "source_path": "YMW/work/p0_pair_console_0107_20261027_r56/test_configurable_capture.py",
+      "upstream_sha256": "19394de6c2a950a5493d4629f2ef6d69bd2d431e8d358c415a2c1b2f9a4808fd",
+      "upstream_git_blob": "674bce862218c5fa88ef454170397ea6e2174fc0",
+      "sha256": "6a454eb3ae77f65326d70bd7622fd0ec3ba73ad99b3786ac3a879746d9b330d3",
+      "original_file": "provenance/upstream_originals/YMW/work/p0_pair_console_0107_20261027_r56/test_configurable_capture.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/p0_pair_console_0107_20261027_r56/test_console.py",
+      "source_path": "YMW/work/p0_pair_console_0107_20261027_r56/test_console.py",
+      "upstream_sha256": "13acdf34d28d965058ff47e992ab9dfae1f2e53e943639e33d1c77ccbed6df39",
+      "upstream_git_blob": "2f74c5542599c9b6d4790833043b0e40e7e8f2fc",
+      "sha256": "8e8dd3ed04b3a5b9a13d3f08e46e7d70d721f4cf57919cc27c1ce5bf3bfefc9c",
+      "original_file": "provenance/upstream_originals/YMW/work/p0_pair_console_0107_20261027_r56/test_console.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/p0_pair_console_0107_20261027_r56/test_preview_responsiveness.py",
+      "source_path": "YMW/work/p0_pair_console_0107_20261027_r56/test_preview_responsiveness.py",
+      "upstream_sha256": "c611e6a565115ec870f244a14c615f9fd9c1603addd161508e87098dc8d66cc0",
+      "upstream_git_blob": "7d8aa4b5b08adb533657bc7861623dbc7c737f0f",
+      "sha256": "51560f02bd11418c1227ea48420db4f67a332756ae3b4c86a2d22e113c5d7718",
+      "original_file": "provenance/upstream_originals/YMW/work/p0_pair_console_0107_20261027_r56/test_preview_responsiveness.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_board_0109_20261030/host/engineering_capture.py",
+      "source_path": "YMW/work/final_board_0109_20261030/host/engineering_capture.py",
+      "upstream_sha256": "1552a8ed5a83c5b578df028049cd218253138c5f0ec51301f5fed0a0b6d9b933",
+      "upstream_git_blob": "965892dfafa98adcf1d94c87538e399e4b1827eb",
+      "sha256": "3fd31cdf2579909a1b9f039067e34394827931e44bb1ca287e4583141b8cc7d3",
+      "original_file": "provenance/upstream_originals/YMW/work/final_board_0109_20261030/host/engineering_capture.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_board_0109_20261030/runtime/app.py",
+      "source_path": "YMW/work/final_board_0109_20261030/runtime/app.py",
+      "upstream_sha256": "e4f336a388ef6478b404329d97898e4903d1336df48ddfc7bf9548e1983714d2",
+      "upstream_git_blob": "06566270d310185552afb316686716a2d614bf22",
+      "sha256": "40970cd55bb1b6e7fe8496e961cafa9c30d97e2767f2b0fb8e86b042ba97f765",
+      "original_file": "provenance/upstream_originals/YMW/work/final_board_0109_20261030/runtime/app.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_board_0109_20261030/runtime/archive0109.py",
+      "source_path": "YMW/work/final_board_0109_20261030/runtime/archive0109.py",
+      "upstream_sha256": "7bc3100f2f1ea58c4df81c2df3095b1e1061dd233222376070f02c7109ddcecb",
+      "upstream_git_blob": "9e4ce90a2eff7ec19ad1b2990977e64991a1dcfd",
+      "sha256": "331b512b7cfb111b1aa2d49cb96f92a13958647b54f08ec7c407fcf9a6e5d102",
+      "original_file": "provenance/upstream_originals/YMW/work/final_board_0109_20261030/runtime/archive0109.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_board_0109_20261030/runtime/continuous_app.py",
+      "source_path": "YMW/work/final_board_0109_20261030/runtime/continuous_app.py",
+      "upstream_sha256": "39a034a4b17b8bb09add29d1bee971d4cd14f2f3166dd710be402bc9f6737ab5",
+      "upstream_git_blob": "eb3d7445ac3bf13c5bd1807e61aa74e03b824c14",
+      "sha256": "9108a2fed45f9928cd14605885611f11ce15b1a43955b801c3c73df2c9066b95",
+      "original_file": "provenance/upstream_originals/YMW/work/final_board_0109_20261030/runtime/continuous_app.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_board_0109_20261030/runtime/continuous_capture.py",
+      "source_path": "YMW/work/final_board_0109_20261030/runtime/continuous_capture.py",
+      "upstream_sha256": "8a3b9ec52e21f11976496781a9f0127e4b5e3f92faea681f235aa62d35416b21",
+      "upstream_git_blob": "8fc7111fc22ce57d07ee058b12200b9962ea58d6",
+      "sha256": "532ed6361370a87e51a684c72b3949d08ec5ea369f68edaaef770b34c3a58941",
+      "original_file": "provenance/upstream_originals/YMW/work/final_board_0109_20261030/runtime/continuous_capture.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_board_0109_20261030/runtime/engineering0109.py",
+      "source_path": "YMW/work/final_board_0109_20261030/runtime/engineering0109.py",
+      "upstream_sha256": "188027ec7353a131abd7b69966e0355679ee34738eadc37b4a919b5ef992703f",
+      "upstream_git_blob": "6be62f84cb33b60dea15a40cd4820ff5a22a7025",
+      "sha256": "43761649b25f1188d93380ee708957dd5566fc99301b5cca6edc942421793596",
+      "original_file": "provenance/upstream_originals/YMW/work/final_board_0109_20261030/runtime/engineering0109.py",
+      "reason": "Read device endpoint defaults from package config; no OS network mutations"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_board_0109_20261030/runtime/location0109.py",
+      "source_path": "YMW/work/final_board_0109_20261030/runtime/location0109.py",
+      "upstream_sha256": "c499c364ed054a6b5ee228df33c2dd7943ca71fbbbe0c93b032898074c810036",
+      "upstream_git_blob": "df9ab7c73dec404ab695bb9ae0f7e960fb6522e4",
+      "sha256": "db1e8309e86f7fb0f0e8eed91769f28e43a7b3323b198c15bd06868399dd74d2",
+      "original_file": "provenance/upstream_originals/YMW/work/final_board_0109_20261030/runtime/location0109.py",
+      "reason": "Read device endpoint defaults from package config; no OS network mutations"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_board_0109_20261030/runtime/verified_evidence.py",
+      "source_path": "YMW/work/final_board_0109_20261030/runtime/verified_evidence.py",
+      "upstream_sha256": "f5d8a9ccd5d2bd080506a5d14fc6c7ac651e8137c1bb2db99462a643f7ea2b73",
+      "upstream_git_blob": "d4763ee3726d2b116e1e620c555ac6f040e71575",
+      "sha256": "4a83a49a3f84e4df2c0b9125fc0514d94f5e89182b6145265be24de8670fba24",
+      "original_file": "provenance/upstream_originals/YMW/work/final_board_0109_20261030/runtime/verified_evidence.py",
+      "reason": "Rebase upstream locators to configured package/data roots"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/host_speed_step3_0109_20261031/bootstrap.py",
+      "source_path": "YMW/work/host_speed_step3_0109_20261031/bootstrap.py",
+      "upstream_sha256": "4d5b873241fbc3bb9d9ef1d407b61e615cd4c1f6b8aa50d235abff3c6618f1bc",
+      "upstream_git_blob": "77fc4c5544f077a23e9b08b2fd1c34e9103f68b7",
+      "sha256": "c4b2185ce4a69331ed1ed5a39b1dcfc9d0b9432f74917042db55ffd44348c27a",
+      "original_file": "provenance/upstream_originals/YMW/work/host_speed_step3_0109_20261031/bootstrap.py",
+      "reason": "Use self-contained sealed export inventory instead of original machine locations"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_board_0109_20261030/runtime/integrity.py",
+      "source_path": "YMW/work/final_board_0109_20261030/runtime/integrity.py",
+      "upstream_sha256": "27a3487c3b15d006b493b24a4c1344283d639517ad973eea4a54139ff656213b",
+      "upstream_git_blob": "d48a192440f7e51381d31ef59b76e07df78e98b9",
+      "sha256": "caa6ad7e051049e145c009a7517df0044fe9a388a845177f35f3c7178ae30b56",
+      "original_file": "provenance/upstream_originals/YMW/work/final_board_0109_20261030/runtime/integrity.py",
+      "reason": "Preserve upstream binding as provenance; validate all derived and unchanged export bytes"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_system_20261029/integrity.py",
+      "source_path": "YMW/work/final_system_20261029/integrity.py",
+      "upstream_sha256": "6d5d41758b3b42d0d7813027f0883f2d0ecb1cfc40a9f4babf63913e292b55bd",
+      "upstream_git_blob": "d0b42dc4fbf2fca6792e12cbe52cc22022064afd",
+      "sha256": "2b47d9122ba2b957272c88423c6883dd0a945accc58aa1f38413ab5d09e01561",
+      "original_file": "provenance/upstream_originals/YMW/work/final_system_20261029/integrity.py",
+      "reason": "Preserve upstream binding as provenance; validate all derived and unchanged export bytes"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_board_0109_20261030/host/qualification.py",
+      "source_path": "YMW/work/final_board_0109_20261030/host/qualification.py",
+      "upstream_sha256": "b9509b81337c803d578d87dcb0bbf89d763c414bcd9e4496dbd2eb582d0a2409",
+      "upstream_git_blob": "e583a51f72ceb7cd66fde66ebb0b24e62e2d88d3",
+      "sha256": "cf6e85b4cec4ceeab88022bb9d9e4dc3ad90107541fa7c179fa10239a15cbcfd",
+      "original_file": "provenance/upstream_originals/YMW/work/final_board_0109_20261030/host/qualification.py",
+      "reason": "Equivalent commit membership, source inventory, bit, route and engineering gates without private Git"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/b1_detection_console_20261027/common.py",
+      "source_path": "YMW/work/b1_detection_console_20261027/common.py",
+      "upstream_sha256": "f7a5d16e99160b13945f0d4e7862a1e0905ac4a2f056d7eb2284a995b3b85e74",
+      "upstream_git_blob": "765f1e8fdf9677416c1a75b4a13323e6d2ecdb3b",
+      "sha256": "faf2c31aaa56f47a5466275dff31c2e563d8b87bfe139e12af213730e39b9551",
+      "original_file": "provenance/upstream_originals/YMW/work/b1_detection_console_20261027/common.py",
+      "reason": "Locate byte-pinned vendor locally and verify declared source derivatives"
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/final_board_0109_20261030/runtime/focus0109.py",
+      "source_path": "YMW/work/final_board_0109_20261030/runtime/focus0109.py",
+      "upstream_sha256": "53996d07d79dd75b0de4ff4b323932ca578c51cba64460401cc1d94f0f4df6f3",
+      "upstream_git_blob": "99658cf1857b8d7d0a6a78c2246d6db5117b54be",
+      "sha256": "b5527dc62d6b0e6962c601105dba4d43a0febef418a2da815c7bd9a6ca601858",
+      "original_file": "provenance/upstream_originals/YMW/work/final_board_0109_20261030/runtime/focus0109.py",
+      "reason": "Load the exact original focus core from packaged source rather than an old installed0105 directory"
+    }
+  ]
+}

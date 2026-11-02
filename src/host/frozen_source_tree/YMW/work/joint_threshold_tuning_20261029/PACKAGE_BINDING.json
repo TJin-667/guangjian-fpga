@@ -1,0 +1,33 @@
+{
+  "schema": "joint-threshold-offline-package-v1",
+  "final_config_id": "4c0be2d44fdd",
+  "files_sha256": {
+    "body_guard.py": "9670b460aeef5bcc60ad9d97fb521cbbd2d63b8af13ea56c109ad5e69b726b1a",
+    "full_sleeve_check.py": "2361fc7e22b050fce72b55dcd59e1a9c83d4736bfd17a1491ac77918aa7f18be",
+    "joint_gate.py": "2574074711d26ae46397dd80b84870b372f191f58940b8de9f7717c272c841a1",
+    "joint_package_contract.py": "e4084c32927964709b9669c5dcda1e285c31415931aacfbdf673b69859b33039",
+    "package_joint.py": "07d9ceb83f0f0af82f21247ee39dce1c0525697956edc386ef0451e557dfd62c",
+    "post_sensitivity.py": "de301cb07930fd82bb14d37349a206c644a197d03aaa6b71794fce30a514da37",
+    "run_body.py": "5771b6000fab45d82780abe35883039c77b1571bd76a4e862775681d0c11b75b",
+    "run_body_one.py": "c740e5b0558dfe1f9f1a6128e9bcff4c1e63026d7e3d2b264751d56f040c41b1",
+    "run_joint.py": "c35602a6e028af592ee73458a9207d4a0615b4cf3bc4d295b466e5fc27b69922",
+    "run_one.py": "f7d380af660411a0464b0a1591c12336332a38a9d38208ea258c8105b6f4bdd5",
+    "run_sleeve.py": "38827cc373a6c452c64ce740d230d3cb5df07c62d5d42e3d9ab97ed24e6b02b7",
+    "run_sleeve_one.py": "0c7eeabb56a5f15c625e095ca23773c3c82da9ffae7da4e35bec66534c5ca43b",
+    "sleeve_guard.py": "2a5c1159aca736c343ed71563c15c831b06a1a3203c9994bd6845d7247304b41",
+    "sleeve_runtime.py": "ddfe3eaefbaffd24bb68afd345314fa465ba72046d9cf7c55988ee313dbf5cbe",
+    "test_body.py": "eaf9e4cc27ea77a9d34da11233844e193496b9505ca72320cf32c4c4fa27582f",
+    "test_joint.py": "0a67e796e1cf34677741ba0d787cef7df6ae5bd4c0c8bf797dd9a5d2d8a64090",
+    "test_sleeve.py": "991dc1e781f275ba29f8945a081465a908f13012f680d17deb843bc8ccc6cddf",
+    "PLAN.json": "5cd4d3a0253e8333cb81d4d05c2902aee54d3d339faa6037ea6d711d0a924360",
+    "BODY_PLAN.json": "b2bf6010862623fa537d83b5ff8c0b17c168af2d6b282fb7f405208e978ab340",
+    "SLEEVE_PLAN.json": "c968b5bae7015d00d62c5c693127b254070f2b027317cc261ae424098d6f2d73",
+    "FROZEN_CONFIG.json": "4bedae60311eeafd59fc6b16647eb9c4738f3b884671a04022ef43a02bef1eac",
+    "FROZEN_BODY_CONFIG.json": "e35959e55b3a0ae0a48dc31913ca732d66085be45855cf3d07849dc694d7af70",
+    "FROZEN_SLEEVE_CONFIG.json": "5bbc30afa27a825568cfd378092d4161cb3289306881ccb071d88e4c7523bdae",
+    "../seeded_component_tuning_20261029/seeded_gate.py": "fd1b550866ee20db8bbe4cc9b84a066d3142d8b63ebae35c3ee6ebee1247bbd8",
+    "../seeded_component_tuning_20261029/run_study.py": "3b0a5dee6c42f2e90208773dbead387f811ef249bb4e62228314aa0472b953e5",
+    "../weak_component_experiment_20261029/component_gate.py": "b14363846e308fc9029c0785a0d6e952e1a281c93504fd06b7f90cd5bdf63038",
+    "../weak_component_experiment_20261029/fragment_chain.py": "a1c4c162b92638d5b8ab2bcfacc53bac9e4b08a8fdebb2fded9a76c1b289d75e"
+  }
+}

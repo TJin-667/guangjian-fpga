@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "tests": 22,
+  "failures": 0,
+  "errors": 0,
+  "physical_board_used": false,
+  "socket_scope": "guarded localhost only; planning has sockets disabled",
+  "exposure500_scope": "Explicit injected 500-line transport test, not automatic-controller selection",
+  "parity": [
+    {
+      "sample": "sample001",
+      "mode": "B1",
+      "golden_sha256": "1bf60e79a82e3447a9fcdca8899dbdc60c615dff309eb8a2612e18f6f3437645",
+      "all_18_arrays_exact": true,
+      "result": {
+        "candidate_pixels": 4909,
+        "candidate_connected_regions": 78,
+        "unobserved_board_pixels": 0,
+        "unobserved_board_fraction": 0.0,
+        "indication": "CANDIDATES_REQUIRE_REVIEW"
+      }
+    },
+    {
+      "sample": "sample001",
+      "mode": "M1",
+      "golden_sha256": "9f9c9189eb164b24f782ffa5fb67ecf2bbd50d1fdb7df51db6f216cff53fcbdd",
+      "all_18_arrays_exact": true,
+      "result": {
+        "candidate_pixels": 4883,
+        "candidate_connected_regions": 78,
+        "unobserved_board_pixels": 0,
+        "unobserved_board_fraction": 0.0,
+        "indication": "CANDIDATES_REQUIRE_REVIEW"
+      }
+    },
+    {
+      "sample": "sample002",
+      "mode": "B1",
+      "golden_sha256": "2d90319a394bacf15e691c8d095e4753b365bd79f9b1b9e332bb5d691e3ba588",
+      "all_18_arrays_exact": true,
+      "result": {
+        "candidate_pixels": 409,
+        "candidate_connected_regions": 10,
+        "unobserved_board_pixels": 0,
+        "unobserved_board_fraction": 0.0,
+        "indication": "CANDIDATES_REQUIRE_REVIEW"
+      }
+    },
+    {
+      "sample": "sample002",
+      "mode": "M1",
+      "golden_sha256": "ceb1d4d5bd02a1929d84e3d8c725824b688f3741065b444b9be74a0beb775244",
+      "all_18_arrays_exact": true,
+      "result": {
+        "candidate_pixels": 409,
+        "candidate_connected_regions": 10,
+        "unobserved_board_pixels": 0,
+        "unobserved_board_fraction": 0.0,
+        "indication": "CANDIDATES_REQUIRE_REVIEW"
+      }
+    }
+  ],
+  "gui": {
+    "preflight_rendered": true,
+    "results_rendered": true,
+    "original_pixel_view": true,
+    "stale_success_cleared": true,
+    "hidden_tk_window": true,
+    "physical_board_used": false
+  },
+  "protected_files_unchanged": true,
+  "original_input_used_readonly": true,
+  "source_code_sha256": {
+    "analysis_worker.py": "ee54b0dc3a16ad66c40e5bd8d53c7d598a7210594accdb3135ad6c8ee5517ed5",
+    "capture_adapter.py": "43d9a06b52ddb845ce5050c75e8c08c1a5a12bee66f0b8ca869094ccc5664017",
+    "common.py": "e0be49a65e1e991c14aebac2ad3a4331a9d2f7fb829b1e0a67be44c537135023",
+    "inspection_app.py": "eb0dffb415521fab90369236bdf6c38b1866479355c5c2a907838718855aac99",
+    "install_console.py": "a2c0df3575655741e4f7c1a4fc533a207097a4c7af5722fa087c077fa443674d",
+    "verify_console.py": "52ea1463ee9b733e49179f54b12e0ec9ef2c1bcac0a818d1809f35a1a848c0c3",
+    "workflow.py": "4056fc87854b635f4bc0b620af66f9712574223e12788be64862d345b7535487"
+  }
+}

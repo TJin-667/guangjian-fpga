@@ -1,0 +1,62 @@
+{
+  "schema": "original8-with-six20-side-envelope-v1",
+  "selected": {
+    "id": "4c0be2d44fdd",
+    "config": {
+      "min_area": 9,
+      "span": 8,
+      "line": 0.6,
+      "width": 5,
+      "raw_fraction": 0.85,
+      "raw_mean": 3.0,
+      "weak": 5.2,
+      "strong": 14.4,
+      "policy": "fixed6_20_isolated_supplements",
+      "gate": "balanced",
+      "reach": 32,
+      "half_width": 1,
+      "side_radius": 0
+    },
+    "source_body_id": "1f35139f0d7e",
+    "side_radius": 0,
+    "balanced_added_area_per_mp": 759.3503206682584,
+    "balanced_compact_count_per_mp": 1.0944851811894647,
+    "development": {
+      "sample003": {
+        "path_positions": null,
+        "candidate_pixels": 9582,
+        "added_pixels": 287,
+        "added_area_per_mp": 473.8835666425597,
+        "side_added_pixels": 0,
+        "retracted6_20_pixels": 1790
+      },
+      "sample004": {
+        "path_positions": 140,
+        "candidate_pixels": 21414,
+        "added_pixels": 581,
+        "added_area_per_mp": 948.3624017563475,
+        "side_added_pixels": 0,
+        "retracted6_20_pixels": 4298
+      },
+      "sample005": {
+        "path_positions": null,
+        "candidate_pixels": 15610,
+        "added_pixels": 526,
+        "added_area_per_mp": 855.8049936058676,
+        "side_added_pixels": 0,
+        "retracted6_20_pixels": 5237
+      }
+    }
+  },
+  "max_eligible_known_path_positions": 145,
+  "near_max_tolerance": 5,
+  "immutable": "original8/20",
+  "side_upper_envelope": "6/20",
+  "profile": [
+    13,
+    2.5
+  ],
+  "plan_sha256": "73bef3365e69256495f05a9a1037519c1f3bca1ba8e478ad37826460d6a03da8",
+  "development_only": true,
+  "frozen_before_other_group_checks": true
+}

@@ -1,0 +1,2 @@
+Name             Value  Type     Description
+hd.enableIDFDRC  0      boolean  Enable system IDF DRCs of VIV 2.0.

@@ -1,0 +1,4 @@
+﻿version,LUT,FF,DSP,BRAM36_equivalent,BRAM_total,BRAM_percent,DDR_reserved_MiB,source,scope
+0107,18818,22739,4,81.5,135,60.37,8,Old package03/source index,full routed board
+0108,25206,31600,12,81.5,135,60.37,32,R01/old package,full routed board
+0109,26035,32269,12,81.5,135,60.37,32,R01,full routed board

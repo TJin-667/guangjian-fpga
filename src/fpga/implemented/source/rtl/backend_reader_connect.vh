@@ -1,0 +1,13 @@
+        .m_axi_arid(m_arid[7:4]),
+        .m_axi_araddr(m_araddr[59:30]),
+        .m_axi_arlen(m_arlen[15:8]),
+        .m_axi_arsize(m_arsize[5:3]),
+        .m_axi_arburst(m_arburst[3:2]),
+        .m_axi_arvalid(m_arvalid[1:1]),
+        .m_axi_arready(m_arready[1:1]),
+        .m_axi_rid(m_rid[7:4]),
+        .m_axi_rdata(m_rdata[255:128]),
+        .m_axi_rresp(m_rresp[3:2]),
+        .m_axi_rlast(m_rlast[1:1]),
+        .m_axi_rvalid(m_rvalid[1:1]),
+        .m_axi_rready(m_rready[1:1])

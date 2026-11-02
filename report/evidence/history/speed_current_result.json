@@ -1,0 +1,91 @@
+{
+  "status": "HOST_SPEED_CANDIDATE_ONE_REAL_CAPTURE_ACCEPTANCE_PASSED",
+  "candidate_binding_sha256": "dd773260f7e0431ebb28abdb409e6008e8d74c50eab91cb32e6f6e53b4c84716",
+  "frozen_id": "f09eb5885e1d",
+  "firmware": 265,
+  "new_bit": false,
+  "actual_new_board_CAP": 9,
+  "final_software_loopback_CAP": 36,
+  "real_input_groups": 3,
+  "real_input_formal_frames": 24,
+  "real_input_independent_specimens": 1,
+  "saved_input_replay_runs": 18,
+  "all_formal_arrays_full_review_scores_equal": true,
+  "groups": [
+    {
+      "group": "20261030_225025_a644ed97",
+      "reference_seconds": [
+        21.518883600001573,
+        21.381910599997354,
+        21.55144190000283
+      ],
+      "combined_seconds": [
+        17.84889529999782,
+        17.807613299999502,
+        18.102088300001924
+      ],
+      "reference_median": 21.518883600001573,
+      "combined_median": 17.84889529999782,
+      "reduction_percent": 17.054733731648994,
+      "software_phase_reference_over_combined": 1.205614310483641
+    },
+    {
+      "group": "20261030_230733_a1944cee",
+      "reference_seconds": [
+        22.51280819999738,
+        22.910748300000705,
+        22.75998719999916
+      ],
+      "combined_seconds": [
+        19.10454540000137,
+        19.11234390000027,
+        18.902660800002195
+      ],
+      "reference_median": 22.75998719999916,
+      "combined_median": 19.10454540000137,
+      "reduction_percent": 16.060825376904972,
+      "software_phase_reference_over_combined": 1.1913388527945568
+    },
+    {
+      "group": "20261030_230958_696830ab",
+      "reference_seconds": [
+        19.786362900002132,
+        19.68888159999915,
+        19.438755300001503
+      ],
+      "combined_seconds": [
+        16.66700960000162,
+        16.141420100000687,
+        17.615596100000403
+      ],
+      "reference_median": 19.68888159999915,
+      "combined_median": 16.66700960000162,
+      "reduction_percent": 15.348114034052903,
+      "software_phase_reference_over_combined": 1.1813085893942987
+    }
+  ],
+  "desktop": "C:\\Users\\yue\\Desktop\\光鉴0109提速候选入口.cmd",
+  "entry": "E:\\GuangjianData\\software\\SpeedSystem0109_20261031\\RUN_SPEED_0109.cmd",
+  "backup": "E:\\GuangjianData\\software\\backups\\Before_speed0109_combined_20261031_134736_e95d59",
+  "old_files_unchanged": true,
+  "default_entry_changed": false,
+  "installed_check_only_passed": true,
+  "physical_new_host_flow_verified": true,
+  "system_speedup": null,
+  "FPGA_compute_speedup": null,
+  "next_step": "Continue ordinary use of the separate entry; no repeat capture, new bit or KEY2 needed for this acceptance. Full-system PC/PL speedup remains unproven.",
+  "physical_acceptance": {
+    "source": "E:\\GuangjianData\\UnifiedInspectionSpeed0109\\20261031_141447_8a87c194",
+    "group_id": "sample004_g1793427252714918100",
+    "report": "../host_speed_step3_acceptance_20261031/README.md",
+    "formal_frames": 8,
+    "preparation_frames": 1,
+    "device_profile_pages": 24,
+    "task_wall_seconds": 54.773840999998356,
+    "worker_process_wall_seconds": 19.355457300000126,
+    "new_capture_performed_by_user": true,
+    "reviewer_new_CAP": 0
+  },
+  "reviewer_new_CAP": 0,
+  "real_input_scope": "Historical saved-input replay: 3 groups/24 frames; separate physical_acceptance is 1 user group/8 formal + 1 preparation."
+}

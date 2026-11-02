@@ -1,0 +1,5 @@
+*.py text eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf
+# Byte-bound evidence preserves native CRLF and compressed trace bytes.
+evidence/** -text

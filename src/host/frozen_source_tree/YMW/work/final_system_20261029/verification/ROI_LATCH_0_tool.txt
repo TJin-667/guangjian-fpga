@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/GuangjianData/reviews/final_system_20261029/rtl_roi_latch_01/compiled_sources/lght_core_camera_identity.v" into library work
+INFO: [VRFC 10-311] analyzing module lght_core_camera_identity
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/GuangjianData/reviews/final_system_20261029/rtl_roi_latch_01/compiled_sources/roi_config_ctrl.v" into library work
+INFO: [VRFC 10-311] analyzing module roi_config_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/GuangjianData/reviews/final_system_20261029/rtl_roi_latch_01/compiled_sources/transport_layout.v" into library work
+INFO: [VRFC 10-311] analyzing module transport_layout
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/GuangjianData/reviews/final_system_20261029/rtl_roi_latch_01/compiled_sources/tb_roi_latch_repro.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_roi_latch_repro

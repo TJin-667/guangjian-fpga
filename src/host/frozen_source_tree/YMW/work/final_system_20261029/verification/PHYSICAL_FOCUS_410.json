@@ -1,0 +1,11 @@
+{
+  "status": "PHYSICAL_FOCUS_SESSION_RECORDED",
+  "source": "E:\\GuangjianData\\final0108_focus\\FOCUS_sample004_20261030_014348_03031447",
+  "summary_sha256": "4c9dbc801fde1df9c16f9bb1f50b09bd8589cd91aedd7306be5a4cd674e77e5b",
+  "frames_sha256": "8b2561f2275d5df0f00e1a8db17c976c862eef823081858edd28622d13c75730",
+  "frames": 410,
+  "displayed_frames_crc_verified_by_bound_runtime": true,
+  "off_acknowledged": true,
+  "independent_payload_recheck_possible": false,
+  "scope": "fast focus only; no full detection acceptance"
+}

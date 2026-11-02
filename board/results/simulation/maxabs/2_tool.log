@@ -1,0 +1,28 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/report_sim/xsim_script.tcl
+# xsim {report_sim} -autoloadwcfg -tclbatch {waves.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source waves.tcl
+## open_vcd waves.vcd
+## log_vcd /tb_report_maxabs/source
+## log_vcd /tb_report_maxabs/residual_n
+## log_vcd /tb_report_maxabs/observation_valid
+## log_vcd /tb_report_maxabs/previous
+## log_vcd /tb_report_maxabs/merged
+## log_vcd /tb_report_maxabs/error
+## log_vcd /tb_report_maxabs/chosen_r
+## log_vcd /tb_report_maxabs/chosen_source
+## log_vcd /tb_report_maxabs/weak_flag
+## log_vcd /tb_report_maxabs/strong_flag
+## run all
+MAXABS_REPORT_PASS 8
+$finish called at time : 160 ns : File "E:/GuangjianData/OpenSourceRelease_20261102/internal/simulation_01/maxabs/tb_report_maxabs.sv" Line 35
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 22:20:49 2026...

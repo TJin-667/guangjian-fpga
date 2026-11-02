@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "version": "v1.2",
+  "method": "native_window_sky",
+  "startup_mode": "0108",
+  "checked": [
+    "dedicated0108_title",
+    "default_engineering_page",
+    "persistent_operation_navigation",
+    "sample_and_variant_fields",
+    "0108_focus_button",
+    "single_frame_positioning_button",
+    "eight_frame_acceptance_button"
+  ],
+  "hardware_controls_clicked": false,
+  "hardware_contacted": false,
+  "window_left_open_for_user": true
+}

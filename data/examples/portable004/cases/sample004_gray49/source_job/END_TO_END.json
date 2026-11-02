@@ -1,0 +1,12 @@
+{
+  "scope": "capture_task_start_to_analysis_archive_before_UI_display",
+  "wall_seconds": 49.2692481999984,
+  "group_id": "sample004_g1793337600415116700",
+  "includes_ROI_preparation": true,
+  "includes_formal_eight": true,
+  "includes_OFF_and_reference_checks": true,
+  "includes_positioning": false,
+  "includes_human_interaction": false,
+  "includes_UI_display": false,
+  "FPGA_pure_compute_seconds": null
+}

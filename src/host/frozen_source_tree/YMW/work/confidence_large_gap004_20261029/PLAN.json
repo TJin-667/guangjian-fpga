@@ -1,0 +1,32 @@
+{
+  "schema": "visible-large-gap-review-v1",
+  "formal_config_id": "4c0be2d44fdd",
+  "only_existing_sample004_group": "sample004_A_v1_20261028_220937_87f02b",
+  "visual_neighbor_tolerance_px": 1.5,
+  "ignore_gap_at_most_px": 6,
+  "large_gap_at_least_px": 16,
+  "normal_max_endpoint_distance": 64,
+  "aligned_max_endpoint_distance": 160,
+  "normal_facing_angle": 45,
+  "aligned_facing_angle": 25,
+  "long_pair_min_trace_span": 8,
+  "endpoint_trace_steps": 12,
+  "extent_max_span": 96,
+  "extent_min_eigen_ratio": 6,
+  "extent_min_area": 6,
+  "curve_bows_px": [-4, -2, 0, 2, 4],
+  "max_bow_distance_fraction": 0.12,
+  "aligned_large_review_weak": 2.0,
+  "long_pair_max_raw_empty_samples": 12,
+  "max_pairs": 10000,
+  "limits": [
+    "Visual tolerance is measurement-only; no closing, drawing or changes to the formal detector",
+    "Six native pixels is an initial display-oriented choice, not a physical dimension or independently calibrated optimum",
+    "Only clearly aligned large gaps use the2.0 review probe; other probes retain3.2",
+    "Same-frame same-polarity raw support is still required",
+    "Additional extent endpoints only for short elongated components; they are proposals, not confirmed scratch identity",
+    "All manual004 path checks happen after predictions but this is still development on a known failure",
+    "A review window can cover unsupported locations; supported sample points are saved separately",
+    "No global probability or automatic PASS, no new captures or FPGA changes"
+  ]
+}

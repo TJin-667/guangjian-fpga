@@ -1,0 +1,30 @@
+{
+  "rule_version": "fourlight-fusion-1",
+  "parameters_and_reference_fixed_before_real_fusion": true,
+  "files": {
+    "config.json": "4b9b339b365ffb821e8726e6a8655762a7b3fc816d71aa09c9b9ced7acc85d6c",
+    "PROTOCOL.md": "e82b3b387b79481fcf65a371f4e6ff9139a13419eed805bd0811934722d2aa87",
+    "reference_proposal_1.json": "b07e6e8a00ed9e123fc5baabad72e08e1a924a7bd0933acbab02b4e0d2b31dda",
+    "input_index.fixed.json": "bb567d4439f5948a706244dab67d8953ce0386efb4dd283758f7eec154d820d0",
+    "fusion.py": "655b86263798eaaf986975aca68beb218f7d77da91bda94e2cba4dd79710803d",
+    "inputs.py": "35b1567478de5cb9bf2ca4c2061b206949384654fd8f9fb5f2b28df8d31493fb",
+    "evaluation.py": "6e165d54b24e438a1387a5081825abdb657b720fe26b8b701111e2f4280c59bb",
+    "run.py": "295ac1d4027f4197de821dd4808ff89ff760e691b8edd5efbe078a40bf56dc95",
+    "references/whole_reference.py": "bc6d7ab422156d3504c899138cc096b3748ef22fea9936538f4bf1655a1f78c0",
+    "references/connection_experiment.py": "a9d85fd01fcf486f21fb972da55f8d87d0fb569bf049be0e790a03179ace46f7"
+  },
+  "review_corrections": [
+    "exact Euclidean evaluation tube",
+    "protected output paths",
+    "pinned imported dependencies",
+    "signed bounds avoid int64 abs overflow"
+  ],
+  "prior_freeze_file": "freeze_initial_before_review.json",
+  "external_dependencies": {
+    "../software/ymw_integer_reference.py": "caefc8519c355cc7670cf7fb95986f0cc4fd2885ffb618061dc9899ba84186de",
+    "../software/light_inspection/real_baseline.py": "3d796a28d155b7a9d74562e24ff77c712bd17fb23377bf4d5def558311919c1a",
+    "../software/light_inspection/core.py": "47585c9a081351f8a44dbca40b803907a9975291dfb615e713d4c969e9cf92d0",
+    "../software/light_inspection/image_io.py": "74d2bda791ac2d9a45a45341c5cf1f221fd1b3336f2fdb98d79a02b1fff834e5",
+    "../software/light_inspection/__init__.py": "7cd2e26b25c7748c87aeeac27749a0032762dec277e31d7b335baec9df3d609f"
+  }
+}

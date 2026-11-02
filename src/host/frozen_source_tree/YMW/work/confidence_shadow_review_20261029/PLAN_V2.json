@@ -1,0 +1,107 @@
+{
+  "schema": "confidence-shadow-evidence-v2",
+  "purpose": "Assess possible missed structures using mild detector perturbations and unseeded raw-supported weak lines. Do not alter the frozen detector mask.",
+  "formal_config_id": "4c0be2d44fdd",
+  "formal_source_commit": "6f6e63c9649aee39f10304f7989c71a4b4023f08",
+  "shadow_profiles": {
+    "threshold_light": {
+      "weak": 5.0,
+      "strong": 14.0
+    },
+    "evidence_light": {
+      "min_area": 6,
+      "span": 6,
+      "line": 0.5,
+      "width": 5,
+      "raw_fraction": 0.75,
+      "raw_mean": 2.5
+    },
+    "reach_light": {
+      "reach": 48,
+      "half_width": 2
+    },
+    "combined_light": {
+      "weak": 5.0,
+      "strong": 14.0,
+      "min_area": 6,
+      "span": 6,
+      "line": 0.5,
+      "width": 5,
+      "raw_fraction": 0.75,
+      "raw_mean": 2.5,
+      "reach": 48,
+      "half_width": 2
+    },
+    "rim_control": {
+      "side_radius": 1
+    }
+  },
+  "comparison": {
+    "rim_tolerance_px": 2,
+    "min_new_piece_area": 6,
+    "min_new_piece_span": 8,
+    "min_new_piece_line_fraction": 0.45,
+    "max_new_piece_median_width": 7
+  },
+  "raw_line_check": {
+    "length": 13,
+    "flank": 2.5,
+    "orientations": 8,
+    "contrast_floor": 1,
+    "support_fraction": 0.75,
+    "mean_contrast": 2.0,
+    "station_stride_geodesic_px": 4,
+    "max_stations_per_component": 160,
+    "max_station_gap_px": 8.1,
+    "min_run_span_px": 12,
+    "min_good_stations": 4,
+    "min_component_station_fraction": 0.4
+  },
+  "unseeded_scan": {
+    "weak_levels": [
+      4.8,
+      4.0
+    ],
+    "strong_reference": 14.4,
+    "min_area": 6,
+    "min_span": 12,
+    "min_line_fraction": 0.45,
+    "max_median_width": 5,
+    "require_raw_supported_continuity": true
+  },
+  "group_policy": {
+    "unknown_board_fraction_review": 0.05,
+    "credible_extra_line": "REVIEW_SUSPECTED_MISSING_STRUCTURE",
+    "only_rim_or_speckles": "Record sensitivity; do not call them true defects",
+    "no_trigger": "NO_CLEAR_ALERT_UNCALIBRATED",
+    "no_trigger_note": "Never automatic PASS or100% confidence"
+  },
+  "limits": [
+    "These are initial engineering values, not calibrated confidence thresholds",
+    "Parameter stability cannot establish correctness; the immutable8/20 anchor creates high overlap by construction",
+    "Record new and lost pixels: nonlinear postprocessing is not necessarily monotone",
+    "Same scene's directions/exposures are supporting observations, not independent test samples",
+    "A single direction may reveal a true scratch; multiple directions increase evidence but are not mandatory",
+    "Continuous unseeded evidence is review-only, never merged into detector output",
+    "All23 groups are development data from three physical boards;007-010 excluded",
+    "Manual004 path loaded only after predictions and used as a development case check, not validation accuracy",
+    "No complete background truth, no FPR/recall/calibrated probability",
+    "TJ existing model not executed or overwritten",
+    "No FPGA work, captures, bit programming or external messages"
+  ],
+  "raw_direct_scan": {
+    "length": 13,
+    "flank": 2.5,
+    "screen_mean": 1.5,
+    "grid_stride": 4,
+    "max_proposals": 12000,
+    "rim_tolerance_px": 2,
+    "support_fraction": 0.75,
+    "mean_contrast": 2.0,
+    "min_stations": 5,
+    "min_span": 20,
+    "max_station_gap": 8.5,
+    "angle_degrees": 30
+  },
+  "v2_reason": "v1 residual-fragment gate failed on the known004 missing line. v2 proposes stations directly from raw directional contrast before exact profile/track checks. Development-driven revision, not independent validation."
+}

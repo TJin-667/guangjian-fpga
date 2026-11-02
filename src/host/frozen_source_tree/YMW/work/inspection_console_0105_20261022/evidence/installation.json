@@ -1,0 +1,29 @@
+{
+  "install_requested": true,
+  "target": "C:\\BX72_0105_LAB\\inspection_console_v1",
+  "command": "C:\\BX72_0105_LAB\\09_inspection_console.cmd",
+  "physical_board_contacted": false,
+  "installed_files": {
+    "analysis_worker.py": "ee54b0dc3a16ad66c40e5bd8d53c7d598a7210594accdb3135ad6c8ee5517ed5",
+    "capture_adapter.py": "43d9a06b52ddb845ce5050c75e8c08c1a5a12bee66f0b8ca869094ccc5664017",
+    "common.py": "e0be49a65e1e991c14aebac2ad3a4331a9d2f7fb829b1e0a67be44c537135023",
+    "inspection_app.py": "eb0dffb415521fab90369236bdf6c38b1866479355c5c2a907838718855aac99",
+    "OPERATOR_STEPS.txt": "fe753c513c266f85fb65b141de53bb5c27b4ed54541fb6f554e1e2f7f18ac600",
+    "README.md": "914c41f86a7d4fa37fecb4168984ceb0e77b1265594ebc35356c9acc87ad54c8",
+    "requirements.txt": "7f1b049bca918a8f835fefae7ca7705135c8ba54175c68d65a5bcd4080c0205b",
+    "vendor_manifest.json": "167b162aa16295b6b26e90b59b8502a52e4df6c2dd1ad75dae61f3543c4e0074",
+    "workflow.py": "4056fc87854b635f4bc0b620af66f9712574223e12788be64862d345b7535487",
+    "vendor/fourlight_fusion/config.json": "4b9b339b365ffb821e8726e6a8655762a7b3fc816d71aa09c9b9ced7acc85d6c",
+    "vendor/fourlight_fusion/freeze.json": "8fb651f2ae61a0933baf5b73a14d9a799b80909ede6a02e2a93ee7145f820351",
+    "vendor/fourlight_fusion/fusion.py": "655b86263798eaaf986975aca68beb218f7d77da91bda94e2cba4dd79710803d",
+    "vendor/fourlight_fusion/inputs.py": "35b1567478de5cb9bf2ca4c2061b206949384654fd8f9fb5f2b28df8d31493fb",
+    "vendor/software/ymw_integer_reference.py": "caefc8519c355cc7670cf7fb95986f0cc4fd2885ffb618061dc9899ba84186de",
+    "vendor/software/light_inspection/core.py": "47585c9a081351f8a44dbca40b803907a9975291dfb615e713d4c969e9cf92d0",
+    "vendor/software/light_inspection/image_io.py": "74d2bda791ac2d9a45a45341c5cf1f221fd1b3336f2fdb98d79a02b1fff834e5",
+    "vendor/software/light_inspection/real_baseline.py": "3d796a28d155b7a9d74562e24ff77c712bd17fb23377bf4d5def558311919c1a",
+    "vendor/software/light_inspection/__init__.py": "7cd2e26b25c7748c87aeeac27749a0032762dec277e31d7b335baec9df3d609f"
+  },
+  "launcher_sha256": "e7ed5dd4c93528011a497d459888e1146649541b2d7b3f3873bd684ab8fb5dc8",
+  "original_files_unchanged": true,
+  "rollback": "Close 09 and use the unchanged 06/07/08 entries. No firmware change needed."
+}

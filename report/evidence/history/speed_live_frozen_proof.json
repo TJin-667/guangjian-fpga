@@ -1,0 +1,31 @@
+{
+  "status": "PASS_SAME_INPUT_DENSE_HYBRID_AND_SAVED",
+  "R32_word_differences": 0,
+  "fusion_differences": {
+    "residual_n": 0,
+    "source_frame": 0,
+    "unknown": 0,
+    "source_direction": 0,
+    "source_exposure": 0,
+    "polarity": 0,
+    "weak": 0,
+    "strong": 0,
+    "connected_mask": 0,
+    "mask": 0
+  },
+  "formal_differences": {
+    "original": 0,
+    "guide6_20": 0,
+    "without_sleeve": 0,
+    "candidate": 0,
+    "side_addition": 0,
+    "side_envelope": 0,
+    "isolated6": 0,
+    "isolated_low": 0,
+    "terminal_extension": 0,
+    "ordinary": 0
+  },
+  "full_review_equal": true,
+  "full_scores_equal": true,
+  "outside_A_B_timing": true
+}

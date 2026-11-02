@@ -1,0 +1,317 @@
+{
+  "status": "SAME_INPUT_PHASE_COMPARISON",
+  "group_id": "SOFTWARE109_NOT_TRAINING_g1",
+  "physical_hardware": false,
+  "software_model": true,
+  "repetitions": 3,
+  "PC_samples": [
+    {
+      "repetition": 1,
+      "H2_eight_RAM_seconds": 0.002862599998479709,
+      "PC_quality_eight_RAM_seconds": 0.004627199989045039,
+      "MaxAbs_R32_eight_RAM_seconds": 0.000455000001238659,
+      "R32_word_differences": 0
+    },
+    {
+      "repetition": 2,
+      "H2_eight_RAM_seconds": 0.0018546000064816326,
+      "PC_quality_eight_RAM_seconds": 0.004060500010382384,
+      "MaxAbs_R32_eight_RAM_seconds": 0.00038660000427626073,
+      "R32_word_differences": 0
+    },
+    {
+      "repetition": 3,
+      "H2_eight_RAM_seconds": 0.0017695999995339662,
+      "PC_quality_eight_RAM_seconds": 0.004796400011400692,
+      "MaxAbs_R32_eight_RAM_seconds": 0.00044469999556895345,
+      "R32_word_differences": 0
+    }
+  ],
+  "PC_median_seconds": {
+    "H2_eight_RAM_seconds": 0.0018546000064816326,
+    "PC_quality_eight_RAM_seconds": 0.004627199989045039,
+    "MaxAbs_R32_eight_RAM_seconds": 0.00044469999556895345
+  },
+  "device_local_services": [
+    {
+      "stage": 0,
+      "clock_hz": 125000000,
+      "eight_service_cycles": 87904,
+      "eight_service_seconds": 0.000703232,
+      "frames": [
+        {
+          "slot": 1,
+          "service_cycles": 10988,
+          "count0": 247,
+          "count1": 3,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 2,
+          "service_cycles": 10988,
+          "count0": 247,
+          "count1": 3,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 3,
+          "service_cycles": 10988,
+          "count0": 247,
+          "count1": 3,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 4,
+          "service_cycles": 10988,
+          "count0": 247,
+          "count1": 3,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 5,
+          "service_cycles": 10988,
+          "count0": 247,
+          "count1": 3,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 6,
+          "service_cycles": 10988,
+          "count0": 247,
+          "count1": 3,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 7,
+          "service_cycles": 10988,
+          "count0": 247,
+          "count1": 3,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 8,
+          "service_cycles": 10988,
+          "count0": 247,
+          "count1": 3,
+          "blocked_cycles": 3
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "clock_hz": 100000000,
+      "eight_service_cycles": 87904,
+      "eight_service_seconds": 0.00087904,
+      "frames": [
+        {
+          "slot": 1,
+          "service_cycles": 10988,
+          "count0": 62,
+          "count1": 4,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 2,
+          "service_cycles": 10988,
+          "count0": 62,
+          "count1": 4,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 3,
+          "service_cycles": 10988,
+          "count0": 62,
+          "count1": 4,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 4,
+          "service_cycles": 10988,
+          "count0": 62,
+          "count1": 4,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 5,
+          "service_cycles": 10988,
+          "count0": 62,
+          "count1": 4,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 6,
+          "service_cycles": 10988,
+          "count0": 62,
+          "count1": 4,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 7,
+          "service_cycles": 10988,
+          "count0": 62,
+          "count1": 4,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 8,
+          "service_cycles": 10988,
+          "count0": 62,
+          "count1": 4,
+          "blocked_cycles": 3
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "clock_hz": 100000000,
+      "eight_service_cycles": 87904,
+      "eight_service_seconds": 0.00087904,
+      "frames": [
+        {
+          "slot": 1,
+          "service_cycles": 10988,
+          "count0": 62,
+          "count1": 62,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 2,
+          "service_cycles": 10988,
+          "count0": 124,
+          "count1": 62,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 3,
+          "service_cycles": 10988,
+          "count0": 124,
+          "count1": 62,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 4,
+          "service_cycles": 10988,
+          "count0": 124,
+          "count1": 62,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 5,
+          "service_cycles": 10988,
+          "count0": 124,
+          "count1": 62,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 6,
+          "service_cycles": 10988,
+          "count0": 124,
+          "count1": 62,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 7,
+          "service_cycles": 10988,
+          "count0": 124,
+          "count1": 62,
+          "blocked_cycles": 3
+        },
+        {
+          "slot": 8,
+          "service_cycles": 10988,
+          "count0": 124,
+          "count1": 62,
+          "blocked_cycles": 3
+        }
+      ]
+    }
+  ],
+  "phase_scope_ratios": {
+    "H2_RAM_PC_over_device_inclusive_service": null,
+    "MaxAbs_R32_RAM_PC_over_device_inclusive_service": null
+  },
+  "system_speedup": null,
+  "FPGA_arithmetic_only_cycles": null,
+  "quality_upload_and_FETCH_excluded_from_core_phases": true,
+  "acquisition_E2E_comparison_complete": false,
+  "frozen_algorithm": "f09eb5885e1d",
+  "new_CAP": 0,
+  "scope": "PC exact H2 and earliest-valid MaxAbs/R32 with native inputs in RAM vs actual device inclusive phase services. Includes device DDR/CDC; scratch listed separately. Not the whole detection or acquisition speedup. Domains overlap and must not be summed.",
+  "source_sha256": {
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\fusion\\fpga_result.r32": "eea5c5b83c2effe6d593ccd612069086753a44beff94c70e288bc37cbc112be7",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\fusion\\RESULT.json": "29770cc5fc6b226c421139c3c8485e52b401c4c44c277da6a813049a0061d298",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\cd7dfded7ded4388b3d49ac086198a11\\committed\\board_mask.bin": "24b32f96946c602fb7f1ac19c2257cb1db4d5a1ef06f89f9213e5e42168ec561",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\cd7dfded7ded4388b3d49ac086198a11\\committed\\image.gray.png": "8ed6bee946241e1429c07d75b1e11ce36e7c9bfb5addb5fd6df7f2237e3e23d6",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\cd7dfded7ded4388b3d49ac086198a11\\committed\\image.gray8": "4102e114aeac38cf0d538888bb7a9d367ee27b77507886f6e9a25635c96b56a4",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\cd7dfded7ded4388b3d49ac086198a11\\committed\\image.gray_sat": "08b6470266ee4da02dc2d416a6e12eceabaaa8454c94ce0e5ccf7e5672d9e420",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\cd7dfded7ded4388b3d49ac086198a11\\committed\\image.sat.png": "94d493803d60d65053d7d1a499b25d00e4fa81b09e996521db446f684f7eda2f",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\cd7dfded7ded4388b3d49ac086198a11\\committed\\image.sat1": "d96953c04d6f76ddbfb38b31e1305f26104bc9ca785ca14c89104a7fd2f9ae36",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\cd7dfded7ded4388b3d49ac086198a11\\committed\\metadata_packet.bin": "5499e9a590ac7c611a22e8f0901aa8bb7bfe6eb44f6bb96ec53f0dabaec83064",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\cd7dfded7ded4388b3d49ac086198a11\\committed\\transport_capabilities.json": "776ced4c5c8e047dd8f6932a9f851839d894f56c5f0179195d297f40c4d95ae5",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\cd7dfded7ded4388b3d49ac086198a11\\committed\\result.json": "b3469b280f3c118d5da3f8b3288ea0f79886761df3d2e614d336b0db96871cb3",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\c1f7530d50ad4f9baf26f34e14a3d704\\committed\\board_mask.bin": "24b32f96946c602fb7f1ac19c2257cb1db4d5a1ef06f89f9213e5e42168ec561",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\c1f7530d50ad4f9baf26f34e14a3d704\\committed\\image.gray.png": "2c170463c7ca7c47a5250ed1779b785895c4cd4653b4d2926c01787462f89e5a",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\c1f7530d50ad4f9baf26f34e14a3d704\\committed\\image.gray8": "89b90892ff26ea4ad17251eecd68e73fa3e934adc925ad79f330bc716adfe73d",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\c1f7530d50ad4f9baf26f34e14a3d704\\committed\\image.gray_sat": "5fb83482d1bf1dbbeb33e6dad179147baa0adad59db99fde1399f0a8de95df56",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\c1f7530d50ad4f9baf26f34e14a3d704\\committed\\image.sat.png": "c98a7079784b67929a0ef194c387295ab85fbba4b1d016136e4261693d23d866",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\c1f7530d50ad4f9baf26f34e14a3d704\\committed\\image.sat1": "c5ffe6d6752a675198d3a98aa8bfe80af562d151a761c7ab14730701be2f5142",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\c1f7530d50ad4f9baf26f34e14a3d704\\committed\\metadata_packet.bin": "9975236b2fb5591e02f4dc47c5a029ddf5c0c9742c0886cb14166daee6350246",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\c1f7530d50ad4f9baf26f34e14a3d704\\committed\\transport_capabilities.json": "581e4bcf31b914e338cac047468e421ae2b7b69e051575e1e7dca744ea359a57",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\c1f7530d50ad4f9baf26f34e14a3d704\\committed\\result.json": "be29a665bedc42fd3ddbc07224085f1ed4676b00dadb3b8ee6171550b3dd03c2",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\92acee068c19422c89a533327abb254d\\committed\\board_mask.bin": "24b32f96946c602fb7f1ac19c2257cb1db4d5a1ef06f89f9213e5e42168ec561",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\92acee068c19422c89a533327abb254d\\committed\\image.gray.png": "eab2a282b5a0bdc8e2f655349bffeb3a250cab06cce29186e7b18c5ae99ced6a",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\92acee068c19422c89a533327abb254d\\committed\\image.gray8": "2ee2fcfe3c9726de3bf4c6659580d2b11690f934676c5d5461f0b673dc263ea9",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\92acee068c19422c89a533327abb254d\\committed\\image.gray_sat": "8fedb6ab8e89fe09e811884851a35622627ca4b67e7696a46e8cdb91baea3536",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\92acee068c19422c89a533327abb254d\\committed\\image.sat.png": "7cf40a7d4d09529aaff7aef5ce948cfaef715b1d15d3bc29a42f916597501f8b",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\92acee068c19422c89a533327abb254d\\committed\\image.sat1": "ff876d9cd310c60edcbbef144b811dc963b5e9ba2e7331a9ca3cf93cff5c65a6",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\92acee068c19422c89a533327abb254d\\committed\\metadata_packet.bin": "7a11be075641b185b00bfffe1d706331d8ef9a7d31251b6850c2136c39e1f512",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\92acee068c19422c89a533327abb254d\\committed\\transport_capabilities.json": "a8a221b7d8bc17d590ea90f48c732111a49440e8c8453a0b0501b8be408bb9dc",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\92acee068c19422c89a533327abb254d\\committed\\result.json": "efc84281dfb83cf75e1de5211edb0ed5ce5f6133eb449e09e610429fb9928cf5",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\b9aec7febb8444aebc971cad6aa01fef\\committed\\board_mask.bin": "24b32f96946c602fb7f1ac19c2257cb1db4d5a1ef06f89f9213e5e42168ec561",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\b9aec7febb8444aebc971cad6aa01fef\\committed\\image.gray.png": "54c539a97fed4752416d206896a1b251260187a87864d26ee00fae1c86acc4df",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\b9aec7febb8444aebc971cad6aa01fef\\committed\\image.gray8": "77c3290c8a8f8d884af7200dd0f75f143a2a48b6f69e4193d5b97ac0e95f5870",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\b9aec7febb8444aebc971cad6aa01fef\\committed\\image.gray_sat": "ffb3e6f2c74228bd7bb370bd775d887141baa6da384f19af0208a82c92b5cab8",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\b9aec7febb8444aebc971cad6aa01fef\\committed\\image.sat.png": "39a9ee32fb8d17bd2390e10945ceab7f7902da7828f79a6a125b7678655210fe",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\b9aec7febb8444aebc971cad6aa01fef\\committed\\image.sat1": "24edbca3ef20841c6e41b2c440406d3a0370fa82804cf2af3b2f7b6f22673549",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\b9aec7febb8444aebc971cad6aa01fef\\committed\\metadata_packet.bin": "03a2c1afeb8bedc5cf33a2379fbe371faf4c01c8eb9450421c5ea41875424d2c",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\b9aec7febb8444aebc971cad6aa01fef\\committed\\transport_capabilities.json": "bbd59423de87afa3c966692df7d47867506f278313c069cc89449f81a301d72a",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\b9aec7febb8444aebc971cad6aa01fef\\committed\\result.json": "926c3a4493230a03df37215b12910e32ac3322b67e0e28934ab6c4ff0f5de1f6",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\68baebf6e21e426684f72c1b847cf5fa\\committed\\board_mask.bin": "24b32f96946c602fb7f1ac19c2257cb1db4d5a1ef06f89f9213e5e42168ec561",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\68baebf6e21e426684f72c1b847cf5fa\\committed\\image.gray.png": "1a7c68032ad58f14ff29cfdac34fbade65b2059a45aba0ce9096285487089f6f",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\68baebf6e21e426684f72c1b847cf5fa\\committed\\image.gray8": "9a1b29e2abe30e1759a9827ef010a3bb7d74dc62ede98073420260335ff7b6cd",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\68baebf6e21e426684f72c1b847cf5fa\\committed\\image.gray_sat": "c12daff994c278e6a76d8b3ff17af6a52c703e1ebf9b00e5b90ae9d28ba67315",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\68baebf6e21e426684f72c1b847cf5fa\\committed\\image.sat.png": "2c0dcfb83c900232aa3f324aa80686bf5bba40942e441cdc214f5681659238f8",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\68baebf6e21e426684f72c1b847cf5fa\\committed\\image.sat1": "d4a9212de0c2e8825f84ab91f2dcdba36bb2d99f39be77cfa410bc3cec51c70b",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\68baebf6e21e426684f72c1b847cf5fa\\committed\\metadata_packet.bin": "9ec270d48a62d3ec67aeda91f4e5c7f0af9c3e4a63127482a99412ed427478c6",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\68baebf6e21e426684f72c1b847cf5fa\\committed\\transport_capabilities.json": "6a28cea48995302c62fbfe108fa0b168e308c7bfaa505c99c9a84a663990a1c3",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\68baebf6e21e426684f72c1b847cf5fa\\committed\\result.json": "e96cb336cce72e56ee3c462acc7df73591f8fc1387285f657c529a68d4cff525",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\6dd04751c86541058b44bd1e1ae1acc5\\committed\\board_mask.bin": "24b32f96946c602fb7f1ac19c2257cb1db4d5a1ef06f89f9213e5e42168ec561",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\6dd04751c86541058b44bd1e1ae1acc5\\committed\\image.gray.png": "6bbafcc295f0d4c53ed27f3978d628ddab46fd319cec07960e15eb857eb975e6",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\6dd04751c86541058b44bd1e1ae1acc5\\committed\\image.gray8": "8392d7939564106089ed7c1c3a01614a4000248255ba173c921e9127c8cd892b",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\6dd04751c86541058b44bd1e1ae1acc5\\committed\\image.gray_sat": "ccee6541546268e812680d732cbd3e6d07b04afe823087e3b77f4b06e8612039",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\6dd04751c86541058b44bd1e1ae1acc5\\committed\\image.sat.png": "85739d6206d3428c3ad9f8a398801eb128d0677b1636760163697d3581250cfa",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\6dd04751c86541058b44bd1e1ae1acc5\\committed\\image.sat1": "f03aa29f105a0b5b68cf8d7067bdda003ad7d6f4fc142259092c0736c2218e7a",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\6dd04751c86541058b44bd1e1ae1acc5\\committed\\metadata_packet.bin": "216eeb3552ca8558138c10c59e9dbac27633c25a943e7f501c03f1ffb1aea8e0",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\6dd04751c86541058b44bd1e1ae1acc5\\committed\\transport_capabilities.json": "b96bb241802864eda0e6da6210ed5b054680fd42f25ccdb237955ca9330601dd",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\6dd04751c86541058b44bd1e1ae1acc5\\committed\\result.json": "3b454b9a0e308ae5ab69a0d356face415c79e85b246d46984f7eb485eef87370",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\2a56ceacd53c42719b90b2f5970c7d4d\\committed\\board_mask.bin": "24b32f96946c602fb7f1ac19c2257cb1db4d5a1ef06f89f9213e5e42168ec561",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\2a56ceacd53c42719b90b2f5970c7d4d\\committed\\image.gray.png": "a514c5c4fa8196d809489014d253c023b31a505c888b2546ceae236c0511f9cf",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\2a56ceacd53c42719b90b2f5970c7d4d\\committed\\image.gray8": "22072efae14ad7dc0b367386fb8efb5345ffef4a5369abf1458386219eebc68f",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\2a56ceacd53c42719b90b2f5970c7d4d\\committed\\image.gray_sat": "552bb1d432a76f8d3573f6c8dfeced4c92169ad5e392d5cbd7efc05e1d35d8c0",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\2a56ceacd53c42719b90b2f5970c7d4d\\committed\\image.sat.png": "57d0965e4545c06cf3bf4e1d1f8e9e26b10570e79fa2a90c10aa6542fd51a0d3",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\2a56ceacd53c42719b90b2f5970c7d4d\\committed\\image.sat1": "f3b0b12d968795f1e9d663e4d4d287429a787da4e21393ebbfb969c194ec1fed",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\2a56ceacd53c42719b90b2f5970c7d4d\\committed\\metadata_packet.bin": "174c95f7af0d86f8fc8ce1d03811041c99e1431691d89a11a659ba821d8cd848",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\2a56ceacd53c42719b90b2f5970c7d4d\\committed\\transport_capabilities.json": "3ef1868e7298523459a7e699c8a3c274d4d9a5b32ce140cee8e80eae7b963a56",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\2a56ceacd53c42719b90b2f5970c7d4d\\committed\\result.json": "75a01bc28fe5d3311c090ea45069bc28e53ef26ee76e0f3b5d37db8fc8cabbd1",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\0530b98b866d421ba70f05665e02bbda\\committed\\board_mask.bin": "24b32f96946c602fb7f1ac19c2257cb1db4d5a1ef06f89f9213e5e42168ec561",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\0530b98b866d421ba70f05665e02bbda\\committed\\image.gray.png": "5fc7efbe8550505d027d7bc54f445d3532a3af248936abc607755f0d97b3d5a2",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\0530b98b866d421ba70f05665e02bbda\\committed\\image.gray8": "053443635dffc5042f6d670e1b331aca9846eae76558c7d11a24f85242253e1c",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\0530b98b866d421ba70f05665e02bbda\\committed\\image.gray_sat": "a60444349f2b45bcda8d590bb01a809bcdf0ee5526ea920d7cced4aae121f368",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\0530b98b866d421ba70f05665e02bbda\\committed\\image.sat.png": "51cbc21e90851c79bdfa33e319455c3834ebccf743634cb401d1adfe61562734",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\0530b98b866d421ba70f05665e02bbda\\committed\\image.sat1": "65523cf73ba5b4f377c2255d967ba52b4d82335b20d7e494cf60c283a4ec398e",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\0530b98b866d421ba70f05665e02bbda\\committed\\metadata_packet.bin": "911bbf3fa575008733cb72fbb89fa0799d3d90d7b6dfe363d8a63d07bfd92dd4",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\0530b98b866d421ba70f05665e02bbda\\committed\\transport_capabilities.json": "a15f0874e10111091d125ad4f364f950be3ae75d380c225f088ced4d3f0f0683",
+    "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\captures\\0530b98b866d421ba70f05665e02bbda\\committed\\result.json": "255d6b60d569f7466b47db6c9a9c17aee9f42512bdce7883ef4a6afe8c56e352"
+  },
+  "benchmark_source_sha256": "b0f811123ee2073c2a37446181b6e4b2341e1ec65f4df86205029302f808269a"
+}

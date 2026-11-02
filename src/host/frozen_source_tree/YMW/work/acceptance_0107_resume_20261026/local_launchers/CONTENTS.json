@@ -1,0 +1,18 @@
+{
+  "bx72_0107_acceptance_EXPERIMENTAL_NOT_RELEASED.bit": {
+    "bytes": 3825906,
+    "sha256": "4d1545266f83a6eb52327e4863658fa465448c04572b595cbe6dbc482850a01b"
+  },
+  "RUN_ACCEPTANCE_0107.cmd": {
+    "bytes": 263,
+    "sha256": "0b0d12fad2bc6f382588989cc189594cd9576cb365255a308bfefe2183d075da"
+  },
+  "RUN_ACCEPTANCE_0107.ps1": {
+    "bytes": 2617,
+    "sha256": "af9f2671b637b4b6c9c06ecfb1292d01a9ef30f346d9be8f9bc5e902e80ed152"
+  },
+  "START_HERE.md": {
+    "bytes": 1560,
+    "sha256": "a7c1652285a5b395391a6e3ccf626ebbc41a3eba67d595cc2b4e12fc1ec3e0b0"
+  }
+}

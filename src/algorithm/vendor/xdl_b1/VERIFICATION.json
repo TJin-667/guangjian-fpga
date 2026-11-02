@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "scope": "standalone extraction of unchanged Python B1 reference",
+  "method": "GitHub source text imported and executed from memory; no local delivery folder created",
+  "source_commit": "9326c12386134aa821a8eede30b20709fa030a34",
+  "source_blob_hashes_matched": 10,
+  "detection_core_files_unchanged": 7,
+  "frozen_manifest_sha256_pins_matched": 6,
+  "unit_tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "synthetic_example": {
+    "frames": 8,
+    "shape_hw": [
+      64,
+      96
+    ],
+    "candidate_pixels": 1132,
+    "unknown_on_board": 784,
+    "direct_eight_equality": "all final fields identical",
+    "candidate_inclusion": "all eight singles and low4/high4 included",
+    "real_sample": false
+  },
+  "environment": {
+    "python": "3.11.5",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0"
+  },
+  "commands_for_extracted_folder": [
+    "python -B -m unittest discover -s tests -v",
+    "python -B examples/embed_example.py"
+  ],
+  "initial_environment_preflight": "Bundled document runtime had no cv2; final validation used the existing image-processing Python environment. No package source change required.",
+  "historical_evidence": {
+    "sample003_checks": 794,
+    "sample004_005_checks": 687,
+    "rerun_in_this_packaging_task": false
+  },
+  "limits": [
+    "Not integrated into YMW GUI, acquisition, SDK or RTL in this task",
+    "No realtime latency or memory guarantee",
+    "One verified dependency environment; not a version compatibility matrix",
+    "Exposure settings remain external metadata and development choices"
+  ],
+  "unit_test_output": "test_board_applied_after_connection_and_does_not_change_response (bundle_fusion_tests.DualExposureB1Tests.test_board_applied_after_connection_and_does_not_change_response) ... ok\r\ntest_connects_across_exposures_and_directions_not_mask_union (bundle_fusion_tests.DualExposureB1Tests.test_connects_across_exposures_and_directions_not_mask_union) ... ok\r\ntest_every_single_frame_and_low_high_b1_are_subsets (bundle_fusion_tests.DualExposureB1Tests.test_every_single_frame_and_low_high_b1_are_subsets) ... ok\r\ntest_frozen_four_frame_b1_matches (bundle_fusion_tests.DualExposureB1Tests.test_frozen_four_frame_b1_matches) ... ok\r\ntest_hierarchical_and_direct_signed_response_and_source_match (bundle_fusion_tests.DualExposureB1Tests.test_hierarchical_and_direct_signed_response_and_source_match) ... ok\r\ntest_malformed_inputs_rejected (bundle_fusion_tests.DualExposureB1Tests.test_malformed_inputs_rejected) ... ok\r\ntest_negative_tie_first_frame_and_invalid_winner (bundle_fusion_tests.DualExposureB1Tests.test_negative_tie_first_frame_and_invalid_winner) ... ok\r\ntest_thresholds_strict_and_unknown_zero_source (bundle_fusion_tests.DualExposureB1Tests.test_thresholds_strict_and_unknown_zero_source) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 8 tests in 0.290s\r\n\r\nOK\r\n",
+  "example_output": "{\"fixture\": \"SYNTHETIC_NOT_REAL_SAMPLE\", \"frames\": 8, \"shape_hw\": [64, 96], \"candidate_pixels\": 1132, \"unknown_on_board\": 784, \"two_stage_vs_direct\": \"PASS_ALL_FIELDS\", \"single_low4_high4_inclusion\": \"PASS\", \"numpy\": \"1.26.4\", \"opencv\": \"4.10.0\"}\r\n{\"tests_run\": 8, \"failures\": 0, \"errors\": 0, \"python\": \"3.11.5\", \"numpy\": \"1.26.4\", \"opencv\": \"4.10.0\", \"method\": \"in_memory_import_no_local_package\", \"sources\": 10}\r\n",
+  "independent_review": {
+    "status": "APPROVED_NO_BLOCKERS",
+    "copied_blob_files_verified": 10,
+    "import_closure_verified": true,
+    "documentation_correction": "Documented original float32 polygon conversion before rint; no algorithm change",
+    "hardware_integration_reviewed": false
+  }
+}

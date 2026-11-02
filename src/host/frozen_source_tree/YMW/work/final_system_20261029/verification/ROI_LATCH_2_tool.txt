@@ -1,0 +1,17 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/offload_sim/xsim_script.tcl
+# xsim {offload_sim} -autoloadwcfg -runall
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run -all
+CASE PASS: configured ROI differs from active geometry before BEGIN
+CASE PASS: one native ROI CAP aligns active geometry and mask generation
+ROI_LATCH_REPRO_PASS 2
+$finish called at time : 1344 ns : File "E:/GuangjianData/reviews/final_system_20261029/rtl_roi_latch_01/compiled_sources/tb_roi_latch_repro.sv" Line 36
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 30 02:03:22 2026...

@@ -1,0 +1,41 @@
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/report_sim/xsim_script.tcl
+# xsim {report_sim} -autoloadwcfg -tclbatch {waves.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source waves.tcl
+## open_vcd waves.vcd
+## log_vcd /tb_h2_scratch/clk
+## log_vcd /tb_h2_scratch/reset
+## log_vcd /tb_h2_scratch/cfg_valid
+## log_vcd /tb_h2_scratch/h2_valid
+## log_vcd /tb_h2_scratch/h2_ready
+## log_vcd /tb_h2_scratch/h2_x
+## log_vcd /tb_h2_scratch/h2_y
+## log_vcd /tb_h2_scratch/h2_gray
+## log_vcd /tb_h2_scratch/h2_r
+## log_vcd /tb_h2_scratch/h2_finish
+## log_vcd /tb_h2_scratch/awvalid
+## log_vcd /tb_h2_scratch/awready
+## log_vcd /tb_h2_scratch/wvalid
+## log_vcd /tb_h2_scratch/wready
+## log_vcd /tb_h2_scratch/wlast
+## log_vcd /tb_h2_scratch/bvalid
+## log_vcd /tb_h2_scratch/bready
+## log_vcd /tb_h2_scratch/bresp
+## log_vcd /tb_h2_scratch/writer_valid
+## log_vcd /tb_h2_scratch/writer_error
+## log_vcd /tb_h2_scratch/pixels_written
+## run all
+H2_SCRATCH_PASS 0 pixels81 error0
+H2_SCRATCH_PASS 0 pixels81 error5
+H2_SCRATCH_ALL_PASS 2
+$finish called at time : 37448 ns : File "E:/GuangjianData/OpenSourceRelease_20261102/internal/simulation_01/h2/tb_h2_scratch.sv" Line 107
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 22:20:33 2026...

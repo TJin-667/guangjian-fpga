@@ -1,0 +1,16 @@
+{
+  "status": "DIAGNOSED_FROM_EXISTING_USER_LOGS",
+  "source_logs": [
+    "E:/GuangjianData/P0Pairs/focus/FOCUS_sample004_20261030_012742_195658",
+    "E:/GuangjianData/P0Pairs/focus/FOCUS_sample004_20261030_012812_8843d4"
+  ],
+  "observed_status_firmware": 264,
+  "requested_sdk_firmware": 263,
+  "error": "UNSUPPORTED_FIRMWARE",
+  "capture_requests": 0,
+  "off_acknowledged": true,
+  "old_desktop_shortcut_target": "C:/BX72_P0_PAIRS/20261026/RUN_P0_CONSOLE.cmd",
+  "actual_clicked_window_not_observed": true,
+  "fix": "dedicated0108_launcher_default_action_page_and_qualified0108_focus_adapter",
+  "assistant_new_board_commands": 0
+}

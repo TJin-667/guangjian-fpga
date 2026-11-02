@@ -1,0 +1,25 @@
+{
+  "original_sdk_sha256": "cd39146d87c1951bd33881d8534bf775f54862290b6ce20d47873c83ef18b621",
+  "derived_sha256": "2b0488f2d7a23aef73d303e520826bcf63b941e134210dcb587a3e4b9b1b31bf",
+  "changes": [
+    {
+      "change": "0106 lifecycle/prepare/retirement gates; subclass separately supplies 0106 protocol and decoder",
+      "occurrences": 8
+    },
+    {
+      "change": "Replace RGB-only publication with format-aware final validation/publication hook",
+      "occurrences": 1
+    },
+    {
+      "change": "Extend final independently sequenced snapshot stability comparison",
+      "occurrences": 1
+    },
+    {
+      "change": "Preserve quarantine after delegated atomic publication fails",
+      "occurrences": 1
+    }
+  ],
+  "original_source_modified": false,
+  "compat_mode_exposed": false,
+  "subclass_required": "sdk_transport.TransportExecutor overrides transaction/status/ready/image/capture/publication"
+}

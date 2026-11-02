@@ -1,0 +1,276 @@
+{
+  "files": {
+    "net_02/VERIFICATION.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\net_02\\VERIFICATION.json",
+      "sha256": "fd5f035a67abf293388796df7ba3823cb325fff8659f63fa1c572ecec014d59c",
+      "bytes": 125
+    },
+    "board_gray_02/VERIFICATION.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\board_gray_02\\VERIFICATION.json",
+      "sha256": "340cb4a6906a555c6188a2a8fe3060cacd14bb4112c540b899f3ff7b15b22456",
+      "bytes": 9928
+    },
+    "board_gray_02/PACKET_AUDIT.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\board_gray_02\\PACKET_AUDIT.json",
+      "sha256": "b5d5714d39a54da2e357e36bec0ae9e736c528abf2d2672a248dcb55d42558fe",
+      "bytes": 55850
+    },
+    "board_gray_02/COMPILED_INPUTS.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\board_gray_02\\COMPILED_INPUTS.json",
+      "sha256": "f0009ee722898c3eecaf447a8b3c92f226582e93535cfd0722f885862d600539",
+      "bytes": 9440
+    },
+    "board_dual_02/VERIFICATION.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\board_dual_02\\VERIFICATION.json",
+      "sha256": "b79c75db06e820f4c8cbb76b7efc13d6742aed98c739c1610f938fc12389bfae",
+      "bytes": 9928
+    },
+    "board_dual_02/PACKET_AUDIT.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\board_dual_02\\PACKET_AUDIT.json",
+      "sha256": "b8a4c4e15f5dcc9150aa9788f4ce746263d60c912fad796178a7b17362e09453",
+      "bytes": 55851
+    },
+    "board_dual_02/COMPILED_INPUTS.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\board_dual_02\\COMPILED_INPUTS.json",
+      "sha256": "93a40f79998e38d1525ea71650296f61a33c1291a3bc3c534e6b4659731f6251",
+      "bytes": 9440
+    },
+    "sdk_02/VERIFICATION.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\VERIFICATION.json",
+      "sha256": "2523c7e8f7bc8f9ab3af97ae93cb31b75b05de0ee59271c63b2d84ea74e5bc89",
+      "bytes": 3176
+    },
+    "runtime_03/VERIFICATION.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\runtime_03\\VERIFICATION.json",
+      "sha256": "b61936f42ee6883e5be221c00956e080a0914b0a4dc2272299b3b081d154832c",
+      "bytes": 405
+    },
+    "runtime_03/sessions/VERIFICATION.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\runtime_03\\sessions\\VERIFICATION.json",
+      "sha256": "274b9ac2a87b4315f333dfff841d046170292a34984055d1d159bd7999ff7a55",
+      "bytes": 73771
+    },
+    "runtime_03/ui/VERIFICATION.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\runtime_03\\ui\\VERIFICATION.json",
+      "sha256": "e82f9850774340788be28a502f5be108b270519282f4abc3b3635bf0c9dfbbb6",
+      "bytes": 137
+    },
+    "runtime_03/test_session_batch.py.log": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\runtime_03\\test_session_batch.py.log",
+      "sha256": "dd9536cdd568ff8347c0c274ef58aa6f02cc9d37fae384db844b76a2875f67ce",
+      "bytes": 2575
+    },
+    "runtime_03/test_continuous_app.py.log": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\runtime_03\\test_continuous_app.py.log",
+      "sha256": "3f484ec025924816be8f96fa0c94e7532db9344e8c81259cf4e4c30fdcd28569",
+      "bytes": 1317
+    },
+    "reset_04/VERIFICATION.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\reset_04\\VERIFICATION.json",
+      "sha256": "5912f56771ec2d149aecdf096cd316bd6b9b5b33aef677d4d998c89265f2dad4",
+      "bytes": 2363
+    },
+    "reset_04/tests.log": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\reset_04\\tests.log",
+      "sha256": "d76d151e601d9aa574c2c9fd94084f43c8bb14fb549c532dc52f6c2a27aeebb4",
+      "bytes": 5520
+    },
+    "profile_archive_01/VERIFICATION.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\profile_archive_01\\VERIFICATION.json",
+      "sha256": "20517051c73625d65f1bdbf74603e4958afc1f1fa81da29c7b2b661295ee343c",
+      "bytes": 822
+    },
+    "worker/RESULT.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\worker_03\\RESULT.json",
+      "sha256": "2eace9ce268f09a7fc775dfe172be37a9f51f9187dcc2dddd19228739028090e",
+      "bytes": 5091
+    },
+    "worker/PERFORMANCE.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\worker_03\\PERFORMANCE.json",
+      "sha256": "ca9da07ae6cd80b4e634f8e9195165da3fa13a607a5aff34559abce87ed280f8",
+      "bytes": 1720
+    },
+    "worker/DEVICE_SERVICE.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\worker_03\\DEVICE_SERVICE.json",
+      "sha256": "4dd6abb81f69d84cf48254b708e5e07efc6292aa72487b72eb5ea585c3449a48",
+      "bytes": 19518
+    },
+    "worker/DEVICE_SERVICE.html": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\worker_03\\DEVICE_SERVICE.html",
+      "sha256": "896e164920f2989da7d4f72442751ecadc2aabbda1b0b3cfe3076bdb87ef736c",
+      "bytes": 4847
+    },
+    "worker/OUTPUT_MANIFEST.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\worker_03\\OUTPUT_MANIFEST.json",
+      "sha256": "6bf7bb697d9b3f9f8e3b5a38ab5ee26a248c3e3f0998d426b471f53a84220faa",
+      "bytes": 2013
+    },
+    "superseded_implementation_01.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\implementation_01\\SUPERSEDED.json",
+      "sha256": "6199a39d94448aeac3c10b94cc81a8847881ba8482585332d032e46b258419c4",
+      "bytes": 333
+    },
+    "cache_inference_before.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\implementation_01\\build\\reports\\utilization_synth.rpt",
+      "sha256": "5012c5d01ed6b3f3d1d47864b5a4fa06b399214b55348fde18c39cb5bdf7fe39",
+      "bytes": 106375
+    },
+    "cache_inference_after.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\implementation_02\\build\\reports\\utilization_synth.rpt",
+      "sha256": "e18b1d4330c49ecf128c329f094f0e14f9421249ffc77151713a9537c081caf6",
+      "bytes": 106375
+    },
+    "software_phase_comparison.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\phase_comparison_02\\SAME_INPUT_PHASES.json",
+      "sha256": "01081ed4302907af8569786c5e76c402808673e87c4331dee78038efe04dc212",
+      "bytes": 21642
+    },
+    "implementation/INPUTS.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\implementation_02\\INPUTS.json",
+      "sha256": "28271b0a2e9fe87afcf4347207c9182b42089b4c2df566bac04786552c2f8ca4",
+      "bytes": 7169
+    },
+    "implementation/TOOL_RUN.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\implementation_02\\TOOL_RUN.json",
+      "sha256": "1bb90011644c58ca96ef8bdf41740b68f67561e7447ea4727f1ad382ca86e51d",
+      "bytes": 721
+    },
+    "route_audit/INPUTS.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\INPUTS.json",
+      "sha256": "621b333a8135c7d059b16efb7ac4e985f570fe4e0ed44ab3c19b1e0f0354a809",
+      "bytes": 330
+    },
+    "route_audit/TOOL_RUN.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\TOOL_RUN.json",
+      "sha256": "acf716b3866728319c699f5ba0c7c7b9678fc1a9b165cecbc1711db4e33e9f2f",
+      "bytes": 144
+    },
+    "route_audit/reports/audit_complete.txt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\audit_complete.txt",
+      "sha256": "d587cfbf98e514f1122ee0cf650860e4ee59c30d7782daae8ba7ad75804916f6",
+      "bytes": 59
+    },
+    "route_audit/reports/audit_gate.csv": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\audit_gate.csv",
+      "sha256": "7d65b4822f5689175dbddcdf9ac45cfc49d4958ca5c0117beb977c5da628737a",
+      "bytes": 113
+    },
+    "route_audit/reports/bundle_paths.tsv": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\bundle_paths.tsv",
+      "sha256": "b2fba5e3b9207cfa21e9799186fa5c7ce4d34de119bb840b8b2c8ae050bb806d",
+      "bytes": 1606
+    },
+    "route_audit/reports/bus_skew.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\bus_skew.rpt",
+      "sha256": "cbe0aaefadbb4c2cadbd60f04605fde3e0ca86658eb7b411a68672371248aa57",
+      "bytes": 206616
+    },
+    "route_audit/reports/cdc.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\cdc.rpt",
+      "sha256": "83817d682885651b24ad6cfc668064f2edd2f02abbcdd5b51046d4c9b96954d0",
+      "bytes": 641368
+    },
+    "route_audit/reports/check_timing.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\check_timing.rpt",
+      "sha256": "ee59bee25d1f871e4e2d18433ec3a6bdf0290c472c8a62c829bcbee28d382e83",
+      "bytes": 3306
+    },
+    "route_audit/reports/clocks.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\clocks.rpt",
+      "sha256": "04529d30ae59c5bad622cf13892fb4df55d3859a45375f1f23a5d749e3b0828c",
+      "bytes": 32353
+    },
+    "route_audit/reports/clock_interaction.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\clock_interaction.rpt",
+      "sha256": "a294054db12bceb5d3a0d428f7772b4cb4097abfe2d7431984d4735239d21ea9",
+      "bytes": 21607
+    },
+    "route_audit/reports/clock_networks.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\clock_networks.rpt",
+      "sha256": "944afb26cc9b0b03d00720cfc956e67c162e88a508ec19bc0e53b212863fd050",
+      "bytes": 1259
+    },
+    "route_audit/reports/drc_expanded.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\drc_expanded.rpt",
+      "sha256": "e8355a135ea48e3b835a50c4f7c3e63a50d6a0fb2b610890cd449a93bcb9a596",
+      "bytes": 232789
+    },
+    "route_audit/reports/drc_parameters.txt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\drc_parameters.txt",
+      "sha256": "d1e12fd2cc0e4345ccba0413ddbf0be80b71961872cb71bf086022366ffc854e",
+      "bytes": 113
+    },
+    "route_audit/reports/drc_parameters_expanded.txt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\drc_parameters_expanded.txt",
+      "sha256": "d1e12fd2cc0e4345ccba0413ddbf0be80b71961872cb71bf086022366ffc854e",
+      "bytes": 113
+    },
+    "route_audit/reports/effective_timing.xdc": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\effective_timing.xdc",
+      "sha256": "3d3d0790da7d6215c731eb71ef37879f1045de3155b3438991dda9317315aeee",
+      "bytes": 15791
+    },
+    "route_audit/reports/hold_paths.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\hold_paths.rpt",
+      "sha256": "fd2168e562f9eb772a2224a2411be52212c7cd7eca825aab22c1c4ab34b89716",
+      "bytes": 149231
+    },
+    "route_audit/reports/io.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\io.rpt",
+      "sha256": "93ba8a4130111ddb58aaf3e89e5aeecf418fd9371e5b4f8345c58ced671a421b",
+      "bytes": 151146
+    },
+    "route_audit/reports/new_mailbox_fanout.tsv": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\new_mailbox_fanout.tsv",
+      "sha256": "c0186bec0c6a45471d731b98015900de852aaf0364622aa82beb809b484c0ca5",
+      "bytes": 253
+    },
+    "route_audit/reports/ports.tsv": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\ports.tsv",
+      "sha256": "977880cfaf555f553c3936cd04fed60aed499be4a5195d9b707d4bd4d5f5a55a",
+      "bytes": 3117
+    },
+    "route_audit/reports/reporting_limit.txt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\reporting_limit.txt",
+      "sha256": "7e1d9fcca6c9b201c7da6bd0fc033cee16468fb20c6b541094b62d298c4511b2",
+      "bytes": 64
+    },
+    "route_audit/reports/route_status.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\route_status.rpt",
+      "sha256": "3b76809b54bf7f48b7c21f7f52dca8150a23725aad8df4f018fdf7b58d2b10f6",
+      "bytes": 651
+    },
+    "route_audit/reports/rule_properties.tsv": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\rule_properties.tsv",
+      "sha256": "8e12ae2c35b0583848e94ac89b8e39902fceba5c447fb86c11bd4f328e881723",
+      "bytes": 3783
+    },
+    "route_audit/reports/setup_paths.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\setup_paths.rpt",
+      "sha256": "1a756c8b70fda0aba420ea205b92728bc31d0cee125f5f36d6e4ae3a2f9105b2",
+      "bytes": 140651
+    },
+    "route_audit/reports/timing.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\timing.rpt",
+      "sha256": "6467627a7285a461eacaad098b3163a4f1d6711589e32bfc8f28ca02e789de87",
+      "bytes": 996347
+    },
+    "route_audit/reports/utilization.rpt": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\utilization.rpt",
+      "sha256": "7f2b33f4db289dd08b4f10a6210e7346a9655d58a2f97b05c03897b110113219",
+      "bytes": 13107
+    },
+    "route_audit/reports/violations.tsv": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_audit_01\\reports\\violations.tsv",
+      "sha256": "10db212ea1c83099ff65d3b81b45d89d024c30f2d52314f579757d10ccf9bc7c",
+      "bytes": 94817
+    },
+    "ROUTE_VERIFICATION.json": {
+      "source": "E:\\GuangjianData\\final_board_0109_20261030\\route_gate_01\\ROUTE_VERIFICATION.json",
+      "sha256": "7b53df1a52c982d7d716db35d92dd992bf8ce69b318d2e7ab25eed71eb718806",
+      "bytes": 3461
+    }
+  },
+  "full_outputs": "E:\\GuangjianData\\final_board_0109_20261030",
+  "scope": "Published receipts only; full source snapshots, packet captures, Vivado logs and checkpoints retained outside Git"
+}

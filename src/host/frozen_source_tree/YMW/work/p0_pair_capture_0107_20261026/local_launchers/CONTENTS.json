@@ -1,0 +1,18 @@
+{
+  "RUN_P0_004.cmd": {
+    "bytes": 245,
+    "sha256": "9de1254047a844c504040aa5a8b68dbf48b4a33b0537c9286568f3f1503bb246"
+  },
+  "RUN_P0_005.cmd": {
+    "bytes": 245,
+    "sha256": "2efed038be4e805ee4fc84d4af6faf1978977da2c264de66511c234f135ca512"
+  },
+  "RUN_P0_PAIR.ps1": {
+    "bytes": 2715,
+    "sha256": "16f0bfa9708b6ec480035398049079976b2dd1c5751dc2fe4906a35d1c415141"
+  },
+  "START_HERE.md": {
+    "bytes": 4708,
+    "sha256": "0f87424e70e16ba7a8aabb3968d97f688534f56fce34d66e3c850237876cba01"
+  }
+}

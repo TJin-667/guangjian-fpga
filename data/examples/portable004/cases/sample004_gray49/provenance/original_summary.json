@@ -1,0 +1,71 @@
+{
+  "status": "ENGINEERING_SAME_INPUT_PASSED",
+  "error": null,
+  "failed_phase": null,
+  "cleanup": {
+    "requested": true,
+    "acknowledged": true,
+    "physical_off_verified": false,
+    "ack": {
+      "type": 129,
+      "seq": 14262,
+      "original": 1,
+      "result": 0,
+      "frame_id": 65535,
+      "busy": 0,
+      "capabilities": 127
+    },
+    "cost": {
+      "udp_sent_packets": 1,
+      "udp_sent_bytes": 20,
+      "udp_received_packets": 1,
+      "udp_received_bytes": 20,
+      "foreign_packets": 0,
+      "command_retries": 0,
+      "busy_replies": 0,
+      "mask_commands": 0,
+      "capture_requests": 0,
+      "capture_command_transmissions": 0,
+      "complete_images_received": 0,
+      "pc_discarded_complete_images": 0,
+      "saved_images": 0,
+      "failed_calls": 0,
+      "image_packets_seen": 0,
+      "duplicate_image_packets": 0,
+      "stale_image_packets": 0,
+      "stale_control_packets": 0,
+      "missing_image_packets": 0,
+      "command_transmissions_by_kind": {
+        "1": 1
+      },
+      "mask_command_transmissions": 0,
+      "host_elapsed_s": 0.079,
+      "unobserved_costs": [
+        "sensor startup warmup",
+        "device event durations",
+        "physical LED/exposure settling"
+      ],
+      "device_settle_discard_counts": "reported separately in result; not extra PC discarded images"
+    }
+  },
+  "records": [
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\6fe1c5052b714b34b0e3a56f961bbede\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\5a358f4115d04feb83c447e779c14a13\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\dfad942300e044a68d068304868f0db3\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\cb7a57fd61534115b4e38d787da7c434\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\7de4efda7ee449a487206d20563831ba\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\b84319b17a8f415590d81d0232d42daf\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\906c38cd8c4f4f8cabcb2ba3ff9dfacf\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\9ffc02c96eaf4666888e0cd2f36f7eb3\\committed\\result.json"
+  ],
+  "roi_preparation_record": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\d0f224e384eb4680aa0a7845c199968d\\committed\\result.json",
+  "roi_preparation_in_formal_eight": false,
+  "formal_expected_frames": 8,
+  "total_CAP_limit": 9,
+  "controller_sha256": "e50102fe91cf2a77eb82d4372d2ecebd5d0dd0b4cf39129b452d00ff4dc42501",
+  "roi_preparation_source_sha256": "e21a87d28f862e60402d38eb4f7ea2da9d1bb00e9bedff9107416242d3e5b424",
+  "plan_sha256": "004ced964a7c2cd3097c215f6bcaaccd540a308e9cf488478c0a04ab198ddcb3",
+  "engineering_only": true,
+  "release_ready": false,
+  "downloaded_bit_sha_readback_verified": false
+}

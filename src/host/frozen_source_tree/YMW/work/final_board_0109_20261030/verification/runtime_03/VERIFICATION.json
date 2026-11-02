@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "tests": 25,
+  "suites": [
+    {
+      "test": "test_session_batch.py",
+      "returncode": 0
+    },
+    {
+      "test": "test_continuous_app.py",
+      "returncode": 0
+    }
+  ],
+  "physical_hardware": false,
+  "scope": "Strict109 localhost UDP, inherited ownership/errors, changed exposure within retained session, dense frozen f09 equality and real hidden Tk"
+}

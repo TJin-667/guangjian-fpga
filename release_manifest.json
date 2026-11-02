@@ -1,0 +1,61 @@
+{
+  "schema": "guangjian-public-release-v1",
+  "version": "v1.0.0",
+  "date": "2026-11-03",
+  "project": "光鉴—多光照融合表面缺陷检测台",
+  "competition": "2026 全国大学生嵌入式芯片与系统设计竞赛 FPGA 创新设计赛道 AMD 自主选题",
+  "scope": "Project-owned source, complete frozen numerical replay, documentation and explicit external dependency manifest",
+  "scope_warning": "230 licensed/restricted third-party originals and the prior bit are not distributed. Full host/FPGA workflows require lawful restoration. This is not a fully self-contained hardware build snapshot.",
+  "team_owned_license": "MIT",
+  "third_party_notice": "third_party_notices.md",
+  "board": "BX72-V1.1",
+  "device": "xc7a100tfgg484-2",
+  "camera": "OV5640",
+  "FPGA_firmware_reference": "0x0109",
+  "host_reference": "independent v1.8",
+  "algorithm_freeze": "f09eb5885e1d",
+  "detector": "387cfeac0426",
+  "original_FPGA_source": "0711fa1793845c225c8968300864c777d7e1659f",
+  "original_host_source": "b00cda07ffb6b42b1d4c247868f665840c05d79d",
+  "engineering_handoff_source": "b9af1bd7ca6863e2198b7d37966b2c7737b5c90f",
+  "TJ_documentation_source": "bf388a93423fe359844b2f2ac3087822735ad7f8",
+  "original_export_version": "v1.0.0-rc.1",
+  "runtime": {
+    "Python": "3.11.4",
+    "numpy": "1.26.4",
+    "opencv_python_headless": "4.10.0.84",
+    "Pillow": "12.3.0"
+  },
+  "original_FPGA_tool": "Vivado 2018.3",
+  "reference_bit": {
+    "sha256": "84530057679198ec1b7bd700c0bb9a97d803d605ac82db24b58f01161d4ac30e",
+    "distributed": false
+  },
+  "report": {
+    "pages": 46,
+    "DOCX_sha256": "1f5b2bbc84acb6fc3e72629160a4968bbeaa1349135aee89b4a3ffc67c688d6d",
+    "PDF_sha256": "399a841e54dae169ec0391225be155bfb9c7d885f2ed545e9555f0a3419eb613"
+  },
+  "external_dependency_count": 230,
+  "external_dependency_manifest": "external_dependencies.json",
+  "runnable_without_external_files": "scripts/replay_example.py",
+  "full_local_candidate_validation": "board/results/tj_export_verification.json",
+  "public_replay_validation": "board/results/tj_public_replay.json",
+  "licensed_restoration_validation": "board/results/external_restore_verification.json",
+  "original_route_validation": "board/results/rebuild_verification.json",
+  "original_RTL_simulation_validation": "board/results/simulation_verification.json",
+  "new_physical_captures": 0,
+  "new_bit_generated": false,
+  "production_numerical_core_changed": false,
+  "XDL_AI_records": "NOT_DELIVERED_AS_REQUESTED_BY_USER",
+  "final_MP4_included": false,
+  "known_unmeasured": [
+    "adapted-directory new whole-board run",
+    "new full-system PC/PL A/B",
+    "FPGA arithmetic speedup",
+    "measured power",
+    "independent global accuracy"
+  ],
+  "archive": "guangjian_source_v1.0.0.rar",
+  "commit_binding": "The immutable Git tag and GitHub Release bind this manifest to the final commit; no self-referential commit hash is embedded."
+}

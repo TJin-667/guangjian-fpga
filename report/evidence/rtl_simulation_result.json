@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "functional_RTL_only": true,
+  "physical_MIG": false,
+  "new_bit": false,
+  "board_commands": 0,
+  "module_hash_matches_final_board_compiled_inputs": true,
+  "reports": {
+    "h2": {
+      "source_sha256": {
+        "TJ\\work\\fpga_image_pipeline\\rtl\\rgb565_gray.v": "2adf822125555e7dda1eca7a13f79d60eb7c1951dcc90697f2241ac1727634bb",
+        "TJ\\work\\fpga_image_pipeline\\rtl\\h2_background9.v": "f3630cc66621fd8505bffc47bb991ce4f4fc95c914a430c420857654620ae58b",
+        "YMW\\work\\fusion_offload_0108_20261028\\rtl\\h2_scratch_writer.v": "e440ae41deb8dc2481dc9120f6ef372ac532658a69b953df6f417450585c177d",
+        "YMW\\work\\fusion_offload_0108_20261028\\sim\\tb_h2_scratch.sv": "a6100105f2931394f4571a8f60810815494c09278a435716d90dd2b419725328"
+      },
+      "VCD_sha256": "20bfefaa00c338a25de7edcf1ce019a01ce13ce6a78d41462e9083d8a730786e",
+      "status": "PASS"
+    },
+    "maxabs": {
+      "source_sha256": {
+        "YMW\\work\\fusion_offload_0108_20261028\\rtl\\maxabs8_pixel.v": "2501a66f25a85b06d761299d634f9cba37f67ac07151c0d9dd5c695bca956482",
+        "YMW\\work\\report_fpga_sim_20261101\\tb_report_maxabs.sv": "2619ef591ee981afa888787ce142cbfb8e6fca4add653f7d0f986f38e5582adc"
+      },
+      "VCD_sha256": "6eb59ff4e608fb66c26d5947d820a2c3fb0916cd64b04aa0d21197e05bd8c804",
+      "status": "PASS"
+    }
+  }
+}

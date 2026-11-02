@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "version": "v1.1",
+  "tests": 30,
+  "skipped": 0,
+  "log_sha256": "6fac83f3c9c2901307c63b10a706cba3dc20d95902cca88a4459e933a9f2cb06",
+  "hardware_contacted": false,
+  "new_positioning_tests_use_labelled_fake_executor": true,
+  "algorithms_changed": false
+}

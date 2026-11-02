@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/GuangjianData/OpenSourceRelease_20261102/internal/simulation_01/maxabs/maxabs8_pixel.v" into library work
+INFO: [VRFC 10-311] analyzing module maxabs8_pixel
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/GuangjianData/OpenSourceRelease_20261102/internal/simulation_01/maxabs/tb_report_maxabs.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_report_maxabs

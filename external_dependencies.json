@@ -1,0 +1,2082 @@
+{
+  "schema": "guangjian-external-dependencies-v1",
+  "date": "2026-11-03",
+  "team_source_license": "MIT",
+  "numerical_algorithm_unchanged": true,
+  "scope": "These original files are deliberately absent from public Git and public RAR. Restore only from lawfully obtained material for local use.",
+  "standalone_offline_entry": "scripts/replay_example.py",
+  "full_host_and_FPGA_require_restoration": true,
+  "user_decision": "No separate CrazyBingo publication authorization; treat such files as external dependencies",
+  "files": [
+    {
+      "path": "board/artifacts/bx72_0109_fusion_EXPERIMENTAL_NOT_RELEASED.bit",
+      "bytes": 3825906,
+      "sha256": "84530057679198ec1b7bd700c0bb9a97d803d605ac82db24b58f01161d4ac30e",
+      "owner": "Compiled engineering artifact",
+      "reason": "Contains components whose public redistribution rights are not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/doc/mig_7series_v4_2_changelog.txt",
+      "bytes": 7167,
+      "sha256": "9cebacf4bfee508cff09c186dddc7cb85f345f7e827ab4f08920fde784661f65",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/datasheet.txt",
+      "bytes": 2954,
+      "sha256": "a602c69b0cabd3c1ac0447f2f95e7446e54a05a46761dde2bf46729e1d105ee8",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/docs/phy_only_support_readme.txt",
+      "bytes": 610,
+      "sha256": "652c1e98e6c64c3522a1c1ca82578ebbc2b5a7418f2cfcac37f68d823652b033",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/par/example_top.xdc",
+      "bytes": 1278,
+      "sha256": "cbbb57cb432c6a71eeaf6c9add3e36320aad3ccf77bff49af02eebea4519ad88",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/par/readme.txt",
+      "bytes": 860,
+      "sha256": "badd0a4ecde84dc74c8bbfabbb57faf413d0760a97f1a4c085cd8570d2cc984a",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/rtl/example_top.v",
+      "bytes": 32058,
+      "sha256": "52e60806807e2b8e4d8c0bb180d735a0b069d3faab1c708aa3ea2835a68ba64f",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/rtl/traffic_gen/mig_7series_v4_2_axi4_tg.v",
+      "bytes": 18550,
+      "sha256": "5fdc918b93616e85b6618768e0bf1862b9f0479bed01c1346b0e496870a6ee3d",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/rtl/traffic_gen/mig_7series_v4_2_axi4_wrapper.v",
+      "bytes": 33395,
+      "sha256": "764d484faf981b6b9bc83d53a47d2c7160947aa8b2e64b20f11c5c3b6b6bb917",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/rtl/traffic_gen/mig_7series_v4_2_cmd_prbs_gen_axi.v",
+      "bytes": 10316,
+      "sha256": "5064c97bace85149227963955be80ba778a6dc45a36e7261da6e5ab2cbf4e8be",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/rtl/traffic_gen/mig_7series_v4_2_data_gen_chk.v",
+      "bytes": 7249,
+      "sha256": "80eb1b9d54f4c04f9bdd5451c11c7080aa6e1861c08e7a1d103a5ca47ccd54c3",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/rtl/traffic_gen/mig_7series_v4_2_tg.v",
+      "bytes": 27431,
+      "sha256": "f783acc1cfe352f60c1af580a4b5b13080ff184c5726032d55ccb7937bb7c70e",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/sim/ddr3_model.sv",
+      "bytes": 170147,
+      "sha256": "34259676490672a31dbfbb422c786542536766ce2c5efad711f92e2119653e27",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/sim/ddr3_model_parameters.vh",
+      "bytes": 278877,
+      "sha256": "7dc51bfb8f721ce4a417ef8346cd225fe9aca82891fd8e9d37d3766a3beaaee2",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/sim/ies_run.sh",
+      "bytes": 5694,
+      "sha256": "c0f63c80890df9cd3f21c5914ecba0e2498a270515d96bb478d4cd37700dd548",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/sim/readme.txt",
+      "bytes": 10158,
+      "sha256": "2af4d225ee7dad557ac7178335d564d65870a52b57a8fd85b9fb6789b5881f23",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/sim/sim.do",
+      "bytes": 6936,
+      "sha256": "6a8e21c64d91c85305d3ea45bd3b445e2a9ac393add0da139688d7dc727e86a5",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/sim/sim_tb_top.v",
+      "bytes": 25101,
+      "sha256": "4e6eea83cd628b266540f97a139d56c93ef0227ae2c0d4780ee6fea13cd7f469",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/sim/vcs_run.sh",
+      "bytes": 5338,
+      "sha256": "df2e2db2b3b401285cc067d1521bc99002738790a36e7a080bcdc045097c0b2a",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/sim/wiredly.v",
+      "bytes": 5614,
+      "sha256": "5a2e37a1d868e70d12324597469e58ba99d9d363717e3b1a0215afeac50561ee",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/sim/xsim_files.prj",
+      "bytes": 17773,
+      "sha256": "077df60cbbe88619181fbb342e892fa391e51510bbd850beb61c7df8508d7859",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/sim/xsim_options.tcl",
+      "bytes": 3266,
+      "sha256": "58fa0f754e0bd054e4c8342e554368c39f969bdaa8605e9250cb96566fb0840b",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/example_design/sim/xsim_run.bat",
+      "bytes": 3399,
+      "sha256": "98dc35f0c634a5d05948c0d622f63530670eea3a1a64c443567a76314531afad",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/mig.prj",
+      "bytes": 10898,
+      "sha256": "61850a82839642c749928ae096f76346f69e246fc5ef20d164efeb259c34bb27",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc",
+      "bytes": 25886,
+      "sha256": "8be0e36bd1efd2c52b21da14349f664ac31ff33c8d1890c27766409a1c915008",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0_ooc.xdc",
+      "bytes": 1759,
+      "sha256": "e36cb4813ae43cc5ce9888fb7794583b6e3e8c51501936d57b907db45c610162",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_ctrl_addr_decode.v",
+      "bytes": 7018,
+      "sha256": "0d2ae4eab68f724e686801b548727c1dc4cb3b06a5b3efcacdaa2bf836192f8e",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_ctrl_read.v",
+      "bytes": 6302,
+      "sha256": "2f10fec7afebb919cd6b97a39bbc5e218ae581dc7f3c790242324066d5f8461b",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_ctrl_reg.v",
+      "bytes": 6253,
+      "sha256": "0eeb5bb908beb83e652ca279f364bf4c042e92c0f1a48f06c1269ef993ec4fdc",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_ctrl_reg_bank.v",
+      "bytes": 30328,
+      "sha256": "e7a3bf63ebca3ac3eb1917549ffdac6072ee7a56dfa643318c8d52842b83c244",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_ctrl_top.v",
+      "bytes": 29521,
+      "sha256": "4815832bc5f06561d0a3dcfe94381cb0be3ab1e8ff8eee406bc9b6476eb4cee7",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_ctrl_write.v",
+      "bytes": 7815,
+      "sha256": "73761ac3d642a5c340c59cb9d6c1f57ce0d4d71b99f5ddcbe95160a61966dc84",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc.v",
+      "bytes": 50264,
+      "sha256": "f7fbcef988a7adda00987c9cbf38f198e266a71d7f11a59e7bda414efed35d7d",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_ar_channel.v",
+      "bytes": 10500,
+      "sha256": "33e0c9597a79c8800a6edd40842d094c8f77a42b3b248ddc859944c9903aef14",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_aw_channel.v",
+      "bytes": 10900,
+      "sha256": "41b1a493e531ca617d6eede6307cfb81bb6ada84bf0a934764632a0b38d9d9ff",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_b_channel.v",
+      "bytes": 8375,
+      "sha256": "0dbad17d261887336fcd757287c4145234ee070515a3452f0d313424e52c9baa",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_cmd_arbiter.v",
+      "bytes": 12439,
+      "sha256": "5d4d9f7d8a2f9c7641ee9661121d9966406247745031fe4890ec4421f0a5ca86",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_cmd_fsm.v",
+      "bytes": 6397,
+      "sha256": "e5f17d5ec70231461c8b08a3b223361a921e39935cfa5d2537568718065aecbe",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_cmd_translator.v",
+      "bytes": 9954,
+      "sha256": "34c5efa4e3e2e127ad83f5f4b0f60ce02d11bf08c85b1362bc65fcf356c5963c",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_fifo.v",
+      "bytes": 5901,
+      "sha256": "999c30051d86a65803efe77c3ea84242be8d94027ff77192b135643abc6cf6aa",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_incr_cmd.v",
+      "bytes": 10415,
+      "sha256": "1a39f581126c768916514cba322d3ba6f330f232fc7983ff91600dcf2f261e1e",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_r_channel.v",
+      "bytes": 13088,
+      "sha256": "35cedad4fd465994687e0462c7cf1af8b94efce8a96db14f35766ad3f09f9bf7",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_simple_fifo.v",
+      "bytes": 5676,
+      "sha256": "8b7567db3d88fb0f7629bbffbfa47d720dd19c457006fd4bb3ed236b9156950a",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_w_channel.v",
+      "bytes": 11622,
+      "sha256": "e03d993861a9d156a4943f780c09971660505bc2cd04f022d6b852898027f8e0",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_wr_cmd_fsm.v",
+      "bytes": 6812,
+      "sha256": "0e602304c0f4560c8e851a7f5a9a67e7f5789ccd33640c2b780d1cb5e5b2de31",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_axi_mc_wrap_cmd.v",
+      "bytes": 11524,
+      "sha256": "6945a3f6f490d4b9ecde7533a52af9ab7ed6b50a52adc4b13418e1639d38c825",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_a_upsizer.v",
+      "bytes": 50960,
+      "sha256": "5a64274d389ca9dde8bc30c7440fad12e2f1a70c378647b14b63e159df997a68",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_axi_register_slice.v",
+      "bytes": 23135,
+      "sha256": "7b1006d7ddccd38bc5078abfe853d11b1b0fb8be042b0da6fd037925c16d97c7",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_axi_upsizer.v",
+      "bytes": 44963,
+      "sha256": "8bd539edd7c99e13840f9c9df3c7521cfa61db9d4317d7a027ada7accb4591cf",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_axic_register_slice.v",
+      "bytes": 19738,
+      "sha256": "08b773813fada7a3720ed25b11cd06059a9261c5413a283d01fb62b0645c4c4f",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_carry_and.v",
+      "bytes": 4382,
+      "sha256": "ec1d44d41c9de485314507c82fb77fd34b17d9969348b831602676811f5dbd03",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_carry_latch_and.v",
+      "bytes": 4429,
+      "sha256": "e367b77f842c1d8442112523ae8637732ab8d96ae1b21978db26bced1380fda0",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_carry_latch_or.v",
+      "bytes": 4365,
+      "sha256": "a71d491ad86abe2da1939a6405c40be2e2abe64b9e1f0b3a323dc59ac39ac4a6",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_carry_or.v",
+      "bytes": 4439,
+      "sha256": "97e8fc45ff33284bad94c4cd4d5ce8025e21fae25b89459373b3469520371e5c",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_command_fifo.v",
+      "bytes": 16645,
+      "sha256": "f2c9564cd28c64e44c32a3a134c14eae8cc4e07a42a1234d4d205080e8c07160",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_comparator.v",
+      "bytes": 6174,
+      "sha256": "df8c094545643a69447a6b933000ac254316b67323a5c7e970724de0dfb40bba",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_comparator_sel.v",
+      "bytes": 6629,
+      "sha256": "887c3ec32a29142b8db4eadf17821fd281c7950c427116474b9749d7064cbdb3",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_comparator_sel_static.v",
+      "bytes": 6766,
+      "sha256": "bc734a5ffef4ce17306c541468b9fe8b79b84edd9d5a6a175f2ccc31ae51f5c9",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_r_upsizer.v",
+      "bytes": 37306,
+      "sha256": "907c182c5d5c8ab6d5db4396a3053fa2e88a5a353bc60e90d9de78390a9ad5c8",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/axi/mig_7series_v4_2_ddr_w_upsizer.v",
+      "bytes": 69635,
+      "sha256": "21987c582b9abbae4ae6d2c7048775bf9d163983910e115a44089361e845507f",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_clk_ibuf.v",
+      "bytes": 4928,
+      "sha256": "88989760045af0d52d828c19c825b3ab67f39c898839500217db5f5c7222c30d",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_infrastructure.v",
+      "bytes": 31602,
+      "sha256": "5129fad481989ee6ff2374ef61d9c98c73a7f1243c60ac8879692ec37a9409de",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_iodelay_ctrl.v",
+      "bytes": 14063,
+      "sha256": "eb9ca5ec6c42448959d9d087fd73f9efcd38a5a86f6eeb23ea5fcdcf6ab5b992",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_2_tempmon.v",
+      "bytes": 15550,
+      "sha256": "3200e9f361c0fa35ee6538675b2eacc69f5c16662d0c37723812b959b13d85f4",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_arb_mux.v",
+      "bytes": 20139,
+      "sha256": "ffe22eb0c52c73f20d6110816a9048f4a6005b9c8b9be4794de94674244043ed",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_arb_row_col.v",
+      "bytes": 19466,
+      "sha256": "e9a1791b01dd8b473d417578e52a4cb828b402ab7d546b5dec805ff4fec7f9da",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_arb_select.v",
+      "bytes": 27479,
+      "sha256": "eb2e53f9742e51dd12fc14c81f4f8fffb52929b4c58b40ac768c6e20263431d2",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_cntrl.v",
+      "bytes": 26404,
+      "sha256": "013ac40385edea1e46365e8c2f02605a8d7c518371615bef6cade1390366869b",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_common.v",
+      "bytes": 18883,
+      "sha256": "85ef58e12d3394c666b484161482bd6f04e01580d3a2248e04245d3fc0a1cb08",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_compare.v",
+      "bytes": 11133,
+      "sha256": "4de38a45927bd553998273d054de0a81a1dce258b1932f512faee8584b57b55f",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_mach.v",
+      "bytes": 32102,
+      "sha256": "99314bc33221350cb6426f18476d0a7f63a0891a8631656ab2bee3b0e8b8a020",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_queue.v",
+      "bytes": 23858,
+      "sha256": "d2e47fa2e7811701600c635f78fe514e9e8890db9be1f00f241269b403ccf598",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_bank_state.v",
+      "bytes": 37654,
+      "sha256": "ce20b0400b85c0b5b0bd2da604c72c7aef29875e34069397d53c9904859ace22",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_col_mach.v",
+      "bytes": 17083,
+      "sha256": "aa91159cfaa60d8f06b17e7b417d1df4b15dad515676b9e23617cbe0f3d5de42",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_mc.v",
+      "bytes": 43854,
+      "sha256": "3379173868a41078aeeb47600febe3d8207596519e95441421ec74f369a878aa",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_rank_cntrl.v",
+      "bytes": 23348,
+      "sha256": "44ebad59552a6e74d3b75bb581c16207f798b6de3157de694df563d2e2842eec",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_rank_common.v",
+      "bytes": 21155,
+      "sha256": "2f491a2961efe27da4a3e265b69173b7e6eea48e703e93246ffadef81d294801",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_rank_mach.v",
+      "bytes": 12607,
+      "sha256": "bfc4e824c206793ef59c49685769cc8be2bdcaf62bb4a9b01287cdfc7b3df3f8",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_2_round_robin_arb.v",
+      "bytes": 7746,
+      "sha256": "1523d8399c6e499b8b1a78e06b503679aba8bf2a7cb02915774e57425a09385e",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_ecc_buf.v",
+      "bytes": 6467,
+      "sha256": "9e9ec73fa74361419fb7abfb6ba61afc7ae4f002ac5c6405439455a0d9c326ce",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_ecc_dec_fix.v",
+      "bytes": 6840,
+      "sha256": "755ad18f4ecaf20004032c80b2653520f48944215f5ef9cccbb6fc24e399dce6",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_ecc_gen.v",
+      "bytes": 8103,
+      "sha256": "c884e03c9a7b125d14feed7b67534ef2b28e145f1cd62d03e3ec36c98e32cefc",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_ecc_merge_enc.v",
+      "bytes": 6100,
+      "sha256": "66ecc6419b28d25259f3261e47c26d94e521c024e2950f78f2623ab7c3c0ba33",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_2_fi_xor.v",
+      "bytes": 5689,
+      "sha256": "220b50cb9c0a0b96377b25e3911997ac2a7cae8fb5dce2d679bf964e27acd3a6",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_2_mem_intfc.v",
+      "bytes": 44861,
+      "sha256": "f7a04de36f30de7b43a6a3ea58a31cc0722507113246e8bfb96d454b9c1a88c0",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_2_memc_ui_top_axi.v",
+      "bytes": 58537,
+      "sha256": "281f99a08fd6b52b5e60f9864b55aaa0cb6b9ea81182454bfc6744ada251ed44",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.v",
+      "bytes": 10920,
+      "sha256": "360de11461a78556200abd7930588dd7e50d8c63daaf7aae99c8010968b6f7d4",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig.v",
+      "bytes": 75212,
+      "sha256": "42163bd52c8d8de05a9babbe357aba4602abcda6a1bba1d7a26ae7ae64445585",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v",
+      "bytes": 76598,
+      "sha256": "c488f5eacf0011ddd2a6fedc8b80ad530cfa7b52ba1199c902399de623dcf637",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_group_io.v",
+      "bytes": 22432,
+      "sha256": "98b450588b3ff3535fca35bc480d1f00d5413b1699ec98a29019018842d6390b",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_byte_lane.v",
+      "bytes": 33832,
+      "sha256": "99f8c4bb54ec082c5e1bf4bfff721cfee196042c1ae68de3704ecab597277270",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_calib_top.v",
+      "bytes": 106208,
+      "sha256": "718f952402597fbfbd05714114b23c438bb5d03c8a85d52f1e325fe28fe7acb8",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_if_post_fifo.v",
+      "bytes": 8781,
+      "sha256": "d3aa37e6e17c1d6d51cba4cb6b43fa1dd453ef11cd54fb50e1e86eb78b5fe2fa",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy.v",
+      "bytes": 91503,
+      "sha256": "70a506fd489637755bbd06761f66ada948ce8f59ac2bbb6d78698aa40652c56e",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_mc_phy_wrapper.v",
+      "bytes": 73562,
+      "sha256": "a8c28fbe74a7490eeb4e232b136a3dc18c53eca5e9e7361e17994661abecec05",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_of_pre_fifo.v",
+      "bytes": 8236,
+      "sha256": "fca69fbe57aaa309079e0bca37bc95f192e02b6793d548266b75b330bb44619f",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_4lanes.v",
+      "bytes": 82571,
+      "sha256": "c1991cabea5252118e48bfb1df6efb72dfd65974a8bfc5bfe26020405bbe95c2",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ck_addr_cmd_delay.v",
+      "bytes": 8962,
+      "sha256": "d6be30fba5aac6fff846f174c7a09d27d59ffc64acebfc42ab47dd335555c985",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_dqs_found_cal.v",
+      "bytes": 52600,
+      "sha256": "bccb53e57aca8c44ffd26771d73e67757ba2b1ef2d82c8660cae4f4445dc6779",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_dqs_found_cal_hr.v",
+      "bytes": 52899,
+      "sha256": "dc54ed2c53d22f78cdbc027687210999fa985d17c44e0d9d871f7b007a640ea0",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_init.v",
+      "bytes": 248147,
+      "sha256": "f71ef779a147c1ff20204f1cee9e12a2fe1e5f2dc4377f9bfad0c79020c0e44b",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_cntlr.v",
+      "bytes": 10094,
+      "sha256": "9b0d80cbe4c506dfaa40077f9337b87261ad0e00a2bc7ed15e1d7a7bcbd06216",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_data.v",
+      "bytes": 9400,
+      "sha256": "00611e4306603fe4c80b61d67157063cae159e3a7c44f239712e5115924f05d1",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_edge.v",
+      "bytes": 8128,
+      "sha256": "a35f60c41f3a268689479489900087512688ab418ae4b7fa8c9a9a0cd1ceb02f",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_lim.v",
+      "bytes": 21790,
+      "sha256": "0670de1c0ba707e66ca243bd373513d8e1d601fd48fbb1c66e4ef532e5b94672",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_mux.v",
+      "bytes": 7768,
+      "sha256": "dd3c35901f20477927d687ccd4ea6a5965aa58ce2cd4442be7396f626040c4ac",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_po_cntlr.v",
+      "bytes": 22170,
+      "sha256": "9bb19526b8b33e9671edc7f8d94b4e423b8cdf3ac86541f3101ad036da85d6be",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_ocd_samp.v",
+      "bytes": 12898,
+      "sha256": "68c113cace889139cf7d56b455da94d49bbc9236850bccdead4cdf70c0fc817a",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_oclkdelay_cal.v",
+      "bytes": 25794,
+      "sha256": "46f787488572dcbd7ef33bc4d21d393adb8c1e76a5b54f14fb9fe30a07052a1b",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_prbs_rdlvl.v",
+      "bytes": 256324,
+      "sha256": "28bfd0288172fe6fd07292e380f7c94060503d792735b24a3263baef647dff05",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_rdlvl.v",
+      "bytes": 150847,
+      "sha256": "4496654323f562093e3c53d336a6ce290345a72c6467ac11aaf4c7af306287f0",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_tempmon.v",
+      "bytes": 27038,
+      "sha256": "175cde8dfd9917afe5416d80a32ca14eb2dec6f64e7dc694df84ac74a876151c",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_top.v",
+      "bytes": 75775,
+      "sha256": "9d4ab21e976e98573a5e093d8f014b988e4cabedf3e175cc3499cdef54bd893e",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrcal.v",
+      "bytes": 55661,
+      "sha256": "07807fe5e7ce3a45605e7661f802cfcae286188ee17f53ba6f3f04d36769a2f5",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrlvl.v",
+      "bytes": 51707,
+      "sha256": "f21f0b053c220c58fa08b575f6e520f1b19b8d357d38ac9e772bfc2fe8bf235d",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_wrlvl_off_delay.v",
+      "bytes": 9178,
+      "sha256": "392b1e53d74dfe2e02082ec1a1087f0e135089c89d699b8c3fba2a3380ae124c",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_prbs_gen.v",
+      "bytes": 29663,
+      "sha256": "57c189e3338c41285f9e225bff181ecf72aeabbaa81b383b49c512b7bde48599",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_skip_calib_tap.v",
+      "bytes": 30306,
+      "sha256": "2ec8cb7bf5ace590965aac79de5bcfee9e3d10fde8799f5abc9a1dcba2c63b90",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_cc.v",
+      "bytes": 8139,
+      "sha256": "dc4e7393836ba34d6b2af7940d63957695c74458e458024d201db9ed2de9167a",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_edge_store.v",
+      "bytes": 4975,
+      "sha256": "8df6015348b90f517a746030c791ebfec028cfa2811c795be796c458e552f462",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_meta.v",
+      "bytes": 12971,
+      "sha256": "a1f26764a707277fe0956401ccc6a4e03cbaa9df18e9d24faa3f18f4fbc06ea9",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_pd.v",
+      "bytes": 4721,
+      "sha256": "ee85f5f24a84a044edd5710b19299b77489e3c32227a21175126f948e0a76e48",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_tap_base.v",
+      "bytes": 11266,
+      "sha256": "59dd879a4854cd5d0086ea3528d56d5d1a66bc3a087af49e1d42a846cc66bd43",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_poc_top.v",
+      "bytes": 16625,
+      "sha256": "5445399426ddb743d33949a4bfde3b676fab0513bf0e6cc699e8c60405cc93fd",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_cmd.v",
+      "bytes": 11634,
+      "sha256": "88bd1fa314f8587f530e43bf9bef37c97cc70ebd37a3f3c261b8380ad10cd99e",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_rd_data.v",
+      "bytes": 20630,
+      "sha256": "4cd19847186a810a1fb0711da4cd8386b0104506eaf9da4687dbb5ca90ef0db0",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_top.v",
+      "bytes": 15644,
+      "sha256": "2f6112376b56fa839ba83334915f0f741df8161c5d42134b24f99166733066cc",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_2_ui_wr_data.v",
+      "bytes": 21860,
+      "sha256": "4583a038acc6d3e09f14670d49e6f381c05bbd243980b3d74f14725b8b78f33e",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0.dcp",
+      "bytes": 3797566,
+      "sha256": "573eb138ff9bc1ec68d820621e61ec51eb6c8b0637cb3d6f6745e0d56bcacaa1",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0.veo",
+      "bytes": 9546,
+      "sha256": "5d1f9e92146c8301f52e36e71f5f2c43ede4ac65a52b1f258f2de1991347dc43",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0.xci",
+      "bytes": 349584,
+      "sha256": "734d3452f4ea773a44624e3d4044ba3ff5bf6a8f45ea35b1fa5cb965aae2d6e8",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0.xml",
+      "bytes": 6730923,
+      "sha256": "6409ac93d9b2f18e634860b20b0cadfb46596248e25efd7af4f4e447816f439f",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0_sim_netlist.v",
+      "bytes": 8296938,
+      "sha256": "531fcf11f74fb51c14521965111fbed73f7d279858abec56607a8e00bc760030",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0_sim_netlist.vhdl",
+      "bytes": 9479868,
+      "sha256": "8063aefd52ad47723618c8028a64b864d732f675815ed5ef59b28da790884aff",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0_stub.v",
+      "bytes": 4656,
+      "sha256": "97d81943bc6ca4c82c2f67cbe4959ad1d80d39adf879d8d23c6ac1578ab045be",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0_stub.vhdl",
+      "bytes": 5075,
+      "sha256": "8c9d0ac2a7d7c96d6eb5ec37cdf7eb7f5470cab5ec020385b1bc3a3ee07f270a",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0_xmdf.tcl",
+      "bytes": 24779,
+      "sha256": "ba3c544198935da5573760ec8aaabb2c3faf6d1216e29ab49e9e8f586513cd44",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/xil_txt.in",
+      "bytes": 1240,
+      "sha256": "e7b01da3cda34a8bc5dad7957d1da1db0497b282f3ff2815d5dc08edd288b8bf",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/xil_txt.out",
+      "bytes": 161,
+      "sha256": "e6cda722e9980beb99ccd8ea15aa0019c9ee90d3bf6bb76dd39e4c23198f9a93",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_b.prj",
+      "bytes": 11262,
+      "sha256": "dc9c15d3798d805251ac6509a7dabd2edee14b2e84a050e76064c609606b5954",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/doc/fifo_generator_v13_2_changelog.txt",
+      "bytes": 10997,
+      "sha256": "2591853cf4cb2e7ba1f43eee3c7610b3ab1899c7328c754b0de01f6d56425b78",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd",
+      "bytes": 14873200,
+      "sha256": "68f203423e439a7f25d38beba97c3492293820aaee39238f9580140b9f661890",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/hdl/fifo_generator_v13_2_rfs.v",
+      "bytes": 596098,
+      "sha256": "fbd346f5d9297613ee1fbc236ec41b408e1ea11a35506d41be7dba58a222380c",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/hdl/fifo_generator_v13_2_rfs.vhd",
+      "bytes": 1446259,
+      "sha256": "db0b37b56c9519dca05b542c3276440f890b071fd93208d34454fe7555e08ee5",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd",
+      "bytes": 2457881,
+      "sha256": "38bafec94746406288b061630dc390eb0853eca193b0b09eecb592130d19ebb6",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/rd_ddr3_fifo.dcp",
+      "bytes": 164198,
+      "sha256": "0ba046a1a6ddbd467c65c7828447895d7687257eb8d422fa79db287a1e3bebce",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/rd_ddr3_fifo.veo",
+      "bytes": 3622,
+      "sha256": "6d43943ef9f270d66bc6aaa4c7659068e02087378f1c5de498e48ddeea1fd9a1",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/rd_ddr3_fifo.vho",
+      "bytes": 3808,
+      "sha256": "c9beef51a7b64b2edbe10d27b6723234d9c75ad7d8d792480a055b1cb4c21493",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/rd_ddr3_fifo.xci",
+      "bytes": 73699,
+      "sha256": "a006de231350bd1371689e0848dfaa4bf5658b3b556836bd2a42ad003e5aa329",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/rd_ddr3_fifo.xdc",
+      "bytes": 2678,
+      "sha256": "994e4d8887a3d7d3ce028bc8dace1c7cec82beec0b65b4dc2220ebe4f1dd1a5e",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/rd_ddr3_fifo.xml",
+      "bytes": 608573,
+      "sha256": "58daa4d79952fb521377ba57b24806d3c2bbedbe6c3be2c102f64307536e74d2",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/rd_ddr3_fifo_clocks.xdc",
+      "bytes": 4597,
+      "sha256": "2bf7568bb0fd4d2efc9b2ce854d9eec3d2373f88066c0e18759fa7e0daf1caaf",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/rd_ddr3_fifo_ooc.xdc",
+      "bytes": 2508,
+      "sha256": "c18621b859b2ceb7465cfc1fe0119d85a615286249e0a188467a691b9f83474c",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/rd_ddr3_fifo_sim_netlist.v",
+      "bytes": 194124,
+      "sha256": "c1204295cd913314817e72dc55c182efd6f534328403831adf1c2f77a9e3a694",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/rd_ddr3_fifo_sim_netlist.vhdl",
+      "bytes": 273322,
+      "sha256": "6b652d5da501c04d612e02db24c5804d711a2b8d0d1700111353ad0ce3bea08b",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/rd_ddr3_fifo_stub.v",
+      "bytes": 1688,
+      "sha256": "d50d477d8f25aa482ca0e200f7fd18f1d6292f71fc0ca58a808be2a4996a8104",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/rd_ddr3_fifo_stub.vhdl",
+      "bytes": 1810,
+      "sha256": "25525f8649f2321c5b8cc5e9496b0cb939925d957739fbaf854001d20b982b0b",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/sim/rd_ddr3_fifo.v",
+      "bytes": 15308,
+      "sha256": "2013f8aab7caea50c6ea9fbf5b4fc80de59cfc2c3b53ae144e76f619c1f82f1b",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/simulation/fifo_generator_vlog_beh.v",
+      "bytes": 452184,
+      "sha256": "ad6283ddda1a64583085d37c50c962d4937ca6fe3eb85d5fee68e19bae0de0a9",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/rd_ddr3_fifo/synth/rd_ddr3_fifo.vhd",
+      "bytes": 39531,
+      "sha256": "3c495f2a234f30a68f8f3fe21c614a4a1794bfaeb416fc2d602ebb91cf590b31",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/doc/clk_wiz_v6_0_changelog.txt",
+      "bytes": 7885,
+      "sha256": "e1f22cdcd8a156b902b866c4ceb99391414be3664526f790123c301b1b225170",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/mmcm_pll_drp_func_7s_mmcm.vh",
+      "bytes": 24240,
+      "sha256": "c57631aaf89de30f8645d0c5cc5cea41f8ae58658b5b63f45fa144b8d5dd5373",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/mmcm_pll_drp_func_7s_pll.vh",
+      "bytes": 19041,
+      "sha256": "9ee87b038e8792b59ce1ff9ae8d26b98e7f1a833af9fb2e3af1d147c578f1e9c",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/mmcm_pll_drp_func_us_mmcm.vh",
+      "bytes": 24226,
+      "sha256": "e47d0b18de5680af2147ff23fc9b125ccc50a69fb95e9143869a50fb459eea82",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/mmcm_pll_drp_func_us_pll.vh",
+      "bytes": 18759,
+      "sha256": "58e5ab2415a9b697dff0447b1abf7b003517d6eadd8e8f4972a457c83b2a2575",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/mmcm_pll_drp_func_us_plus_mmcm.vh",
+      "bytes": 31888,
+      "sha256": "df183a5eb3c58e90a8b42acc88bb193b5bbc25d38bdbd98b5a359b5e81ef3e3c",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/mmcm_pll_drp_func_us_plus_pll.vh",
+      "bytes": 19024,
+      "sha256": "be681da14a0028b592bb12f1a6a65ec40b79d661e9c017767dc0456bee0fb90a",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll.dcp",
+      "bytes": 9846,
+      "sha256": "8906621caf33beed87b112c932ff667984caa001b30455210195552afe6804ae",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll.v",
+      "bytes": 4082,
+      "sha256": "f629d248571f906dd5c1bc44772dc73bc2b630dfdd1ac9a4894677d703ba5a9a",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll.veo",
+      "bytes": 3759,
+      "sha256": "92a123a363041cdc13d8fae1b2ccb8cbf4110c3beeb6dd8282badb9d9684d923",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll.xci",
+      "bytes": 92794,
+      "sha256": "fd69049954ad01d32a6222ee76defaec3ebdc311cb8ec2f1bccb5d6aa4aa64fa",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll.xdc",
+      "bytes": 2713,
+      "sha256": "e111a0ef0421673d2b9020dfe9b17b5b8e493f6e685cd0fa4aedeb67dc5f9ff0",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll.xml",
+      "bytes": 298696,
+      "sha256": "f858b99b25cb0782cd3d2d1b3bc5c8193f9ab724634bf1fba06d2808b2efd8e6",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll_board.xdc",
+      "bytes": 60,
+      "sha256": "7ad209b673e69e5dc7667668407b509d8ac03974abdb527313a511db77cf15bd",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll_clk_wiz.v",
+      "bytes": 7122,
+      "sha256": "38f700c21f67a066f00b6257b0cc9b4ab3fcd67e6c214667a17b5a1205456b08",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll_ooc.xdc",
+      "bytes": 2484,
+      "sha256": "fee1604a65e9f9ea1478c59512da5c51f2b63c05ecc530f53a11cd61fcb459a5",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll_sim_netlist.v",
+      "bytes": 7535,
+      "sha256": "b78a8e9eaaed2a1d7a9368cba2604188a9068d14c3803fe1388fe78fadc2d0f8",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll_sim_netlist.vhdl",
+      "bytes": 7490,
+      "sha256": "e3c2a3a0693740e8ae7d172b51343aaa03987df863e3a1628dfe2d8ba05737c1",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll_stub.v",
+      "bytes": 1280,
+      "sha256": "ddfbced0c35dae4f1f20bb7da5ceb22874343e55574cccfb6e1e599ded255e4c",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/sys_pll/sys_pll_stub.vhdl",
+      "bytes": 1248,
+      "sha256": "ff64cf5a043fb71fe9008cfd5d13454e9f9da5095066879a640261d0c57c7ccf",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/doc/fifo_generator_v13_2_changelog.txt",
+      "bytes": 10997,
+      "sha256": "2591853cf4cb2e7ba1f43eee3c7610b3ab1899c7328c754b0de01f6d56425b78",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd",
+      "bytes": 14873200,
+      "sha256": "68f203423e439a7f25d38beba97c3492293820aaee39238f9580140b9f661890",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/hdl/fifo_generator_v13_2_rfs.v",
+      "bytes": 596098,
+      "sha256": "fbd346f5d9297613ee1fbc236ec41b408e1ea11a35506d41be7dba58a222380c",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/hdl/fifo_generator_v13_2_rfs.vhd",
+      "bytes": 1446259,
+      "sha256": "db0b37b56c9519dca05b542c3276440f890b071fd93208d34454fe7555e08ee5",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd",
+      "bytes": 2457881,
+      "sha256": "38bafec94746406288b061630dc390eb0853eca193b0b09eecb592130d19ebb6",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/sim/wr_ddr3_fifo.v",
+      "bytes": 15310,
+      "sha256": "0322ee43ddf14e2b40485a7dc98cac85a2160e32249cccd22771fbf9e9dc60fa",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/simulation/fifo_generator_vlog_beh.v",
+      "bytes": 452184,
+      "sha256": "ad6283ddda1a64583085d37c50c962d4937ca6fe3eb85d5fee68e19bae0de0a9",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/synth/wr_ddr3_fifo.vhd",
+      "bytes": 39535,
+      "sha256": "a6c26d002e635ce68c7c5dbfdd30c0982a4d576a1cc81fce210a1c04784e0c81",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/wr_ddr3_fifo.dcp",
+      "bytes": 165880,
+      "sha256": "34a415cab9028d34b67d332ca473cc152055c71608b77e8b8fb5d4c8cb86dbc1",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/wr_ddr3_fifo.veo",
+      "bytes": 3622,
+      "sha256": "f812e2d341eb20077d80bf5ad6429ed0ebbe268f0e1fc2e5338ed44e9822abcf",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/wr_ddr3_fifo.vho",
+      "bytes": 3808,
+      "sha256": "13ac54906d5e91a264969e9da4a3cab0861597998dc57342a589eaac2cc1d6a8",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/wr_ddr3_fifo.xci",
+      "bytes": 73703,
+      "sha256": "64c19fa5b36584c84e54f5177f13378d4e02b5fbf90559dc89ffe03609d383fa",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/wr_ddr3_fifo.xdc",
+      "bytes": 2678,
+      "sha256": "994e4d8887a3d7d3ce028bc8dace1c7cec82beec0b65b4dc2220ebe4f1dd1a5e",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/wr_ddr3_fifo.xml",
+      "bytes": 608621,
+      "sha256": "835e51be331c18f172d17f9336e0afb152c64b27bd5f090f41d74ecbe1e964a5",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/wr_ddr3_fifo_clocks.xdc",
+      "bytes": 4597,
+      "sha256": "2bf7568bb0fd4d2efc9b2ce854d9eec3d2373f88066c0e18759fa7e0daf1caaf",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/wr_ddr3_fifo_ooc.xdc",
+      "bytes": 2508,
+      "sha256": "c18621b859b2ceb7465cfc1fe0119d85a615286249e0a188467a691b9f83474c",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/wr_ddr3_fifo_sim_netlist.v",
+      "bytes": 197165,
+      "sha256": "d79cfe8da945849d8c5be1e370b83fa10c13e94061d890147563dc9033563893",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/wr_ddr3_fifo_sim_netlist.vhdl",
+      "bytes": 276095,
+      "sha256": "389650178fcb579982342849128facec414e9a4ae7aef54ec9d9099fb15b43af",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/wr_ddr3_fifo_stub.v",
+      "bytes": 1688,
+      "sha256": "4c141feea4e6f42d0975499df317af4ec165c3a623b9b19304c904059601f2dc",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/wr_ddr3_fifo/wr_ddr3_fifo_stub.vhdl",
+      "bytes": 1810,
+      "sha256": "c4138964f08bc55fd5f117d043a76ff2b7bca1c64144bf21a3cce1de223d27da",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/mig_b.prj",
+      "bytes": 11262,
+      "sha256": "dc9c15d3798d805251ac6509a7dabd2edee14b2e84a050e76064c609606b5954",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/source/integration/ddr3_ctrl_epoch.v",
+      "bytes": 11710,
+      "sha256": "b65a31059cbc2048c5e9c2a98913a72441d2df5692a0857f9536f8cb102e16ff",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/source/integration/ddr3_ctrl_offload.v",
+      "bytes": 16964,
+      "sha256": "592a81bdf23641526806976e25d6ce795cabe3796dbe789e743aa1a6ee2bcc05",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/source/integration/fifo_axi4_adapter_epoch.v",
+      "bytes": 12631,
+      "sha256": "945d4176a6f426703d7e5de4b09d52af095be7c51aed60f14270b64b570c515b",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/ip2018/mig_7series_0/mig_7series_0.xci",
+      "bytes": 349584,
+      "sha256": "734d3452f4ea773a44624e3d4044ba3ff5bf6a8f45ea35b1fa5cb965aae2d6e8",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/ip2018/rd_ddr3_fifo/rd_ddr3_fifo.xci",
+      "bytes": 73699,
+      "sha256": "a006de231350bd1371689e0848dfaa4bf5658b3b556836bd2a42ad003e5aa329",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/ip2018/sys_pll/sys_pll.xci",
+      "bytes": 92794,
+      "sha256": "fd69049954ad01d32a6222ee76defaec3ebdc311cb8ec2f1bccb5d6aa4aa64fa",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/ip2018/wr_ddr3_fifo/wr_ddr3_fifo.xci",
+      "bytes": 73703,
+      "sha256": "64c19fa5b36584c84e54f5177f13378d4e02b5fbf90559dc89ffe03609d383fa",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/src/gmii_to_rgmii.v",
+      "bytes": 2980,
+      "sha256": "9d57394703bfbcfc1de6aefc01d573a0a562abe58f712a46f19fbd6f693dadd7",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/src/I2C_OV5640_RGB565_1080P_Config.v",
+      "bytes": 18212,
+      "sha256": "9521ce6612e1be75e0ef781220d6ba7b76a9318c2f18529e942b60a4b24f9f59",
+      "owner": "CrazyBingo",
+      "reason": "Explicit proprietary/confidential header; no separate redistribution authorization",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/src/ip_checksum.v",
+      "bytes": 1615,
+      "sha256": "2ede55244bc4d2d8c6e4195b39c26d71fc155858c2a0382717b1b4060d360710",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/src/lght_udp_tx.v",
+      "bytes": 15430,
+      "sha256": "4b20caa830457777e6675fb033b3ba59d51c4b93546ee6e0e96ec72ce8e04fc2",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/src/rgmii_to_gmii.v",
+      "bytes": 2643,
+      "sha256": "56a2e75b02d882761ad3ada55b4b236bc39053377689b1680f53ed85d616d976",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/src/vendor/axi4_to_fifo.v",
+      "bytes": 7131,
+      "sha256": "d2b10bb3bb0243d0ea14a85e1f4064ababd8b1c5d56803d5f33b922cf0ce71a9",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/src/vendor/ddr3_ctrl_2port.v",
+      "bytes": 11282,
+      "sha256": "484a2e3d4e39cbd56ab11c2c817360803e65d04aa8f4027792777974897fce98",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/src/vendor/fifo_axi4_adapter.v",
+      "bytes": 12567,
+      "sha256": "1f94baa97b5970a370f593e2acbc7110ac1c4e3dd033ae35cdb13b5689b10dc3",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/src/vendor/fifo_to_axi4.v",
+      "bytes": 10075,
+      "sha256": "05123c93b94424f2550b337dd4f525abfe67602fd910887144a40f7e5420d5cd",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/ip2018/mig_7series_0/mig_7series_0.xci",
+      "bytes": 349584,
+      "sha256": "734d3452f4ea773a44624e3d4044ba3ff5bf6a8f45ea35b1fa5cb965aae2d6e8",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/ip2018/rd_ddr3_fifo/rd_ddr3_fifo.xci",
+      "bytes": 73699,
+      "sha256": "a006de231350bd1371689e0848dfaa4bf5658b3b556836bd2a42ad003e5aa329",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/ip2018/sys_pll/sys_pll.xci",
+      "bytes": 92794,
+      "sha256": "fd69049954ad01d32a6222ee76defaec3ebdc311cb8ec2f1bccb5d6aa4aa64fa",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/ip2018/wr_ddr3_fifo/wr_ddr3_fifo.xci",
+      "bytes": 73703,
+      "sha256": "64c19fa5b36584c84e54f5177f13378d4e02b5fbf90559dc89ffe03609d383fa",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/gmii_to_rgmii.v",
+      "bytes": 2980,
+      "sha256": "9d57394703bfbcfc1de6aefc01d573a0a562abe58f712a46f19fbd6f693dadd7",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/I2C_OV5640_RGB565_1080P_Config.v",
+      "bytes": 18212,
+      "sha256": "9521ce6612e1be75e0ef781220d6ba7b76a9318c2f18529e942b60a4b24f9f59",
+      "owner": "CrazyBingo",
+      "reason": "Explicit proprietary/confidential header; no separate redistribution authorization",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/ip_checksum.v",
+      "bytes": 1615,
+      "sha256": "2ede55244bc4d2d8c6e4195b39c26d71fc155858c2a0382717b1b4060d360710",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/lght_udp_tx.v",
+      "bytes": 15430,
+      "sha256": "4b20caa830457777e6675fb033b3ba59d51c4b93546ee6e0e96ec72ce8e04fc2",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/rgmii_to_gmii.v",
+      "bytes": 2643,
+      "sha256": "56a2e75b02d882761ad3ada55b4b236bc39053377689b1680f53ed85d616d976",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/vendor/axi4_to_fifo.v",
+      "bytes": 7131,
+      "sha256": "d2b10bb3bb0243d0ea14a85e1f4064ababd8b1c5d56803d5f33b922cf0ce71a9",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/vendor/ddr3_ctrl_2port.v",
+      "bytes": 11282,
+      "sha256": "484a2e3d4e39cbd56ab11c2c817360803e65d04aa8f4027792777974897fce98",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/vendor/fifo_axi4_adapter.v",
+      "bytes": 12567,
+      "sha256": "1f94baa97b5970a370f593e2acbc7110ac1c4e3dd033ae35cdb13b5689b10dc3",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/vendor/fifo_to_axi4.v",
+      "bytes": 10075,
+      "sha256": "05123c93b94424f2550b337dd4f525abfe67602fd910887144a40f7e5420d5cd",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    }
+  ]
+}

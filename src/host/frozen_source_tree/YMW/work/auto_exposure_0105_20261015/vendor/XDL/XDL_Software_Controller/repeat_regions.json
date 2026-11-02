@@ -1,0 +1,23 @@
+{
+  "version": "repeat-regions-1",
+  "dataset_commit": "de18e3b604158c1b53b87b08f22ddc59ed52cfe2",
+  "coordinate_convention": "original saved pixels; full sensor origin top-left; no resizing",
+  "boards": {
+    "sample001": {
+      "polygon": [[630, 196], [1415, 196], [1417, 984], [628, 983]],
+      "source_repeat_id": "r01",
+      "source_png_sha256": "e77a5ad767c2aa340a53fe30011991c0f1725a0f4c0a40cd613f19aff1e0a2eb",
+      "manual_review_pending": true,
+      "mask_source": "software approximate quadrilateral from visual inspection of sample001 r01 original PNG",
+      "evidence_level": "offline visual approximation; physical board localization approval pending"
+    },
+    "sample002": {
+      "polygon": [[634, 197], [1417, 202], [1414, 987], [627, 983]],
+      "source_repeat_id": "r01",
+      "source_png_sha256": "7abca0d5c51190ba75a53edc0887555fab233159ebe509984a3278714a64169d",
+      "manual_review_pending": true,
+      "mask_source": "software approximate quadrilateral from visual inspection of sample002 r01 original PNG",
+      "evidence_level": "offline visual approximation; physical board localization approval pending"
+    }
+  }
+}

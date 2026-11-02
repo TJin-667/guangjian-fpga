@@ -1,0 +1,193 @@
+{
+  "status": "PASS_REAL_SPEED_HOST_CAPTURE_HANDOFF_FROZEN_EXPORT",
+  "source": "E:\\GuangjianData\\UnifiedInspectionSpeed0109\\20261031_141447_8a87c194",
+  "capture_root": "E:\\GuangjianData\\continuous0109_plans\\20261031_141412_840fc7df\\run",
+  "group_id": "sample004_g1793427252714918100",
+  "candidate_binding_sha256": "dd773260f7e0431ebb28abdb409e6008e8d74c50eab91cb32e6f6e53b4c84716",
+  "frozen_id": "f09eb5885e1d",
+  "roi": [
+    544,
+    128,
+    864,
+    864
+  ],
+  "format": 49,
+  "pair": [
+    400,
+    800
+  ],
+  "gain16": 16,
+  "LED": 128,
+  "real_formal_frames": 8,
+  "real_preparation_frames": 1,
+  "distinct_capture_identities": 9,
+  "actual_device_profile_pages": 24,
+  "live_combined_handoff": true,
+  "native_differences": {
+    "gray": 0,
+    "sat1": 0,
+    "board": 0,
+    "words": 0
+  },
+  "all_eight_derivative_differences": {
+    "residual_n": 0,
+    "valid": 0
+  },
+  "proof": {
+    "status": "PASS_SAME_INPUT_DENSE_HYBRID_AND_SAVED",
+    "R32_word_differences": 0,
+    "fusion_differences": {
+      "residual_n": 0,
+      "source_frame": 0,
+      "unknown": 0,
+      "source_direction": 0,
+      "source_exposure": 0,
+      "polarity": 0,
+      "weak": 0,
+      "strong": 0,
+      "connected_mask": 0,
+      "mask": 0
+    },
+    "formal_differences": {
+      "original": 0,
+      "guide6_20": 0,
+      "without_sleeve": 0,
+      "candidate": 0,
+      "side_addition": 0,
+      "side_envelope": 0,
+      "isolated6": 0,
+      "isolated_low": 0,
+      "terminal_extension": 0,
+      "ordinary": 0
+    },
+    "full_review_equal": true,
+    "full_scores_equal": true,
+    "outside_A_B_timing": true
+  },
+  "camera_readbacks": [
+    {
+      "role": "formal",
+      "record": "E:\\GuangjianData\\continuous0109_plans\\20261031_141412_840fc7df\\run\\captures\\214f9c7f555f4b4e8e425be1fd9a9f12\\committed\\result.json",
+      "exposure_lines": 800.0,
+      "gain16": 16,
+      "chip_id": 22080,
+      "trace_sha256": "85e73412634ff17feb288fd0fd7cd0ca3cb1aed015a08d6842c3507742a9acd0"
+    },
+    {
+      "role": "formal",
+      "record": "E:\\GuangjianData\\continuous0109_plans\\20261031_141412_840fc7df\\run\\captures\\28c75fc46d044f2981bd4b1bddedb60a\\committed\\result.json",
+      "exposure_lines": 800.0,
+      "gain16": 16,
+      "chip_id": 22080,
+      "trace_sha256": "901707d60c0a69c2b5a44ad9468fd31ca8b2603b6928f6d986963897d8636481"
+    },
+    {
+      "role": "formal",
+      "record": "E:\\GuangjianData\\continuous0109_plans\\20261031_141412_840fc7df\\run\\captures\\309c81a5e1ec4a138c92b798aef5ac83\\committed\\result.json",
+      "exposure_lines": 400.0,
+      "gain16": 16,
+      "chip_id": 22080,
+      "trace_sha256": "b8416b58a9a9e036121b1d5dfa9233e76c12564c8cd05fd55b82ebf8ba22d9c3"
+    },
+    {
+      "role": "preparation",
+      "record": "E:\\GuangjianData\\continuous0109_plans\\20261031_141412_840fc7df\\run\\captures\\39611e2566284936a0a91c48093b827b\\committed\\result.json",
+      "exposure_lines": 400.0,
+      "gain16": 16,
+      "chip_id": 22080,
+      "trace_sha256": "868242a4166d0bd2dc0e1717bfd73f01c40e8b82a140a76d9e4cdd1e5bb8fe35"
+    },
+    {
+      "role": "formal",
+      "record": "E:\\GuangjianData\\continuous0109_plans\\20261031_141412_840fc7df\\run\\captures\\3e3001a455084d9c89026e40990a81d4\\committed\\result.json",
+      "exposure_lines": 800.0,
+      "gain16": 16,
+      "chip_id": 22080,
+      "trace_sha256": "cff0706bdaa82b14a6411d7a0bce24603a2bde2a70abbbe25f0b2d175f725f81"
+    },
+    {
+      "role": "formal",
+      "record": "E:\\GuangjianData\\continuous0109_plans\\20261031_141412_840fc7df\\run\\captures\\77da4a674b934356b5867a2cb0ab72dc\\committed\\result.json",
+      "exposure_lines": 400.0,
+      "gain16": 16,
+      "chip_id": 22080,
+      "trace_sha256": "6986719da32adfcd3ea2d6530e5e42d8cff3f6a774d7260bb6fcb5a4a786bf40"
+    },
+    {
+      "role": "formal",
+      "record": "E:\\GuangjianData\\continuous0109_plans\\20261031_141412_840fc7df\\run\\captures\\841683b9d5524fd2be48d44c7aff67e2\\committed\\result.json",
+      "exposure_lines": 400.0,
+      "gain16": 16,
+      "chip_id": 22080,
+      "trace_sha256": "ff506b56e74380feb45bf4dc9ba25ac6d2c517eac55ea63d04daa0e3e9f896d5"
+    },
+    {
+      "role": "formal",
+      "record": "E:\\GuangjianData\\continuous0109_plans\\20261031_141412_840fc7df\\run\\captures\\95c9453bfe1c476d99d3ac85d525314d\\committed\\result.json",
+      "exposure_lines": 800.0,
+      "gain16": 16,
+      "chip_id": 22080,
+      "trace_sha256": "c238cd890205e3eee156dfd7dc28189fde762d22cfbf7ad468f6f9d6f4036221"
+    },
+    {
+      "role": "formal",
+      "record": "E:\\GuangjianData\\continuous0109_plans\\20261031_141412_840fc7df\\run\\captures\\c93fc2771c5d4f68a6fdefbb1eaacffa\\committed\\result.json",
+      "exposure_lines": 400.0,
+      "gain16": 16,
+      "chip_id": 22080,
+      "trace_sha256": "21614a7596b67555266e3bd592db1480c0e2ab9fd52205790faf0d0df48c6038"
+    }
+  ],
+  "OFF_acknowledged": true,
+  "physical_LED_OFF_independently_observed": false,
+  "first_configuration": true,
+  "mask_commands": 23329,
+  "mask_trace_seconds": [
+    14.625
+  ],
+  "command_retries": 0,
+  "task_wall_seconds": 54.773840999998356,
+  "capture_archive_wall_seconds": 34.41080769999826,
+  "worker_process_wall_seconds": 19.355457300000126,
+  "worker_instrumented_wall_seconds": 18.2009333,
+  "FETCH_inclusive_seconds": 1.9720393,
+  "cache_seal_inclusive_seconds": 0.2274522,
+  "PC_mirror_H2_fusion_inclusive_seconds": 0.6503038,
+  "capture_UDP_cost": {
+    "udp_sent_packets": 26698,
+    "udp_sent_bytes": 533960,
+    "udp_received_packets": 32243,
+    "udp_received_bytes": 11374010,
+    "command_retries": 0,
+    "capture_requests": 9,
+    "saved_images": 9
+  },
+  "review_windows": [
+    {
+      "id": 1,
+      "priority": "high",
+      "score": 50
+    },
+    {
+      "id": 2,
+      "priority": "high",
+      "score": 45
+    },
+    {
+      "id": 3,
+      "priority": "medium",
+      "score": 55
+    },
+    {
+      "id": 4,
+      "priority": "medium",
+      "score": 70
+    }
+  ],
+  "gallery_images": 14,
+  "local_links": 31,
+  "new_CAP": 0,
+  "hardware_contacted_by_reviewer": false,
+  "system_PC_over_PL_speedup": null,
+  "scope": "One physical group through the new software; exact same-input verification, not accuracy calibration or a matched system-speed comparison. Inclusive timing spans must not be added."
+}

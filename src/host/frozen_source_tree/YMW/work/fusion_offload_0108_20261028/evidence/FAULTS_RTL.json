@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "checks": [
+    "reject_wrong_slot_incomplete_group_digest_request_without_DDR",
+    "duplicate_committed_slot_rejected",
+    "abort_stalled_AR_drains_no_commit",
+    "abort_stalled_W_drains_B_no_commit",
+    "abort_delayed_B_no_early_commit",
+    "RRESP_error_then_same_slot_retry_exact",
+    "BRESP_partial_target_then_retry_exact",
+    "reserved_and_out_of_range_record_rejected_then_retry",
+    "future_source_history_rejected_no_bank_swap",
+    "seven_frames_cannot_publish",
+    "publication_pinned_until_matching_release",
+    "old_group_epoch_rejected",
+    "timeout_holds_VALID_blocks_reuse_until_common_fence",
+    "wrong_RID_requires_common_fence",
+    "common_reset_retained_DDR_fresh_group_exact"
+  ],
+  "source_sha256": {
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\fusion_offload_0108_20261028\\rtl\\maxabs8_pixel.v": "2501a66f25a85b06d761299d634f9cba37f67ac07151c0d9dd5c695bca956482",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\fusion_offload_0108_20261028\\rtl\\fusion_axi_frame.v": "84a2f472b6720b53d7c47d21e275930ce0da04314b519acc540c9dfb378be6f7",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\fusion_offload_0108_20261028\\rtl\\fusion_group_guard.v": "6f6dbf1017cd00da7d65d2d67fd4d5daff4f80758b2eb36f4ef536990c00e1c3",
+    "E:\\GuangjianData\\fpga_0108_20261028\\rtl_faults_05\\tb_fusion_axi.sv": "17cbe2310d8dda88db9a832eb02b32859477d25f45708867eebbc66c82c17698"
+  },
+  "original_testbench_sha256": "3262e716830aa138372142ccca58551eff1ca22956ddbb97c7b9d48fe228cec5",
+  "fault_include_sha256": "d8979506e6acce41926fc5041b663f0f1e707c0ce792e3ec1ea1299fea196ec1",
+  "wall_seconds": 18.343999999808148,
+  "physical_MIG": false,
+  "bit_generated": false,
+  "board_commands": 0
+}

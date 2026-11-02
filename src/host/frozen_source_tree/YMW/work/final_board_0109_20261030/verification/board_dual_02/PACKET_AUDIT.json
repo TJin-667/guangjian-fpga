@@ -1,0 +1,3110 @@
+{
+  "status": "PASS",
+  "native_capture_frames": 17,
+  "eight_frame_new_offload": 8,
+  "extension_replies": 289,
+  "extended": [
+    {
+      "op": 16,
+      "seq": 318,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 319,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 320,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 321,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 322,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 323,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 17,
+      "seq": 324,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 18,
+      "seq": 325,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 327,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 22,
+      "seq": 329,
+      "status": 2,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 23,
+      "seq": 330,
+      "status": 2,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 31,
+      "seq": 370,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 371,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 372,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 373,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 374,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 375,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 376,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 377,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 16,
+      "seq": 378,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 17,
+      "seq": 379,
+      "status": 0,
+      "cookie": 0,
+      "request": 0,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 18,
+      "seq": 384,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 387,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 20,
+      "seq": 388,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 21,
+      "seq": 389,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 22,
+      "seq": 390,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 391,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 392,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 393,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 394,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 395,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 396,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 397,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 398,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 399,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 400,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 401,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 402,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 403,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 404,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 405,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 406,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 407,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 408,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 409,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 410,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 411,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 0,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 412,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 26,
+      "seq": 413,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 1,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 414,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 1,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 415,
+      "status": 0,
+      "cookie": 1,
+      "request": 1,
+      "slots": 1,
+      "bytes": 28
+    },
+    {
+      "op": 18,
+      "seq": 418,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 421,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 20,
+      "seq": 422,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 21,
+      "seq": 423,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 22,
+      "seq": 424,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 425,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 426,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 427,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 428,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 429,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 430,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 431,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 432,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 433,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 434,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 435,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 436,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 437,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 438,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 439,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 440,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 441,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 442,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 443,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 444,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 445,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 446,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 447,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 448,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 1,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 449,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 26,
+      "seq": 450,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 2,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 451,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 2,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 452,
+      "status": 0,
+      "cookie": 2,
+      "request": 2,
+      "slots": 2,
+      "bytes": 28
+    },
+    {
+      "op": 18,
+      "seq": 455,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 458,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 20,
+      "seq": 459,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 21,
+      "seq": 460,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 22,
+      "seq": 461,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 462,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 463,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 464,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 465,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 466,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 467,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 468,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 469,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 470,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 471,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 472,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 473,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 474,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 475,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 476,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 477,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 478,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 479,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 480,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 481,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 482,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 483,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 484,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 485,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 2,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 486,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 26,
+      "seq": 487,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 3,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 488,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 3,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 489,
+      "status": 0,
+      "cookie": 3,
+      "request": 3,
+      "slots": 3,
+      "bytes": 28
+    },
+    {
+      "op": 18,
+      "seq": 492,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 495,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 20,
+      "seq": 496,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 21,
+      "seq": 497,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 22,
+      "seq": 498,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 499,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 500,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 501,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 502,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 503,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 504,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 505,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 506,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 507,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 508,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 509,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 510,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 511,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 512,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 513,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 514,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 515,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 516,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 517,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 518,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 519,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 520,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 521,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 522,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 3,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 523,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 26,
+      "seq": 524,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 4,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 525,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 4,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 526,
+      "status": 0,
+      "cookie": 4,
+      "request": 4,
+      "slots": 4,
+      "bytes": 28
+    },
+    {
+      "op": 18,
+      "seq": 529,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 532,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 20,
+      "seq": 533,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 21,
+      "seq": 534,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 22,
+      "seq": 535,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 536,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 537,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 538,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 539,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 540,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 541,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 542,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 543,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 544,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 545,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 546,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 547,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 548,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 549,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 550,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 551,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 552,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 553,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 554,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 555,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 556,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 557,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 558,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 559,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 4,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 560,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 26,
+      "seq": 561,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 5,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 562,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 5,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 563,
+      "status": 0,
+      "cookie": 5,
+      "request": 5,
+      "slots": 5,
+      "bytes": 28
+    },
+    {
+      "op": 18,
+      "seq": 566,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 569,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 20,
+      "seq": 570,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 21,
+      "seq": 571,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 22,
+      "seq": 572,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 573,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 574,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 575,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 576,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 577,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 578,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 579,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 580,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 581,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 582,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 583,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 584,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 585,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 586,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 587,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 588,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 589,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 590,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 591,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 592,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 593,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 594,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 595,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 596,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 5,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 597,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 26,
+      "seq": 598,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 6,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 599,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 6,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 600,
+      "status": 0,
+      "cookie": 6,
+      "request": 6,
+      "slots": 6,
+      "bytes": 28
+    },
+    {
+      "op": 18,
+      "seq": 603,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 606,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 20,
+      "seq": 607,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 21,
+      "seq": 608,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 22,
+      "seq": 609,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 610,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 611,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 612,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 613,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 614,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 615,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 616,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 617,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 618,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 619,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 620,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 621,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 622,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 623,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 624,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 625,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 626,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 627,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 628,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 629,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 630,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 631,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 632,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 633,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 6,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 634,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 26,
+      "seq": 635,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 7,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 636,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 7,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 637,
+      "status": 0,
+      "cookie": 7,
+      "request": 7,
+      "slots": 7,
+      "bytes": 28
+    },
+    {
+      "op": 18,
+      "seq": 640,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 643,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 20,
+      "seq": 644,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 21,
+      "seq": 645,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 22,
+      "seq": 646,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 647,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 648,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 649,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 650,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 651,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 652,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 653,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 654,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 655,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 656,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 657,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 658,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 659,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 660,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 661,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 662,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 663,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 664,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 665,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 666,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 667,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 668,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 669,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 670,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 7,
+      "bytes": 0
+    },
+    {
+      "op": 19,
+      "seq": 671,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 8,
+      "bytes": 0
+    },
+    {
+      "op": 26,
+      "seq": 672,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 8,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 673,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 8,
+      "bytes": 28
+    },
+    {
+      "op": 26,
+      "seq": 674,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 8,
+      "bytes": 28
+    },
+    {
+      "op": 23,
+      "seq": 675,
+      "status": 2,
+      "cookie": 8,
+      "request": 8,
+      "slots": 8,
+      "bytes": 0
+    },
+    {
+      "op": 23,
+      "seq": 676,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 8,
+      "bytes": 1024
+    },
+    {
+      "op": 23,
+      "seq": 677,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 8,
+      "bytes": 1024
+    },
+    {
+      "op": 23,
+      "seq": 678,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 8,
+      "bytes": 1024
+    },
+    {
+      "op": 23,
+      "seq": 679,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 8,
+      "bytes": 1024
+    },
+    {
+      "op": 24,
+      "seq": 680,
+      "status": 3,
+      "cookie": 8,
+      "request": 8,
+      "slots": 8,
+      "bytes": 0
+    },
+    {
+      "op": 24,
+      "seq": 681,
+      "status": 0,
+      "cookie": 8,
+      "request": 8,
+      "slots": 8,
+      "bytes": 0
+    }
+  ],
+  "actual_network_firmware": "0x0109",
+  "legacy_parser_validation_view": "Explicit109-to107 substitution only after original firmware check; not a live SDK/fallback",
+  "full_pipeline": "DVP model -> actual capture/control/identity/H2 -> CDC writer -> modeled DDR -> real merger/table guard -> DMA/CDC/UDP -> strict host decode -> frozen B1 connection",
+  "candidate_differences": {
+    "residual_n": 0,
+    "source_frame": 0,
+    "unknown": 0,
+    "source_direction": 0,
+    "source_exposure": 0,
+    "polarity": 0,
+    "weak": 0,
+    "strong": 0,
+    "connected_mask": 0,
+    "mask": 0,
+    "selected_gray": 0
+  },
+  "device_profiles": [
+    {
+      "slot": 1,
+      "stage": 0,
+      "clock_hz": 125000000,
+      "cycles": 17673,
+      "count0": 1024,
+      "count1": 0,
+      "blocked": 0
+    },
+    {
+      "slot": 1,
+      "stage": 1,
+      "clock_hz": 100000000,
+      "cycles": 30733,
+      "count0": 256,
+      "count1": 16,
+      "blocked": 96
+    },
+    {
+      "slot": 1,
+      "stage": 2,
+      "clock_hz": 100000000,
+      "cycles": 2528,
+      "count0": 256,
+      "count1": 256,
+      "blocked": 91
+    },
+    {
+      "slot": 2,
+      "stage": 0,
+      "clock_hz": 125000000,
+      "cycles": 17673,
+      "count0": 1024,
+      "count1": 0,
+      "blocked": 0
+    },
+    {
+      "slot": 2,
+      "stage": 1,
+      "clock_hz": 100000000,
+      "cycles": 31091,
+      "count0": 256,
+      "count1": 16,
+      "blocked": 96
+    },
+    {
+      "slot": 2,
+      "stage": 2,
+      "clock_hz": 100000000,
+      "cycles": 2967,
+      "count0": 512,
+      "count1": 256,
+      "blocked": 91
+    },
+    {
+      "slot": 3,
+      "stage": 0,
+      "clock_hz": 125000000,
+      "cycles": 17673,
+      "count0": 1024,
+      "count1": 0,
+      "blocked": 0
+    },
+    {
+      "slot": 3,
+      "stage": 1,
+      "clock_hz": 100000000,
+      "cycles": 30729,
+      "count0": 256,
+      "count1": 16,
+      "blocked": 94
+    },
+    {
+      "slot": 3,
+      "stage": 2,
+      "clock_hz": 100000000,
+      "cycles": 2967,
+      "count0": 512,
+      "count1": 256,
+      "blocked": 90
+    },
+    {
+      "slot": 4,
+      "stage": 0,
+      "clock_hz": 125000000,
+      "cycles": 17673,
+      "count0": 1024,
+      "count1": 0,
+      "blocked": 0
+    },
+    {
+      "slot": 4,
+      "stage": 1,
+      "clock_hz": 100000000,
+      "cycles": 30729,
+      "count0": 256,
+      "count1": 16,
+      "blocked": 94
+    },
+    {
+      "slot": 4,
+      "stage": 2,
+      "clock_hz": 100000000,
+      "cycles": 2967,
+      "count0": 512,
+      "count1": 256,
+      "blocked": 91
+    },
+    {
+      "slot": 5,
+      "stage": 0,
+      "clock_hz": 125000000,
+      "cycles": 17673,
+      "count0": 1024,
+      "count1": 0,
+      "blocked": 0
+    },
+    {
+      "slot": 5,
+      "stage": 1,
+      "clock_hz": 100000000,
+      "cycles": 30729,
+      "count0": 256,
+      "count1": 16,
+      "blocked": 96
+    },
+    {
+      "slot": 5,
+      "stage": 2,
+      "clock_hz": 100000000,
+      "cycles": 2967,
+      "count0": 512,
+      "count1": 256,
+      "blocked": 90
+    },
+    {
+      "slot": 6,
+      "stage": 0,
+      "clock_hz": 125000000,
+      "cycles": 17673,
+      "count0": 1024,
+      "count1": 0,
+      "blocked": 0
+    },
+    {
+      "slot": 6,
+      "stage": 1,
+      "clock_hz": 100000000,
+      "cycles": 30729,
+      "count0": 256,
+      "count1": 16,
+      "blocked": 94
+    },
+    {
+      "slot": 6,
+      "stage": 2,
+      "clock_hz": 100000000,
+      "cycles": 2967,
+      "count0": 512,
+      "count1": 256,
+      "blocked": 92
+    },
+    {
+      "slot": 7,
+      "stage": 0,
+      "clock_hz": 125000000,
+      "cycles": 17673,
+      "count0": 1024,
+      "count1": 0,
+      "blocked": 0
+    },
+    {
+      "slot": 7,
+      "stage": 1,
+      "clock_hz": 100000000,
+      "cycles": 30729,
+      "count0": 256,
+      "count1": 16,
+      "blocked": 95
+    },
+    {
+      "slot": 7,
+      "stage": 2,
+      "clock_hz": 100000000,
+      "cycles": 2968,
+      "count0": 512,
+      "count1": 256,
+      "blocked": 92
+    },
+    {
+      "slot": 8,
+      "stage": 0,
+      "clock_hz": 125000000,
+      "cycles": 17673,
+      "count0": 1024,
+      "count1": 0,
+      "blocked": 0
+    },
+    {
+      "slot": 8,
+      "stage": 1,
+      "clock_hz": 100000000,
+      "cycles": 30730,
+      "count0": 256,
+      "count1": 16,
+      "blocked": 100
+    },
+    {
+      "slot": 8,
+      "stage": 2,
+      "clock_hz": 100000000,
+      "cycles": 2973,
+      "count0": 512,
+      "count1": 256,
+      "blocked": 93
+    }
+  ],
+  "profile_scope": "RTL model service cycles, not physical benchmark",
+  "result_sha256": "0dd976c3c641c7439839a53ec827d69a8ebf0de68ec520d62b03cad10677c9c6",
+  "committed_images": [
+    {
+      "identity": {
+        "session": 81985529216486895,
+        "request_id": 1,
+        "config_epoch": 2,
+        "dvp_sequence": 6,
+        "publish_sequence": 1,
+        "roi_generation": 0,
+        "camera_generation": 1,
+        "light_generation": 1,
+        "frame_id": 65535
+      },
+      "format": 1,
+      "sha256": "beecfb07f6164da9dd7f20ab51d6aec4043eae75804ea2b7c1d1bb2f212af519"
+    },
+    {
+      "identity": {
+        "session": 81985529216486895,
+        "request_id": 2,
+        "config_epoch": 3,
+        "dvp_sequence": 16,
+        "publish_sequence": 2,
+        "roi_generation": 1,
+        "camera_generation": 2,
+        "light_generation": 1,
+        "frame_id": 0
+      },
+      "format": 1,
+      "sha256": "44eeb62ef4ebb8cc60a98d4d42b386ee7ce73bfcf4cb2c594007ef7a98b9c7ef"
+    },
+    {
+      "identity": {
+        "session": 81985529216486895,
+        "request_id": 4,
+        "config_epoch": 3,
+        "dvp_sequence": 28,
+        "publish_sequence": 4,
+        "roi_generation": 1,
+        "camera_generation": 2,
+        "light_generation": 1,
+        "frame_id": 2
+      },
+      "format": 1,
+      "sha256": "2eb4b75da7852ed63439e95579ab2bf4beebb862fee01c72d448b2cda77a54af"
+    },
+    {
+      "identity": {
+        "session": 18364758544493064720,
+        "request_id": 1,
+        "config_epoch": 3,
+        "dvp_sequence": 35,
+        "publish_sequence": 5,
+        "roi_generation": 1,
+        "camera_generation": 2,
+        "light_generation": 1,
+        "frame_id": 3
+      },
+      "format": 1,
+      "sha256": "405d24a4f69c6f640162d58ca6d5e626bb33fa57b749185422de9d57ee2fe605"
+    },
+    {
+      "identity": {
+        "session": 8526495043095935640,
+        "request_id": 1,
+        "config_epoch": 3,
+        "dvp_sequence": 42,
+        "publish_sequence": 6,
+        "roi_generation": 1,
+        "camera_generation": 2,
+        "light_generation": 1,
+        "frame_id": 4
+      },
+      "format": 49,
+      "sha256": "4b27738d7ef50e2c1740e416a018c1eecfe09e4ab910ff945826004d28aa4475"
+    },
+    {
+      "identity": {
+        "session": 8526495043095935640,
+        "request_id": 3,
+        "config_epoch": 3,
+        "dvp_sequence": 55,
+        "publish_sequence": 8,
+        "roi_generation": 2,
+        "camera_generation": 2,
+        "light_generation": 1,
+        "frame_id": 6
+      },
+      "format": 49,
+      "sha256": "f8b5e7c5619dd4f01484e53fe9d660b04cd78fb85bbb7096992e5aa4f83c8772"
+    },
+    {
+      "identity": {
+        "session": 8526495043095935640,
+        "request_id": 4,
+        "config_epoch": 3,
+        "dvp_sequence": 65,
+        "publish_sequence": 9,
+        "roi_generation": 2,
+        "camera_generation": 2,
+        "light_generation": 1,
+        "frame_id": 7
+      },
+      "format": 1,
+      "sha256": "b7df3adeb437488ffac120d251670cdafab4c56c3d0f371e3da97cdf214b2501"
+    },
+    {
+      "identity": {
+        "session": 1311768465173141112,
+        "request_id": 1,
+        "config_epoch": 3,
+        "dvp_sequence": 75,
+        "publish_sequence": 10,
+        "roi_generation": 2,
+        "camera_generation": 2,
+        "light_generation": 1,
+        "frame_id": 8
+      },
+      "format": 50,
+      "sha256": "f81afdb8a3775e9c8a3d364c8ea73062f6348ac441f17205b8c8048b9c33ef9b"
+    },
+    {
+      "identity": {
+        "session": 11063223766036525858,
+        "request_id": 1,
+        "config_epoch": 2,
+        "dvp_sequence": 5,
+        "publish_sequence": 1,
+        "roi_generation": 0,
+        "camera_generation": 1,
+        "light_generation": 1,
+        "frame_id": 65535
+      },
+      "format": 49,
+      "sha256": "ff8863aa7482ca78df5f0c487dc85b7eee636f074c746e00382a956c972b8a87"
+    },
+    {
+      "identity": {
+        "session": 1189139198887876216,
+        "request_id": 1,
+        "config_epoch": 4,
+        "dvp_sequence": 8,
+        "publish_sequence": 1,
+        "roi_generation": 0,
+        "camera_generation": 2,
+        "light_generation": 2,
+        "frame_id": 65535
+      },
+      "format": 50,
+      "sha256": "345494913184e9ca11dfd1c1a4873bfe3c153dee76b066fa173bbd8937b4688d"
+    },
+    {
+      "identity": {
+        "session": 1189139198887876216,
+        "request_id": 2,
+        "config_epoch": 6,
+        "dvp_sequence": 21,
+        "publish_sequence": 2,
+        "roi_generation": 0,
+        "camera_generation": 3,
+        "light_generation": 3,
+        "frame_id": 0
+      },
+      "format": 50,
+      "sha256": "d8866d44a24ffccf2471f8bd995b19d7ca7c10d8b3be5f906e9afea75e40e699"
+    },
+    {
+      "identity": {
+        "session": 1189139198887876216,
+        "request_id": 3,
+        "config_epoch": 8,
+        "dvp_sequence": 34,
+        "publish_sequence": 3,
+        "roi_generation": 0,
+        "camera_generation": 4,
+        "light_generation": 4,
+        "frame_id": 1
+      },
+      "format": 50,
+      "sha256": "254f8302346bbab4bff734462003f0b12ff128f7937cf1ef3e6a63001b1937de"
+    },
+    {
+      "identity": {
+        "session": 1189139198887876216,
+        "request_id": 4,
+        "config_epoch": 10,
+        "dvp_sequence": 47,
+        "publish_sequence": 4,
+        "roi_generation": 0,
+        "camera_generation": 5,
+        "light_generation": 5,
+        "frame_id": 2
+      },
+      "format": 50,
+      "sha256": "0aef4652d8b8bc6da5445463815ebe410570e372fe094854890aa018e45df170"
+    },
+    {
+      "identity": {
+        "session": 1189139198887876216,
+        "request_id": 5,
+        "config_epoch": 12,
+        "dvp_sequence": 60,
+        "publish_sequence": 5,
+        "roi_generation": 0,
+        "camera_generation": 6,
+        "light_generation": 6,
+        "frame_id": 3
+      },
+      "format": 50,
+      "sha256": "e83b7d3e1ce1f61281c2c611285fc9a318788ef3d02a37c8e66b1edafe7e476f"
+    },
+    {
+      "identity": {
+        "session": 1189139198887876216,
+        "request_id": 6,
+        "config_epoch": 14,
+        "dvp_sequence": 73,
+        "publish_sequence": 6,
+        "roi_generation": 0,
+        "camera_generation": 7,
+        "light_generation": 7,
+        "frame_id": 4
+      },
+      "format": 50,
+      "sha256": "77b256812a07efbe0de390d103f9e1216f72181018f43b74663f26d724dc2bea"
+    },
+    {
+      "identity": {
+        "session": 1189139198887876216,
+        "request_id": 7,
+        "config_epoch": 16,
+        "dvp_sequence": 86,
+        "publish_sequence": 7,
+        "roi_generation": 0,
+        "camera_generation": 8,
+        "light_generation": 8,
+        "frame_id": 5
+      },
+      "format": 50,
+      "sha256": "a521ec8e38b3a69a945f93a0cd1eafab672bd543c3b649a56a4e0dab02fe46a9"
+    },
+    {
+      "identity": {
+        "session": 1189139198887876216,
+        "request_id": 8,
+        "config_epoch": 18,
+        "dvp_sequence": 99,
+        "publish_sequence": 8,
+        "roi_generation": 0,
+        "camera_generation": 9,
+        "light_generation": 9,
+        "frame_id": 6
+      },
+      "format": 50,
+      "sha256": "3cb993e3c020b64ecadba11c1f340c4786b4239e250c3e30216f56ffe3c93733"
+    }
+  ],
+  "inputs_sha256": {
+    "packets.bin": "59ffefe0256ddcbefb3a52a0481492de7e74f457e3c8b451d1cac970ae2e7819",
+    "packets_index.csv": "d1775be5462a240c07e36e2f54a5763ced62419b4df3079320fd0c178f3fd544",
+    "board_trace.jsonl": "08898af4b1e1aab7587d677cc67a077b45119f25ce018724d6e5d110c9c0999b",
+    "VERIFICATION.json": "b79c75db06e820f4c8cbb76b7efc13d6742aed98c739c1610f938fc12389bfae"
+  },
+  "physical_hardware": false,
+  "bit_generated": false
+}

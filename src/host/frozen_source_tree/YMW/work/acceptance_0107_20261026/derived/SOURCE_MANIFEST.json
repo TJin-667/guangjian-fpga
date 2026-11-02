@@ -1,0 +1,40 @@
+{
+  "baseline_commit": "2000d04ecba10e707bf24ef0151a30e383268c23",
+  "changes": [
+    "fw0107/capability bit2 with diagnostic format0x32",
+    "single gray encoder plus 8 RGB words, grouped same-frozen-stream dual view",
+    "23-bit layout division for maximum6480000 bytes"
+  ],
+  "baseline_files_modified": false,
+  "image_algorithm_changed": false,
+  "files": {
+    "transport_packet_store.v": {
+      "source_sha256": "e392ed2a84d647e2bc3b8821fdd8a5502bf3bfa884536eac16d40ef629df1b4e",
+      "derived_sha256": "96458457c9e710767f084e2c6083cfc860cea0a0a5e7d42fec20cdf82b319756"
+    },
+    "transport_layout.v": {
+      "source_sha256": "35faba8cceeabf710fd0301d2af133ba1cdc022a8cff704b82bb212d0adcdc56",
+      "derived_sha256": "1e9d63160fdf47f36be5169188d781ce303388ef10a4418e155697f040a83dd5"
+    },
+    "derived/lght_identity_router.v": {
+      "source_sha256": "ae8f2e4e1f4490511e29f7cc8cd8710c84b34b4d76ac8a5e6a0153b8d0f70f9b",
+      "derived_sha256": "f03418a68656e19c613105300dc6b16609f840bc042662074522c34bb0e715af"
+    },
+    "derived/lght_core_camera_identity.v": {
+      "source_sha256": "538cb804f94a80bd32009262ea3ccbf64f64358aa97338463ff20626dfff12ff",
+      "derived_sha256": "be6020df51fca292e4ac8f540a482dbcebc8f84fac31040db733a80de35c46f8"
+    },
+    "derived/tj_frozen_packet_source.v": {
+      "source_sha256": "ddd443748a70aee17d5e1fdf2dda23d362a063469c1da23f9444b472e08f1b31",
+      "derived_sha256": "ddd443748a70aee17d5e1fdf2dda23d362a063469c1da23f9444b472e08f1b31"
+    },
+    "derived/bx72_ddr_identity_top.v": {
+      "source_sha256": "5b6864e11116861f0007b2fb36e4328c30607d41e93d0a50a475fbb5b268ed2c",
+      "derived_sha256": "5b6864e11116861f0007b2fb36e4328c30607d41e93d0a50a475fbb5b268ed2c"
+    },
+    "build_candidate.py": {
+      "source_sha256": "30c4eddde5e8734ea5dd4dc0ae0eeefb672ac17e629bdbc824073bb71eb8db59",
+      "derived_sha256": "70b6813576fd7eae522b441dffcaf8234c9eea08df340a215b30eb0689775611"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "status": "PASS_CURRENT_HOST_ONLY_PC_PL_SAME_INPUT",
+  "source": "E:\\GuangjianData\\UnifiedInspectionSpeed0109\\20261031_141447_8a87c194",
+  "cells": {
+    "PC": {
+      "seconds": [
+        17.229578900001798,
+        17.49105799999961,
+        17.593771100000595
+      ],
+      "median_seconds": 17.49105799999961,
+      "minimum": 17.229578900001798,
+      "maximum": 17.593771100000595
+    },
+    "PL": {
+      "seconds": [
+        16.935661399998935,
+        17.174910499998077,
+        16.902122999999847
+      ],
+      "median_seconds": 16.935661399998935,
+      "minimum": 16.902122999999847,
+      "maximum": 17.174910499998077
+    }
+  },
+  "host_only_PC_over_PL_ratio": 1.0327945030833405,
+  "system_speedup": null,
+  "FPGA_arithmetic_speedup": null,
+  "new_CAP": 0,
+  "hardware_contacted": false,
+  "scope": "Same eight saved GRAY8/SAT, mask, actual PL R32 and common audited H2/valid arrays already in RAM -> fusion/decode host adapter + frozen math + complete export. Includes PC R32 contract check and PL source/unknown checks. Excludes capture, FPGA service, quality upload, FETCH, raw/native validation, cache creation/read, subprocess startup, positioning and one-time imports. Not a whole-system or FPGA acceleration measurement."
+}

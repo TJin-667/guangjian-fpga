@@ -1,0 +1,8 @@
+mailbox	held	captured	unexpected_endpoints
+u_off_commands	512	512	
+u_off_replies	256	256	
+u_off_result_data	192	192	
+u_off_h2_bridge/u_cfg	96	96	
+u_off_h2_bridge/u_records	96	96	
+u_off_h2_bridge/u_finish	96	96	
+u_off_h2_bridge/u_result	128	128	

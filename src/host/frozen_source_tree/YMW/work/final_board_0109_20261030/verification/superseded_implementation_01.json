@@ -1,0 +1,6 @@
+{
+  "next_build": "implementation_02",
+  "status": "SUPERSEDED_BEFORE_ROUTE",
+  "bit_generated": false,
+  "reason": "Two independent procedural writes prevented response_payload distributed RAM inference; 0109 synthesis expanded to 36314 LUT / 40677 FF. Replaced by one synchronous write port, mathematical kernels unchanged."
+}

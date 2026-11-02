@@ -1,0 +1,6 @@
+{
+  "source": "C:/BX72_0105_LAB/runtime/ymw_pinned/host/plate_roi.py",
+  "sha256": "6a663d4216937f004f1281672c42553bba22809f02c1ca4344386d3bd5c66937",
+  "exact_copy": true,
+  "scope": "host automatic plate geometry; no firmware or transport client reused"
+}

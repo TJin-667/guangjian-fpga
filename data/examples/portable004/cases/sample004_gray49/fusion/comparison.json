@@ -1,0 +1,16 @@
+{
+  "differences": {
+    "residual_n": 0,
+    "source_frame": 0,
+    "unknown": 0,
+    "source_direction": 0,
+    "source_exposure": 0,
+    "polarity": 0,
+    "weak": 0,
+    "strong": 0,
+    "connected_mask": 0,
+    "mask": 0,
+    "selected_gray": 0
+  },
+  "all_equal": true
+}

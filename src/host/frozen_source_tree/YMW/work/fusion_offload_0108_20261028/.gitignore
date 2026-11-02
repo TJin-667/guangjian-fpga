@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+xsim.dir/
+.Xil/
+*.jou
+*.log
+*.dcp
+*.wdb
+*.hex

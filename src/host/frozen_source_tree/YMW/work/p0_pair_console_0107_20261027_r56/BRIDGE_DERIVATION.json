@@ -1,0 +1,6 @@
+{
+  "source": "YMW\\work\\acceptance_0107_20261026\\gray_capture_bridge.py",
+  "source_sha256": "f37a879598580aafc2d9179f827e1e5c9359377ae50654632cc375b1cac7468a",
+  "generated_sha256": "aec96396b1923693906d4242f23e1a45b594e70719c599305de745ae983b9421",
+  "scope": "Only bind identical strict batch/frame bridge checks to isolated configurable eight validator; no changes to original bridge or gates"
+}

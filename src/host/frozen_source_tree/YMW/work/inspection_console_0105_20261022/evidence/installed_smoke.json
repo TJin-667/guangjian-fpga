@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "installed_runtime_byte_identical": true,
+  "plan_only_no_socket": true,
+  "sample": "sample002",
+  "offline_sample002_status": "OFFLINE_ANALYZED_REVIEW_REQUIRED",
+  "offline_output": "C:\\BX72_0105_LAB\\results\\inspection_offline_sample002_20261022_211615_5ceee4",
+  "physical_board_used": false,
+  "old_entrypoints_and_bits_preserved": true
+}

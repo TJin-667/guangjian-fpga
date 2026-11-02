@@ -1,0 +1,30 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Oct 30 22:10:08 2026
+| Host         : QiuQiu running 64-bit major release  (build 9200)
+| Command      : report_clock_networks -file E:/GuangjianData/final_board_0109_20261030/route_audit_01/reports/clock_networks.rpt
+| Design       : bx72_ddr_identity_top
+| Device       : 7a100t-fgg484
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+----------------------------------------------------------------------------------------------------------------------------------
+
+Clock Networks Report
+
+
+Constrained Clocks
+-------------------
+
+Clock u_sys_pll/inst/clk_in1 (50MHz)(endpoints: 16394 clock, 230 nonclock)
+MMCME2_ADV/CLKIN1 (u_sys_pll/inst/mmcm_adv_inst)
+sys_pll_sys_pll_clk_wiz/clk_in1 (u_sys_pll/inst)
+
+Clock rgmii_rx_clk (125MHz)(endpoints: 17100 clock, 1 nonclock)
+Port rgmii_rx_clk_i
+
+Clock clk_50m (50MHz)(endpoints: 16395 clock, 230 nonclock)
+Port clk_50m
+
+Clock cam_pclk (100MHz)(endpoints: 2002 clock, 0 nonclock)
+Port cam_pclk
+

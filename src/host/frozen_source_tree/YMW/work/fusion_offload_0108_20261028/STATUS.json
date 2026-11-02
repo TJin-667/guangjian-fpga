@@ -1,0 +1,23 @@
+{
+  "status": "KERNEL_FUNCTIONAL_PASS_BOARD_INTEGRATION_PENDING",
+  "date": "2026-10-28",
+  "RTL_real_frames": 24,
+  "fault_checks": 15,
+  "H2_scratch_cases": 9,
+  "host_tests": 11,
+  "all_module_internal_timing_met": true,
+  "all_module_full_OOC_budget_met": false,
+  "new_board_synthesis": false,
+  "new_bit_generated": false,
+  "hardware_commands": 0,
+  "new_captures": 0,
+  "current_mode_switched": false,
+  "TJ_confidence_modified": false,
+  "release_ready": false,
+  "open": [
+    "Real MIG arbitration/CDC and producer identity integration",
+    "New tile-upload/result network protocol and saved_ready ownership path",
+    "Exact quality still supplied by PC in this stage",
+    "Whole-board resources/timing/qualification, frozen-input board replay and physical acceptance"
+  ]
+}

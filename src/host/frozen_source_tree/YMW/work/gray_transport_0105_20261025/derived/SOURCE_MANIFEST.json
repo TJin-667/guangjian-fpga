@@ -1,0 +1,17 @@
+{
+  "base_commit": "9c2fb8e05ee02a5c8f8024d31a3fd934f7107124",
+  "input_sha256": {
+    "TJ/work/fpga_image_pipeline/rtl/tj_frozen_packet_source.v": "f7bba510795726c0ad065fb5fc64858b3b9df02f2a63252147d7b762cb566b70",
+    "TJ/work/fpga_image_pipeline/integration/lght_core_camera_identity.v": "48d5e82fca642d25314c3201bc5b6083c27cca406f3fbf07a08d5a6689dcddbb",
+    "TJ/work/fpga_image_pipeline/rtl/lght_identity_router.v": "40845a2e16f196672f2229f8e84c07848b5982888601222794e394418850bfcb",
+    "TJ/work/fpga_image_pipeline/integration/bx72_ddr_identity_top.v": "9c1303d29bb9211b839137bf6a8702790fe41a7b7ba345590f918c37f9eadd52"
+  },
+  "derived_sha256": {
+    "bx72_ddr_identity_top.v": "5b6864e11116861f0007b2fb36e4328c30607d41e93d0a50a475fbb5b268ed2c",
+    "lght_core_camera_identity.v": "538cb804f94a80bd32009262ea3ccbf64f64358aa97338463ff20626dfff12ff",
+    "lght_identity_router.v": "ae8f2e4e1f4490511e29f7cc8cd8710c84b34b4d76ac8a5e6a0153b8d0f70f9b",
+    "tj_frozen_packet_source.v": "ddd443748a70aee17d5e1fdf2dda23d362a063469c1da23f9444b472e08f1b31"
+  },
+  "firmware": "0x0106 experimental, not deployed",
+  "board_operations": false
+}

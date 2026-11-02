@@ -1,0 +1,16 @@
+{
+  "parent_commit": "8771bdf8dafdbeb3799a5526d17e92ae93b74226",
+  "parent_path": "YMW/work/fusion_board_0108_20261028/",
+  "generated_sha256": {
+    "generated/integration/bx72_ddr_identity_top.v": "7acad80edf9e3bdfed6f88f851e537b228cfb1e39f97455567f68ef7bff4f662",
+    "generated/integration/lght_core_camera_identity.v": "a0a5a2e7c7017ce76be6b96bb4b766afd0fa629e9fe5c66780466a0cb52b64e7",
+    "generated/rtl/fusion_net_service.v": "4b881307b15741ff2096ee7c61157cb35ffd85920968ceccfe8516ec5453170f",
+    "generated/rtl/fusion_ui_backend.v": "f7819117a0eb67081b05ee6f53e689cd6425e1ca35bf99ecf5d085d879ce070a",
+    "generated/rtl/h2_offload_cdc_bridge.v": "b2d0649b64e65809c40242ced730acaa3d3aa2605998e5e0b6473df36f220e3e",
+    "generated/rtl/lght_identity_router.v": "322e8e63b82c4958ce7d5be64553903206939d101225f16672fb0e25b73ba46f",
+    "generated/rtl/tj_frozen_packet_source.v": "5385f5e8ac55d07928b4a890d5b202516d66b05ad915987bd530fdfe514df04e"
+  },
+  "numerical_kernels_changed": false,
+  "CDC_widths_changed": false,
+  "board_commands": 0
+}

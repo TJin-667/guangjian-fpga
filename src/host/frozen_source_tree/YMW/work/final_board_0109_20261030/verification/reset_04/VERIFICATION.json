@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "tests": 17,
+  "failures": 0,
+  "errors": 0,
+  "cases": [
+    {
+      "case": "old_firmware",
+      "expected_fault": "old_firmware",
+      "status": "FAILED",
+      "phase": "post_reset_read_before_BIND",
+      "actual_CAP": 1,
+      "commands": 34,
+      "off_published": false
+    },
+    {
+      "case": "success",
+      "expected_fault": "none",
+      "status": "KEY2_ARMED_RESET_AND_RECOVERY_PASSED",
+      "phase": "complete",
+      "actual_CAP": 10,
+      "commands": 196,
+      "off_published": false
+    },
+    {
+      "case": "bad_fetch",
+      "expected_fault": "bad_fetch",
+      "status": "FAILED",
+      "phase": "new_session_eight_frame_recovery",
+      "actual_CAP": 10,
+      "commands": 196,
+      "off_published": true
+    },
+    {
+      "case": "no_reset",
+      "expected_fault": "skip",
+      "status": "FAILED",
+      "phase": "post_reset_read_before_BIND",
+      "actual_CAP": 1,
+      "commands": 35,
+      "off_published": false
+    },
+    {
+      "case": "stale_group",
+      "expected_fault": "stale_group",
+      "status": "FAILED",
+      "phase": "post_reset_read_before_BIND",
+      "actual_CAP": 1,
+      "commands": 35,
+      "off_published": false
+    },
+    {
+      "case": "stale_metadata",
+      "expected_fault": "stale_metadata",
+      "status": "FAILED",
+      "phase": "post_reset_read_before_BIND",
+      "actual_CAP": 1,
+      "commands": 35,
+      "off_published": false
+    },
+    {
+      "case": "cancel",
+      "expected_fault": "cancel",
+      "status": "FAILED",
+      "phase": "operator_KEY2",
+      "actual_CAP": 1,
+      "commands": 32,
+      "off_published": false
+    },
+    {
+      "case": "changed_source",
+      "expected_fault": "changed_source",
+      "status": "FAILED",
+      "phase": "post_reset_source_check",
+      "actual_CAP": 1,
+      "commands": 32,
+      "off_published": false
+    },
+    {
+      "case": "lost_arm_ack",
+      "expected_fault": "lose_first_arm_ack",
+      "status": "KEY2_ARMED_RESET_AND_RECOVERY_PASSED",
+      "phase": "complete",
+      "actual_CAP": 10,
+      "commands": 196,
+      "off_published": false
+    }
+  ],
+  "physical_hardware": false,
+  "actual_board_commands": 0,
+  "evidence_source": "software_udp_peer",
+  "actual_reset_button_used": false
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "parameter_freeze_id": "f09eb5885e1d",
+  "title_version_verified": true,
+  "current_caption": "sample004 | 400/800行 | 冻结组合 f09eb5885e1d | 2处复检提示 | sample004_g1793320787356567100",
+  "legacy_caption": "sample004 | 400/800行 | 历史版本 4c0be2d44fdd（非当前冻结） | 1处复检提示 | sample004_g1793320787356567100",
+  "historical_result_unchanged": true,
+  "current_window_scores": [
+    50,
+    45
+  ],
+  "review_selection_works": true,
+  "zoom_changes": 50,
+  "viewport_render_bounded": true,
+  "hardware_mode": "0108",
+  "hardware_contacted": false,
+  "window_hidden": true
+}

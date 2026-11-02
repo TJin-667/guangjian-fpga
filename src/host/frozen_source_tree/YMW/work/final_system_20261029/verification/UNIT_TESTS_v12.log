@@ -1,0 +1,45 @@
+test_corrupt_fused_result_refused (test_archive0108.ArchiveTests.test_corrupt_fused_result_refused) ... ok
+test_labeled_gray_and_rgb_loopback_archives_import_without_socket (test_archive0108.ArchiveTests.test_labeled_gray_and_rgb_loopback_archives_import_without_socket) ... ok
+test_loopback_cannot_be_presented_as_real_board (test_archive0108.ArchiveTests.test_loopback_cannot_be_presented_as_real_board) ... ok
+test_ready_plan_can_cancel_before_hardware_constructor (test_archive0108.ArchiveTests.test_ready_plan_can_cancel_before_hardware_constructor) ... ok
+test_wrong_slot_order_refused (test_archive0108.ArchiveTests.test_wrong_slot_order_refused) ... ok
+test_0108_entry_opens_action_page_and_routes_focus_and_capture (test_focus0108.EntryTests.test_0108_entry_opens_action_page_and_routes_focus_and_capture) ... ok
+test_0107_reply_is_still_rejected_before_capture (test_focus0108.FocusTests.test_0107_reply_is_still_rejected_before_capture) ... ok
+test_0108_three_frames_from_real_sdk_are_crc_valid_no_mask_upload (test_focus0108.FocusTests.test_0108_three_frames_from_real_sdk_are_crc_valid_no_mask_upload) ... ok
+test_bad_payload_is_not_displayed_and_cleanup_runs (test_focus0108.FocusTests.test_bad_payload_is_not_displayed_and_cleanup_runs) ... ok
+test_bridge_does_not_replace_original_modules_or_source (test_focus0108.FocusTests.test_bridge_does_not_replace_original_modules_or_source) ... ok
+test_cancel_inflight_preserves_one_frame_and_closes (test_focus0108.FocusTests.test_cancel_inflight_preserves_one_frame_and_closes) ... ok
+test_pause_resume_rewarms_and_keeps_camera_configuration (test_focus0108.FocusTests.test_pause_resume_rewarms_and_keeps_camera_configuration) ... ok
+test_native_sdk_cancellation_forwarded_and_off_on_failure (test_location0108.GroupLifecycleTests.test_native_sdk_cancellation_forwarded_and_off_on_failure) ... ok
+test_cancel_before_positioning_does_not_construct (test_location0108.LocationTests.test_cancel_before_positioning_does_not_construct) ... ok
+test_capture_failure_still_attempts_off_and_close (test_location0108.LocationTests.test_capture_failure_still_attempts_off_and_close) ... ok
+test_confirming_new_roi_prepares_plan_without_eight_more_captures (test_location0108.LocationTests.test_confirming_new_roi_prepares_plan_without_eight_more_captures) ... ok
+test_one_positioning_capture_forwards_cancel_and_cleans_up (test_location0108.LocationTests.test_one_positioning_capture_forwards_cancel_and_cleans_up) ... ok
+test_all_pixels_and_reflect_edges_match_frozen_integer_definition (test_residual_access.ResidualTests.test_all_pixels_and_reflect_edges_match_frozen_integer_definition) ... ok
+test_input_immutable_snapshot (test_residual_access.ResidualTests.test_input_immutable_snapshot) ... ok
+test_invalid_frame_or_coordinates_fail (test_residual_access.ResidualTests.test_invalid_frame_or_coordinates_fail) ... ok
+test_sparse_order_duplicates_and_scalar_keep_identity (test_residual_access.ResidualTests.test_sparse_order_duplicates_and_scalar_keep_identity) ... ok
+test_binary_uint8_sat_from_original_archives_is_supported (test_system.ContractTests.test_binary_uint8_sat_from_original_archives_is_supported) ... ok
+test_cancel_before_launch_preserves_source_and_does_not_spawn (test_system.ContractTests.test_cancel_before_launch_preserves_source_and_does_not_spawn) ... ok
+test_display_and_sensor_coordinates_are_separate (test_system.ContractTests.test_display_and_sensor_coordinates_are_separate) ... ok
+test_eight_native_planes_accepted (test_system.ContractTests.test_eight_native_planes_accepted) ... ok
+test_fused_response_cannot_replace_eight_evidence_planes (test_system.ContractTests.test_fused_response_cannot_replace_eight_evidence_planes) ... ok
+test_output_cannot_overlap_input (test_system.ContractTests.test_output_cannot_overlap_input) ... ok
+test_unqualified_offload_cannot_silently_fallback (test_system.ContractTests.test_unqualified_offload_cannot_silently_fallback) ... ok
+test_unsigned_or_out_of_range_residual_refused (test_system.ContractTests.test_unsigned_or_out_of_range_residual_refused) ... ok
+test_capture_queue_observer_does_not_consume_or_mutate_event (test_system.WindowTests.test_capture_queue_observer_does_not_consume_or_mutate_event) ... ok
+test_close_cancels_analysis_instead_of_killing_capture (test_system.WindowTests.test_close_cancels_analysis_instead_of_killing_capture) ... ok
+test_focus_budget_and_rate_unchanged (test_system.WindowTests.test_focus_budget_and_rate_unchanged) ... ok
+test_hidden_result_tab_refits_when_shown_and_manual_zoom_is_retained (test_system.WindowTests.test_hidden_result_tab_refits_when_shown_and_manual_zoom_is_retained) ... ok
+test_one_window_contains_capture_and_final_result_tabs (test_system.WindowTests.test_one_window_contains_capture_and_final_result_tabs) ... ok
+test_only_successful_complete_capture_hands_off (test_system.WindowTests.test_only_successful_complete_capture_hands_off) ... ok
+test_result_tab_folds_capture_controls_and_restores_them (test_system.WindowTests.test_result_tab_folds_capture_controls_and_restores_them) ... ok
+test_zoom_pan_render_allocates_visible_crop_only (test_system.WindowTests.test_zoom_pan_render_allocates_visible_crop_only) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 15.249s
+
+OK
+{"status": "OFFLINE_PLAN_READY_NO_BOARD_COMMANDS", "plan": "E:\\GuangjianData\\reviews\\final_system_20261029\\offline_plan_2dd9f843\\PLAN.json", "sample": "sample004", "roi": [576, 128, 864, 864], "low_high": [400, 800]}
+{"status": "OFFLINE_PLAN_READY_NO_BOARD_COMMANDS", "plan": "E:\\GuangjianData\\reviews\\final_system_20261029\\positioning_unit\\tmp_1w8_mle\\plan\\PLAN.json", "sample": "sample004", "roi": [576, 128, 864, 864], "low_high": [400, 800]}
+{"status": "OFFLINE_PLAN_READY_NO_BOARD_COMMANDS", "plan": "E:\\GuangjianData\\reviews\\final_system_20261029\\positioning_unit\\tmpfj4qil0g\\location\\plan\\PLAN.json", "sample": "sample004", "roi": [576, 128, 864, 864], "low_high": [400, 800]}

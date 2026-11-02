@@ -1,0 +1,920 @@
+{
+  "schema": "guangjian-host-performance-v1",
+  "clock": "perf_counter_ns",
+  "scope": "host_wall_clock_inclusive",
+  "elapsed_seconds": 35.1993362,
+  "events": [
+    {
+      "name": "ROI_preparation_not_formal",
+      "seconds": 17.5518187,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "pc_quality",
+      "seconds": 0.0644133,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "pc_audit_H2",
+      "seconds": 0.0266723,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_wait_scratch",
+      "seconds": 0.0007809,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_upload_quality",
+      "seconds": 0.0190218,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_fuse",
+      "seconds": 0.0224426,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "formal_frame",
+      "seconds": 1.5027282,
+      "success": true,
+      "inclusive": true,
+      "slot": 1
+    },
+    {
+      "name": "pc_quality",
+      "seconds": 0.0670458,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "pc_audit_H2",
+      "seconds": 0.0247854,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_wait_scratch",
+      "seconds": 0.0006423,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_upload_quality",
+      "seconds": 0.0174525,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_fuse",
+      "seconds": 0.0436028,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "formal_frame",
+      "seconds": 1.5383222,
+      "success": true,
+      "inclusive": true,
+      "slot": 2
+    },
+    {
+      "name": "pc_quality",
+      "seconds": 0.0670415,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "pc_audit_H2",
+      "seconds": 0.0282974,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_wait_scratch",
+      "seconds": 0.0008284,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_upload_quality",
+      "seconds": 0.0213318,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_fuse",
+      "seconds": 0.0438994,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "formal_frame",
+      "seconds": 1.4875878,
+      "success": true,
+      "inclusive": true,
+      "slot": 3
+    },
+    {
+      "name": "pc_quality",
+      "seconds": 0.0697709,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "pc_audit_H2",
+      "seconds": 0.0258471,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_wait_scratch",
+      "seconds": 0.0007685,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_upload_quality",
+      "seconds": 0.019067,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_fuse",
+      "seconds": 0.0443128,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "formal_frame",
+      "seconds": 1.5399019,
+      "success": true,
+      "inclusive": true,
+      "slot": 4
+    },
+    {
+      "name": "pc_quality",
+      "seconds": 0.0688082,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "pc_audit_H2",
+      "seconds": 0.0262293,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_wait_scratch",
+      "seconds": 0.0007597,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_upload_quality",
+      "seconds": 0.0168931,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_fuse",
+      "seconds": 0.0440269,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "formal_frame",
+      "seconds": 1.5229852,
+      "success": true,
+      "inclusive": true,
+      "slot": 5
+    },
+    {
+      "name": "pc_quality",
+      "seconds": 0.0716394,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "pc_audit_H2",
+      "seconds": 0.0277113,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_wait_scratch",
+      "seconds": 0.0006325,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_upload_quality",
+      "seconds": 0.0175808,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_fuse",
+      "seconds": 0.0439274,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "formal_frame",
+      "seconds": 1.5486819,
+      "success": true,
+      "inclusive": true,
+      "slot": 6
+    },
+    {
+      "name": "pc_quality",
+      "seconds": 0.0651108,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "pc_audit_H2",
+      "seconds": 0.0287242,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_wait_scratch",
+      "seconds": 0.0007882,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_upload_quality",
+      "seconds": 0.0185998,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_fuse",
+      "seconds": 0.0444816,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "formal_frame",
+      "seconds": 1.5163147,
+      "success": true,
+      "inclusive": true,
+      "slot": 7
+    },
+    {
+      "name": "pc_quality",
+      "seconds": 0.0687681,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "pc_audit_H2",
+      "seconds": 0.0254113,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_wait_scratch",
+      "seconds": 0.0007622,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_upload_quality",
+      "seconds": 0.0214839,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_fuse",
+      "seconds": 0.0433744,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_fetch",
+      "seconds": 2.1415307,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "R32_decode_and_baseline_connect",
+      "seconds": 0.0462244,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "pc_audit_fusion",
+      "seconds": 0.3416658,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "service_release",
+      "seconds": 0.0007762,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "formal_frame",
+      "seconds": 5.3991991,
+      "success": true,
+      "inclusive": true,
+      "slot": 8
+    },
+    {
+      "name": "cleanup_OFF",
+      "seconds": 0.0708094,
+      "success": true,
+      "inclusive": true
+    },
+    {
+      "name": "seal_already_verified_live_evidence",
+      "seconds": 1.170724,
+      "success": true,
+      "inclusive": true
+    }
+  ],
+  "rpc": {
+    "16": {
+      "calls": 6,
+      "failed": 0,
+      "wall_seconds": 0.0035567999999999997,
+      "logical_request_bytes": 120,
+      "logical_response_bytes": 444
+    },
+    "17": {
+      "calls": 1,
+      "failed": 0,
+      "wall_seconds": 0.0005433,
+      "logical_request_bytes": 20,
+      "logical_response_bytes": 74
+    },
+    "18": {
+      "calls": 8,
+      "failed": 0,
+      "wall_seconds": 0.0053135000000000005,
+      "logical_request_bytes": 160,
+      "logical_response_bytes": 592
+    },
+    "19": {
+      "calls": 31,
+      "failed": 0,
+      "wall_seconds": 0.0198094,
+      "logical_request_bytes": 620,
+      "logical_response_bytes": 2294
+    },
+    "20": {
+      "calls": 184,
+      "failed": 0,
+      "wall_seconds": 0.09023959999999999,
+      "logical_request_bytes": 3680,
+      "logical_response_bytes": 13616
+    },
+    "21": {
+      "calls": 8,
+      "failed": 0,
+      "wall_seconds": 0.0042944,
+      "logical_request_bytes": 160,
+      "logical_response_bytes": 592
+    },
+    "22": {
+      "calls": 8,
+      "failed": 0,
+      "wall_seconds": 0.0044922,
+      "logical_request_bytes": 160,
+      "logical_response_bytes": 592
+    },
+    "23": {
+      "calls": 2916,
+      "failed": 0,
+      "wall_seconds": 1.714581499999994,
+      "logical_request_bytes": 58320,
+      "logical_response_bytes": 3201768
+    },
+    "24": {
+      "calls": 1,
+      "failed": 0,
+      "wall_seconds": 0.0006192,
+      "logical_request_bytes": 20,
+      "logical_response_bytes": 74
+    }
+  },
+  "capture_costs": [
+    {
+      "label": "ROI_preparation",
+      "cost": {
+        "udp_sent_packets": 23353,
+        "udp_sent_bytes": 467060,
+        "udp_received_packets": 23969,
+        "udp_received_bytes": 1320658,
+        "foreign_packets": 0,
+        "command_retries": 0,
+        "busy_replies": 0,
+        "mask_commands": 23329,
+        "capture_requests": 1,
+        "capture_command_transmissions": 1,
+        "complete_images_received": 1,
+        "pc_discarded_complete_images": 0,
+        "saved_images": 1,
+        "failed_calls": 0,
+        "image_packets_seen": 609,
+        "duplicate_image_packets": 0,
+        "stale_image_packets": 0,
+        "stale_control_packets": 0,
+        "missing_image_packets": 0,
+        "command_transmissions_by_kind": {
+          "3": 1,
+          "8": 1,
+          "9": 9,
+          "14": 3,
+          "15": 1,
+          "4": 1,
+          "5": 2,
+          "1": 1,
+          "7": 3,
+          "12": 1,
+          "10": 23328,
+          "11": 1,
+          "2": 1
+        },
+        "mask_command_transmissions": 23329,
+        "host_elapsed_s": 17.469,
+        "unobserved_costs": [
+          "sensor startup warmup",
+          "device event durations",
+          "physical LED/exposure settling"
+        ],
+        "device_settle_discard_counts": "reported separately in result; not extra PC discarded images"
+      }
+    },
+    {
+      "label": "formal_1",
+      "cost": {
+        "udp_sent_packets": 56,
+        "udp_sent_bytes": 1120,
+        "udp_received_packets": 672,
+        "udp_received_bytes": 856500,
+        "foreign_packets": 0,
+        "command_retries": 0,
+        "busy_replies": 0,
+        "mask_commands": 0,
+        "capture_requests": 1,
+        "capture_command_transmissions": 1,
+        "complete_images_received": 1,
+        "pc_discarded_complete_images": 0,
+        "saved_images": 1,
+        "failed_calls": 0,
+        "image_packets_seen": 609,
+        "duplicate_image_packets": 0,
+        "stale_image_packets": 0,
+        "stale_control_packets": 0,
+        "missing_image_packets": 0,
+        "command_transmissions_by_kind": {
+          "3": 1,
+          "14": 2,
+          "4": 1,
+          "5": 2,
+          "1": 1,
+          "7": 3,
+          "12": 1,
+          "16": 6,
+          "17": 1,
+          "18": 1,
+          "9": 8,
+          "2": 1,
+          "19": 3,
+          "20": 23,
+          "21": 1,
+          "22": 1
+        },
+        "mask_command_transmissions": 0,
+        "host_elapsed_s": 1.422,
+        "unobserved_costs": [
+          "sensor startup warmup",
+          "device event durations",
+          "physical LED/exposure settling"
+        ],
+        "device_settle_discard_counts": "reported separately in result; not extra PC discarded images"
+      }
+    },
+    {
+      "label": "formal_2",
+      "cost": {
+        "udp_sent_packets": 49,
+        "udp_sent_bytes": 980,
+        "udp_received_packets": 665,
+        "udp_received_bytes": 856036,
+        "foreign_packets": 0,
+        "command_retries": 0,
+        "busy_replies": 0,
+        "mask_commands": 0,
+        "capture_requests": 1,
+        "capture_command_transmissions": 1,
+        "complete_images_received": 1,
+        "pc_discarded_complete_images": 0,
+        "saved_images": 1,
+        "failed_calls": 0,
+        "image_packets_seen": 609,
+        "duplicate_image_packets": 0,
+        "stale_image_packets": 0,
+        "stale_control_packets": 0,
+        "missing_image_packets": 0,
+        "command_transmissions_by_kind": {
+          "3": 1,
+          "14": 2,
+          "4": 1,
+          "5": 2,
+          "1": 1,
+          "7": 3,
+          "18": 1,
+          "9": 8,
+          "2": 1,
+          "19": 4,
+          "20": 23,
+          "21": 1,
+          "22": 1
+        },
+        "mask_command_transmissions": 0,
+        "host_elapsed_s": 1.453,
+        "unobserved_costs": [
+          "sensor startup warmup",
+          "device event durations",
+          "physical LED/exposure settling"
+        ],
+        "device_settle_discard_counts": "reported separately in result; not extra PC discarded images"
+      }
+    },
+    {
+      "label": "formal_3",
+      "cost": {
+        "udp_sent_packets": 49,
+        "udp_sent_bytes": 980,
+        "udp_received_packets": 665,
+        "udp_received_bytes": 856036,
+        "foreign_packets": 0,
+        "command_retries": 0,
+        "busy_replies": 0,
+        "mask_commands": 0,
+        "capture_requests": 1,
+        "capture_command_transmissions": 1,
+        "complete_images_received": 1,
+        "pc_discarded_complete_images": 0,
+        "saved_images": 1,
+        "failed_calls": 0,
+        "image_packets_seen": 609,
+        "duplicate_image_packets": 0,
+        "stale_image_packets": 0,
+        "stale_control_packets": 0,
+        "missing_image_packets": 0,
+        "command_transmissions_by_kind": {
+          "3": 1,
+          "14": 2,
+          "4": 1,
+          "5": 2,
+          "1": 1,
+          "7": 3,
+          "18": 1,
+          "9": 8,
+          "2": 1,
+          "19": 4,
+          "20": 23,
+          "21": 1,
+          "22": 1
+        },
+        "mask_command_transmissions": 0,
+        "host_elapsed_s": 1.406,
+        "unobserved_costs": [
+          "sensor startup warmup",
+          "device event durations",
+          "physical LED/exposure settling"
+        ],
+        "device_settle_discard_counts": "reported separately in result; not extra PC discarded images"
+      }
+    },
+    {
+      "label": "formal_4",
+      "cost": {
+        "udp_sent_packets": 49,
+        "udp_sent_bytes": 980,
+        "udp_received_packets": 665,
+        "udp_received_bytes": 856036,
+        "foreign_packets": 0,
+        "command_retries": 0,
+        "busy_replies": 0,
+        "mask_commands": 0,
+        "capture_requests": 1,
+        "capture_command_transmissions": 1,
+        "complete_images_received": 1,
+        "pc_discarded_complete_images": 0,
+        "saved_images": 1,
+        "failed_calls": 0,
+        "image_packets_seen": 609,
+        "duplicate_image_packets": 0,
+        "stale_image_packets": 0,
+        "stale_control_packets": 0,
+        "missing_image_packets": 0,
+        "command_transmissions_by_kind": {
+          "3": 1,
+          "14": 2,
+          "4": 1,
+          "5": 2,
+          "1": 1,
+          "7": 3,
+          "18": 1,
+          "9": 8,
+          "2": 1,
+          "19": 4,
+          "20": 23,
+          "21": 1,
+          "22": 1
+        },
+        "mask_command_transmissions": 0,
+        "host_elapsed_s": 1.453,
+        "unobserved_costs": [
+          "sensor startup warmup",
+          "device event durations",
+          "physical LED/exposure settling"
+        ],
+        "device_settle_discard_counts": "reported separately in result; not extra PC discarded images"
+      }
+    },
+    {
+      "label": "formal_5",
+      "cost": {
+        "udp_sent_packets": 49,
+        "udp_sent_bytes": 980,
+        "udp_received_packets": 665,
+        "udp_received_bytes": 856036,
+        "foreign_packets": 0,
+        "command_retries": 0,
+        "busy_replies": 0,
+        "mask_commands": 0,
+        "capture_requests": 1,
+        "capture_command_transmissions": 1,
+        "complete_images_received": 1,
+        "pc_discarded_complete_images": 0,
+        "saved_images": 1,
+        "failed_calls": 0,
+        "image_packets_seen": 609,
+        "duplicate_image_packets": 0,
+        "stale_image_packets": 0,
+        "stale_control_packets": 0,
+        "missing_image_packets": 0,
+        "command_transmissions_by_kind": {
+          "3": 1,
+          "14": 2,
+          "4": 1,
+          "5": 2,
+          "1": 1,
+          "7": 3,
+          "18": 1,
+          "9": 8,
+          "2": 1,
+          "19": 4,
+          "20": 23,
+          "21": 1,
+          "22": 1
+        },
+        "mask_command_transmissions": 0,
+        "host_elapsed_s": 1.438,
+        "unobserved_costs": [
+          "sensor startup warmup",
+          "device event durations",
+          "physical LED/exposure settling"
+        ],
+        "device_settle_discard_counts": "reported separately in result; not extra PC discarded images"
+      }
+    },
+    {
+      "label": "formal_6",
+      "cost": {
+        "udp_sent_packets": 49,
+        "udp_sent_bytes": 980,
+        "udp_received_packets": 665,
+        "udp_received_bytes": 856036,
+        "foreign_packets": 0,
+        "command_retries": 0,
+        "busy_replies": 0,
+        "mask_commands": 0,
+        "capture_requests": 1,
+        "capture_command_transmissions": 1,
+        "complete_images_received": 1,
+        "pc_discarded_complete_images": 0,
+        "saved_images": 1,
+        "failed_calls": 0,
+        "image_packets_seen": 609,
+        "duplicate_image_packets": 0,
+        "stale_image_packets": 0,
+        "stale_control_packets": 0,
+        "missing_image_packets": 0,
+        "command_transmissions_by_kind": {
+          "3": 1,
+          "14": 2,
+          "4": 1,
+          "5": 2,
+          "1": 1,
+          "7": 3,
+          "18": 1,
+          "9": 8,
+          "2": 1,
+          "19": 4,
+          "20": 23,
+          "21": 1,
+          "22": 1
+        },
+        "mask_command_transmissions": 0,
+        "host_elapsed_s": 1.454,
+        "unobserved_costs": [
+          "sensor startup warmup",
+          "device event durations",
+          "physical LED/exposure settling"
+        ],
+        "device_settle_discard_counts": "reported separately in result; not extra PC discarded images"
+      }
+    },
+    {
+      "label": "formal_7",
+      "cost": {
+        "udp_sent_packets": 49,
+        "udp_sent_bytes": 980,
+        "udp_received_packets": 665,
+        "udp_received_bytes": 856036,
+        "foreign_packets": 0,
+        "command_retries": 0,
+        "busy_replies": 0,
+        "mask_commands": 0,
+        "capture_requests": 1,
+        "capture_command_transmissions": 1,
+        "complete_images_received": 1,
+        "pc_discarded_complete_images": 0,
+        "saved_images": 1,
+        "failed_calls": 0,
+        "image_packets_seen": 609,
+        "duplicate_image_packets": 0,
+        "stale_image_packets": 0,
+        "stale_control_packets": 0,
+        "missing_image_packets": 0,
+        "command_transmissions_by_kind": {
+          "3": 1,
+          "14": 2,
+          "4": 1,
+          "5": 2,
+          "1": 1,
+          "7": 3,
+          "18": 1,
+          "9": 8,
+          "2": 1,
+          "19": 4,
+          "20": 23,
+          "21": 1,
+          "22": 1
+        },
+        "mask_command_transmissions": 0,
+        "host_elapsed_s": 1.438,
+        "unobserved_costs": [
+          "sensor startup warmup",
+          "device event durations",
+          "physical LED/exposure settling"
+        ],
+        "device_settle_discard_counts": "reported separately in result; not extra PC discarded images"
+      }
+    },
+    {
+      "label": "formal_8",
+      "cost": {
+        "udp_sent_packets": 2966,
+        "udp_sent_bytes": 59320,
+        "udp_received_packets": 3582,
+        "udp_received_bytes": 4057878,
+        "foreign_packets": 0,
+        "command_retries": 0,
+        "busy_replies": 0,
+        "mask_commands": 0,
+        "capture_requests": 1,
+        "capture_command_transmissions": 1,
+        "complete_images_received": 1,
+        "pc_discarded_complete_images": 0,
+        "saved_images": 1,
+        "failed_calls": 0,
+        "image_packets_seen": 609,
+        "duplicate_image_packets": 0,
+        "stale_image_packets": 0,
+        "stale_control_packets": 0,
+        "missing_image_packets": 0,
+        "command_transmissions_by_kind": {
+          "3": 1,
+          "14": 2,
+          "4": 1,
+          "5": 2,
+          "1": 1,
+          "7": 3,
+          "18": 1,
+          "9": 8,
+          "2": 1,
+          "19": 4,
+          "20": 23,
+          "21": 1,
+          "22": 1,
+          "23": 2916,
+          "24": 1
+        },
+        "mask_command_transmissions": 0,
+        "host_elapsed_s": 5.312,
+        "unobserved_costs": [
+          "sensor startup warmup",
+          "device event durations",
+          "physical LED/exposure settling"
+        ],
+        "device_settle_discard_counts": "reported separately in result; not extra PC discarded images"
+      }
+    },
+    {
+      "label": "cleanup_OFF",
+      "cost": {
+        "udp_sent_packets": 1,
+        "udp_sent_bytes": 20,
+        "udp_received_packets": 1,
+        "udp_received_bytes": 20,
+        "foreign_packets": 0,
+        "command_retries": 0,
+        "busy_replies": 0,
+        "mask_commands": 0,
+        "capture_requests": 0,
+        "capture_command_transmissions": 0,
+        "complete_images_received": 0,
+        "pc_discarded_complete_images": 0,
+        "saved_images": 0,
+        "failed_calls": 0,
+        "image_packets_seen": 0,
+        "duplicate_image_packets": 0,
+        "stale_image_packets": 0,
+        "stale_control_packets": 0,
+        "missing_image_packets": 0,
+        "command_transmissions_by_kind": {
+          "1": 1
+        },
+        "mask_command_transmissions": 0,
+        "host_elapsed_s": 0.079,
+        "unobserved_costs": [
+          "sensor startup warmup",
+          "device event durations",
+          "physical LED/exposure settling"
+        ],
+        "device_settle_discard_counts": "reported separately in result; not extra PC discarded images"
+      }
+    }
+  ],
+  "summed_wire_cost": {
+    "udp_sent_packets": 26670,
+    "udp_sent_bytes": 533400,
+    "udp_received_packets": 32214,
+    "udp_received_bytes": 11371272,
+    "command_retries": 0,
+    "capture_requests": 9,
+    "saved_images": 9
+  },
+  "FPGA_core_cycles": null,
+  "FPGA_core_speedup": null,
+  "nested_events_must_not_be_summed": true,
+  "status": "ENGINEERING_SAME_INPUT_PASSED",
+  "physical_hardware": true,
+  "pixel_format": 49,
+  "formal_frames": 8,
+  "preparation_frames": 1,
+  "group": 1793337600415116700,
+  "digest128": "adb1fdaed93b66531f79b53b1984a5b6",
+  "roi": [
+    576,
+    160,
+    864,
+    864
+  ],
+  "sample": "sample004",
+  "records": [
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\6fe1c5052b714b34b0e3a56f961bbede\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\5a358f4115d04feb83c447e779c14a13\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\dfad942300e044a68d068304868f0db3\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\cb7a57fd61534115b4e38d787da7c434\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\7de4efda7ee449a487206d20563831ba\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\b84319b17a8f415590d81d0232d42daf\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\906c38cd8c4f4f8cabcb2ba3ff9dfacf\\committed\\result.json",
+    "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\9ffc02c96eaf4666888e0cd2f36f7eb3\\committed\\result.json"
+  ],
+  "capture_to_archive_wall_seconds": 35.046000000002095,
+  "includes_startup_and_cleanup": true,
+  "evidence_cache": {
+    "status": "SEALED",
+    "path": "E:\\GuangjianData\\VerifiedNative0108\\cbae807c43b3406b636fd423eeecd9aae3cdfe643a5b039cb3aba65365c0c5a9",
+    "origin": "strict live SDK and same-input engineering audit"
+  },
+  "caveat": "Host wall times and actual SDK counters; not FPGA pure cycles. Positioning and human interaction are outside this capture interval."
+}

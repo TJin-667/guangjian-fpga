@@ -1,0 +1,12 @@
+{
+  "schema": "guangjian-licensed-restoration-check-v1",
+  "date": "2026-11-03",
+  "scope": "Isolated local copy; restricted original files are not part of public snapshot",
+  "expected_files": 230,
+  "restored_original_SHA256_equal": true,
+  "FPGA_input_gate": "FPGA_BUILD_INPUTS_READY",
+  "FPGA_implementation_sources": 50,
+  "GUI_offline_gate": "SPEED_UI_OFFLINE_READY",
+  "no_FPGA_build_started": true,
+  "no_board_or_network_operation": true
+}

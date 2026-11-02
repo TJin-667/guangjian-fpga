@@ -1,0 +1,16 @@
+{
+  "C:\\BX72_0105_LAB\\01_check_board.cmd": "6f5b82a95c91925e2455830f20cb537c2167e0e993b5bc16d64d03aeeee095c9",
+  "C:\\BX72_0105_LAB\\02_single_fullframe.cmd": "24b369f6cbfeb4be2633999d682f11d4ef2b38c6a083b1572212b156f31d39e0",
+  "C:\\BX72_0105_LAB\\03_single_roi.cmd": "3937c3b772202b8657f05960c8715c1e5c2aa99f48b39a3a167ca26fc4ae81f1",
+  "C:\\BX72_0105_LAB\\04_switch_validation.cmd": "7572465dd3ab0843193847c2bd1b440e964813af958d71e081f5e0b8791763ad",
+  "C:\\BX72_0105_LAB\\05_exposure_repeat.cmd": "9e1435fa0b7d4164bc6b7a592f3b2eb0e9cde13b9d4ea29e4b92db5edf042879",
+  "C:\\BX72_0105_LAB\\06_preview_gui.cmd": "8578cd58efce005eed9e71bb94db612fa2445c77b8c654f647697110af3405de",
+  "C:\\BX72_0105_LAB\\07_auto_exposure.cmd": "182dec0b70d5acdd75c659fbeabb253a5d48469880051f8715cca7571e772d5a",
+  "C:\\BX72_0105_LAB\\07_auto_exposure_r1_backup.cmd": "6699d70bb5c6faa1b4969b1dc251333c90044876c193e8c29342f39695fe049d",
+  "C:\\BX72_0105_LAB\\07_auto_exposure_r2_backup.cmd": "9345529c018f4d55d6dfa75ad4bc45a2d39affc0312891a719a6902bd8f4c45a",
+  "C:\\BX72_0105_LAB\\08_fourlight_capture.cmd": "1cee85cf51a7e50dd0997bf811b300a9e90558fc64793586746416137c959561",
+  "C:\\BX72_0105_LAB\\bx72_0105_lab.bit": "f9aa14f03d15e687a905104f1a9a30b615b456bc6b6488df3e841ed7285a29fe",
+  "C:\\BX72_0105_LAB\\bx72_0104_rollback.bit": "7487bc6f22b0a00ebc9ac9f376cb33e9a752e049890aef7043cd420869e49a97",
+  "C:\\BX72_0105_LAB\\auto_exposure_r3\\app_core.py": "448fa6c6388093be794cf47f4932e77b688da92f74aa852ba8609b2cf5992857",
+  "C:\\BX72_0105_LAB\\fourlight_fixed_v1\\fourlight_capture.py": "d0a537d7cf0a336bb93a8b1d6f4270430e0032d326c77ca699c79dbdecb2fd6d"
+}

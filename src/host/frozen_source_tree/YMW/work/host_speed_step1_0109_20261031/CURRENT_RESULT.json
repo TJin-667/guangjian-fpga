@@ -1,0 +1,105 @@
+{
+  "status": "OFFLINE_HOST_OPTIMIZATION_VERIFIED_NOT_INSTALLED",
+  "date": "2026-10-31",
+  "frozen_id": "f09eb5885e1d",
+  "input_specimens": 1,
+  "input_groups": 4,
+  "actual_new_CAP": 0,
+  "hardware_contacted": false,
+  "production_entry_changed": false,
+  "bit_modified": false,
+  "formal_runs": 24,
+  "formal_arrays_full_review_and_scores_equal": true,
+  "full_export_groups": [
+    {
+      "group": "03_PL_cold_r1",
+      "original_seconds": [
+        11.740343200001007,
+        11.561013200000161,
+        11.774134799999956
+      ],
+      "planned_seconds": [
+        11.246975800000655,
+        11.284671699999308,
+        11.147213500000362
+      ],
+      "original_median_seconds": 11.740343200001007,
+      "planned_median_seconds": 11.246975800000655,
+      "host_phase_original_over_planned": 1.0438666721413523,
+      "host_phase_reduction_percent": 4.202325192676733
+    },
+    {
+      "group": "12_PL_warm_r3",
+      "original_seconds": [
+        17.8786070999995,
+        17.65079020000121,
+        17.844256700000187
+      ],
+      "planned_seconds": [
+        16.5876561999994,
+        16.864451699999336,
+        17.276529500000834
+      ],
+      "original_median_seconds": 17.844256700000187,
+      "planned_median_seconds": 16.864451699999336,
+      "host_phase_original_over_planned": 1.0580988351966931,
+      "host_phase_reduction_percent": 5.490870348221573
+    }
+  ],
+  "compute_only_groups": [
+    {
+      "group": "04_PL_warm_r1",
+      "original_seconds": [
+        12.217054099999586,
+        12.367127800000162,
+        12.38544759999968
+      ],
+      "planned_seconds": [
+        11.63135180000063,
+        11.658742099998562,
+        11.69795769999837
+      ],
+      "original_median_seconds": 12.367127800000162,
+      "planned_median_seconds": 11.658742099998562,
+      "host_phase_original_over_planned": 1.0607600454599375,
+      "host_phase_reduction_percent": 5.727972666390577
+    },
+    {
+      "group": "08_PC_warm_r2",
+      "original_seconds": [
+        7.398170599999503,
+        7.570950500001345,
+        7.681842699999834
+      ],
+      "planned_seconds": [
+        7.157033199999205,
+        7.296655600001031,
+        7.355454800001098
+      ],
+      "original_median_seconds": 7.570950500001345,
+      "planned_median_seconds": 7.296655600001031,
+      "host_phase_original_over_planned": 1.0375918660598802,
+      "host_phase_reduction_percent": 3.6229915913499227
+    }
+  ],
+  "export_audit": {
+    "status": "PASS_EXPORT_PIXELS_LINKS_AND_IMMUTABLE_SOURCES",
+    "image_pairs": 60,
+    "existing_local_links": 360,
+    "qualified_source_members": 134,
+    "executed_sources": {
+      "cached_residual.py": "bc8811f2788d061610ad6e079137ddb529de816a203690e7fc8f2ad24531b171",
+      "profile_saved.py": "35b601c172c7b2b9d239ee8c10b212532c6debc359995e59bd777f500755774e",
+      "run_study.py": "e07dfe594d21b9fb20dccb518fd85d8056df3d4210628fb0677d29ff6dcd32a0",
+      "test_residual.py": "fc668bb7c2d909ef11dbc7e8b1eec47ad14ac62efdf17870580fbbd8c442b92b"
+    },
+    "source_study": "E:\\GuangjianData\\reviews\\host_speed_step1_0109_20261031\\full_export_01",
+    "source_result_sha256": "82e98280628e3b093789d0aad0ddf7734bde6ae7ca9de9d52c9c2c8bc6462abf",
+    "new_CAP": 0,
+    "hardware_contacted": false,
+    "production_entry_changed": false
+  },
+  "system_speedup": null,
+  "FPGA_compute_speedup": null,
+  "next_step": "Reuse existing strictly validated capture H2/quality intermediates with source identity binding; then independent integration and system timing."
+}

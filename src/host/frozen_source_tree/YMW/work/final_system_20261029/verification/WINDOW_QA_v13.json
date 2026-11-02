@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "version": "v1.3",
+  "method": "native_window_sky",
+  "idle_failed_v12_closed": true,
+  "new_retry_plan_loaded": true,
+  "new_roi_xywh": [
+    576,
+    160,
+    864,
+    864
+  ],
+  "old_failed_run_preserved": true,
+  "hardware_controls_clicked": false,
+  "hardware_contacted": false,
+  "window_left_open_for_user": true
+}

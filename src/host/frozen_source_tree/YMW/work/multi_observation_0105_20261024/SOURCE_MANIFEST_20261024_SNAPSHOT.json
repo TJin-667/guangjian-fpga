@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "client_date": "2026-10-24",
+  "base_commit": "5fc156aa52771ba0f5f17d8f1e78b81858c71500",
+  "xdl_reference_commit": "ee34ff2f80fe9747c3afcb991a5e28506a78c5d1",
+  "publication_status": "local files, not committed or installed",
+  "files": {
+    ".gitattributes": "308a40fa1d89ae5ea4390b4c9b46a0108b09f171f07898f25d451fa0c69c4e9f",
+    "demo_offline.py": "abb14b058a7d4be388c5930f05aa5fe9062d859db677db34de093d4fd868f0b3",
+    "multiobs/__init__.py": "416903fc189ea522bef0510a374ea97cddb798df54dcfeeaef18ff3fd79a5e43",
+    "multiobs/contracts.py": "333c3feef499c34a13de44a6ab78d1a65d097f38113b63d1e2e0be03431e952f",
+    "multiobs/ports.py": "19d5c8f9cc9144b5223bc081be9a966626e93cc04f63234adaa1b1deb0edb838",
+    "multiobs/runner.py": "cb8393bfb1a16fb214cc29a73d98a4d399668664693100ffec7456bd9a2d688b",
+    "multiobs/validation.py": "f6fe3cfba1c50133d51439a2ec02961141f90d1825e78fb4cdfa675c7a1d17f2",
+    "README.md": "0e6122770ec2cb8f8a2d4f58b3c355169c0dbd157cd9d9455198d3f3e4dd2228",
+    "replay_archive.py": "0e5e7dfd14a8564950670d5e2b599dfc9fbbbaffc59defbf83da800f0c4d34f4",
+    "requirements.txt": "5e103b81be968a8134f9299ff706f4da60ca46f6eaf64b5b6f8f479572745503",
+    "run_offline_tests.py": "0bfbf571e33361e0a6d27fa38b1ec31c3f96b51b0f97c12a46d9ff90e4f7bc71",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/fixtures.py": "79388fc609354417af08c944059f744cc2fa114cae085f97ffabb3be87df5f86",
+    "tests/golden_actions.json": "d71b326cd0c49a3a6cd55ee4e05f1cf32f3fce6b7bde45a73c849c0ba2b7ac77",
+    "tests/test_contracts.py": "02ea688f6be6d80990553452108dbf7aeec09bb6d6039fb7b206e8e7451bb439",
+    "tests/test_goldens.py": "3a29a5674269064edf6af6dcc9c819923d61b38d9d79944b4d28f8635930ee55",
+    "tests/test_runner.py": "d8e66990415f09fb3d566066f7002ae965718914231764c513d3f79ef7e97629",
+    "tests/test_sdk_port.py": "bb94beab0005a54d6d0d8d97202c8836ff74238067145d76e1004de0f378b559",
+    "verify_protected_files.py": "81320aa30d95bd72c055aa2a5ddb58fba53a2bf164b6e0c1f054810ed93aa433",
+    "XDL_INTERFACE.md": "87dd7898356e5c80860cf0215c7615c435a55ed73ab551a5d9bce72c6cd53c12"
+  },
+  "verification_files": {
+    "verification/final/offline_tests.json": "dd6a56db9ca36ce0f015e8f7d48844bcaf426ab098092c84a97a0279230bad88",
+    "verification/final/unittest.txt": "aa727d08bfcfa62d6a55474027c869a005ac1ad48f6f8af67a2ed2dd4a5ca045",
+    "verification/final_sample003_E600/archive_replay.json": "24b239997416635afa7021e6697fb9345abad27e7635c399a0458c3b8e580169",
+    "verification/final_sample004_E500/archive_replay.json": "c3b66e1d96b1e0d3c02df2d50e5194539f76558e62a8562ecc878e9719367b8b",
+    "verification/protected_files.json": "53fb01c52066eb3e33c7a976f8a54ef0bfb937c0d6b4b52963e5f2cb43af1c2e",
+    "verification/demo_six_observations/completion.json": "e7000d3953f138448edda8df1ad546f6b15bbbd1c8b283b6dc2b4010b6ad2ff9"
+  },
+  "existing09_and_sdk_and_bit_unchanged": true,
+  "new_board_requests": 0
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "guangjian-preview-native-crc64-v1",
+  "algorithm": "CRC64-ECMA polynomial42f0e1eba9ea3693 init0 xorout0 nonreflected",
+  "scope": "Fast focus preview payload CRC only; formal SDK unchanged",
+  "compiler": "D:/mingw/mingw64/bin/gcc.exe",
+  "compiler_sha256": "b72bc0885782d829474e411596d69d6e863d4f57b2db806afdba51178f92cfec",
+  "compiler_version": "gcc.exe (x86_64-posix-seh-rev0, Built by MinGW-Builds project) 13.2.0",
+  "build_arguments": [
+    "-O3",
+    "-shared",
+    "-static-libgcc",
+    "-Wl,--no-insert-timestamp",
+    "-o",
+    "preview_crc64.dll",
+    "preview_crc64.c"
+  ],
+  "files_sha256": {
+    "preview_crc64.c": "da6598eb46bf2dd8f08e4c26b1b5d5e98c3e007135e058a2cf3685436a449c4d",
+    "preview_crc64.dll": "9ee01017dafcc99b0ea83ee3cc4d57b3a190a5f0dd16ee4535ccae5f4fd81031"
+  },
+  "dependencies": "Windows KERNEL32 and Universal CRT only; no MinGW runtime DLL or user compiler needed at runtime"
+}

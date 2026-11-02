@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "files_rechecked": 2188,
+  "changed_files": [],
+  "backup_archive": "E:\\GuangjianData\\backups\\before_0108_20261028\\working_mode_before_0108.zip",
+  "backup_sha256": "1fe1622edf1da84616e9e117b5046a6903f75d69d7b2762dab58a53eec4e0bb9",
+  "baseline_commit": "ca70dafe9b15432be68823aecef91e6d54bfac31",
+  "raw_data_not_duplicated": true,
+  "Python_environment_preserved_in_place": true,
+  "physical_commands": 0
+}

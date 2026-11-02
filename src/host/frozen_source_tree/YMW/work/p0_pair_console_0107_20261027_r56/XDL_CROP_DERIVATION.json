@@ -1,0 +1,6 @@
+{
+  "upstream_git_blob": "74b43f419b9361f453ef8cd0a15ecad0d737773e",
+  "upstream_commit": "0cb2c6e25878016cb8813169e514f155ab0cc574",
+  "derived_sha256": "5e6f95502c4018a721ad03a83b3aac0937b487e1f41ea20d02f8357df796d53e",
+  "scope": "source origin validation and source slicing only; original detector/fusion/training unchanged"
+}

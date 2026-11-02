@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "version": "v1.3",
+  "tests": 40,
+  "skipped": 0,
+  "log_sha256": "bba4707414556ae7b45fd2ca0f6bb178df1a59c72a35b276907f40949c7b0397",
+  "extra_RTL_latch_cases": 2,
+  "physical_commands_by_assistant": 0,
+  "bit_changed": false
+}

@@ -1,0 +1,29 @@
+{
+  "files_sha256": {
+    ".gitattributes": "3a3d1bdbe95729f1b5d762d43b6932dbc3d1c03bb7f2e71c26699aa66c963eb8",
+    ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+    "cached_residual.py": "bc8811f2788d061610ad6e079137ddb529de816a203690e7fc8f2ad24531b171",
+    "CURRENT_RESULT.json": "1977f6ff91ddd3cde3e381d1339e737934ff6618e4dd984a1a03368a47f03927",
+    "EVIDENCE_INDEX.json": "323fc425181ad43b681d6682277ed3c9963480975c021fcc1b43224747b0720b",
+    "PLAN.md": "ef51aff4086373fb7938dc49fe077c8a65307220cb68ec3853921b35fa16e7e1",
+    "profile_saved.py": "35b601c172c7b2b9d239ee8c10b212532c6debc359995e59bd777f500755774e",
+    "README.md": "548de62a58d712b8487069d42f68d2292c3263e122352df12046f8c8978541c7",
+    "run_study.py": "e07dfe594d21b9fb20dccb518fd85d8056df3d4210628fb0677d29ff6dcd32a0",
+    "test_residual.py": "fc668bb7c2d909ef11dbc7e8b1eec47ad14ac62efdf17870580fbbd8c442b92b",
+    "verification/audit_exports.py": "ce01dde228b83a2cf7343e881c706b633761698651f5d87b5c3df719f8f899dd",
+    "verification/EXPORT_AUDIT.json": "fd82330f53415b15f17c7b7c0760034ee9e64309d49f1f19f7abd9d281bdf7b5",
+    "verification/EXPORT_AUDIT_01_OUTPUT_MANIFEST.json": "1ecff55985b10653a46cd0a99f3a9764cf700110f311cd27e9e8c4d6aac22eb3",
+    "verification/FULL_EXECUTED_SOURCES.json": "584f209875672ddf57647710a446fe15e9f1b21dbbfe257e585dd2473e8f0357",
+    "verification/FULL_EXPORT_01_OUTPUT_MANIFEST.json": "a21c608cc841da226e73c91568569d81e809f35d7253fc13c06fb59b988d0f71",
+    "verification/FULL_EXPORT_RESULT.json": "82e98280628e3b093789d0aad0ddf7734bde6ae7ca9de9d52c9c2c8bc6462abf",
+    "verification/PILOT_01_OUTPUT_MANIFEST.json": "f281adeb8161ee7e0225f6c276df2a20cd7c6816c5d9b53ae7618b5a0849e662",
+    "verification/PILOT_EXECUTED_SOURCES.json": "584f209875672ddf57647710a446fe15e9f1b21dbbfe257e585dd2473e8f0357",
+    "verification/PILOT_RESULT.json": "7cd6bfdea7be639b42c8c3e59197b2e1307e515a88f01bae1ede6de83bfc9c26",
+    "verification/PROFILE.json": "bede18deeeb00eeab71fe3d14830dc7ed3421eaee354ea9bdde1ab625715104d",
+    "verification/PROFILE_01_OUTPUT_MANIFEST.json": "55cd182c3aefbb3510c3b163cacfd500584f572ecd677622c58b5bb631a473eb",
+    "verification/profile_dense_diagnostic.txt": "635214fb4f5c010cfa078be0c454f6ed0f2470dc27d1592b4dd08bf8e97296cd",
+    "verification/profile_hybrid_original.txt": "020f77cfaad07051b8d0d6e184d3ef6a6ad1c13390790f8cc0d331f46c6707bc",
+    "verification/SELFTEST.json": "eafcf0b8b952d0dfac62c769d9da7a964c57cd4d9196e00baf5bb105e4ce82ed",
+    "verification/SELFTEST_01_OUTPUT_MANIFEST.json": "05e710b5b78f528c566131d8086b51ba2e6a29103782a58e908de85569e3b4fb"
+  }
+}

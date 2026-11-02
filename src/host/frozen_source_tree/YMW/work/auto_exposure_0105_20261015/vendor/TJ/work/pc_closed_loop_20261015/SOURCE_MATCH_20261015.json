@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "implementation_commit": "e2104a91d67caf0a422b4a97732dd3e9d1bd3609",
+  "verification_run": "C:/tj_pc_loop_verification_r3",
+  "source_binding_recorded_after_run": true,
+  "source_unmodified_since_run": true,
+  "rows": [
+    {
+      "repository_path": "TJ/work/pc_closed_loop_20261015/audit_closed_loop.py",
+      "executed_sha256": "48f83e9e9336faf087a78151cdc09cb6cb10571a4b4c4f6e5bacf4893666eebf",
+      "git_sha256": "48f83e9e9336faf087a78151cdc09cb6cb10571a4b4c4f6e5bacf4893666eebf",
+      "byte_equal": true,
+      "line_endings_only": false
+    },
+    {
+      "repository_path": "TJ/work/pc_closed_loop_20261015/closed_loop.py",
+      "executed_sha256": "b1c24f025fd644680a89e362ce2e9d1b06cab509e7bc9c3ae2094fd4570ef7ad",
+      "git_sha256": "b1c24f025fd644680a89e362ce2e9d1b06cab509e7bc9c3ae2094fd4570ef7ad",
+      "byte_equal": true,
+      "line_endings_only": false
+    },
+    {
+      "repository_path": "TJ/work/pc_closed_loop_20261015/dependencies.py",
+      "executed_sha256": "2355dd8a88530b461256224e0f85aed8ba0d79b1a7c232824f5f67d95bb56280",
+      "git_sha256": "2355dd8a88530b461256224e0f85aed8ba0d79b1a7c232824f5f67d95bb56280",
+      "byte_equal": true,
+      "line_endings_only": false
+    },
+    {
+      "repository_path": "TJ/work/pc_closed_loop_20261015/prepare_dependencies.py",
+      "executed_sha256": "3a99129d97dfb32f6f92ee4e754facb1aa4357168925419153acbbb91c34f7df",
+      "git_sha256": "3a99129d97dfb32f6f92ee4e754facb1aa4357168925419153acbbb91c34f7df",
+      "byte_equal": true,
+      "line_endings_only": false
+    },
+    {
+      "repository_path": "TJ/work/pc_closed_loop_20261015/publication.py",
+      "executed_sha256": "45964fdb893646ebbb6e045948b95d3bfe947d7c850f148c55b78dce969b978c",
+      "git_sha256": "45964fdb893646ebbb6e045948b95d3bfe947d7c850f148c55b78dce969b978c",
+      "byte_equal": true,
+      "line_endings_only": false
+    },
+    {
+      "repository_path": "TJ/work/pc_closed_loop_20261015/run_closed_loop.py",
+      "executed_sha256": "2ab9a48304ffe4acb653b9dac354d0fb558974713ee1bbeed309edc32043609c",
+      "git_sha256": "2ab9a48304ffe4acb653b9dac354d0fb558974713ee1bbeed309edc32043609c",
+      "byte_equal": true,
+      "line_endings_only": false
+    },
+    {
+      "repository_path": "TJ/work/pc_closed_loop_20261015/run_verification.py",
+      "executed_sha256": "413c3b9441e45907beb97ca7908426e3f89841c7b4032f28529e67c7615f3e78",
+      "git_sha256": "413c3b9441e45907beb97ca7908426e3f89841c7b4032f28529e67c7615f3e78",
+      "byte_equal": true,
+      "line_endings_only": false
+    },
+    {
+      "repository_path": "TJ/work/pc_closed_loop_20261015/software_peer.py",
+      "executed_sha256": "8e62afb154f386f0f4d4246e2f723b05e9cdb8dacecda169eeb046a6dbc9bad7",
+      "git_sha256": "8e62afb154f386f0f4d4246e2f723b05e9cdb8dacecda169eeb046a6dbc9bad7",
+      "byte_equal": true,
+      "line_endings_only": false
+    },
+    {
+      "repository_path": "TJ/work/pc_closed_loop_20261015/transaction_cost.py",
+      "executed_sha256": "8a80376766b4f55f8433774e2858c03c7b0cf2e108d7eac303cef6811da01e8b",
+      "git_sha256": "8a80376766b4f55f8433774e2858c03c7b0cf2e108d7eac303cef6811da01e8b",
+      "byte_equal": true,
+      "line_endings_only": false
+    },
+    {
+      "repository_path": "XDL/XDL_Software_Controller/acquisition_control.py",
+      "executed_sha256": "109ae26b73b81ed2d0dd9976d086fc0a34adf5e9a41ca33b8ba7ae5bd9fcdea9",
+      "git_sha256": "7c623448807c9954167f60fd555068d1c69256340851b67a71373178c4d94cdf",
+      "byte_equal": false,
+      "line_endings_only": true
+    },
+    {
+      "repository_path": "XDL/XDL_Software_Controller/capture_metrics.py",
+      "executed_sha256": "871ee55ed817ac1f07f3a4490f4066d3590c4073a03f8ba1320a128fb90a0736",
+      "git_sha256": "2fad08fefa6329c3b75b279b1d825b8ab37a6e37a72c0c2d032a8902b5ce5dd7",
+      "byte_equal": false,
+      "line_endings_only": true
+    },
+    {
+      "repository_path": "XDL/XDL_Software_Controller/dataset_io.py",
+      "executed_sha256": "bc069e6fdb39277e260f8cd72fb5eba33bf760150978bb62cb6d42d0487dfba7",
+      "git_sha256": "70d8a02a492f79db45697de5e901d98dc5b36df7ca3b283e1070b3eed8870b4d",
+      "byte_equal": false,
+      "line_endings_only": true
+    },
+    {
+      "repository_path": "XDL/XDL_Software_Controller/fpga_reference.py",
+      "executed_sha256": "56b82ede416958b721ea4d77784faba9f81f023bc022ba233ad1ee9505f7ef5e",
+      "git_sha256": "052f62fbf09fe5da72e36b23d8e89751bafd81c3ed0581f4faf1a26101e99f34",
+      "byte_equal": false,
+      "line_endings_only": true
+    },
+    {
+      "repository_path": "XDL/XDL_Software_Controller/replay.py",
+      "executed_sha256": "c3b170765fe96d29eb4fc440d1c0c4d5e396e5ac1d177ba0422684c277c11de1",
+      "git_sha256": "4e81407fcc77d2080e8932c4f439833ae9ec69be80282e86879529898cb18a2a",
+      "byte_equal": false,
+      "line_endings_only": true
+    },
+    {
+      "repository_path": "XDL/XDL_Software_Controller/run_tests.py",
+      "executed_sha256": "8fdf3d4e4e3574e09902296da060cf5402dee62a3680e79d3cb4157fd7fb0f27",
+      "git_sha256": "04887b8f246738fd96a6f558fd6b941aa555d47026a94f3a2f1150a3a717917b",
+      "byte_equal": false,
+      "line_endings_only": true
+    }
+  ],
+  "delivery_files_byte_matched": 269,
+  "board_verified": false,
+  "physical_freshness_verified": false
+}

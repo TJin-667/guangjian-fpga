@@ -1,0 +1,196 @@
+{
+  "schema": 1,
+  "read_only_vendor": true,
+  "files": {
+    "vendor/TJ/work/pc_closed_loop_20261015/.gitattributes": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/.gitattributes",
+      "sha256": "0a4ed090e9a0143ff67261326a69c2f7d80c7c468138f4f210aebb87b0d8c301"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/README.md": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/README.md",
+      "sha256": "7fb7a61a88ce9866ad6bcf92d1b3d2ef2501ae2556b6b0ee6a4465ca0e194900"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/RESULTS_20261015.md": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/RESULTS_20261015.md",
+      "sha256": "384540d0f2b23f46da76de78570ab2bb53118013ce516d4d51cac7c682a2868d"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/SOURCE_MATCH_20261015.json": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/SOURCE_MATCH_20261015.json",
+      "sha256": "6d72f3e682ff74b3a5700ded8bd84ad654666fb10bb0a236384f2f61288e058e"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/audit_closed_loop.py": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/audit_closed_loop.py",
+      "sha256": "48f83e9e9336faf087a78151cdc09cb6cb10571a4b4c4f6e5bacf4893666eebf"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/closed_loop.py": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/closed_loop.py",
+      "sha256": "b1c24f025fd644680a89e362ce2e9d1b06cab509e7bc9c3ae2094fd4570ef7ad"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/dependencies.py": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/dependencies.py",
+      "sha256": "2355dd8a88530b461256224e0f85aed8ba0d79b1a7c232824f5f67d95bb56280"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/export_evidence.py": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/export_evidence.py",
+      "sha256": "8f3419f25ebd4ea902e9330a0fc95f995e3847d43df24265082b2e20b791806b"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/prepare_dependencies.py": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/prepare_dependencies.py",
+      "sha256": "3a99129d97dfb32f6f92ee4e754facb1aa4357168925419153acbbb91c34f7df"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/publication.py": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/publication.py",
+      "sha256": "45964fdb893646ebbb6e045948b95d3bfe947d7c850f148c55b78dce969b978c"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/requirements.txt": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/requirements.txt",
+      "sha256": "623be88343aeda71a7853acb7afb9107eec3d31983b5a16e0b481f4039f6af29"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/run_closed_loop.py": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/run_closed_loop.py",
+      "sha256": "2ab9a48304ffe4acb653b9dac354d0fb558974713ee1bbeed309edc32043609c"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/run_verification.py": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/run_verification.py",
+      "sha256": "413c3b9441e45907beb97ca7908426e3f89841c7b4032f28529e67c7615f3e78"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/software_peer.py": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/software_peer.py",
+      "sha256": "8e62afb154f386f0f4d4246e2f723b05e9cdb8dacecda169eeb046a6dbc9bad7"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/start_pc_loop.ps1": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/start_pc_loop.ps1",
+      "sha256": "e7c8ca2f73fc36d217c49f7de0fa09e6b654bf2b7434fa18631b2ec04bd78235"
+    },
+    "vendor/TJ/work/pc_closed_loop_20261015/transaction_cost.py": {
+      "commit": "7903e79641692c69e82f145ab48659c77e9d9927",
+      "repository_path": "TJ/work/pc_closed_loop_20261015/transaction_cost.py",
+      "sha256": "8a80376766b4f55f8433774e2858c03c7b0cf2e108d7eac303cef6811da01e8b"
+    },
+    "vendor/XDL/XDL_Software_Controller/DESIGN.md": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/DESIGN.md",
+      "sha256": "c55512a76e4f3993f463444be5e7399a1068fcac3680ed57be10e67793f560d2"
+    },
+    "vendor/XDL/XDL_Software_Controller/IMPLEMENTATION_PLAN.md": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/IMPLEMENTATION_PLAN.md",
+      "sha256": "9b4a0f9ddc8e1ddbddc5f5621d740daa1d53e5aff3d3261bab908b9c38185565"
+    },
+    "vendor/XDL/XDL_Software_Controller/README.md": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/README.md",
+      "sha256": "35ea0ccb70519ec6ff0714f16ae18f6598e7946681ed44d14f9f76439fcd192d"
+    },
+    "vendor/XDL/XDL_Software_Controller/acquisition_control.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/acquisition_control.py",
+      "sha256": "7c623448807c9954167f60fd555068d1c69256340851b67a71373178c4d94cdf"
+    },
+    "vendor/XDL/XDL_Software_Controller/capture_metrics.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/capture_metrics.py",
+      "sha256": "2fad08fefa6329c3b75b279b1d825b8ab37a6e37a72c0c2d032a8902b5ce5dd7"
+    },
+    "vendor/XDL/XDL_Software_Controller/config.json": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/config.json",
+      "sha256": "b6fce205aead11c3d84f96a9ed7f4f2b9449cca4c27f776dbee791dc4424a313"
+    },
+    "vendor/XDL/XDL_Software_Controller/dataset_io.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/dataset_io.py",
+      "sha256": "70d8a02a492f79db45697de5e901d98dc5b36df7ca3b283e1070b3eed8870b4d"
+    },
+    "vendor/XDL/XDL_Software_Controller/fpga_reference.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/fpga_reference.py",
+      "sha256": "052f62fbf09fe5da72e36b23d8e89751bafd81c3ed0581f4faf1a26101e99f34"
+    },
+    "vendor/XDL/XDL_Software_Controller/repeat_regions.json": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/repeat_regions.json",
+      "sha256": "e1b25df6339b7d03f404a2a0beeb7d9ec70be420a6d8d254a461a4b20667ab21"
+    },
+    "vendor/XDL/XDL_Software_Controller/replay.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/replay.py",
+      "sha256": "4e81407fcc77d2080e8932c4f439833ae9ec69be80282e86879529898cb18a2a"
+    },
+    "vendor/XDL/XDL_Software_Controller/requirements.txt": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/requirements.txt",
+      "sha256": "7259a4f69f655fd494d3dd08680713533ff2180a247a5556e3736a76a6bf6e34"
+    },
+    "vendor/XDL/XDL_Software_Controller/run_tests.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/run_tests.py",
+      "sha256": "04887b8f246738fd96a6f558fd6b941aa555d47026a94f3a2f1150a3a717917b"
+    },
+    "vendor/XDL/XDL_Software_Controller/tests/fixtures.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/tests/fixtures.py",
+      "sha256": "92080071c02b6c020612cf1ab7a4e74b3c1bf8964d73f7801603dc9bc222058e"
+    },
+    "vendor/XDL/XDL_Software_Controller/tests/offline_probe.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/tests/offline_probe.py",
+      "sha256": "2496bb8e91f674d437ec7a68cbb836667926dde5b66762ace176967dfbf8a24b"
+    },
+    "vendor/XDL/XDL_Software_Controller/tests/test_acquisition_control.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/tests/test_acquisition_control.py",
+      "sha256": "6466e306b0c70b89ec39283ad7e4797e28bff45bafdaa21fe65b324320f83834"
+    },
+    "vendor/XDL/XDL_Software_Controller/tests/test_capture_metrics.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/tests/test_capture_metrics.py",
+      "sha256": "42a2e70e9e36b53b350e7826a3588de6c85f1555aa33b59a85fcbdcab32ac55a"
+    },
+    "vendor/XDL/XDL_Software_Controller/tests/test_configuration.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/tests/test_configuration.py",
+      "sha256": "687660683dc813c4e0cb84599c24ae29ebcea2521e8649df1fbd6d318d8409c3"
+    },
+    "vendor/XDL/XDL_Software_Controller/tests/test_dataset_io.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/tests/test_dataset_io.py",
+      "sha256": "4989348eacd9c9ac7e4246545abc1cbec40287ee00d32b77e528b4c2a5cc3930"
+    },
+    "vendor/XDL/XDL_Software_Controller/tests/test_final_fixes.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/tests/test_final_fixes.py",
+      "sha256": "e49e2da7a4a77124336daa989853d70b9e55bdf0cefab7f4684a3b848bbf0abe"
+    },
+    "vendor/XDL/XDL_Software_Controller/tests/test_fpga_reference.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/tests/test_fpga_reference.py",
+      "sha256": "449e697caab8f231122f91f5cce14576fe936b092bc0288420b7717b627e7a19"
+    },
+    "vendor/XDL/XDL_Software_Controller/tests/test_integration.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/tests/test_integration.py",
+      "sha256": "b437ad00af613c137ad8754e1d56ebfc5c24f49ced4b6eae50240da40c1c3c3f"
+    },
+    "vendor/XDL/XDL_Software_Controller/tests/test_replay.py": {
+      "commit": "90c152bc702dd11c55d67c4761f426483fa43118",
+      "repository_path": "XDL/XDL_Software_Controller/tests/test_replay.py",
+      "sha256": "65dc711fed15870c4efaf529c05dc69cc001e5f3205b11165c19aa42ca7192de"
+    }
+  }
+}

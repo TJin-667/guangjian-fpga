@@ -1,0 +1,113 @@
+{
+  "status": "COMPLETE_REQUIRES_HUMAN_REVIEW",
+  "group_id": "SOFTWARE109_NOT_TRAINING_g1",
+  "specimen": "SOFTWARE109_NOT_TRAINING",
+  "roi_xywh": [
+    3,
+    5,
+    19,
+    13
+  ],
+  "shape_hw": [
+    13,
+    19
+  ],
+  "low_lines": 300,
+  "high_lines": 700,
+  "gain16": 16,
+  "led": 128,
+  "parameter_freeze_id": "f09eb5885e1d",
+  "detector_id": "387cfeac0426",
+  "review_implementation": "9a2a91e22302b301fb6a0f169a0773c17a17642c",
+  "detector_parameters": {
+    "min_area": 9,
+    "span": 8,
+    "line": 0.6,
+    "width": 5,
+    "raw_fraction": 0.85,
+    "raw_mean": 3.0,
+    "weak": 5.2,
+    "strong": 12.0,
+    "policy": "fixed6_20_isolated_supplements",
+    "gate": "balanced",
+    "reach": 32,
+    "half_width": 1,
+    "side_radius": 0,
+    "proposal_strong": 12.0
+  },
+  "review_raw_fraction": 0.55,
+  "review_endpoint_line_fraction": 0.28,
+  "parameter_file_sha256": "82d371d023d1f176b94e2c0c301e577aa2fcec085fb51f7674822c36186628f6",
+  "algorithm_source_binding_sha256": "e93461a4f173014b9edce0f8f04faf3ecec662cbbb79308728798884e8df84f7",
+  "algorithm_entry": "final_parameter_check_20261030/frozen_runtime.py:process",
+  "integration_version": "v1.7-candidate",
+  "backend": "offload0109_archive",
+  "physical_hardware": false,
+  "exposure_role": "DEVELOPMENT_MANUAL_PAIR",
+  "final_root": "E:\\GuangjianData\\final_board_0109_20261030\\worker_03\\final\\SOFTWARE109_NOT_TRAINING_g1",
+  "gallery": [
+    {
+      "label": "最终检测 + 局部复检证据分",
+      "path": "E:\\GuangjianData\\final_board_0109_20261030\\worker_03\\final\\SOFTWARE109_NOT_TRAINING_g1\\priority_review.png",
+      "sha256": "11937bd1b7a5956168a717f3dc73bc6e7919fd6744989959caa7e48d2714f0bd"
+    },
+    {
+      "label": "当前冻结正式检测",
+      "path": "E:\\GuangjianData\\final_board_0109_20261030\\worker_03\\final\\SOFTWARE109_NOT_TRAINING_g1\\formal_detector.png",
+      "sha256": "e079bc665111e281b3386ae56a3c726c8dc5c968778e192b6225ffb182b1874b"
+    },
+    {
+      "label": "CH1 低曝光 300行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\fusion\\originals\\01_CH1_low_300lines.png",
+      "sha256": "8ed6bee946241e1429c07d75b1e11ce36e7c9bfb5addb5fd6df7f2237e3e23d6"
+    },
+    {
+      "label": "CH1 高曝光 700行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\fusion\\originals\\02_CH1_high_700lines.png",
+      "sha256": "2c170463c7ca7c47a5250ed1779b785895c4cd4653b4d2926c01787462f89e5a"
+    },
+    {
+      "label": "CH2 低曝光 300行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\fusion\\originals\\03_CH2_low_300lines.png",
+      "sha256": "eab2a282b5a0bdc8e2f655349bffeb3a250cab06cce29186e7b18c5ae99ced6a"
+    },
+    {
+      "label": "CH2 高曝光 700行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\fusion\\originals\\04_CH2_high_700lines.png",
+      "sha256": "54c539a97fed4752416d206896a1b251260187a87864d26ee00fae1c86acc4df"
+    },
+    {
+      "label": "CH3 低曝光 300行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\fusion\\originals\\05_CH3_low_300lines.png",
+      "sha256": "1a7c68032ad58f14ff29cfdac34fbade65b2059a45aba0ce9096285487089f6f"
+    },
+    {
+      "label": "CH3 高曝光 700行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\fusion\\originals\\06_CH3_high_700lines.png",
+      "sha256": "6bbafcc295f0d4c53ed27f3978d628ddab46fd319cec07960e15eb857eb975e6"
+    },
+    {
+      "label": "CH4 低曝光 300行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\fusion\\originals\\07_CH4_low_300lines.png",
+      "sha256": "a514c5c4fa8196d809489014d253c023b31a505c888b2546ceae236c0511f9cf"
+    },
+    {
+      "label": "CH4 高曝光 700行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\fusion\\originals\\08_CH4_high_700lines.png",
+      "sha256": "5fc7efbe8550505d027d7bc54f445d3532a3af248936abc607755f0d97b3d5a2"
+    }
+  ],
+  "review_windows": [],
+  "review_status": "NO_REVIEW_TRIGGER_IN_THIS_ROUTE",
+  "automatic_pass": false,
+  "probability_calibrated": false,
+  "input_source": "E:\\GuangjianData\\final_board_0109_20261030\\sdk_02\\case1\\fusion",
+  "source_manifest_sha256": "29770cc5fc6b226c421139c3c8485e52b401c4c44c277da6a813049a0061d298",
+  "new_physical_captures": 0,
+  "html": "E:\\GuangjianData\\final_board_0109_20261030\\worker_03\\final\\index.html",
+  "host_residual_access": "exact_native_tiles",
+  "host_tile_cache_peak_bytes": 0,
+  "validation_scope": "VERIFIED_HASH_REUSE",
+  "verification_cache": "E:\\GuangjianData\\VerifiedNative0109\\6557646d02da04be9512c0854dca4031020071e665b89dfbbcef984ab3b35409\\CACHE.json",
+  "performance_json": "E:\\GuangjianData\\final_board_0109_20261030\\worker_03\\PERFORMANCE.json"
+}

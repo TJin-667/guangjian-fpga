@@ -1,0 +1,160 @@
+{
+  "schema": "0108-engineering-same-input-result-v1",
+  "status": "SAME_INPUT_EQUAL",
+  "group": 1793337600415116700,
+  "digest128": "adb1fdaed93b66531f79b53b1984a5b6",
+  "roi": [
+    576,
+    160,
+    864,
+    864
+  ],
+  "frames": [
+    {
+      "slot": 1,
+      "record": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\6fe1c5052b714b34b0e3a56f961bbede\\committed\\result.json",
+      "record_sha256": "c0eda7349048b0c9485efd6d93cafb34df5ba416ac44cad3e69e5ebb79d49fa0",
+      "identity": {
+        "session": 7923260440847548377,
+        "request_id": 2,
+        "config_epoch": 59,
+        "dvp_sequence": 254561,
+        "publish_sequence": 90,
+        "roi_generation": 1,
+        "camera_generation": 25,
+        "light_generation": 34,
+        "frame_id": 90
+      }
+    },
+    {
+      "slot": 2,
+      "record": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\5a358f4115d04feb83c447e779c14a13\\committed\\result.json",
+      "record_sha256": "ab73d54b5c9ecc39112a7238db2ddfb6d5816721f4c24a8fda09003c943ca3e6",
+      "identity": {
+        "session": 7923260440847548377,
+        "request_id": 3,
+        "config_epoch": 61,
+        "dvp_sequence": 254584,
+        "publish_sequence": 91,
+        "roi_generation": 1,
+        "camera_generation": 26,
+        "light_generation": 35,
+        "frame_id": 91
+      }
+    },
+    {
+      "slot": 3,
+      "record": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\dfad942300e044a68d068304868f0db3\\committed\\result.json",
+      "record_sha256": "8fd2c2c20c22d883c4a676b1cb1d8becd8410e0abf093840ef6b80829c5f17a2",
+      "identity": {
+        "session": 7923260440847548377,
+        "request_id": 4,
+        "config_epoch": 63,
+        "dvp_sequence": 254606,
+        "publish_sequence": 92,
+        "roi_generation": 1,
+        "camera_generation": 27,
+        "light_generation": 36,
+        "frame_id": 92
+      }
+    },
+    {
+      "slot": 4,
+      "record": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\cb7a57fd61534115b4e38d787da7c434\\committed\\result.json",
+      "record_sha256": "abbdc1e9ef9e874545bc266dea9ce320872872c1a3f085218546022e102b9cc2",
+      "identity": {
+        "session": 7923260440847548377,
+        "request_id": 5,
+        "config_epoch": 65,
+        "dvp_sequence": 254629,
+        "publish_sequence": 93,
+        "roi_generation": 1,
+        "camera_generation": 28,
+        "light_generation": 37,
+        "frame_id": 93
+      }
+    },
+    {
+      "slot": 5,
+      "record": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\7de4efda7ee449a487206d20563831ba\\committed\\result.json",
+      "record_sha256": "fbb09809661242ac090fc375d9a73763729fd5c263ed777a398848e0235311e2",
+      "identity": {
+        "session": 7923260440847548377,
+        "request_id": 6,
+        "config_epoch": 67,
+        "dvp_sequence": 254652,
+        "publish_sequence": 94,
+        "roi_generation": 1,
+        "camera_generation": 29,
+        "light_generation": 38,
+        "frame_id": 94
+      }
+    },
+    {
+      "slot": 6,
+      "record": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\b84319b17a8f415590d81d0232d42daf\\committed\\result.json",
+      "record_sha256": "57d9520b935c04a2721f26cd5a5bcc691f2cd59f3f87b377d3ed11ffe656a9c6",
+      "identity": {
+        "session": 7923260440847548377,
+        "request_id": 7,
+        "config_epoch": 69,
+        "dvp_sequence": 254675,
+        "publish_sequence": 95,
+        "roi_generation": 1,
+        "camera_generation": 30,
+        "light_generation": 39,
+        "frame_id": 95
+      }
+    },
+    {
+      "slot": 7,
+      "record": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\906c38cd8c4f4f8cabcb2ba3ff9dfacf\\committed\\result.json",
+      "record_sha256": "e7d0c522614ab44967d51feabb6c1dcf0afd6deb8c826e0fcbd930945fa42520",
+      "identity": {
+        "session": 7923260440847548377,
+        "request_id": 8,
+        "config_epoch": 71,
+        "dvp_sequence": 254698,
+        "publish_sequence": 96,
+        "roi_generation": 1,
+        "camera_generation": 31,
+        "light_generation": 40,
+        "frame_id": 96
+      }
+    },
+    {
+      "slot": 8,
+      "record": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\captures\\9ffc02c96eaf4666888e0cd2f36f7eb3\\committed\\result.json",
+      "record_sha256": "a26688c0af21abe6d53cd3d95c04d1aede84d219d2d449f62f1eed7ea49476a2",
+      "identity": {
+        "session": 7923260440847548377,
+        "request_id": 9,
+        "config_epoch": 73,
+        "dvp_sequence": 254721,
+        "publish_sequence": 97,
+        "roi_generation": 1,
+        "camera_generation": 32,
+        "light_generation": 41,
+        "frame_id": 97
+      }
+    }
+  ],
+  "differences": {
+    "residual_n": 0,
+    "source_frame": 0,
+    "unknown": 0,
+    "source_direction": 0,
+    "source_exposure": 0,
+    "polarity": 0,
+    "weak": 0,
+    "strong": 0,
+    "connected_mask": 0,
+    "mask": 0,
+    "selected_gray": 0
+  },
+  "evidence_source": "real_board",
+  "physical_hardware": true,
+  "release_ready": false,
+  "source_commit": "8771bdf8dafdbeb3799a5526d17e92ae93b74226",
+  "result_sha256": "7c4d515ddd36ec81f51cc33d9bf3525f99d060987474f32b148d5d9a5ea5bd05"
+}

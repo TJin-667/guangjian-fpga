@@ -1,0 +1,48 @@
+{
+  "review_date_local": "2026-10-24",
+  "timezone": "Asia/Shanghai",
+  "source": "Direct human reply in this chat",
+  "specimen": "sample004_A_v1",
+  "delivery_commit": "aa5669dbfb0a711b41020309d844699be078dca2",
+  "reviewed_reference_json_sha256": "1f07373b10cf0ca4c02e198f417c79b081fc0f980546eea8031c4bdbc8a4639c",
+  "reviewed_reference_figure_sha256": "b869464b57a501db12fb99b1afd90cf46d55f8f4a8bdb5febb65970c5573bdc4",
+  "reference_source_png_sha256": "560be5330378087a22110c53907cdf659e9fd5604e10b1782603e55b787a3a98",
+  "coordinate_frame": "full_saved_1920x1080_same_pinned_preview_pose_only",
+  "upper_continuous": {
+    "question": "橙色参考线是否基本贴合最上方那条已确认连续的划痕？",
+    "human_answer_verbatim": "基本贴合，两端暂留unknown",
+    "basic_path_alignment": "accepted_by_human",
+    "existing_observable_station_x_range": [760, 1200],
+    "endpoints": "remain_unknown",
+    "new_exact_coordinate_or_tolerance_validation": false
+  },
+  "lower_fading": {
+    "question": "底部粉色参考只覆盖左段约x=760～960。这条划痕是否还向粉线右侧延伸？",
+    "human_answer_verbatim": "还有真实延伸，需要定位",
+    "physical_extension_beyond_existing_right_limit": "confirmed_present",
+    "new_extension_centerline": "pending_precise_localization_within_human_confirmed_regions",
+    "new_extension_endpoint": "unknown",
+    "existing_left_segment_is_whole_scratch": false,
+    "existing_left_segment_exact_coordinate_review_separately_answered": false,
+    "region_review": {
+      "reviewed_figure": "lower_extension/lower_extension_candidate_regions.png",
+      "reviewed_figure_sha256": "e7ba961736ea2893ceaf3c841556aa3f25410bef9266723b9208cda879a30d6c",
+      "human_answer_verbatim": "A/B/C都属于同一条划痕的延伸",
+      "same_physical_scratch_identity_in_all_three_regions": "confirmed_by_human",
+      "full_frame_regions_xyxy": {
+        "A": [960, 850, 1040, 880],
+        "B": [1040, 850, 1140, 880],
+        "C": [1140, 850, 1220, 880]
+      },
+      "boxes_are_localization_regions_not_pixel_truth": true,
+      "box_edges_are_not_physical_endpoints": true,
+      "per_pixel_visibility_and_centerline_not_yet_frozen": true
+    }
+  },
+  "entire_reference_fully_approved": false,
+  "published_source_reference_modified": false,
+  "old_numeric_verification_retained_as_historical_record": true,
+  "old_lower_201_point_metrics_describe_only_left_segment": true,
+  "unknown_extension_pixels_must_not_be_negative_ground_truth": true,
+  "new_capture_requested_by_this_reply": false
+}

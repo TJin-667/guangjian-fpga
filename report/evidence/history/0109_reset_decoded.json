@@ -1,0 +1,148 @@
+[
+  {
+    "kind": 3,
+    "sequence": 38360,
+    "decoded": {
+      "type": 130,
+      "seq": 38360,
+      "firmware": 265,
+      "capabilities": 127,
+      "state": 24,
+      "error": 0,
+      "commands": 1,
+      "frames": 0,
+      "dropped": 0
+    }
+  },
+  {
+    "kind": 14,
+    "sequence": 38361,
+    "decoded": {
+      "firmware": 265,
+      "format": 1,
+      "formats": [
+        1,
+        49,
+        50
+      ],
+      "payload_crc64_required": true
+    }
+  },
+  {
+    "kind": 9,
+    "sequence": 38362,
+    "decoded": {
+      "schema": 2,
+      "firmware": 265,
+      "seq": 38362,
+      "valid": false,
+      "bound": false,
+      "parameters_valid": false,
+      "mask_valid": false,
+      "logical_association_available": false,
+      "physical_freshness_verified": false,
+      "error": 0,
+      "identity": {
+        "session": 0,
+        "request_id": 0,
+        "config_epoch": 0,
+        "dvp_sequence": 0,
+        "publish_sequence": 0,
+        "roi_generation": 0,
+        "camera_generation": 0,
+        "light_generation": 0,
+        "frame_id": 0
+      },
+      "bank": 0,
+      "parameters": {
+        "exposure_lines": 0,
+        "gain16": 0,
+        "light_mask": 0,
+        "brightness": 0,
+        "settle_frames": 0,
+        "discard_frames": 0
+      },
+      "roi": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "statistics": {
+        "pixel_count": 0,
+        "gray_sum": 0,
+        "near_black": 0,
+        "near_white": 0,
+        "rgb_any_max": 0,
+        "board_count": 0,
+        "board_gray_sum": 0,
+        "board_dark": 0,
+        "board_white": 0,
+        "board_rgb_any_max": 0
+      },
+      "wait_complete_frames": 0,
+      "discard_complete_frames": 0,
+      "stale_drops": 0,
+      "fifo_reads": 0,
+      "request_counter": 0,
+      "rgb_crc64": 0,
+      "features": {
+        "strong_count": 0,
+        "weak_count": 0,
+        "sum9_total": 0,
+        "residual_n_total": 0
+      },
+      "pixel_format": 1,
+      "payload_bytes": 0,
+      "payload_crc64": 0
+    }
+  },
+  {
+    "kind": 19,
+    "sequence": 38363,
+    "decoded": {
+      "op": 19,
+      "status": 0,
+      "flags": 0,
+      "cookie": 0,
+      "request": 0,
+      "group": 0,
+      "digest_hex": "00000000000000000000000000000000",
+      "roi": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "completed_slots": 0,
+      "slot": 0,
+      "scratch_error": 0,
+      "association_error": false,
+      "wire_hex": "4c474854018895db004001130000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009"
+    }
+  },
+  {
+    "kind": 31,
+    "sequence": 38364,
+    "decoded": {
+      "op": 31,
+      "status": 0,
+      "flags": 0,
+      "cookie": 0,
+      "request": 0,
+      "group": 0,
+      "digest_hex": "00000000000000000000000000000000",
+      "roi": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "completed_slots": 0,
+      "slot": 0,
+      "scratch_error": 0,
+      "association_error": false,
+      "wire_hex": "4c474854018895dc0040011f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009"
+    }
+  }
+]

@@ -1,0 +1,253 @@
+[
+  {
+    "source": "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\final_board_0109_20261030\\runtime\\app.py",
+    "source_sha256": "e4f336a388ef6478b404329d97898e4903d1336df48ddfc7bf9548e1983714d2",
+    "target": "speed_ui_base.py",
+    "edits": [
+      {
+        "before": "import pipeline",
+        "after": "import speed_pipeline as pipeline",
+        "count": 1
+      },
+      {
+        "before": "HERE=Path(__file__).resolve().parent",
+        "after": "HERE=Path('C:/bx72_ymw_0105_20261015/repo/YMW/work/final_board_0109_20261030/runtime')",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "source": "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\final_board_0109_20261030\\runtime\\continuous_app.py",
+    "source_sha256": "39a034a4b17b8bb09add29d1bee971d4cd14f2f3166dd710be402bc9f6737ab5",
+    "target": "speed_app.py",
+    "edits": [
+      {
+        "before": "HERE=Path(__file__).resolve().parent",
+        "after": "HERE=Path('C:/bx72_ymw_0105_20261015/repo/YMW/work/final_board_0109_20261030/runtime')",
+        "count": 1
+      },
+      {
+        "before": "import app as stable_app",
+        "after": "import speed_ui_base as stable_app",
+        "count": 1
+      },
+      {
+        "before": "import pipeline",
+        "after": "import speed_pipeline as pipeline",
+        "count": 1
+      },
+      {
+        "before": "from continuous_capture import Controller,fresh_plan",
+        "after": "from speed_capture import Controller,fresh_plan",
+        "count": 1
+      },
+      {
+        "before": "super().__init__(root,hardware_mode='0109',**kwargs)",
+        "after": "kwargs.setdefault('analysis_root',Path('E:/GuangjianData/UnifiedInspectionSpeed0109'))\n        super().__init__(root,hardware_mode='0109',**kwargs)",
+        "count": 1
+      },
+      {
+        "before": "0109独立候选入口 v1.7",
+        "after": "0109软件提速候选 v1.8",
+        "count": 1
+      },
+      {
+        "before": "def verify_candidate():\n",
+        "after": "def verify_candidate():\n    import bootstrap\n    bootstrap.verify()\n",
+        "count": 1
+      },
+      {
+        "before": "print(json.dumps(dict(status='CONTINUOUS_UI_OFFLINE_READY'",
+        "after": "print(json.dumps(dict(status='SPEED_UI_OFFLINE_READY'",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "source": "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\final_board_0109_20261030\\runtime\\continuous_capture.py",
+    "source_sha256": "8a3b9ec52e21f11976496781a9f0127e4b5e3f92faea681f235aa62d35416b21",
+    "target": "speed_capture.py",
+    "edits": [
+      {
+        "before": "HERE=Path(__file__).resolve().parent",
+        "after": "HERE=Path('C:/bx72_ymw_0105_20261015/repo/YMW/work/final_board_0109_20261030/runtime')",
+        "count": 1
+      },
+      {
+        "before": "from verified_evidence import seal_live",
+        "after": "from combined_evidence import seal_live",
+        "count": 1
+      },
+      {
+        "before": "self.batch=SessionBatch(",
+        "after": "from bootstrap import candidate_sources\n        extra.update(candidate_sources())\n        self.batch=SessionBatch(",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "source": "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\final_board_0109_20261030\\runtime\\pipeline.py",
+    "source_sha256": "55d0dda2bccaa6952b3a53512489ab60387e85e63a1d1ba40eb1ebdcd4f6b87c",
+    "target": "speed_pipeline.py",
+    "edits": [
+      {
+        "before": "    from integrity import verify\n    verify()",
+        "after": "    from bootstrap import verify\n    verify()",
+        "count": 1
+      },
+      {
+        "before": "validation_mode='reuse',capture_started=None):",
+        "after": "validation_mode='reuse',capture_started=None,allow_fixture=False,cache_base=None,reference=False):",
+        "count": 1
+      },
+      {
+        "before": "process=subprocess.Popen([str(executable),'-B','-u',str(HERE/('worker0109.py' if kind=='0109' else 'worker.py')),'--source',str(source),'--kind',kind,'--out',str(out),'--validation-mode',validation_mode]",
+        "after": "command=[str(executable),'-B','-u',str(HERE/('reference_worker.py' if reference else 'speed_worker.py') if kind=='0109' else HERE.parent/'final_board_0109_20261030/runtime/worker.py'),'--source',str(source),'--kind',kind,'--out',str(out),'--validation-mode',validation_mode]\n            if kind=='0109' and allow_fixture:command.append('--allow-fixture')\n            if kind=='0109' and cache_base:command.extend(['--cache-base',str(cache_base)])\n            process=subprocess.Popen(command",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "source": "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\final_board_0109_20261030\\runtime\\worker0109.py",
+    "source_sha256": "1f20405383ca024e62d5380adaaedbe8518e7a98c9b90e27f012ee3261092fbf",
+    "target": "speed_worker.py",
+    "edits": [
+      {
+        "before": "import argparse,gzip,json,socket,sys,time",
+        "after": "import bootstrap\nimport argparse,gzip,json,socket,sys,time",
+        "count": 1
+      },
+      {
+        "before": "from hybrid import build_context",
+        "after": "from combined_evidence import build_context",
+        "count": 1
+      },
+      {
+        "before": "parser.add_argument('--allow-fixture',action='store_true');",
+        "after": "parser.add_argument('--allow-fixture',action='store_true');parser.add_argument('--cache-base',type=Path);",
+        "count": 1
+      },
+      {
+        "before": "    from verified_evidence import load as load_evidence",
+        "after": "    from bootstrap import verify\n    verify()\n    from combined_evidence import load as load_evidence",
+        "count": 1
+      },
+      {
+        "before": "x,validation_mode=load_evidence(a.source,mode=a.validation_mode,allow_fixture=a.allow_fixture)",
+        "after": "x,validation_mode=load_evidence(a.source,mode=a.validation_mode,allow_fixture=a.allow_fixture,**({'base':a.cache_base} if a.cache_base else {}))",
+        "count": 1
+      },
+      {
+        "before": "context,fused,provider=build_context(x['gray'],x['sat1'],x['board'],x['words'])",
+        "after": "context,fused,provider=build_context(x)",
+        "count": 1
+      },
+      {
+        "before": "host_residual_access='exact_native_tiles',host_tile_cache_peak_bytes=provider.peak_cache_bytes",
+        "after": "host_residual_access=x.get('residual_access','exact_native_tiles'),host_tile_cache_peak_bytes=getattr(provider,'peak_cache_bytes',0),host_optimization_id='combined-evidence-v1'",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "source": "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\final_board_0109_20261030\\runtime\\worker0109.py",
+    "source_sha256": "1f20405383ca024e62d5380adaaedbe8518e7a98c9b90e27f012ee3261092fbf",
+    "target": "reference_worker.py",
+    "edits": [
+      {
+        "before": "import argparse,gzip,json,socket,sys,time",
+        "after": "import bootstrap\nimport argparse,gzip,json,socket,sys,time",
+        "count": 1
+      },
+      {
+        "before": "parser.add_argument('--allow-fixture',action='store_true');",
+        "after": "parser.add_argument('--allow-fixture',action='store_true');parser.add_argument('--cache-base',type=Path);",
+        "count": 1
+      },
+      {
+        "before": "    from verified_evidence import load as load_evidence",
+        "after": "    from bootstrap import verify\n    verify()\n    from verified_evidence import load as load_evidence",
+        "count": 1
+      },
+      {
+        "before": "x,validation_mode=load_evidence(a.source,mode=a.validation_mode,allow_fixture=a.allow_fixture)",
+        "after": "x,validation_mode=load_evidence(a.source,mode=a.validation_mode,allow_fixture=a.allow_fixture,**({'base':a.cache_base} if a.cache_base else {}))",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "source": "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\final_board_0109_20261030\\runtime\\verified_evidence.py",
+    "source_sha256": "f5d8a9ccd5d2bd080506a5d14fc6c7ac651e8137c1bb2db99462a643f7ea2b73",
+    "target": "combined_evidence.py",
+    "edits": [
+      {
+        "before": "DEFAULT_CACHE=Path('E:/GuangjianData/VerifiedNative0109')",
+        "after": "DEFAULT_CACHE=Path('E:/GuangjianData/VerifiedCombined0109')",
+        "count": 1
+      },
+      {
+        "before": "SCHEMA='guangjian-verified-native0109-v2'",
+        "after": "SCHEMA='guangjian-verified-combined0109-v3'",
+        "count": 1
+      },
+      {
+        "before": "str(Path(archive.__file__).resolve()):archive.sha(archive.__file__)",
+        "after": "str(Path(archive.__file__).resolve()):archive.sha(archive.__file__),str(Path(__file__).with_name('CANDIDATE_BINDING.json')):archive.sha(Path(__file__).with_name('CANDIDATE_BINDING.json'))",
+        "count": 1
+      },
+      {
+        "before": "np.savez_compressed(temp/'native.npz',gray=x['gray'],sat1=x['sat1'],board=x['board'],words=x['words'])",
+        "after": "archive.need(x['residual_n'].dtype==np.int16 and x['residual_n'].shape==x['gray'].shape and x['valid'].dtype==bool and x['valid'].shape==x['gray'].shape,'Exact derivative arrays required')\n        np.savez(temp/'native.npz',gray=x['gray'],sat_bits=np.packbits(x['sat1'].reshape(-1),bitorder='big'),board_bits=np.packbits(x['board'].reshape(-1),bitorder='big'),words=x['words'],residual_n=x['residual_n'],valid_bits=np.packbits(x['valid'].reshape(-1),bitorder='big'))",
+        "count": 1
+      },
+      {
+        "before": "with np.load(target/'native.npz',allow_pickle=False) as z:arrays={k:z[k].copy() for k in ('gray','sat1','board','words')}",
+        "after": "with np.load(target/'native.npz',allow_pickle=False) as z:\n        shape=(8,r['roi'][3],r['roi'][2]);n=int(np.prod(shape));pixels=shape[1]*shape[2]\n        archive.need(set(z.files)=={'gray','sat_bits','board_bits','words','residual_n','valid_bits'},'Unexpected combined cache members')\n        def unpack(name,count,shape):\n            bits=z[name];archive.need(bits.dtype==np.uint8 and bits.ndim==1 and bits.size==(count+7)//8,'Packed evidence size/type differs')\n            return np.unpackbits(bits,bitorder='big',count=count).reshape(shape).astype(bool)\n        arrays=dict(gray=z['gray'].copy(),words=z['words'].copy(),residual_n=z['residual_n'].copy(),sat1=unpack('sat_bits',n,shape),board=unpack('board_bits',pixels,shape[1:]),valid=unpack('valid_bits',n,shape))\n        archive.need(arrays['residual_n'].dtype==np.int16 and arrays['residual_n'].shape==shape,'Cached residual shape/type differs')",
+        "count": 1
+      },
+      {
+        "before": "def load(root,*,mode='reuse',base=DEFAULT_CACHE,allow_fixture=False,qualification=archive.QUALIFICATION):\n    archive.need(mode in ('audit','reuse'),'Unknown evidence validation mode')\n    if mode=='reuse' and cache_path(root,base).exists():return restore(root,base,allow_fixture=allow_fixture),'VERIFIED_HASH_REUSE'\n    x=archive.load(root,allow_fixture=allow_fixture,qualification=qualification)\n    if mode=='reuse':\n        try:seal(x,base,origin='full_archive_CRC_metadata_H1_H2_audit')\n        except OSError as exc:\n            # Optional cache storage failure must not break a completed full audit.\n            # Existing malformed/tampered receipts still fail in restore above.\n            x['cache_unavailable_reason']=str(exc);return x,'FULL_STRICT_AUDIT_CACHE_UNAVAILABLE'\n    return x,'FULL_STRICT_AUDIT'\n\n",
+        "after": "",
+        "count": 1
+      },
+      {
+        "before": "qualification=str(qualification) if result['physical_hardware'] else None,records=records,source_hashes=hashes)",
+        "after": "qualification=str(qualification) if result['physical_hardware'] else None,records=records,source_hashes=hashes,residual_n=np.stack([row['residual_n'] for row in rows]),valid=np.stack([row['valid'] for row in rows]))",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "source": "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\final_board_0109_20261030\\runtime\\hybrid.py",
+    "source_sha256": "47152b55a87d565483f0cae74d27fc157282ceb6ae30fda1ea6e01c095a78bf8",
+    "target": "hybrid_resume.py",
+    "edits": [
+      {
+        "before": "HERE=Path(__file__).resolve().parent",
+        "after": "HERE=Path('C:/bx72_ymw_0105_20261015/repo/YMW/work/final_board_0109_20261030/runtime')",
+        "count": 1
+      },
+      {
+        "before": "def build_context(gray,sat,board,words):",
+        "after": "def build_context(gray,sat,board,words,*,valid,residual):",
+        "count": 1
+      },
+      {
+        "before": "valid=np.stack([assess_quality(frame)['valid_mask'] for frame in gray])",
+        "after": "if valid.dtype!=bool or valid.shape!=gray.shape or residual.dtype!=np.int16 or residual.shape!=gray.shape:raise ValueError('Cached exact derivative arrays required')",
+        "count": 1
+      },
+      {
+        "before": "unknown=~valid.any(0)",
+        "after": "expected_residual=residual[index,yy,xx].copy();expected_residual[source==0]=0\n    if not np.array_equal(fused['residual_n'],expected_residual):raise ValueError('Selected-source residual differs from audited cache')\n    unknown=~valid.any(0)",
+        "count": 1
+      },
+      {
+        "before": "provider=ResidualAccess(gray)",
+        "after": "provider=residual",
+        "count": 1
+      }
+    ]
+  }
+]

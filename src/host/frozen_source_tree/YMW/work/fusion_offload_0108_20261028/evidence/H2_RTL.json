@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": 0,
+      "name": "directed_9x9",
+      "width": 9,
+      "height": 9,
+      "real": false
+    },
+    {
+      "case": 1,
+      "name": "directed_19x13",
+      "width": 19,
+      "height": 13,
+      "real": false
+    },
+    {
+      "case": 2,
+      "name": "directed_65x65",
+      "width": 65,
+      "height": 65,
+      "real": false
+    },
+    {
+      "case": 3,
+      "name": "sample005_native_CH1_low",
+      "width": 864,
+      "height": 864,
+      "real": true
+    }
+  ],
+  "extra_BRESP_error_case": true,
+  "extra_error_cases": [
+    "wrong_input_request",
+    "malformed_sof",
+    "wrong_finish_request",
+    "upstream_H2_error"
+  ],
+  "source_sha256": {
+    "C:\\bx72_ymw_0105_20261015\\repo\\TJ\\work\\fpga_image_pipeline\\rtl\\rgb565_gray.v": "2adf822125555e7dda1eca7a13f79d60eb7c1951dcc90697f2241ac1727634bb",
+    "C:\\bx72_ymw_0105_20261015\\repo\\TJ\\work\\fpga_image_pipeline\\rtl\\h2_background9.v": "f3630cc66621fd8505bffc47bb991ce4f4fc95c914a430c420857654620ae58b",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\fusion_offload_0108_20261028\\rtl\\h2_scratch_writer.v": "e440ae41deb8dc2481dc9120f6ef372ac532658a69b953df6f417450585c177d",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\fusion_offload_0108_20261028\\sim\\tb_h2_scratch.sv": "a6100105f2931394f4571a8f60810815494c09278a435716d90dd2b419725328"
+  },
+  "protected_source_sha256": {
+    "E:\\GuangjianData\\P0Pairs\\GUI_sample005_20261028_015004_27df2d\\pair\\model_inputs\\frames\\CH1_low\\capture\\image.png": "f501c674bcbae5278739efad361ae922ab791a5d41b04255b9c95989b76c2e36"
+  },
+  "PC_supplied_exact_valid": true,
+  "full_ROI_native_real_H2_frames": 1,
+  "wall_seconds": 81.875,
+  "physical_MIG": false,
+  "complete_board_integration": false,
+  "bit_generated": false,
+  "board_commands": 0
+}

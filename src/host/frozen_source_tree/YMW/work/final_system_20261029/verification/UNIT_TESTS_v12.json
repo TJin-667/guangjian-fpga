@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "version": "v1.2",
+  "tests": 37,
+  "skipped": 0,
+  "log_sha256": "5fb9b9978cb8412ec0f4a919f2b66d9b14761434f0b322d5951ff76233a774db",
+  "network_scope": "127.0.0.1 software peers only",
+  "new_physical_CAP": 0,
+  "hardware_contacted": false,
+  "algorithm_changed": false
+}

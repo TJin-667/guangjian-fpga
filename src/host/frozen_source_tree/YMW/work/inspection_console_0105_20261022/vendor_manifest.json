@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "upstream_commit": "d5be1ed8da364d43e5e5860b934c39ef7487fd2d",
+  "upstream_root": "XDL/fourlight_fusion/XDL_Algorithm",
+  "files": {
+    "vendor/fourlight_fusion/config.json": "4b9b339b365ffb821e8726e6a8655762a7b3fc816d71aa09c9b9ced7acc85d6c",
+    "vendor/fourlight_fusion/freeze.json": "8fb651f2ae61a0933baf5b73a14d9a799b80909ede6a02e2a93ee7145f820351",
+    "vendor/fourlight_fusion/fusion.py": "655b86263798eaaf986975aca68beb218f7d77da91bda94e2cba4dd79710803d",
+    "vendor/fourlight_fusion/inputs.py": "35b1567478de5cb9bf2ca4c2061b206949384654fd8f9fb5f2b28df8d31493fb",
+    "vendor/software/ymw_integer_reference.py": "caefc8519c355cc7670cf7fb95986f0cc4fd2885ffb618061dc9899ba84186de",
+    "vendor/software/light_inspection/core.py": "47585c9a081351f8a44dbca40b803907a9975291dfb615e713d4c969e9cf92d0",
+    "vendor/software/light_inspection/image_io.py": "74d2bda791ac2d9a45a45341c5cf1f221fd1b3336f2fdb98d79a02b1fff834e5",
+    "vendor/software/light_inspection/real_baseline.py": "3d796a28d155b7a9d74562e24ff77c712bd17fb23377bf4d5def558311919c1a",
+    "vendor/software/light_inspection/__init__.py": "7cd2e26b25c7748c87aeeac27749a0032762dec277e31d7b335baec9df3d609f"
+  },
+  "scope": "Byte-preserved runtime subset only. Full original freeze.json retained as provenance; references/evaluation runners not bundled or used."
+}

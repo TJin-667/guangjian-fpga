@@ -1,0 +1,67 @@
+{
+  "status": "OFFLINE_SIMULATION_AND_ROUTED_ENGINEERING_GATES_PASSED",
+  "checks": 130,
+  "suites": [
+    {
+      "run": "net_02",
+      "checks": 22,
+      "physical_hardware": false,
+      "status": "PASS"
+    },
+    {
+      "run": "board_gray_02",
+      "checks": 24,
+      "physical_hardware": false,
+      "status": "PASS"
+    },
+    {
+      "run": "board_dual_02",
+      "checks": 24,
+      "physical_hardware": false,
+      "status": "PASS"
+    },
+    {
+      "run": "sdk_02",
+      "checks": 9,
+      "physical_hardware": false,
+      "status": "PASS"
+    },
+    {
+      "run": "runtime_03",
+      "checks": 25,
+      "physical_hardware": false,
+      "status": "PASS"
+    },
+    {
+      "run": "reset_04",
+      "checks": 17,
+      "physical_hardware": false,
+      "status": "PASS"
+    },
+    {
+      "run": "profile_archive_01",
+      "checks": 9,
+      "physical_hardware": false,
+      "status": "PASS"
+    }
+  ],
+  "frozen_algorithm": "f09eb5885e1d",
+  "physical_hardware": false,
+  "board_programmed": false,
+  "bit_emitted_by_this_collector": false,
+  "same_input_fusion_difference": 0,
+  "mathematical_kernels_changed": false,
+  "full_external_IO_qualified": false,
+  "pending": [
+    "0109 actual device confirmation, manual exposure readback and 24 profiles",
+    "same-pose warm reuse on0109 actual board",
+    "0109 KEY2 window",
+    "fair PC-only and accelerated end-to-end acquisition comparison"
+  ],
+  "failures_retained": [
+    "implementation_01 cache inference; superseded before route/bit",
+    "reset_01 generator argument, reset_02/03 test fixture adaptation; successful reset_04",
+    "runtime_02 inherited environment variable destination; successful runtime_03",
+    "First route receipt check shadowed checkpoint digest with source digest; fixed local variable, identical checkpoint and actual audit passed without rerouting or relaxed constraints"
+  ]
+}

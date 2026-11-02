@@ -1,0 +1,6 @@
+{
+  "source": "YMW\\work\\acceptance_0107_20261026\\fixed_eight.py",
+  "source_sha256": "f5dd7b7b4d977d8bd7605d8a111986123280f6492acf8a6dde400673db6dfafd",
+  "generated_sha256": "d5ae19299379111523dac8587420854edf18901005cf8404e044ae82e9ba6d9c",
+  "scope": "Only replace former400..800 selection bound by current SDK1..1116 bound; preserve every eight-frame/identity/CRC/ROI/mask/parameters validation"
+}

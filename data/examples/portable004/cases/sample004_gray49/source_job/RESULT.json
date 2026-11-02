@@ -1,0 +1,796 @@
+{
+  "status": "COMPLETE_REQUIRES_HUMAN_REVIEW",
+  "group_id": "sample004_g1793337600415116700",
+  "specimen": "sample004",
+  "roi_xywh": [
+    576,
+    160,
+    864,
+    864
+  ],
+  "shape_hw": [
+    864,
+    864
+  ],
+  "low_lines": 400,
+  "high_lines": 800,
+  "gain16": 16,
+  "led": 128,
+  "parameter_freeze_id": "f09eb5885e1d",
+  "detector_id": "387cfeac0426",
+  "review_implementation": "9a2a91e22302b301fb6a0f169a0773c17a17642c",
+  "detector_parameters": {
+    "min_area": 9,
+    "span": 8,
+    "line": 0.6,
+    "width": 5,
+    "raw_fraction": 0.85,
+    "raw_mean": 3.0,
+    "weak": 5.2,
+    "strong": 12.0,
+    "policy": "fixed6_20_isolated_supplements",
+    "gate": "balanced",
+    "reach": 32,
+    "half_width": 1,
+    "side_radius": 0,
+    "proposal_strong": 12.0
+  },
+  "review_raw_fraction": 0.55,
+  "review_endpoint_line_fraction": 0.28,
+  "parameter_file_sha256": "82d371d023d1f176b94e2c0c301e577aa2fcec085fb51f7674822c36186628f6",
+  "algorithm_source_binding_sha256": "e93461a4f173014b9edce0f8f04faf3ecec662cbbb79308728798884e8df84f7",
+  "algorithm_entry": "final_parameter_check_20261030/frozen_runtime.py:process",
+  "integration_version": "v1.5",
+  "backend": "offload0108_archive",
+  "physical_hardware": true,
+  "exposure_role": "FORMAL_400_800",
+  "final_root": "E:\\GuangjianData\\UnifiedInspection\\20261030_132038_1b770f4c\\final\\sample004_g1793337600415116700",
+  "gallery": [
+    {
+      "label": "最终检测 + 局部复检证据分",
+      "path": "E:\\GuangjianData\\UnifiedInspection\\20261030_132038_1b770f4c\\final\\sample004_g1793337600415116700\\priority_review.png",
+      "sha256": "7ef56bb6ec209828b79774ac9c8b1e2cc97ea498053fee3a2092e041b0c83d50"
+    },
+    {
+      "label": "当前冻结正式检测",
+      "path": "E:\\GuangjianData\\UnifiedInspection\\20261030_132038_1b770f4c\\final\\sample004_g1793337600415116700\\formal_detector.png",
+      "sha256": "9c5b9386a0cd58cd7ccd3ceeff7e7edf999e917ed507dd17c2d987ea3b180002"
+    },
+    {
+      "label": "CH1 低曝光 400行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\fusion\\originals\\01_CH1_low_400lines.png",
+      "sha256": "4381c95317a226eac07cdee81eedd5c4437c218f6b2fbeffe045450eed5c26db"
+    },
+    {
+      "label": "CH1 高曝光 800行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\fusion\\originals\\02_CH1_high_800lines.png",
+      "sha256": "96bca302bdb904bade698387b6b56057bab1ecced315a6b844382561d47a5de8"
+    },
+    {
+      "label": "CH2 低曝光 400行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\fusion\\originals\\03_CH2_low_400lines.png",
+      "sha256": "06b67311e0b0bb5d27f1cf126f97bf7dfd2b9680f707d1b33c7196446a8e0660"
+    },
+    {
+      "label": "CH2 高曝光 800行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\fusion\\originals\\04_CH2_high_800lines.png",
+      "sha256": "573bfd16941797c49574f637300008536f960b1b2861712a3e0d5b08a696f6af"
+    },
+    {
+      "label": "CH3 低曝光 400行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\fusion\\originals\\05_CH3_low_400lines.png",
+      "sha256": "ee6235e68c113815124132754675f5a9742ea07a50eb4e90928e8c0de18118d9"
+    },
+    {
+      "label": "CH3 高曝光 800行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\fusion\\originals\\06_CH3_high_800lines.png",
+      "sha256": "f84feff66d4359a734f8c6e104cd6e1d520ce576e82906cfdf9a5ee8eb262f00"
+    },
+    {
+      "label": "CH4 低曝光 400行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\fusion\\originals\\07_CH4_low_400lines.png",
+      "sha256": "f461fa60fd306368f4f25f04d68f2681069b0b014312fa70659ec730e089c4da"
+    },
+    {
+      "label": "CH4 高曝光 800行 · 1倍 · LED128",
+      "path": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\fusion\\originals\\08_CH4_high_800lines.png",
+      "sha256": "a0a6e6d76bd6dbcd3361767638d003b82138b334926957eb44a9b72fd2420a7c"
+    },
+    {
+      "label": "复检R1 / 50分",
+      "path": "E:\\GuangjianData\\UnifiedInspection\\20261030_132038_1b770f4c\\final\\sample004_g1793337600415116700\\R1_comparison.png",
+      "sha256": "ca176488cb18eb1a8e037122eac9a0634cbe46e497b861e2733746da8f3a7a35"
+    },
+    {
+      "label": "复检R2 / 75分",
+      "path": "E:\\GuangjianData\\UnifiedInspection\\20261030_132038_1b770f4c\\final\\sample004_g1793337600415116700\\R2_comparison.png",
+      "sha256": "2e4530f92cca6cf01947fd10de477a77240b23f58ba874dd165d7386b69e529f"
+    }
+  ],
+  "review_windows": [
+    {
+      "x0": 428,
+      "y0": 547,
+      "x1": 512,
+      "y1": 562,
+      "gap_ids": [
+        25,
+        26
+      ],
+      "largest_visual_gap_px": 41.60925138717112,
+      "id": 1,
+      "evidence_support_score": 50,
+      "review_priority": "high",
+      "representative_gap_id": 26,
+      "representative_evidence": {
+        "gap_id": 26,
+        "evidence_support_score": 50,
+        "score_scale": [
+          0,
+          100
+        ],
+        "score_step": 5,
+        "score_semantics": "development_evidence_index_not_probability",
+        "review_priority": "high",
+        "priority_reason": "明显大缺口",
+        "largest_visual_gap_px": 41.60925138717112,
+        "largest_run": {
+          "begin": 2,
+          "end": 42,
+          "samples": 41,
+          "start_xy": [
+            433.96269801782523,
+            551.2963718378841
+          ],
+          "end_xy": [
+            474.3040039740475,
+            555.7820456524448
+          ]
+        },
+        "source": {
+          "frame": 4,
+          "direction": 2,
+          "exposure": "high",
+          "polarity": -1
+        },
+        "thresholds": {
+          "review_weak": 2.0,
+          "slightly_stricter": 2.4,
+          "raw_bilateral_contrast": 1.0
+        },
+        "counts": {
+          "raw": 27,
+          "response": 29,
+          "joint": 21,
+          "stricter_joint": 17,
+          "valid": 41,
+          "longest_raw_unsupported_samples": 4
+        },
+        "joint_supported_native_xy": [
+          [
+            435,
+            551
+          ],
+          [
+            440,
+            552
+          ],
+          [
+            443,
+            553
+          ],
+          [
+            445,
+            553
+          ],
+          [
+            448,
+            553
+          ],
+          [
+            450,
+            554
+          ],
+          [
+            451,
+            554
+          ],
+          [
+            452,
+            554
+          ],
+          [
+            453,
+            554
+          ],
+          [
+            454,
+            554
+          ],
+          [
+            458,
+            554
+          ],
+          [
+            459,
+            555
+          ],
+          [
+            460,
+            555
+          ],
+          [
+            461,
+            555
+          ],
+          [
+            462,
+            555
+          ],
+          [
+            463,
+            555
+          ],
+          [
+            469,
+            555
+          ],
+          [
+            470,
+            556
+          ],
+          [
+            471,
+            556
+          ],
+          [
+            472,
+            556
+          ],
+          [
+            473,
+            556
+          ]
+        ],
+        "terms": {
+          "joint_coverage": 0.5121951219512195,
+          "raw_continuity": 0.9024390243902439,
+          "response_retention": 0.8095238095238095,
+          "endpoint_alignment": 0.9653633930282665,
+          "valid_fraction": 1.0
+        },
+        "bottleneck_terms": [
+          "joint_coverage"
+        ],
+        "reasons": [
+          "同一原片暗线支持",
+          "两端走向相符",
+          "最大缺口内21/41个位置具有共同支持",
+          "分数短板：同帧原片与残差共同支持"
+        ],
+        "confidence_probability": null,
+        "automatic_pass": false
+      },
+      "member_evidence": [
+        {
+          "gap_id": 25,
+          "evidence_support_score": 55,
+          "score_scale": [
+            0,
+            100
+          ],
+          "score_step": 5,
+          "score_semantics": "development_evidence_index_not_probability",
+          "review_priority": "high",
+          "priority_reason": "明显大缺口",
+          "largest_visual_gap_px": 41.520174184518226,
+          "largest_run": {
+            "begin": 2,
+            "end": 42,
+            "samples": 41,
+            "start_xy": [
+              433.96610169491527,
+              551.2033898305084
+            ],
+            "end_xy": [
+              474.271186440678,
+              555.3728813559322
+            ]
+          },
+          "source": {
+            "frame": 4,
+            "direction": 2,
+            "exposure": "high",
+            "polarity": -1
+          },
+          "thresholds": {
+            "review_weak": 2.0,
+            "slightly_stricter": 2.4,
+            "raw_bilateral_contrast": 1.0
+          },
+          "counts": {
+            "raw": 30,
+            "response": 27,
+            "joint": 23,
+            "stricter_joint": 17,
+            "valid": 41,
+            "longest_raw_unsupported_samples": 4
+          },
+          "joint_supported_native_xy": [
+            [
+              435,
+              551
+            ],
+            [
+              440,
+              552
+            ],
+            [
+              443,
+              552
+            ],
+            [
+              444,
+              552
+            ],
+            [
+              445,
+              552
+            ],
+            [
+              448,
+              553
+            ],
+            [
+              450,
+              553
+            ],
+            [
+              451,
+              553
+            ],
+            [
+              458,
+              554
+            ],
+            [
+              459,
+              554
+            ],
+            [
+              460,
+              554
+            ],
+            [
+              461,
+              554
+            ],
+            [
+              462,
+              554
+            ],
+            [
+              463,
+              554
+            ],
+            [
+              464,
+              554
+            ],
+            [
+              465,
+              554
+            ],
+            [
+              466,
+              555
+            ],
+            [
+              467,
+              555
+            ],
+            [
+              469,
+              555
+            ],
+            [
+              470,
+              555
+            ],
+            [
+              471,
+              555
+            ],
+            [
+              473,
+              555
+            ],
+            [
+              474,
+              555
+            ]
+          ],
+          "terms": {
+            "joint_coverage": 0.5609756097560976,
+            "raw_continuity": 0.9024390243902439,
+            "response_retention": 0.7391304347826086,
+            "endpoint_alignment": 0.9551953674747637,
+            "valid_fraction": 1.0
+          },
+          "bottleneck_terms": [
+            "joint_coverage"
+          ],
+          "reasons": [
+            "同一原片暗线支持",
+            "两端走向相符",
+            "最大缺口内23/41个位置具有共同支持",
+            "分数短板：同帧原片与残差共同支持"
+          ],
+          "confidence_probability": null,
+          "automatic_pass": false
+        },
+        {
+          "gap_id": 26,
+          "evidence_support_score": 50,
+          "score_scale": [
+            0,
+            100
+          ],
+          "score_step": 5,
+          "score_semantics": "development_evidence_index_not_probability",
+          "review_priority": "high",
+          "priority_reason": "明显大缺口",
+          "largest_visual_gap_px": 41.60925138717112,
+          "largest_run": {
+            "begin": 2,
+            "end": 42,
+            "samples": 41,
+            "start_xy": [
+              433.96269801782523,
+              551.2963718378841
+            ],
+            "end_xy": [
+              474.3040039740475,
+              555.7820456524448
+            ]
+          },
+          "source": {
+            "frame": 4,
+            "direction": 2,
+            "exposure": "high",
+            "polarity": -1
+          },
+          "thresholds": {
+            "review_weak": 2.0,
+            "slightly_stricter": 2.4,
+            "raw_bilateral_contrast": 1.0
+          },
+          "counts": {
+            "raw": 27,
+            "response": 29,
+            "joint": 21,
+            "stricter_joint": 17,
+            "valid": 41,
+            "longest_raw_unsupported_samples": 4
+          },
+          "joint_supported_native_xy": [
+            [
+              435,
+              551
+            ],
+            [
+              440,
+              552
+            ],
+            [
+              443,
+              553
+            ],
+            [
+              445,
+              553
+            ],
+            [
+              448,
+              553
+            ],
+            [
+              450,
+              554
+            ],
+            [
+              451,
+              554
+            ],
+            [
+              452,
+              554
+            ],
+            [
+              453,
+              554
+            ],
+            [
+              454,
+              554
+            ],
+            [
+              458,
+              554
+            ],
+            [
+              459,
+              555
+            ],
+            [
+              460,
+              555
+            ],
+            [
+              461,
+              555
+            ],
+            [
+              462,
+              555
+            ],
+            [
+              463,
+              555
+            ],
+            [
+              469,
+              555
+            ],
+            [
+              470,
+              556
+            ],
+            [
+              471,
+              556
+            ],
+            [
+              472,
+              556
+            ],
+            [
+              473,
+              556
+            ]
+          ],
+          "terms": {
+            "joint_coverage": 0.5121951219512195,
+            "raw_continuity": 0.9024390243902439,
+            "response_retention": 0.8095238095238095,
+            "endpoint_alignment": 0.9653633930282665,
+            "valid_fraction": 1.0
+          },
+          "bottleneck_terms": [
+            "joint_coverage"
+          ],
+          "reasons": [
+            "同一原片暗线支持",
+            "两端走向相符",
+            "最大缺口内21/41个位置具有共同支持",
+            "分数短板：同帧原片与残差共同支持"
+          ],
+          "confidence_probability": null,
+          "automatic_pass": false
+        }
+      ],
+      "confidence_probability": null,
+      "automatic_pass": false,
+      "view_order": 1
+    },
+    {
+      "x0": 304,
+      "y0": 594,
+      "x1": 321,
+      "y1": 610,
+      "gap_ids": [
+        28
+      ],
+      "largest_visual_gap_px": 7.775194934201857,
+      "id": 2,
+      "evidence_support_score": 75,
+      "review_priority": "medium",
+      "representative_gap_id": 28,
+      "representative_evidence": {
+        "gap_id": 28,
+        "evidence_support_score": 75,
+        "score_scale": [
+          0,
+          100
+        ],
+        "score_step": 5,
+        "score_semantics": "development_evidence_index_not_probability",
+        "review_priority": "medium",
+        "priority_reason": "中等视觉缺口",
+        "largest_visual_gap_px": 7.775194934201857,
+        "largest_run": {
+          "begin": 2,
+          "end": 9,
+          "samples": 8,
+          "start_xy": [
+            314.4454585166155,
+            599.1517848622514
+          ],
+          "end_xy": [
+            309.5149893013452,
+            603.7962424004731
+          ]
+        },
+        "source": {
+          "frame": 7,
+          "direction": 4,
+          "exposure": "low",
+          "polarity": -1
+        },
+        "thresholds": {
+          "review_weak": 3.2,
+          "slightly_stricter": 3.6,
+          "raw_bilateral_contrast": 1.0
+        },
+        "counts": {
+          "raw": 8,
+          "response": 6,
+          "joint": 6,
+          "stricter_joint": 6,
+          "valid": 8,
+          "longest_raw_unsupported_samples": 0
+        },
+        "joint_supported_native_xy": [
+          [
+            314,
+            600
+          ],
+          [
+            313,
+            600
+          ],
+          [
+            312,
+            601
+          ],
+          [
+            312,
+            602
+          ],
+          [
+            311,
+            602
+          ],
+          [
+            310,
+            603
+          ]
+        ],
+        "terms": {
+          "joint_coverage": 0.75,
+          "raw_continuity": 1.0,
+          "response_retention": 1.0,
+          "endpoint_alignment": 0.9895744037411272,
+          "valid_fraction": 1.0
+        },
+        "bottleneck_terms": [
+          "joint_coverage"
+        ],
+        "reasons": [
+          "同一原片暗线支持",
+          "两端走向相符",
+          "最大缺口内6/8个位置具有共同支持",
+          "分数短板：同帧原片与残差共同支持"
+        ],
+        "confidence_probability": null,
+        "automatic_pass": false
+      },
+      "member_evidence": [
+        {
+          "gap_id": 28,
+          "evidence_support_score": 75,
+          "score_scale": [
+            0,
+            100
+          ],
+          "score_step": 5,
+          "score_semantics": "development_evidence_index_not_probability",
+          "review_priority": "medium",
+          "priority_reason": "中等视觉缺口",
+          "largest_visual_gap_px": 7.775194934201857,
+          "largest_run": {
+            "begin": 2,
+            "end": 9,
+            "samples": 8,
+            "start_xy": [
+              314.4454585166155,
+              599.1517848622514
+            ],
+            "end_xy": [
+              309.5149893013452,
+              603.7962424004731
+            ]
+          },
+          "source": {
+            "frame": 7,
+            "direction": 4,
+            "exposure": "low",
+            "polarity": -1
+          },
+          "thresholds": {
+            "review_weak": 3.2,
+            "slightly_stricter": 3.6,
+            "raw_bilateral_contrast": 1.0
+          },
+          "counts": {
+            "raw": 8,
+            "response": 6,
+            "joint": 6,
+            "stricter_joint": 6,
+            "valid": 8,
+            "longest_raw_unsupported_samples": 0
+          },
+          "joint_supported_native_xy": [
+            [
+              314,
+              600
+            ],
+            [
+              313,
+              600
+            ],
+            [
+              312,
+              601
+            ],
+            [
+              312,
+              602
+            ],
+            [
+              311,
+              602
+            ],
+            [
+              310,
+              603
+            ]
+          ],
+          "terms": {
+            "joint_coverage": 0.75,
+            "raw_continuity": 1.0,
+            "response_retention": 1.0,
+            "endpoint_alignment": 0.9895744037411272,
+            "valid_fraction": 1.0
+          },
+          "bottleneck_terms": [
+            "joint_coverage"
+          ],
+          "reasons": [
+            "同一原片暗线支持",
+            "两端走向相符",
+            "最大缺口内6/8个位置具有共同支持",
+            "分数短板：同帧原片与残差共同支持"
+          ],
+          "confidence_probability": null,
+          "automatic_pass": false
+        }
+      ],
+      "confidence_probability": null,
+      "automatic_pass": false,
+      "view_order": 2
+    }
+  ],
+  "review_status": "MANUAL_REVIEW_SUGGESTED",
+  "automatic_pass": false,
+  "probability_calibrated": false,
+  "input_source": "E:\\GuangjianData\\final0108_positioning\\20261030_131742_96fe23af\\plan\\format49_20261030_131959_a543f377\\run\\fusion",
+  "source_manifest_sha256": "d24877812f56e82bcb6c19f01f4ae564663e247208007c6c4a9b5862874c1d38",
+  "new_physical_captures": 0,
+  "html": "E:\\GuangjianData\\UnifiedInspection\\20261030_132038_1b770f4c\\final\\index.html",
+  "host_residual_access": "exact_native_tiles",
+  "host_tile_cache_peak_bytes": 2076672,
+  "validation_scope": "VERIFIED_HASH_REUSE",
+  "verification_cache": "E:\\GuangjianData\\VerifiedNative0108\\cbae807c43b3406b636fd423eeecd9aae3cdfe643a5b039cb3aba65365c0c5a9\\CACHE.json",
+  "performance_json": "E:\\GuangjianData\\UnifiedInspection\\20261030_132038_1b770f4c\\PERFORMANCE.json"
+}

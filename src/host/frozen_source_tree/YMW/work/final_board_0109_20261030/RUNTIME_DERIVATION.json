@@ -1,0 +1,30 @@
+{
+  "parent_commit": "73a0cf3b12242a02fe0fbf96adbf25d380db6822",
+  "parent_files_sha256": {
+    "YMW/work/final_system_20261029/app.py": "ec4dcf3375c3f0f84421a12a519ed5325db8eb8fd5b034d9cfc8ba995862a2e8",
+    "YMW/work/final_system_20261029/archive0108.py": "b9e1dee1a9c8b66200bb2bd6758d4f7506870d2474f45bc5ab6b385b8eb8a0d3",
+    "YMW/work/final_system_20261029/contracts.py": "0bb7db5f75f4c995ed17f2fa988d9581b1ef5713603d14da9b06f3cff5cde457",
+    "YMW/work/final_system_20261029/engineering0108.py": "e50102fe91cf2a77eb82d4372d2ecebd5d0dd0b4cf39129b452d00ff4dc42501",
+    "YMW/work/final_system_20261029/focus0108.py": "76b51ee36bd44f468300cbcc248a5365bae747ec6fe06c3857b8e8166cd6cd03",
+    "YMW/work/final_system_20261029/frozen_algorithm.py": "c9749f2f91c9b5d3c18da45fafd75e9c8f42784b9819f0ddac6e723fc83c59c2",
+    "YMW/work/final_system_20261029/hybrid.py": "c027ff109cdabd966dbd3d08cf773cc714d7d4d5e12905566c132ba218dcb6b3",
+    "YMW/work/final_system_20261029/location0108.py": "45d122705bbde2700c768489d5383d67a5107373c7f96ff64b873cf8847a0176",
+    "YMW/work/final_system_20261029/performance.py": "b5e9c67d15496f22ac7db99d6f9031f5cc9c62fb55eee55490f145d7e411aade",
+    "YMW/work/final_system_20261029/pipeline.py": "01b48b03ad7473db557bd4eba0350928797aed8cec06146b7c3d5039da80c4d1",
+    "YMW/work/final_system_20261029/residual_access.py": "703040f9cd1f8066f9389c322bd13ee66f26c15398fbfe61fdb154fad76629ad",
+    "YMW/work/final_system_20261029/roi_prepare0108.py": "e21a87d28f862e60402d38eb4f7ea2da9d1bb00e9bedff9107416242d3e5b424",
+    "YMW/work/final_system_20261029/verified_evidence.py": "c5a825dc01c379407b1ad84196496012913a6c2f2c5cf383cf533233e617aa65",
+    "YMW/work/final_system_20261029/worker.py": "d1b39dffba9b2dbc5c8ba8b2abb3a6b387d2a59c3bec1628ed842b4aca2a5332",
+    "YMW/work/final_system_20261029/worker0108.py": "1583a541ae01c05efffbd15a5207059ac37e943a433ae60b40fb7acf66aecead",
+    "YMW/work/performance_followup_0108_20261030/session_batch.py": "6ef983bab7d06e9b27dbce5e82456316fa1eaf6b5dc5a5d3ef8eebde209ce49a",
+    "YMW/work/performance_followup_0108_20261030/continuous_capture.py": "2e387a82c1ba35be3cbea002f72663c621f9bdf392b18802b16ae7b96adf200f",
+    "YMW/work/performance_followup_0108_20261030/continuous_app.py": "ed6e19395dca1c05315b957ac74eb5e04ad5c22b5149b311c24d4d37f5632134",
+    "YMW/work/fusion_board_0108_20261028/host/engineering_capture.py": "18ad5c453bf6eb769577ccd364de354b83ab93eb49dc823c5d2c24a59b4bca30",
+    "YMW/work/fusion_board_0108_20261028/host/qualification.py": "60da43ba9993c8c473a5835708fa498c1fc387694e7ffe51d14c48fc814f2c14",
+    "YMW/work/fusion_board_0108_20261028/common.py": "00f92127b9bc5f60bc5205e9c2723cc9ea32b4eb51f0f6d6aa9f38986f108e1e",
+    "YMW/work/fusion_board_0108_20261028/audit_candidate.py": "3c2c083e2c87e72bb8a910a0053ac64f9fe3f15f79ff9fe325bdd04234865cf1",
+    "YMW/work/fusion_board_0108_20261028/finish_engineering_candidate.py": "08c6942618a1acdb0940a3459d1cd9d5e7062dc4e722a2144294c88ee665c0af",
+    "YMW/work/reset_acceptance_0108_20261030/reset_window.py": "c098ac89214f839db3185eb8377a3304bbb2c6dbb1082146791c588d50d11a48"
+  },
+  "changes": "Isolated109 firmware/protocol, rebased imports, explicit per-group manual exposure, exact frozen f09 unchanged"
+}

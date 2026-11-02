@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "candidate_source_commit": "8771bdf8dafdbeb3799a5526d17e92ae93b74226",
+  "bit_sha256": "ad2f042274576ceab1828a38f1c1bd6a85d6c80b917fd95bcdeaad786aed6f4d",
+  "bound_files": 61,
+  "hardware_contacted": false,
+  "release_ready": false
+}

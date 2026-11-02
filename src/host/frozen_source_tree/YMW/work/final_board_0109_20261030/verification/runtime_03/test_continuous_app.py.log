@@ -1,0 +1,13 @@
+test_fresh_plan_rejects_unsupported_exposure_before_source_or_board_IO (__main__.ControllerTests.test_fresh_plan_rejects_unsupported_exposure_before_source_or_board_IO) ... ok
+test_real_windows_owner_lock_survives_worker_then_UI_close (__main__.ControllerTests.test_real_windows_owner_lock_survives_worker_then_UI_close) ... ok
+test_two_groups_timing_and_native_cache_belong_to_each_group (__main__.ControllerTests.test_two_groups_timing_and_native_cache_belong_to_each_group) ... ok
+test_explicit_reposition_releases_retained_session_first (__main__.WindowTests.test_explicit_reposition_releases_retained_session_first) ... ok
+test_focus_releases_retained_session (__main__.WindowTests.test_focus_releases_retained_session) ... ok
+test_next_group_reuses_template_updates_metadata_without_positioning (__main__.WindowTests.test_next_group_reuses_template_updates_metadata_without_positioning) ... ok
+test_roi_template_lookup_never_substitutes_an_older_success (__main__.WindowTests.test_roi_template_lookup_never_substitutes_an_older_success) ... ok
+test_unsupported_exposure_is_visible_and_refused_before_worker (__main__.WindowTests.test_unsupported_exposure_is_visible_and_refused_before_worker) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 9.024s
+
+OK

@@ -1,0 +1,91 @@
+{
+  "status": "RELOCATED_EXPORT_CHECKS_PASSED",
+  "cases": [
+    {
+      "case": "01_relocated_entry",
+      "passed": true,
+      "exit_code": 0,
+      "expected_failure_text": null
+    },
+    {
+      "case": "02_relocated_GUI_SDK_focus_engine",
+      "passed": true,
+      "exit_code": 0,
+      "expected_failure_text": null
+    },
+    {
+      "case": "03_relocated_full_host_algorithm",
+      "passed": true,
+      "exit_code": 0,
+      "expected_failure_text": null
+    },
+    {
+      "case": "04_changed_bit",
+      "passed": true,
+      "exit_code": 1,
+      "expected_failure_text": "Export file missing/changed: board/artifacts/bx72_0109_fusion_EXPERIMENTAL_NOT_RELEASED.bit"
+    },
+    {
+      "case": "05_changed_numerical_source",
+      "passed": true,
+      "exit_code": 1,
+      "expected_failure_text": "Export file missing/changed: src/host/frozen_source_tree/YMW/work/weak_stability_tuning_20261030/seed_parameters.py"
+    },
+    {
+      "case": "06_extra_unbound_member",
+      "passed": true,
+      "exit_code": 1,
+      "expected_failure_text": "Unbound or missing export members"
+    },
+    {
+      "case": "07_changed_Merkle_object_with_fixture_reseal",
+      "passed": true,
+      "exit_code": 1,
+      "expected_failure_text": "Upstream proof object changed"
+    },
+    {
+      "case": "08_failed_timing_with_fixture_reseal",
+      "passed": true,
+      "exit_code": 1,
+      "expected_failure_text": "Route/CDC/resource gate failed"
+    },
+    {
+      "case": "09_restored_copy",
+      "passed": true,
+      "exit_code": 0,
+      "expected_failure_text": null
+    },
+    {
+      "case": "10_local_endpoint_and_data_configuration",
+      "passed": true,
+      "exit_code": 0,
+      "expected_failure_text": null
+    },
+    {
+      "case": "11_output_cannot_target_source",
+      "passed": true,
+      "exit_code": 1,
+      "expected_failure_text": "Data outputs must not overwrite packaged inputs"
+    },
+    {
+      "case": "12_local_config_cannot_change_algorithm",
+      "passed": true,
+      "exit_code": 1,
+      "expected_failure_text": "Unknown local runtime configuration fields"
+    }
+  ],
+  "all_passed": true,
+  "private_Git_database_required": false,
+  "hardware_contacted": false,
+  "original_release_modified": false,
+  "test_fixture_resealing_used_only_for_negative_gate_tests": true,
+  "executed_by": "TJ local preparation",
+  "date": "2026-11-03",
+  "environment": {
+    "Python": "3.11.4",
+    "numpy": "1.26.4",
+    "opencv_python_headless": "4.10.0.84",
+    "Pillow": "12.3.0"
+  },
+  "scope": "Existing full candidate in a new virtual environment; no board or Vivado operation"
+}

@@ -1,0 +1,92 @@
+{
+  "status": "STEP2_OFFLINE_REUSE_VERIFIED_NOT_INSTALLED",
+  "date": "2026-10-31",
+  "frozen_id": "f09eb5885e1d",
+  "source_specimens": 1,
+  "accepted_performance_groups": 4,
+  "accepted_performance_runs": 24,
+  "interrupted_batch_correctness_runs": 12,
+  "formal_arrays_full_review_scores_equal": true,
+  "groups": [
+    {
+      "group": "03_PL_cold_r1",
+      "step1_seconds": [
+        11.098615499999141,
+        11.220114399999147,
+        11.262988099999347
+      ],
+      "reuse_seconds": [
+        11.197366500000498,
+        10.982020499999635,
+        11.020850700000665
+      ],
+      "step1_median_seconds": 11.220114399999147,
+      "reuse_median_seconds": 11.020850700000665,
+      "host_phase_reduction_percent": 1.775950697958103,
+      "host_phase_step1_over_reuse": 1.0180806096936301
+    },
+    {
+      "group": "12_PL_warm_r3",
+      "step1_seconds": [
+        17.17917210000087,
+        17.071454300001278,
+        17.299133900000015
+      ],
+      "reuse_seconds": [
+        16.190200099999856,
+        16.383229000000938,
+        16.41289920000054
+      ],
+      "step1_median_seconds": 17.17917210000087,
+      "reuse_median_seconds": 16.383229000000938,
+      "host_phase_reduction_percent": 4.633186601581872,
+      "host_phase_step1_over_reuse": 1.04858279768902
+    },
+    {
+      "group": "04_PL_warm_r1",
+      "step1_seconds": [
+        13.508691299999555,
+        13.67673300000024,
+        13.91531219999888
+      ],
+      "reuse_seconds": [
+        12.923333999999159,
+        13.336383699999715,
+        13.323601799998869
+      ],
+      "step1_median_seconds": 13.67673300000024,
+      "reuse_median_seconds": 13.323601799998869,
+      "host_phase_reduction_percent": 2.5819850398583135,
+      "host_phase_step1_over_reuse": 1.0265041844767082
+    },
+    {
+      "group": "11_PL_cold_r3",
+      "step1_seconds": [
+        14.722496500000489,
+        14.204878200000167,
+        14.065020800000639
+      ],
+      "reuse_seconds": [
+        14.169191099999807,
+        13.750420200000008,
+        13.681046300000162
+      ],
+      "step1_median_seconds": 14.204878200000167,
+      "reuse_median_seconds": 13.750420200000008,
+      "host_phase_reduction_percent": 3.199309375283158,
+      "host_phase_step1_over_reuse": 1.0330504808864065
+    }
+  ],
+  "new_physical_CAP": 0,
+  "software_loopback_CAP": 18,
+  "hardware_contacted": false,
+  "original_entry_bit_SDK_and_frozen_sources_unchanged": true,
+  "system_speedup": null,
+  "FPGA_compute_speedup": null,
+  "cache_data_bytes_per_group": 12690958,
+  "derivative_array_bytes": 17915904,
+  "extra_handoff_file_create_write_read_checks_included": true,
+  "scope": "Same saved PL eight frames/R32. Existing capture-audit arrays to source-bound handoff and full frozen host export; excludes physical capture/PL/FETCH, original native-cache IPC and one-time imports.",
+  "excluded_batch": "paired_01: 518.964 second wall pause; entire batch performance-ineligible; preserved",
+  "next_step": "Merge derivative arrays into the existing native evidence handoff to avoid repeated source validation; integrate a backed-up independent candidate entry, then measure the complete task."
+}

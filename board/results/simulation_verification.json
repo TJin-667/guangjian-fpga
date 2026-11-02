@@ -1,0 +1,30 @@
+{
+  "status": "PACKAGED_RTL_SIMULATION_PASSED",
+  "reports": {
+    "h2": {
+      "status": "PASS",
+      "assertion_completion": "H2_SCRATCH_ALL_PASS 2",
+      "VCD_sha256": "8df759e7f3b12565c5775c9de9c8b7b891443b2829ad02cfd1202ed286277fb4",
+      "source_sha256": {
+        "rgb565_gray.v": "2adf822125555e7dda1eca7a13f79d60eb7c1951dcc90697f2241ac1727634bb",
+        "h2_background9.v": "f3630cc66621fd8505bffc47bb991ce4f4fc95c914a430c420857654620ae58b",
+        "h2_scratch_writer.v": "e440ae41deb8dc2481dc9120f6ef372ac532658a69b953df6f417450585c177d",
+        "tb_h2_scratch.sv": "a6100105f2931394f4571a8f60810815494c09278a435716d90dd2b419725328"
+      }
+    },
+    "maxabs": {
+      "status": "PASS",
+      "assertion_completion": "MAXABS_REPORT_PASS 8",
+      "VCD_sha256": "7d1429219d0a68512e65784ba51e864101f8cdc6f7ec5140df88c73697b2a912",
+      "source_sha256": {
+        "maxabs8_pixel.v": "2501a66f25a85b06d761299d634f9cba37f67ac07151c0d9dd5c695bca956482",
+        "tb_report_maxabs.sv": "2619ef591ee981afa888787ce142cbfb8e6fca4add653f7d0f986f38e5582adc"
+      }
+    }
+  },
+  "functional_RTL_only": true,
+  "physical_MIG": false,
+  "new_bit": false,
+  "board_commands": 0,
+  "production_RTL_modified": false
+}

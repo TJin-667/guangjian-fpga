@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "session_guard_tests": 4,
+  "gray_only_reference_without_RGB_claim": true,
+  "real_saved_formal10_differences": {
+    "original": 0,
+    "guide6_20": 0,
+    "without_sleeve": 0,
+    "candidate": 0,
+    "side_addition": 0,
+    "side_envelope": 0,
+    "isolated6": 0,
+    "isolated_low": 0,
+    "terminal_extension": 0,
+    "ordinary": 0
+  },
+  "real_review_equal": true,
+  "hidden_Tk_version": "v1.5",
+  "default_format": 50,
+  "candidate_format": 49,
+  "performance_caption": "本次处理 15.47秒；输入核验 0.38秒；检测+复检 9.89秒；VERIFIED_HASH_REUSE（非FPGA纯计算时间）",
+  "hardware_contacted": false,
+  "FPGA_speedup": null
+}

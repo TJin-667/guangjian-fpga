@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "complete_24_pages",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong_summary_units",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong_summary_duration",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong_group",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong_request",
+      "status": "PASS"
+    },
+    {
+      "name": "missing_stage",
+      "status": "PASS"
+    },
+    {
+      "name": "missing_frame",
+      "status": "PASS"
+    },
+    {
+      "name": "wrong_revision",
+      "status": "PASS"
+    },
+    {
+      "name": "bad_payload_CRC",
+      "status": "PASS"
+    }
+  ],
+  "physical_hardware": false,
+  "input_sha256": "29770cc5fc6b226c421139c3c8485e52b401c4c44c277da6a813049a0061d298"
+}

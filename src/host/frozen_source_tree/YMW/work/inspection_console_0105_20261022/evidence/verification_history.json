@@ -1,0 +1,20 @@
+{
+  "history": [
+    {
+      "run": "run01",
+      "status": "FAIL",
+      "tests": 19,
+      "failures": 2,
+      "errors": 0
+    },
+    {
+      "run": "run02",
+      "status": "FAIL",
+      "tests": 19,
+      "failures": 1,
+      "errors": 0
+    }
+  ],
+  "final": "run03: 22/22 PASS",
+  "earlier_failures_preserved_on_D": true
+}

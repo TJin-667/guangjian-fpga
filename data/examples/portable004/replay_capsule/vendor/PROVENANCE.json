@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "package": "b1_dual_exposure_integration",
+  "date": "2026-10-27",
+  "repository": "TJin-667/Selfree",
+  "source_commit": "9326c12386134aa821a8eede30b20709fa030a34",
+  "algorithm": "original09 frozen B1, ordered signed maximum valid raw residual, two exposure stages and four directions",
+  "detection_core_modified": false,
+  "packaging_only": true,
+  "copied_files": [
+    {
+      "path": "dual_exposure_b1/__init__.py",
+      "source_path": "XDL/dual_exposure_b1/__init__.py",
+      "git_blob_sha": "c32597c03eb3cfbd9c00d57218e2e14226090ff5",
+      "sha256": "d154b48706f21c5a79900bd7da83de7e7529937e4cac91ef7c36dc990b9205e8",
+      "bytes": 78,
+      "core": false
+    },
+    {
+      "path": "dual_exposure_b1/fusion.py",
+      "source_path": "XDL/dual_exposure_b1/fusion.py",
+      "git_blob_sha": "2d383215ce62370216124dd57803ae70f29a7b79",
+      "sha256": "7ac9b1c2809d20fbeb23e568528fc26879dd535882221c7c2d029430ca84b937",
+      "bytes": 3902,
+      "core": true
+    },
+    {
+      "path": "dual_exposure_b1/frozen_reference/fourlight_fusion/fusion.py",
+      "source_path": "XDL/dual_exposure_b1/frozen_reference/fourlight_fusion/fusion.py",
+      "git_blob_sha": "e880ff5a9cec343a4ef959a1e8c0650c2f16e2e8",
+      "sha256": "655b86263798eaaf986975aca68beb218f7d77da91bda94e2cba4dd79710803d",
+      "bytes": 4992,
+      "core": true
+    },
+    {
+      "path": "dual_exposure_b1/frozen_reference/software/ymw_integer_reference.py",
+      "source_path": "XDL/dual_exposure_b1/frozen_reference/software/ymw_integer_reference.py",
+      "git_blob_sha": "4a80d128756a63363b2ab9a762cc10f1186549d5",
+      "sha256": "caefc8519c355cc7670cf7fb95986f0cc4fd2885ffb618061dc9899ba84186de",
+      "bytes": 2652,
+      "core": true
+    },
+    {
+      "path": "dual_exposure_b1/frozen_reference/software/light_inspection/__init__.py",
+      "source_path": "XDL/dual_exposure_b1/frozen_reference/software/light_inspection/__init__.py",
+      "git_blob_sha": "bf2e491e1bd980c126ffdb69cd24c03981d0080d",
+      "sha256": "7cd2e26b25c7748c87aeeac27749a0032762dec277e31d7b335baec9df3d609f",
+      "bytes": 105,
+      "core": true
+    },
+    {
+      "path": "dual_exposure_b1/frozen_reference/software/light_inspection/core.py",
+      "source_path": "XDL/dual_exposure_b1/frozen_reference/software/light_inspection/core.py",
+      "git_blob_sha": "cb2579db44dd874b033e82caa7c23a0c55881ee2",
+      "sha256": "47585c9a081351f8a44dbca40b803907a9975291dfb615e713d4c969e9cf92d0",
+      "bytes": 4607,
+      "core": true
+    },
+    {
+      "path": "dual_exposure_b1/frozen_reference/software/light_inspection/image_io.py",
+      "source_path": "XDL/dual_exposure_b1/frozen_reference/software/light_inspection/image_io.py",
+      "git_blob_sha": "bd235de6309b113fa196c9b4c2aaaf767ad900f7",
+      "sha256": "74d2bda791ac2d9a45a45341c5cf1f221fd1b3336f2fdb98d79a02b1fff834e5",
+      "bytes": 1580,
+      "core": true
+    },
+    {
+      "path": "dual_exposure_b1/frozen_reference/software/light_inspection/real_baseline.py",
+      "source_path": "XDL/dual_exposure_b1/frozen_reference/software/light_inspection/real_baseline.py",
+      "git_blob_sha": "52033c27c8b5b290b19d76c525943097285c5ec0",
+      "sha256": "3d796a28d155b7a9d74562e24ff77c712bd17fb23377bf4d5def558311919c1a",
+      "bytes": 28573,
+      "core": true
+    },
+    {
+      "path": "dual_exposure_b1/frozen_reference_manifest.json",
+      "source_path": "XDL/dual_exposure_b1/frozen_reference_manifest.json",
+      "git_blob_sha": "f302dfb18b39f0810fa88b67f9ce28973837454b",
+      "sha256": "0000ac9bf2ea55f3f4bcb9ad8d08fe1f0aff2f364a23815d070b35671384cd47",
+      "bytes": 1501,
+      "core": false
+    },
+    {
+      "path": "tests/test_fusion.py",
+      "source_path": "XDL/dual_exposure_b1/tests/test_fusion.py",
+      "git_blob_sha": "48a7a191da9a578e76309dbe89c84fed55f309cd",
+      "sha256": "b8223910741c4d7b23e0e1744b3d73a003c73deaf3f6c87a04fd090148e3b5ed",
+      "bytes": 4738,
+      "core": false
+    }
+  ],
+  "runtime_dependencies": [
+    "Python >= 3.10",
+    "numpy >= 1.24",
+    "cv2 (opencv-python >= 4.5.5)"
+  ],
+  "test_environment": {
+    "python": "3.11.5",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0"
+  },
+  "excluded": [
+    "dataset loading and capture controllers",
+    "offline report/evaluation pipeline",
+    "model training and weights",
+    "raw images and large result arrays"
+  ]
+}

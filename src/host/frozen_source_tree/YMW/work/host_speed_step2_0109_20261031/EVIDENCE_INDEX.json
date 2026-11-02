@@ -1,0 +1,46 @@
+{
+  "source_suite": "E:\\GuangjianData\\SystemBenchmark0109\\20261031_090644_5defee3a",
+  "source_suite_manifest_sha256": "59befe1fb2508deb2e835b61ac463f6bd8645a6c58235d7a4d6da48f5ee93be8",
+  "folders": {
+    "selftest_01": {
+      "path": "E:\\GuangjianData\\reviews\\host_speed_step2_0109_20261031\\selftest_01\\OUTPUT_MANIFEST.json",
+      "sha256": "dccf618dd3c5dce67f90fcbf3f2ad40fbc7c3c8bb76aba7f4f544e66dcd27049",
+      "members": 310
+    },
+    "paired_01": {
+      "path": "E:\\GuangjianData\\reviews\\host_speed_step2_0109_20261031\\paired_01\\OUTPUT_MANIFEST.json",
+      "sha256": "83c9818c22f1881f272b9d75c8386df99d670f90a5c72eb852e32d5d3a288443",
+      "members": 299
+    },
+    "paired_02": {
+      "path": "E:\\GuangjianData\\reviews\\host_speed_step2_0109_20261031\\paired_02\\OUTPUT_MANIFEST.json",
+      "sha256": "ea2e175d1ba0b467c02ddff6389e67a6a90d078d2475f180a3b6329da97269fa",
+      "members": 521
+    },
+    "export_audit_02": {
+      "path": "E:\\GuangjianData\\reviews\\host_speed_step2_0109_20261031\\export_audit_02\\OUTPUT_MANIFEST.json",
+      "sha256": "a0a0cc0e5d5b07e32c008f999677450070ae49882d0b0e45ac9b37ff530ce2b6",
+      "members": 1
+    },
+    "call_audit_02": {
+      "path": "E:\\GuangjianData\\reviews\\host_speed_step2_0109_20261031\\call_audit_02\\OUTPUT_MANIFEST.json",
+      "sha256": "39ea97ff91919e863a4f7045db2fd569106d3536c7406a87521af0be38e42b1f",
+      "members": 1
+    }
+  },
+  "published_receipts": {
+    "selftest_01/SELFTEST.json": "SELFTEST.json",
+    "paired_02/RESULT.json": "PAIRED02_RESULT.json",
+    "paired_02/EXECUTED_SOURCES.json": "PAIRED02_EXECUTED_SOURCES.json",
+    "paired_02/ENVIRONMENT.json": "ENVIRONMENT.json",
+    "export_audit_02/AUDIT.json": "EXPORT_AUDIT.json",
+    "call_audit_02/CALL_AUDIT.json": "CALL_AUDIT.json",
+    "DIAGNOSTICS.json": "DIAGNOSTICS.json",
+    "paired_01/RESULT.json": "PAIRED01_RESULT_NOT_FOR_PERFORMANCE.json",
+    "paired_01/PERFORMANCE_QUALIFICATION.json": "PAIRED01_PERFORMANCE_QUALIFICATION.json",
+    "paired_01/EXECUTED_SOURCES.json": "PAIRED01_EXECUTED_SOURCES.json",
+    "paired_01/execution_sources/run_study.py": "PAIRED01_run_study.py.txt"
+  },
+  "raw_images_large_arrays_and_full_outputs_retained_on_E": true,
+  "bit_sha256": "84530057679198ec1b7bd700c0bb9a97d803d605ac82db24b58f01161d4ac30e"
+}

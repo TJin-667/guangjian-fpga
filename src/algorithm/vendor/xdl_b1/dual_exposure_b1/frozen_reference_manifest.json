@@ -1,0 +1,38 @@
+[
+  {
+    "original_path": "fourlight_fusion/fusion.py",
+    "frozen_path": "frozen_reference/fourlight_fusion/fusion.py",
+    "sha256": "655b86263798eaaf986975aca68beb218f7d77da91bda94e2cba4dd79710803d",
+    "bytes": 4992
+  },
+  {
+    "original_path": "software/ymw_integer_reference.py",
+    "frozen_path": "frozen_reference/software/ymw_integer_reference.py",
+    "sha256": "caefc8519c355cc7670cf7fb95986f0cc4fd2885ffb618061dc9899ba84186de",
+    "bytes": 2652
+  },
+  {
+    "original_path": "software/light_inspection/__init__.py",
+    "frozen_path": "frozen_reference/software/light_inspection/__init__.py",
+    "sha256": "7cd2e26b25c7748c87aeeac27749a0032762dec277e31d7b335baec9df3d609f",
+    "bytes": 105
+  },
+  {
+    "original_path": "software/light_inspection/core.py",
+    "frozen_path": "frozen_reference/software/light_inspection/core.py",
+    "sha256": "47585c9a081351f8a44dbca40b803907a9975291dfb615e713d4c969e9cf92d0",
+    "bytes": 4607
+  },
+  {
+    "original_path": "software/light_inspection/image_io.py",
+    "frozen_path": "frozen_reference/software/light_inspection/image_io.py",
+    "sha256": "74d2bda791ac2d9a45a45341c5cf1f221fd1b3336f2fdb98d79a02b1fff834e5",
+    "bytes": 1580
+  },
+  {
+    "original_path": "software/light_inspection/real_baseline.py",
+    "frozen_path": "frozen_reference/software/light_inspection/real_baseline.py",
+    "sha256": "3d796a28d155b7a9d74562e24ff77c712bd17fb23377bf4d5def558311919c1a",
+    "bytes": 28573
+  }
+]

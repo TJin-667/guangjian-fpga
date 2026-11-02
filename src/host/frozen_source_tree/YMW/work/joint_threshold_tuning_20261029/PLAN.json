@@ -1,0 +1,29 @@
+{
+  "schema": "joint-threshold-and-admission-study-v1",
+  "development_groups": ["sample003_A_v1_20261027_175425_a05009", "sample004_A_v1_20261028_220937_87f02b", "sample005_A_v1_20261028_015004_fa1bef"],
+  "same_board_hold_checks": ["sample004_A_v1_20261026_182329_f92570", "sample005_A_v1_20261026_164841_8ca186"],
+  "reference": {"weak": 6, "strong": 20, "previous_config": "c283c3db0e65", "original_b1": [8, 20]},
+  "grid": {
+    "weak": [5.0, 5.2, 5.4, 5.6, 5.8, 6.0],
+    "strong": [14.0, 14.2, 14.4, 14.6, 14.8, 15.0, 15.2, 15.4, 15.6, 15.8, 16.0],
+    "protection_policy": ["same_weak20", "fixed6_20_isolated_supplements"],
+    "min_area": [3, 6, 9],
+    "geometry": [[6, 0.5], [8, 0.6], [10, 0.65]],
+    "width": [3, 5],
+    "raw": [[0.75, 2.5], [0.85, 3.0], [1.0, 3.5]]
+  },
+  "fixed": {"profile_length": 13, "profile_flank": 2.5, "orientations": 8, "chain": "off", "all_routes_require_actual_seed_inside_piece": true, "threshold_step": 0.2, "weak_comparison": "abs(R_n)>floor(81*weak); do not round weak to integer", "actual_raw_samples_required_at_13_positions": [10, 12, 13]},
+  "selection_before_hold_checks": {
+    "primary_safety_policy": "fixed6_20_isolated_supplements",
+    "hard_constraints": ["preserve original8/20 and reference6/20", "every admitted supplement has a strict actual strong seed", "no added pixel eight-adjacent to reference6/20", "no gap painting"],
+    "minimum_known004_path_positions": 128,
+    "minimum_old_conservative_line_anchor_retention_each_board": 0.6,
+    "maximum_board_balanced_compact_components_per_mp": 4.1,
+    "maximum_board_balanced_added_area_per_mp": 607.24,
+    "budget_reason": "Allow about25% more compact-fragment proxy count and at most2x added area than the previous chosen version while seeking more known weak-line support. These are engineering preferences, not false-positive limits.",
+    "rank": ["maximum known004 approximate-path support", "minimum board-balanced compact component count per megapixel", "minimum board-balanced compact area per megapixel", "minimum board-balanced total added area per megapixel", "stable config ID"],
+    "policy_comparison": "same_weak20 is a diagnostic control: it demonstrates expansion protected before admission when weak is lowered, and cannot be silently described as expansion-free.",
+    "fallback": "The previous weak6/strong14 configuration is included. If no candidate qualifies, keep it and report no newly qualifying choice."
+  },
+  "limits": ["Three development boards only", "004 hand path is used for developmental choice, not blind evaluation or recall", "Old poses and other exposures are same-board checks", "No confirmed background truth; compact components and branch counts are risk proxies", "007-010 excluded", "No real board access or new capture", "No production switch"]
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "0109-independent-speed-host-v1",
+  "program_sha256": {
+    "bootstrap.py": "4d5b873241fbc3bb9d9ef1d407b61e615cd4c1f6b8aa50d235abff3c6618f1bc",
+    "combined_evidence.py": "7406db6c787c377e1f24058ccac894f4c74ce74b67f289e70f1704c1b2b1a1c7",
+    "derive_candidate.py": "49cfd282b639d25406af46e40c7488a7f6f1896398cf7c49843a20e3c682b15b",
+    "hybrid_resume.py": "c1b9570225f4f9dfadddd1730273c5cf387fcba6238e20a898caa502014aebda",
+    "install_entry.py": "052efa6fe6f543c9d6f7a48be589c9d75f8163ec3cb193064b26d75cbb4a6a36",
+    "launch.py": "dd3338a5c0ee14437c5bfc56b8fb0592f3024a305d57d581d2f6b14d3c484dd4",
+    "reference_worker.py": "9395cf2f58ea2eed28e747af04d2774c629ea30987d70de55fd3627b962972b4",
+    "replay_compare.py": "88cde4525151f62ab30799567bd6ef04b5a0c9a7c7a886e0e965928be78a0cd5",
+    "RUN_SPEED_0109.cmd": "401c15bbe105b6dde7ec13744c5796c0e245aab0b07b01b72109701ea5492e58",
+    "seal_candidate.py": "d000826d6adbe8804f8ef2850dfa3a40791644b41e6e97d3e60343ebcc07816a",
+    "speed_app.py": "3440c77a2fe788fb3c2fff968d156159b60091f02d55538fa8edfa21a30aee36",
+    "speed_capture.py": "ea579167d3169a76e4ef248a27495ca3d9050a60080c96a822bb102f28ff05ed",
+    "speed_pipeline.py": "5960dadb45113280a6870e2eaab1e6abbba4143521beaf7881eb5c776e9400f6",
+    "speed_ui_base.py": "6d314b48ec794dfafebb4e88d97ef972fe553fd73eb013633646080afb87fad2",
+    "speed_worker.py": "6116682fb751d7ea1018fb07d19f3739c8e67119dda499135437ffc0e1641206",
+    "test_candidate.py": "1519c8b8d04a0403f292d746d5987572626ee04540b47c9938277308d31beff8"
+  },
+  "dependency_sha256": {
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\host_speed_step1_0109_20261031\\cached_residual.py": "bc8811f2788d061610ad6e079137ddb529de816a203690e7fc8f2ad24531b171",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\host_speed_step1_0109_20261031\\profile_saved.py": "35b601c172c7b2b9d239ee8c10b212532c6debc359995e59bd777f500755774e",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\host_speed_step1_0109_20261031\\run_study.py": "e07dfe594d21b9fb20dccb518fd85d8056df3d4210628fb0677d29ff6dcd32a0",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\host_speed_step1_0109_20261031\\test_residual.py": "fc668bb7c2d909ef11dbc7e8b1eec47ad14ac62efdf17870580fbbd8c442b92b",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\host_speed_step1_0109_20261031\\verification\\audit_exports.py": "ce01dde228b83a2cf7343e881c706b633761698651f5d87b5c3df719f8f899dd",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\host_speed_step2_0109_20261031\\audit_exports.py": "0198f9b438831f4ce10c2c84a758495042744e6e08223c6f1b38872ae1a7957d",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\host_speed_step2_0109_20261031\\intermediates.py": "c1253c9887ed0fab5eeb7b4e2a1d87ed3ccbfd727391b1a959b93f1a4799859c",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\host_speed_step2_0109_20261031\\reuse_context.py": "cf0e7a4225bfb1ea6bbb768e047f64568c3787cc09d97c72840d5e76fbfd5971",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\host_speed_step2_0109_20261031\\run_study.py": "54cb9761d698c9b1fda9db57f2691f44217453e59eb8271c66b5798ee8191580",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\host_speed_step2_0109_20261031\\test_handoff.py": "d82dc8e57b83ab8ee5c958385d073584bbc4323f14b5c405f58ef8d21eb57f13",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\host_speed_step2_0109_20261031\\verification\\check_reuse_calls.py": "8280662a46a6246cf1fe0b4bb5f6c3ad1676db6d844f8313116877352f46b867"
+  },
+  "qualified_source_commit": "0711fa1793845c225c8968300864c777d7e1659f",
+  "frozen_id": "f09eb5885e1d",
+  "firmware": 265
+}

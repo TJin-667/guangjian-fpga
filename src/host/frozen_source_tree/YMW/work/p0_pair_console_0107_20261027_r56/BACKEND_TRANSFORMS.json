@@ -1,0 +1,102 @@
+{
+  "source_sha256": "d7e05e0e5edf33f04be6f0d58386e0f7dbc5537420293a524fba6fe5571408d1",
+  "generated_sha256": "3d9e4c6e167d396327d2daa6a64eb1ad1ccb27c0e2ed8d1ecd01d4ee7dafef72",
+  "blocks": [
+    {
+      "start": 16,
+      "end": 16,
+      "old": "",
+      "new": "from capture_settings import CaptureSettings,for_runtime\nimport configured_eight\n"
+    },
+    {
+      "start": 17,
+      "end": 18,
+      "old": "original, host, sdk, bridge = shared.original, shared.original.host, shared.sdk, shared.bridge\n",
+      "new": "original, host, sdk = shared.original, shared.original.host, shared.sdk\nimport configured_bridge as bridge\n"
+    },
+    {
+      "start": 93,
+      "end": 94,
+      "old": "    def __init__(self, specimen, variant, pose):\n",
+      "new": "    def __init__(self, specimen, variant, pose, settings=None):\n"
+    },
+    {
+      "start": 95,
+      "end": 96,
+      "old": "        need(specimen in ('sample005', 'sample004') and variant == 'A_v1', 'P0 only supports the requested completed A_v1 surfaces')\n",
+      "new": "        self.capture_settings=settings or CaptureSettings(specimen,variant)\n        need(self.capture_settings.specimen==specimen and self.capture_settings.variant==variant,'Frozen identity mismatch')\n"
+    },
+    {
+      "start": 110,
+      "end": 110,
+      "old": "",
+      "new": "    settings=for_runtime(runtime)\n"
+    },
+    {
+      "start": 129,
+      "end": 129,
+      "old": "",
+      "new": "    source_files['CAPTURE_SETTINGS.json']=json.dumps(settings.document(),sort_keys=True,ensure_ascii=False).encode('utf-8')\n"
+    },
+    {
+      "start": 132,
+      "end": 133,
+      "old": "    plan = dict(schema='p0-paired-0107-source-plan-v1', pixel_format=1, low=400, high=800,\n",
+      "new": "    plan = dict(schema='p0-paired-0107-source-plan-v1', pixel_format=1, low=settings.low, high=settings.high,\n        capture_settings=settings.document(),preview_lines=settings.preview_lines,\n"
+    },
+    {
+      "start": 154,
+      "end": 155,
+      "old": "                result = executor.acquire(light_channel=1, brightness=128, exposure_lines=600, gain16=16,\n",
+      "new": "                result = executor.acquire(light_channel=1, brightness=128, exposure_lines=plan['preview_lines'], gain16=16,\n"
+    },
+    {
+      "start": 199,
+      "end": 201,
+      "old": "                dataset = host.fixed_eight.validate_eight(validated, sample_id=runtime.specimen, pose_id=runtime.pose,\n                    low=400, high=800, roi=list(context.roi), board=np.frombuffer(context.mask,np.uint8).reshape(context.roi[3],context.roi[2]).astype(bool))\n",
+      "new": "                dataset = configured_eight.validate_eight(validated, sample_id=runtime.specimen, pose_id=runtime.pose,\n                    low=plan['low'], high=plan['high'], roi=list(context.roi), board=np.frombuffer(context.mask,np.uint8).reshape(context.roi[3],context.roi[2]).astype(bool))\n"
+    },
+    {
+      "start": 210,
+      "end": 211,
+      "old": "        pose_id=runtime.pose, specimen_variant=runtime.variant, low=400, high=800, saved_observations=len(entries),\n",
+      "new": "        pose_id=runtime.pose, specimen_variant=runtime.variant, low=plan['low'], high=plan['high'],\n        capture_settings=plan['capture_settings'],saved_observations=len(entries),\n"
+    },
+    {
+      "start": 240,
+      "end": 241,
+      "old": "        exposure_pair_status='DEVELOPMENT_CANDIDATE_400_800_NOT_OPTIMAL',\n",
+      "new": "        exposure_pair_status='DEVELOPMENT_CANDIDATE_NOT_OPTIMAL',\n"
+    },
+    {
+      "start": 242,
+      "end": 243,
+      "old": "            specimen_variant=runtime.variant, board_face='A', pose_id=runtime.pose, capture_round=runtime.pose,\n",
+      "new": "            specimen_variant=runtime.variant, board_face=runtime.variant.split('_')[0], pose_id=runtime.pose, capture_round=runtime.pose,\n"
+    },
+    {
+      "start": 244,
+      "end": 244,
+      "old": "",
+      "new": "    settings_path=root/'acquisition/CAPTURE_SETTINGS.json'\n    if settings_path.exists():document['capture_settings']=read(settings_path)\n"
+    },
+    {
+      "start": 254,
+      "end": 255,
+      "old": "        phase='preview'; notify(runtime,'phase',phase=phase); cancelled(runtime); say('One600line positioning preview; not a training/pair frame. Progress every5seconds.')\n",
+      "new": "        phase='preview'; notify(runtime,'phase',phase=phase); cancelled(runtime)\n        say(f'One{for_runtime(runtime).preview_lines}line positioning preview; not a training/pair frame. Progress every5seconds.')\n"
+    },
+    {
+      "start": 289,
+      "end": 290,
+      "old": "        no_key_reset_required=True,no_bit_programmed=True,exposure_optimum_verified=False))\n",
+      "new": "        no_key_reset_required=True,no_bit_programmed=True,exposure_optimum_verified=False,\n        capture_settings=for_runtime(runtime).document()))\n"
+    },
+    {
+      "start": 294,
+      "end": 295,
+      "old": "    parser.add_argument('--specimen',choices=['sample005','sample004'],required=True)\n",
+      "new": "    parser.add_argument('--specimen',required=True)\n"
+    }
+  ]
+}

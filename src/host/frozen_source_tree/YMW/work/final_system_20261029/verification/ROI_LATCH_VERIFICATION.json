@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "cases": 2,
+  "compiled_sources_sha256": {
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\fusion_board_0108_20261028\\derived\\lght_core_camera_identity.v": "d8b90ec293033d1acd29f1b3fa3a9201161a9e00194a5ef3eb2c065c106df853",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\auto_exposure_0105_20261015\\dependencies\\ymw\\src\\roi_config_ctrl.v": "489c9b8d92cd2100284eca67101f6af8ae9b6208244d78734ca3b454a882be66",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\acceptance_0107_20261026\\transport_layout.v": "1e9d63160fdf47f36be5169188d781ce303388ef10a4418e155697f040a83dd5",
+    "C:\\bx72_ymw_0105_20261015\\repo\\YMW\\work\\final_system_20261029\\tb_roi_latch_repro.sv": "9d4dd3a6ce80abdfa81e78cdeb4fcedeb2d6d10f8bc59877ee30109d6f3d16bb"
+  },
+  "scope": "actual camera core ROI latch only; no DDR/physical camera model",
+  "hardware_contacted": false,
+  "bit_changed": false
+}
