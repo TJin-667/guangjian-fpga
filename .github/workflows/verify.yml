@@ -21,4 +21,4 @@ jobs:
       - name: Verify public snapshot
         run: python -B scripts/verify_public_release.py --for-publication
       - name: Replay frozen numerical case without hardware
-        run: python -B scripts/replay_example.py --out _work/ci_replay
+        run: python -B scripts/diagnose_replay.py --out _work/ci_replay
