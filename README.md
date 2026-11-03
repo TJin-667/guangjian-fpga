@@ -1,4 +1,6 @@
-# 光鉴 多光照融合表面缺陷检测台
+# 光鉴—多光照融合表面缺陷检测台
+
+2026 年 FPGA 创新设计赛道 AMD 自主选题初赛项目
 
 固定版本：[v1.0.0](https://github.com/TJin-667/guangjian-fpga/releases/tag/v1.0.0) · [提交要求对照](docs/competition_requirements.md) · [外部依赖](docs/external_dependencies.md)
 
