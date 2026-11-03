@@ -22,6 +22,6 @@
 
 ## 当前公开状态
 
-完整技术候选已完成集成与离线检查。受限或未明确获得公开再分发权的 230 项原件已外置，不在公开 Git 或公开 RAR 内；详见[外部依赖清单与恢复方法](docs/external_dependencies.md)。其余团队有权授权的自研部分采用 MIT，Easics 等已明确允许分发的参考保留原条款。公开快照与恢复后的完整本地工程分别记录验证范围。
+完整技术候选已完成集成与离线检查。受限或未明确获得公开再分发权的 232 项原件已外置，不在公开 Git 或公开 RAR 内；详见[外部依赖清单与恢复方法](docs/external_dependencies.md)。其余团队有权授权的自研部分采用 MIT，Easics 等已明确允许分发的参考保留原条款。公开快照与恢复后的完整本地工程分别记录验证范围。
 
 许可依据：[AMD Licensing FAQ](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/licensing-faq.html)；本项目实际 2018.3 EULA 和原文件头部作为内部核对来源保留。文档说明不能替权利人授予额外授权。

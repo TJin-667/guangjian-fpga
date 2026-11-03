@@ -237,3 +237,7 @@ configs/runtime.local.json
 /src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/vendor/ddr3_ctrl_2port.v
 /src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/vendor/fifo_axi4_adapter.v
 /src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/vendor/fifo_to_axi4.v
+
+# Same-content MIG aliases found by independent review
+/src/fpga/implemented/ymw/mig_b.prj
+/src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/mig_b.prj

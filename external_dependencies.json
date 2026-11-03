@@ -27,6 +27,42 @@
       "redistributed": false
     },
     {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0.dcp",
+      "bytes": 3797566,
+      "sha256": "573eb138ff9bc1ec68d820621e61ec51eb6c8b0637cb3d6f6745e0d56bcacaa1",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0.veo",
+      "bytes": 9546,
+      "sha256": "5d1f9e92146c8301f52e36e71f5f2c43ede4ac65a52b1f258f2de1991347dc43",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0.xci",
+      "bytes": 349584,
+      "sha256": "734d3452f4ea773a44624e3d4044ba3ff5bf6a8f45ea35b1fa5cb965aae2d6e8",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0.xml",
+      "bytes": 6730923,
+      "sha256": "6409ac93d9b2f18e634860b20b0cadfb46596248e25efd7af4f4e447816f439f",
+      "owner": "AMD/Xilinx",
+      "reason": "Tool-generated component; original license applies, not team MIT",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
       "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0/datasheet.txt",
       "bytes": 2954,
       "sha256": "a602c69b0cabd3c1ac0447f2f95e7446e54a05a46761dde2bf46729e1d105ee8",
@@ -1161,42 +1197,6 @@
       "redistributed": false
     },
     {
-      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0.dcp",
-      "bytes": 3797566,
-      "sha256": "573eb138ff9bc1ec68d820621e61ec51eb6c8b0637cb3d6f6745e0d56bcacaa1",
-      "owner": "AMD/Xilinx",
-      "reason": "Tool-generated component; original license applies, not team MIT",
-      "role": "Licensed local full-host/FPGA dependency",
-      "redistributed": false
-    },
-    {
-      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0.veo",
-      "bytes": 9546,
-      "sha256": "5d1f9e92146c8301f52e36e71f5f2c43ede4ac65a52b1f258f2de1991347dc43",
-      "owner": "AMD/Xilinx",
-      "reason": "Tool-generated component; original license applies, not team MIT",
-      "role": "Licensed local full-host/FPGA dependency",
-      "redistributed": false
-    },
-    {
-      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0.xci",
-      "bytes": 349584,
-      "sha256": "734d3452f4ea773a44624e3d4044ba3ff5bf6a8f45ea35b1fa5cb965aae2d6e8",
-      "owner": "AMD/Xilinx",
-      "reason": "Tool-generated component; original license applies, not team MIT",
-      "role": "Licensed local full-host/FPGA dependency",
-      "redistributed": false
-    },
-    {
-      "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0.xml",
-      "bytes": 6730923,
-      "sha256": "6409ac93d9b2f18e634860b20b0cadfb46596248e25efd7af4f4e447816f439f",
-      "owner": "AMD/Xilinx",
-      "reason": "Tool-generated component; original license applies, not team MIT",
-      "role": "Licensed local full-host/FPGA dependency",
-      "redistributed": false
-    },
-    {
       "path": "src/fpga/implemented/prebuilt_ip/ip2018/mig_7series_0/mig_7series_0_sim_netlist.v",
       "bytes": 8296938,
       "sha256": "531fcf11f74fb51c14521965111fbed73f7d279858abec56607a8e00bc760030",
@@ -1881,11 +1881,11 @@
       "redistributed": false
     },
     {
-      "path": "src/fpga/implemented/ymw/src/gmii_to_rgmii.v",
-      "bytes": 2980,
-      "sha256": "9d57394703bfbcfc1de6aefc01d573a0a562abe58f712a46f19fbd6f693dadd7",
-      "owner": "CoreCourse",
-      "reason": "Original board reference attribution; public redistribution grant not established",
+      "path": "src/fpga/implemented/ymw/mig_b.prj",
+      "bytes": 11262,
+      "sha256": "dc9c15d3798d805251ac6509a7dabd2edee14b2e84a050e76064c609606b5954",
+      "owner": "AMD/Xilinx",
+      "reason": "Same-byte MIG configuration alias; externalized consistently with the existing project policy. This is not a new legal determination.",
       "role": "Licensed local full-host/FPGA dependency",
       "redistributed": false
     },
@@ -1895,6 +1895,15 @@
       "sha256": "9521ce6612e1be75e0ef781220d6ba7b76a9318c2f18529e942b60a4b24f9f59",
       "owner": "CrazyBingo",
       "reason": "Explicit proprietary/confidential header; no separate redistribution authorization",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/fpga/implemented/ymw/src/gmii_to_rgmii.v",
+      "bytes": 2980,
+      "sha256": "9d57394703bfbcfc1de6aefc01d573a0a562abe58f712a46f19fbd6f693dadd7",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
       "role": "Licensed local full-host/FPGA dependency",
       "redistributed": false
     },
@@ -1998,11 +2007,11 @@
       "redistributed": false
     },
     {
-      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/gmii_to_rgmii.v",
-      "bytes": 2980,
-      "sha256": "9d57394703bfbcfc1de6aefc01d573a0a562abe58f712a46f19fbd6f693dadd7",
-      "owner": "CoreCourse",
-      "reason": "Original board reference attribution; public redistribution grant not established",
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/mig_b.prj",
+      "bytes": 11262,
+      "sha256": "dc9c15d3798d805251ac6509a7dabd2edee14b2e84a050e76064c609606b5954",
+      "owner": "AMD/Xilinx",
+      "reason": "Same-byte MIG configuration alias; externalized consistently with the existing project policy. This is not a new legal determination.",
       "role": "Licensed local full-host/FPGA dependency",
       "redistributed": false
     },
@@ -2012,6 +2021,15 @@
       "sha256": "9521ce6612e1be75e0ef781220d6ba7b76a9318c2f18529e942b60a4b24f9f59",
       "owner": "CrazyBingo",
       "reason": "Explicit proprietary/confidential header; no separate redistribution authorization",
+      "role": "Licensed local full-host/FPGA dependency",
+      "redistributed": false
+    },
+    {
+      "path": "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/src/gmii_to_rgmii.v",
+      "bytes": 2980,
+      "sha256": "9d57394703bfbcfc1de6aefc01d573a0a562abe58f712a46f19fbd6f693dadd7",
+      "owner": "CoreCourse",
+      "reason": "Original board reference attribution; public redistribution grant not established",
       "role": "Licensed local full-host/FPGA dependency",
       "redistributed": false
     },
@@ -2078,5 +2096,13 @@
       "role": "Licensed local full-host/FPGA dependency",
       "redistributed": false
     }
-  ]
+  ],
+  "review_correction": {
+    "date": "2026-11-03",
+    "added_alias_paths": [
+      "src/fpga/implemented/ymw/mig_b.prj",
+      "src/host/frozen_source_tree/YMW/work/auto_exposure_0105_20261015/dependencies/ymw/mig_b.prj"
+    ],
+    "policy": "Content fingerprints at every path, not path names alone"
+  }
 }

@@ -2,7 +2,7 @@
 
 2026 年 FPGA 创新设计赛道 AMD 自主选题初赛项目
 
-固定版本：[v1.0.0](https://github.com/TJin-667/guangjian-fpga/releases/tag/v1.0.0) · [提交要求对照](docs/competition_requirements.md) · [外部依赖](docs/external_dependencies.md)
+固定版本：[v1.0.1](https://github.com/TJin-667/guangjian-fpga/releases/tag/v1.0.1) · [提交要求对照](docs/competition_requirements.md) · [外部依赖](docs/external_dependencies.md) · [审查修订与提交状态](docs/submission_status.md)
 
 光鉴使用四方向照明与双曝光观察金属试片表面，通过 FPGA 采集、局部整数计算及跨帧融合，并由 PC 完成弱段增强、局部复检和结果归档。项目面向表面划痕的辅助观察，保留原片和证据供人工判断。
 
@@ -12,7 +12,7 @@
 
 ## 公开范围与外部依赖
 
-本库公开团队自研源码、配置、完整离线案例、报告及展示材料。230 项受限或未明确获准再分发的第三方文件不随 Git 或公开 RAR 发布，逐项列于 `external_dependencies.json`；包括工具生成 IP、部分板级参考、相机配置及含相关代码的既有位流。原始哈希和来源保留，未删除完整性验证。
+本库公开团队自研源码、配置、完整离线案例、报告及展示材料。232 项受限或未明确获准再分发的第三方文件不随 Git 或公开 RAR 发布，逐项列于 `external_dependencies.json`；包括工具生成 IP、部分板级参考、相机配置及含相关代码的既有位流。原始哈希和来源保留，未删除完整性验证。
 
 **离线胶囊回放可以直接运行。完整主机 API、GUI 和 FPGA 构建须先合法取得并恢复外部依赖。** 本公开快照不宣称仅克隆即可完成整套硬件重建。[依赖清单与恢复方法](docs/external_dependencies.md)
 

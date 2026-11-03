@@ -1,0 +1,17 @@
+{
+  "schema": "guangjian-restoration-v1_0_1",
+  "date": "2026-11-03",
+  "source": "Previously reviewed complete local RAR, not publicly distributed",
+  "source_archive_sha256": "04be69bb05f1029eba47e603939fe4de704b4c3f21dbf4aa605fc1b5ef94b68f",
+  "expected": 232,
+  "available": 232,
+  "all_original_hashes_equal": true,
+  "restored": 232,
+  "GUI_offline_gate": "SPEED_UI_OFFLINE_READY",
+  "FPGA_input_gate": "FPGA_BUILD_INPUTS_READY",
+  "FPGA_sources": 50,
+  "host_API_replay": "PACKAGED_HOST_REPLAY_PASSED",
+  "OPENBLAS_CORETYPE": "Prescott",
+  "new_board_operation": false,
+  "new_Vivado_build": false
+}

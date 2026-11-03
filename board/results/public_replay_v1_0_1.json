@@ -1,0 +1,42 @@
+{
+  "status": "PASS_RELOCATABLE_FROZEN_REPLAY",
+  "group_id": "sample004_g1793337600415116700",
+  "parameter_freeze_id": "f09eb5885e1d",
+  "formal_frames": 8,
+  "same_input_fusion_differences": {
+    "residual_n": 0,
+    "source_frame": 0,
+    "source_direction": 0,
+    "source_exposure": 0,
+    "polarity": 0,
+    "unknown": 0,
+    "weak": 0,
+    "strong": 0,
+    "connected_mask": 0,
+    "mask": 0
+  },
+  "selected_gray_differences": 0,
+  "formal10_differences": {
+    "original": 0,
+    "guide6_20": 0,
+    "without_sleeve": 0,
+    "candidate": 0,
+    "side_addition": 0,
+    "side_envelope": 0,
+    "isolated6": 0,
+    "isolated_low": 0,
+    "terminal_extension": 0,
+    "ordinary": 0
+  },
+  "full_review_evidence_equal": true,
+  "full_score_equal": true,
+  "external_project_paths_read": false,
+  "network_and_hardware_access": false,
+  "physical_input": true,
+  "new_physical_captures": 0,
+  "scope": "Mathematical replay of existing real-board bytes; not a new physical run or original raw-wire protocol re-certification",
+  "original_numerical_sources_changed": false,
+  "executed_by": "TJ v1.0.1 public-scope correction",
+  "date": "2026-11-03",
+  "external_dependencies_restored": false
+}

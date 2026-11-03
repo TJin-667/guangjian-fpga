@@ -1,11 +1,11 @@
 {
   "schema": "guangjian-public-release-v1",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "date": "2026-11-03",
   "project": "光鉴—多光照融合表面缺陷检测台",
   "competition": "2026 全国大学生嵌入式芯片与系统设计竞赛 FPGA 创新设计赛道 AMD 自主选题",
   "scope": "Project-owned source, complete frozen numerical replay, documentation and explicit external dependency manifest",
-  "scope_warning": "230 licensed/restricted third-party originals and the prior bit are not distributed. Full host/FPGA workflows require lawful restoration. This is not a fully self-contained hardware build snapshot.",
+  "scope_warning": "232 licensed/restricted third-party originals and the prior bit are not distributed. Full host/FPGA workflows require lawful restoration. This is not a fully self-contained hardware build snapshot.",
   "team_owned_license": "MIT",
   "third_party_notice": "third_party_notices.md",
   "board": "BX72-V1.1",
@@ -37,12 +37,12 @@
     "DOCX_sha256": "1f5b2bbc84acb6fc3e72629160a4968bbeaa1349135aee89b4a3ffc67c688d6d",
     "PDF_sha256": "399a841e54dae169ec0391225be155bfb9c7d885f2ed545e9555f0a3419eb613"
   },
-  "external_dependency_count": 230,
+  "external_dependency_count": 232,
   "external_dependency_manifest": "external_dependencies.json",
   "runnable_without_external_files": "scripts/replay_example.py",
   "full_local_candidate_validation": "board/results/tj_export_verification.json",
-  "public_replay_validation": "board/results/tj_public_replay.json",
-  "licensed_restoration_validation": "board/results/external_restore_verification.json",
+  "public_replay_validation": "board/results/public_replay_v1_0_1.json",
+  "licensed_restoration_validation": "board/results/external_restore_v1_0_1.json",
   "original_route_validation": "board/results/rebuild_verification.json",
   "original_RTL_simulation_validation": "board/results/simulation_verification.json",
   "new_physical_captures": 0,
@@ -57,6 +57,11 @@
     "measured power",
     "independent global accuracy"
   ],
-  "archive": "guangjian_source_v1.0.0.rar",
-  "commit_binding": "The immutable Git tag and GitHub Release bind this manifest to the final commit; no self-referential commit hash is embedded."
+  "archive": "guangjian_source_v1.0.1.rar",
+  "commit_binding": "The immutable Git tag and GitHub Release bind this manifest to the final commit; no self-referential commit hash is embedded.",
+  "publication_scope_policy": "Path inventory plus same-byte content fingerprints in the tree and reachable Git blobs",
+  "contest_external_dependency_acceptance": "NOT_CONFIRMED",
+  "legacy_uppercase_path_acceptance": "NOT_CONFIRMED",
+  "previous_public_version": "v1.0.0; withdrawn or deprecated according to the separate publication disposition receipt",
+  "publication_policy_validation": "board/results/publication_guard_v1_0_1.json"
 }

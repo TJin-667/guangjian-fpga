@@ -1,0 +1,28 @@
+{
+  "status": "PUBLICATION_POLICY_REGRESSIONS_PASSED",
+  "cases": [
+    {
+      "name": "renamed_duplicate_in_valid_public_manifest_is_rejected",
+      "passed": true
+    },
+    {
+      "name": "registered_restored_original_allowed_for_local_check",
+      "passed": true
+    },
+    {
+      "name": "registered_restored_original_rejected_for_publication",
+      "passed": true
+    },
+    {
+      "name": "clean_public_snapshot_allowed",
+      "passed": true
+    }
+  ],
+  "fixture_source": "Self-authored synthetic bytes; no vendor originals",
+  "hardware_operated": false,
+  "original_history_fixture": {
+    "status": "RESTRICTED_CONTENT_IN_HISTORY",
+    "matching_blob_count": 1,
+    "reviewed_MIG_fingerprint_detected": true
+  }
+}

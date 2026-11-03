@@ -13,6 +13,8 @@ jobs:
       OPENBLAS_CORETYPE: Prescott
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v7
         with:
           python-version: '3.11.4'
@@ -22,5 +24,9 @@ jobs:
         run: python -m pip install -r requirements-offline.txt
       - name: Verify public snapshot
         run: python -B scripts/verify_public_release.py --for-publication
+      - name: Check content-policy regressions
+        run: python -B scripts/check_publication_policy.py
+      - name: Verify reachable Git content fingerprints
+        run: python -B scripts/verify_public_history.py --all
       - name: Replay frozen numerical case without hardware
         run: python -B scripts/diagnose_replay.py --out _work/ci_replay

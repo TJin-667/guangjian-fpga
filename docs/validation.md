@@ -49,4 +49,10 @@ YMW 的 [12 项迁移记录](../board/results/export_verification.json)、[综�
 
 ## 公开快照与外部依赖
 
-上述完整候选检查针对外部依赖齐全的本地工程。公开版本按许可范围外置 230 项原件，完整 GUI/API 和硬件构建需先[恢复依赖](external_dependencies.md)。外置后的[独立胶囊回放](../board/results/tj_public_replay.json)已在 TJ 本机执行，十项融合字段、十类最终掩膜、完整复检和分数一致。不能把完整候选的通过记录改写为未恢复外部依赖时整套硬件即可重建。
+上述完整候选检查针对外部依赖齐全的本地工程。公开版本按许可范围外置 232 项原件，完整 GUI/API 和硬件构建需先[恢复依赖](external_dependencies.md)。外置后的[独立胶囊回放](../board/results/public_replay_v1_0_1.json)已在 TJ 本机执行，十项融合字段、十类最终掩膜、完整复检和分数一致。不能把完整候选的通过记录改写为未恢复外部依赖时整套硬件即可重建。
+
+## v1.0.1 审阅修订复核
+
+[内容策略回归](../board/results/publication_guard_v1_0_1.json)证明换名且纳入有效文件清单的副本仍会被拒绝；登记原件仅允许本地恢复检查。旧公开历史中的 MIG 指纹也能检出。
+
+[232 项依赖恢复复核](../board/results/external_restore_v1_0_1.json)从已核对身份的完整本地 RAR 解包目录取得原件，全部大小和哈希匹配；GUI 离线资格、50 项 FPGA 输入及当前主机 API 八帧回放通过。未运行 Vivado 或操作硬件。旧 230 项收据作为当时的记录保留，不能改写成此次 232 项的结果。
